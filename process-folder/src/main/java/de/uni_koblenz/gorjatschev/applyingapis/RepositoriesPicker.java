@@ -32,7 +32,7 @@ import org.eclipse.jgit.api.errors.GitAPIException;
 public class RepositoriesPicker {
 
     private static final Logger log = Utils.getLogger();
-    private static final String USERNAME_AND_TOKEN = "srnirhali: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";
+    private static final String USERNAME_AND_TOKEN = "username:token";
     private static final String AUTHORIZATION = "Basic "
             + Base64.getEncoder().encodeToString(USERNAME_AND_TOKEN.getBytes());
     private static final Set<String> allRepositories = new HashSet<>();
