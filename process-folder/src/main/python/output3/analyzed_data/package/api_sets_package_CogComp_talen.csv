@@ -1,0 +1,4 @@
+packageName,apis
+io.github.mayhewsw.utils,"[commons-cli:commons-cli,cz.jirutka.unidecode:unidecode,org.apache.commons:commons-lang3,org.apache.lucene:lucene-core]"
+io.github.mayhewsw,"[commons-cli:commons-cli,org.apache.commons:commons-lang3,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core]"
+io.github.mayhewsw.controllers,"[org.apache.commons:commons-lang3,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.apache.lucene:lucene-queryparser]"

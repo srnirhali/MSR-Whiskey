@@ -1,0 +1,12 @@
+packageName,apis
+pitt.search.lucene,"[org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,pitt.search:semanticvectors]"
+pitt.search.semanticvectors,"[junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,pitt.search:semanticvectors]"
+pitt.search.semanticvectors.experiments,"[org.apache.lucene:lucene-core,pitt.search:semanticvectors]"
+pitt.search.semanticvectors.integrationtests,[junit:junit]
+pitt.search.examples,[pitt.search:semanticvectors]
+pitt.search.semanticvectors.tables,[junit:junit]
+pitt.search.semanticvectors.utils,[junit:junit]
+pitt.search.semanticvectors.orthography,"[junit:junit,org.apache.lucene:lucene-core,pitt.search:semanticvectors]"
+pitt.search.semanticvectors.vectors,"[junit:junit,net.sourceforge.parallelcolt:parallelcolt,org.apache.lucene:lucene-core,pitt.search:semanticvectors]"
+pitt.search.semanticvectors.viz,[org.apache.lucene:lucene-core]
+null,[pitt.search:semanticvectors]

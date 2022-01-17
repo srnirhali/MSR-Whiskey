@@ -1,0 +1,45 @@
+packageName,className,api,mcrCategories,mcrTags,count,countAll,proportion
+org.aksw.agdistis.util,TripleIndexContext,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",78,113,0.69
+org.aksw.agdistis.util,TripleIndexContext,commons-validator:commons-validator,Validation Frameworks,validation,1,113,0.01
+org.aksw.agdistis.util,TripleIndexContext,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",13,113,0.12
+org.aksw.agdistis.util,TripleIndexContext,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",11,113,0.1
+org.aksw.agdistis.util,TripleIndexContext,com.google.guava:guava,Core Utilities,google,10,113,0.09
+org.aksw.agdistis.graph,BreadthFirstSearch,net.sf.jung:jung-graph-impl,"",graph,6,6,1.0
+null,TripleIndexTest,org.apache.lucene:lucene-spellchecker,"","lucene,apache,index",6,50,0.12
+null,TripleIndexTest,junit:junit,Testing Frameworks,"testing,junit",19,50,0.38
+null,TripleIndexTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",25,50,0.5
+org.aksw.agdistis.util,TripleIndex,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",13,159,0.08
+org.aksw.agdistis.util,TripleIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",118,159,0.74
+org.aksw.agdistis.util,TripleIndex,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,159,0.03
+org.aksw.agdistis.util,TripleIndex,commons-validator:commons-validator,Validation Frameworks,validation,5,159,0.03
+org.aksw.agdistis.util,TripleIndex,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",11,159,0.07
+org.aksw.agdistis.util,TripleIndex,com.google.guava:guava,Core Utilities,google,8,159,0.05
+null,AGDISTISTest,junit:junit,Testing Frameworks,"testing,junit",8,8,1.0
+null,PageRankTest,net.sf.jung:jung-graph-impl,"",graph,3,14,0.21
+null,PageRankTest,junit:junit,Testing Frameworks,"testing,junit",11,14,0.79
+null,TripleIndexCreatorTest,junit:junit,Testing Frameworks,"testing,junit",3,12,0.25
+null,TripleIndexCreatorTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,12,0.58
+null,TripleIndexCreatorTest,com.google.guava:guava,Core Utilities,google,2,12,0.17
+org.aksw.agdistis.util,LiteralAnalyzer,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,13,0.15
+org.aksw.agdistis.util,LiteralAnalyzer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,13,0.85
+null,HitsTest,net.sf.jung:jung-graph-impl,"",graph,1,2,0.5
+null,HitsTest,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+org.aksw.agdistis.util,TripleIndexCreator,org.openrdf.sesame:sesame-rio-turtle,"","",1,130,0.01
+org.aksw.agdistis.util,TripleIndexCreator,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",96,130,0.74
+org.aksw.agdistis.util,TripleIndexCreator,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",29,130,0.22
+org.aksw.agdistis.util,TripleIndexCreator,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",4,130,0.03
+org.aksw.agdistis.util,TripleIndexCreatorContext,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",49,204,0.24
+org.aksw.agdistis.util,TripleIndexCreatorContext,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",4,204,0.02
+org.aksw.agdistis.util,TripleIndexCreatorContext,org.openrdf.sesame:sesame-rio-turtle,"","",1,204,0.0
+org.aksw.agdistis.util,TripleIndexCreatorContext,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",150,204,0.74
+org.aksw.agdistis.algorithm,CandidateUtil,org.apache.lucene:lucene-spellchecker,"","lucene,apache,index",11,76,0.14
+org.aksw.agdistis.algorithm,CandidateUtil,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",51,76,0.67
+org.aksw.agdistis.algorithm,CandidateUtil,net.sf.jung:jung-graph-impl,"",graph,14,76,0.18
+org.aksw.agdistis.algorithm,NEDAlgo_HITS,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",17,29,0.59
+org.aksw.agdistis.algorithm,NEDAlgo_HITS,net.sf.jung:jung-graph-impl,"",graph,12,29,0.41
+org.aksw.agdistis.util,NIFParser,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",4,6,0.67
+org.aksw.agdistis.util,NIFParser,com.googlecode.json-simple:json-simple,JSON Libraries,json,2,6,0.33
+org.aksw.agdistis.webapp,GetDisambiguation,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",32,58,0.55
+org.aksw.agdistis.webapp,GetDisambiguation,com.googlecode.json-simple:json-simple,JSON Libraries,json,26,58,0.45
+org.aksw.agdistis.util,Stemming,com.github.haifengl:smile-nlp,Natural Language Processing,"github,nlp",3,24,0.13
+org.aksw.agdistis.util,Stemming,edu.stanford.nlp:stanford-corenlp,Natural Language Processing,nlp,21,24,0.88

@@ -1,0 +1,32 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.apdplat.word.corpus,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",110,110,1.0
+org.apdplat.word.dictionary,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",38,38,1.0
+org.apdplat.word.solr,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",17,20,0.85
+org.apdplat.word.solr,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,20,0.1
+org.apdplat.word.solr,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,20,0.05
+org.apdplat.word.dictionary.impl,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",86,201,0.43
+org.apdplat.word.dictionary.impl,junit:junit,Testing Frameworks,"testing,junit",115,201,0.57
+org.apdplat.word.analysis,junit:junit,Testing Frameworks,"testing,junit",45,201,0.22
+org.apdplat.word.analysis,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",156,201,0.78
+org.apdplat.word.lucene,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",16,237,0.07
+org.apdplat.word.lucene,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",4,237,0.02
+org.apdplat.word.lucene,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",145,237,0.61
+org.apdplat.word.lucene,org.apache.lucene:lucene-test-framework,"","lucene,framework,testing,apache,index",56,237,0.24
+org.apdplat.word.lucene,junit:junit,Testing Frameworks,"testing,junit",14,237,0.06
+org.apdplat.word.lucene,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,237,0.01
+org.apdplat.word.util,junit:junit,Testing Frameworks,"testing,junit",40,319,0.13
+org.apdplat.word.util,redis.clients:jedis,Redis Clients,"redis,database,client",12,319,0.04
+org.apdplat.word.util,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",267,319,0.84
+org.apdplat.word.elasticsearch,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",34,45,0.76
+org.apdplat.word.elasticsearch,org.apache.lucene:lucene-test-framework,"","lucene,framework,testing,apache,index",3,45,0.07
+org.apdplat.word.elasticsearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,45,0.04
+org.apdplat.word.elasticsearch,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",6,45,0.13
+org.apdplat.word.vector,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",98,98,1.0
+org.apdplat.word.segmentation,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",53,53,1.0
+org.apdplat.word.segmentation.impl,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",118,126,0.94
+org.apdplat.word.segmentation.impl,junit:junit,Testing Frameworks,"testing,junit",8,126,0.06
+org.apdplat.word,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",58,58,1.0
+org.apdplat.word.recognition,junit:junit,Testing Frameworks,"testing,junit",38,193,0.2
+org.apdplat.word.recognition,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",155,193,0.8
+org.apdplat.word.tagging,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",118,135,0.87
+org.apdplat.word.tagging,com.belerweb:pinyin4j,"","",17,135,0.13

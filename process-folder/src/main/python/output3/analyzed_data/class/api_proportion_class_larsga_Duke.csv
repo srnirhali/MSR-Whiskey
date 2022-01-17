@@ -1,0 +1,84 @@
+packageName,className,api,mcrCategories,mcrTags,count,countAll,proportion
+no.priv.garshol.duke.comparators,JaroWinklerTest,junit:junit,Testing Frameworks,"testing,junit",39,39,1.0
+no.priv.garshol.duke.databases,LuceneConfigLoaderTest,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+no.priv.garshol.duke.genetic,GeneticConfigurationTest,junit:junit,Testing Frameworks,"testing,junit",11,11,1.0
+no.priv.garshol.duke.server,CommonJTimer,org.codehaus.fabric3.api:commonj,"","codehaus,api",13,13,1.0
+no.priv.garshol.duke.cleaners,RegexpCleanerTest,junit:junit,Testing Frameworks,"testing,junit",10,10,1.0
+no.priv.garshol.duke.datasources,MongoDBDataSource,org.mongodb:mongo-java-driver,MongoDB Clients,"database,nosql,driver,client,mongodb",78,78,1.0
+no.priv.garshol.duke.utils,ObjectUtilsTest,junit:junit,Testing Frameworks,"testing,junit",27,27,1.0
+no.priv.garshol.duke.databases.es,ElasticSearchConfigLoaderTest,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+no.priv.garshol.duke.utils,NTriplesParserTest,junit:junit,Testing Frameworks,"testing,junit",104,104,1.0
+no.priv.garshol.duke.utils,LinkFileWriterTest,junit:junit,Testing Frameworks,"testing,junit",13,13,1.0
+no.priv.garshol.duke.cleaners,NorwegianCompanyNameCleanerTest,junit:junit,Testing Frameworks,"testing,junit",8,8,1.0
+no.priv.garshol.duke.genetic,ComparatorAspectTest,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+no.priv.garshol.duke.comparators,GeopositionComparatorTest,junit:junit,Testing Frameworks,"testing,junit",20,20,1.0
+no.priv.garshol.duke.databases,GeoProperty,org.apache.lucene:lucene-spatial,"","lucene,spatial,apache,index",14,16,0.88
+no.priv.garshol.duke.databases,GeoProperty,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,16,0.13
+no.priv.garshol.duke.comparators,LevenshteinTest,junit:junit,Testing Frameworks,"testing,junit",41,41,1.0
+no.priv.garshol.duke.datasources,CSVDataSourceTest,junit:junit,Testing Frameworks,"testing,junit",62,62,1.0
+no.priv.garshol.duke.databases.es,DocumentRecordTest,junit:junit,Testing Frameworks,"testing,junit",10,11,0.91
+no.priv.garshol.duke.databases.es,DocumentRecordTest,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,11,0.09
+no.priv.garshol.duke.utils,PropertyUtilsTest,junit:junit,Testing Frameworks,"testing,junit",10,10,1.0
+no.priv.garshol.duke.integration,IT,junit:junit,Testing Frameworks,"testing,junit",51,51,1.0
+no.priv.garshol.duke.test,RecordImplTest,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+no.priv.garshol.duke.databases,GeoSearchingTest,junit:junit,Testing Frameworks,"testing,junit",5,7,0.71
+no.priv.garshol.duke.databases,GeoSearchingTest,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,7,0.29
+no.priv.garshol.duke.cleaners,HTMLCleanerTest,junit:junit,Testing Frameworks,"testing,junit",15,15,1.0
+no.priv.garshol.duke.utils,TestUtils,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+no.priv.garshol.duke.datasources,NTriplesDataSourceTest,junit:junit,Testing Frameworks,"testing,junit",51,51,1.0
+no.priv.garshol.duke.test,ConfigWriterTest,junit:junit,Testing Frameworks,"testing,junit",93,93,1.0
+no.priv.garshol.duke.comparators,JaccardIndexComparatorTest,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+no.priv.garshol.duke.comparators,SoundexComparatorTest,junit:junit,Testing Frameworks,"testing,junit",15,15,1.0
+no.priv.garshol.duke.databases,RecordLinkTest,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,8,0.25
+no.priv.garshol.duke.databases,RecordLinkTest,junit:junit,Testing Frameworks,"testing,junit",6,8,0.75
+no.priv.garshol.duke.comparators,QGramComparatorTest,junit:junit,Testing Frameworks,"testing,junit",25,25,1.0
+no.priv.garshol.duke.comparators,DiceCoefficientComparatorTest,junit:junit,Testing Frameworks,"testing,junit",13,13,1.0
+no.priv.garshol.duke.cleaners,NorwegianAddressCleanerTest,junit:junit,Testing Frameworks,"testing,junit",28,28,1.0
+no.priv.garshol.duke.comparators,DifferentComparatorTest,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+no.priv.garshol.duke.comparators,LongestCommonSubstringTest,junit:junit,Testing Frameworks,"testing,junit",31,31,1.0
+no.priv.garshol.duke.cleaners,DigitsOnlyCleanerTest,junit:junit,Testing Frameworks,"testing,junit",6,6,1.0
+no.priv.garshol.duke.utils,LinkDatabaseUtilsTest,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+no.priv.garshol.duke.databases,LuceneDatabase,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,194,0.01
+no.priv.garshol.duke.databases,LuceneDatabase,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",192,194,0.99
+no.priv.garshol.duke,JDBCLinkDatabaseTest,junit:junit,Testing Frameworks,"testing,junit",26,26,1.0
+no.priv.garshol.duke.cleaners,FamilyCommaGivenCleanerTest,junit:junit,Testing Frameworks,"testing,junit",6,6,1.0
+no.priv.garshol.duke.cleaners,PhoneNumberCleanerTest,junit:junit,Testing Frameworks,"testing,junit",14,14,1.0
+no.priv.garshol.duke.test,InMemoryLinkDatabaseTest,junit:junit,Testing Frameworks,"testing,junit",88,88,1.0
+no.priv.garshol.duke,CompactRecordTest,junit:junit,Testing Frameworks,"testing,junit",11,11,1.0
+no.priv.garshol.duke.test,ClassDatabaseTest,junit:junit,Testing Frameworks,"testing,junit",19,19,1.0
+no.priv.garshol.duke.databases,MapDBBlockingDatabase,org.mapdb:mapdb,Collections,"collections,structures",52,52,1.0
+no.priv.garshol.duke.databases,DocumentRecord,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,22,1.0
+no.priv.garshol.duke.databases,DatabaseTest,junit:junit,Testing Frameworks,"testing,junit",26,26,1.0
+no.priv.garshol.duke.test,DeduplicatorTest,junit:junit,Testing Frameworks,"testing,junit",40,40,1.0
+no.priv.garshol.duke.cleaners,TrimCleanerTest,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+no.priv.garshol.duke.utils,CommandLineParserTest,junit:junit,Testing Frameworks,"testing,junit",29,29,1.0
+no.priv.garshol.duke.comparators,WeightedLevenshteinTest,junit:junit,Testing Frameworks,"testing,junit",13,13,1.0
+no.priv.garshol.duke.utils,CSVReaderTest,junit:junit,Testing Frameworks,"testing,junit",26,26,1.0
+no.priv.garshol.duke.test,ConfigurationTest,junit:junit,Testing Frameworks,"testing,junit",41,41,1.0
+no.priv.garshol.duke.databases,PersistentDatabaseTest,junit:junit,Testing Frameworks,"testing,junit",27,27,1.0
+no.priv.garshol.duke.datasources,InMemoryDataSourceTest,junit:junit,Testing Frameworks,"testing,junit",10,10,1.0
+no.priv.garshol.duke.databases,DocumentRecordTest,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,11,0.09
+no.priv.garshol.duke.databases,DocumentRecordTest,junit:junit,Testing Frameworks,"testing,junit",10,11,0.91
+no.priv.garshol.duke.databases,PriorityQueueTest,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+no.priv.garshol.duke.matchers,LinkDatabaseMatchListenerTest,junit:junit,Testing Frameworks,"testing,junit",28,28,1.0
+no.priv.garshol.duke.datasources,SparqlDataSourceTest,junit:junit,Testing Frameworks,"testing,junit",146,146,1.0
+no.priv.garshol.duke.datasources,JDBCDataSourceTest,junit:junit,Testing Frameworks,"testing,junit",32,32,1.0
+no.priv.garshol.duke.utils,StringUtilsTest,junit:junit,Testing Frameworks,"testing,junit",25,25,1.0
+no.priv.garshol.duke.cleaners,LowerCaseNormalizeCleanerTest,junit:junit,Testing Frameworks,"testing,junit",27,27,1.0
+no.priv.garshol.duke.comparators,MetaphoneComparatorTest,junit:junit,Testing Frameworks,"testing,junit",57,57,1.0
+no.priv.garshol.duke.utils,NTriplesWriterTest,junit:junit,Testing Frameworks,"testing,junit",51,51,1.0
+no.priv.garshol.duke.comparators,PersonNameComparatorTest,junit:junit,Testing Frameworks,"testing,junit",38,38,1.0
+no.priv.garshol.duke.databases,ExtraLuceneDatabaseTest,junit:junit,Testing Frameworks,"testing,junit",1,17,0.06
+no.priv.garshol.duke.databases,ExtraLuceneDatabaseTest,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,17,0.88
+no.priv.garshol.duke.databases,ExtraLuceneDatabaseTest,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,17,0.06
+no.priv.garshol.duke.datasources,JsonDataSourceTest,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+no.priv.garshol.duke.comparators,NorphoneComparatorTest,junit:junit,Testing Frameworks,"testing,junit",27,27,1.0
+no.priv.garshol.duke.comparators,NumericComparatorTest,junit:junit,Testing Frameworks,"testing,junit",24,24,1.0
+no.priv.garshol.duke.genetic,ActiveLearningTest,junit:junit,Testing Frameworks,"testing,junit",8,8,1.0
+no.priv.garshol.duke.databases.es,ElasticSearchDatabase,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,210,0.08
+no.priv.garshol.duke.databases.es,ElasticSearchDatabase,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,210,0.0
+no.priv.garshol.duke.databases.es,ElasticSearchDatabase,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",193,210,0.92
+no.priv.garshol.duke.test,ConfigLoaderTest,junit:junit,Testing Frameworks,"testing,junit",35,35,1.0
+no.priv.garshol.duke.cleaners,PersonNameCleanerTest,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+no.priv.garshol.duke.datasources,JsonDataSource,com.fasterxml.jackson.core:jackson-core,JSON Libraries,json,54,54,1.0
+no.priv.garshol.duke.utils,SparqlClientTest,junit:junit,Testing Frameworks,"testing,junit",45,45,1.0

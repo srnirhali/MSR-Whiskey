@@ -1,0 +1,13 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+io.dashbase.clue,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",42,42,1.0
+io.dashbase.clue.util,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",37,37,1.0
+io.dashbase.clue.client,com.squareup.retrofit2:converter-jackson,"","",1,55,0.02
+io.dashbase.clue.client,com.squareup.retrofit2:converter-scalars,"","",2,55,0.04
+io.dashbase.clue.client,jline:jline,Console Utilities,"command-line,console,terminal,cli",33,55,0.6
+io.dashbase.clue.client,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,55,0.11
+io.dashbase.clue.client,com.squareup.retrofit2:retrofit,HTTP Clients,"http,client",13,55,0.24
+io.dashbase.clue.test,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",130,130,1.0
+io.dashbase.clue.api,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",5,47,0.11
+io.dashbase.clue.api,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",42,47,0.89
+io.dashbase.clue.commands,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",782,783,1.0
+io.dashbase.clue.commands,org.apache.lucene:lucene-codecs,"","lucene,apache,codec,index",1,783,0.0

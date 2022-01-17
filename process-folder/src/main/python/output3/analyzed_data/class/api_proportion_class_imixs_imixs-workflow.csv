@@ -1,0 +1,339 @@
+packageName,className,api,mcrCategories,mcrTags,count,countAll,proportion
+org.imixs.workflow,TestRuleEngineGraalJSDeprecatedScripts,junit:junit,Testing Frameworks,"testing,junit",19,19,1.0
+org.imixs.workflow.engine,TestWorkflowServiceGateways,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",6,260,0.02
+org.imixs.workflow.engine,TestWorkflowServiceGateways,junit:junit,Testing Frameworks,"testing,junit",57,260,0.22
+org.imixs.workflow.engine,TestWorkflowServiceGateways,org.imixs.workflow:imixs-workflow-core,"",workflow,197,260,0.76
+org.imixs.workflow.plugins,TestApplicationPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,60,85,0.71
+org.imixs.workflow.plugins,TestApplicationPlugin,junit:junit,Testing Frameworks,"testing,junit",16,85,0.19
+org.imixs.workflow.plugins,TestApplicationPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",9,85,0.11
+org.imixs.workflow.faces.data,ViewHandler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",3,21,0.14
+org.imixs.workflow.faces.data,ViewHandler,org.imixs.workflow:imixs-workflow-core,"",workflow,18,21,0.86
+org.imixs.workflow.bpmn,TestBPMNModelSimple,junit:junit,Testing Frameworks,"testing,junit",147,147,1.0
+org.imixs.workflow.engine,TestWorkflowService,org.imixs.workflow:imixs-workflow-core,"",workflow,182,272,0.67
+org.imixs.workflow.engine,TestWorkflowService,org.mockito:mockito-all,Mocking,"mock,mocking,testing",16,272,0.06
+org.imixs.workflow.engine,TestWorkflowService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",16,272,0.06
+org.imixs.workflow.engine,TestWorkflowService,junit:junit,Testing Frameworks,"testing,junit",58,272,0.21
+org.imixs.workflow.plugins,TestApproverPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,312,612,0.51
+org.imixs.workflow.plugins,TestApproverPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",70,612,0.11
+org.imixs.workflow.plugins,TestApproverPlugin,org.mockito:mockito-all,Mocking,"mock,mocking,testing",52,612,0.08
+org.imixs.workflow.plugins,TestApproverPlugin,junit:junit,Testing Frameworks,"testing,junit",178,612,0.29
+org.imixs.workflow,TestRuleEngineBPMN,junit:junit,Testing Frameworks,"testing,junit",19,19,1.0
+org.imixs.workflow.plugins,TestRulePluginConditions,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",6,120,0.05
+org.imixs.workflow.plugins,TestRulePluginConditions,org.imixs.workflow:imixs-workflow-core,"",workflow,84,120,0.7
+org.imixs.workflow.plugins,TestRulePluginConditions,junit:junit,Testing Frameworks,"testing,junit",30,120,0.25
+org.imixs.workflow,RuleEngine,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,2,1.0
+org.imixs.workflow.xml,TestXMLItem,jakarta.platform:jakarta.jakartaee-api,"","api,platform",39,160,0.24
+org.imixs.workflow.xml,TestXMLItem,junit:junit,Testing Frameworks,"testing,junit",121,160,0.76
+org.imixs.workflow.bpmn,TestBPMNParserCollaboration,junit:junit,Testing Frameworks,"testing,junit",45,45,1.0
+org.imixs.workflow.engine.scheduler,SchedulerController,org.imixs.workflow:imixs-workflow-core,"",workflow,24,29,0.83
+org.imixs.workflow.engine.scheduler,SchedulerController,jakarta.platform:jakarta.jakartaee-api,"","api,platform",5,29,0.17
+org.imixs.workflow.faces.util,VectorConverter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",8,8,1.0
+org.imixs.workflow.engine.lucene,SimpleFacetsExample,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",97,156,0.62
+org.imixs.workflow.engine.lucene,SimpleFacetsExample,org.apache.lucene:lucene-facet,"","lucene,apache,index",58,156,0.37
+org.imixs.workflow.engine.lucene,SimpleFacetsExample,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,156,0.01
+org.imixs.workflow.bpmn,TestBPMNParserTaskAnnotation,junit:junit,Testing Frameworks,"testing,junit",33,33,1.0
+org.imixs.workflow.jaxrs,ModelRestService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",155,273,0.57
+org.imixs.workflow.jaxrs,ModelRestService,org.imixs.workflow:imixs-workflow-core,"",workflow,84,273,0.31
+org.imixs.workflow.jaxrs,ModelRestService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",34,273,0.12
+org.imixs.workflow.util,TestJSONBuilder,junit:junit,Testing Frameworks,"testing,junit",23,23,1.0
+org.imixs.workflow.engine,TestDocumentService,org.imixs.workflow:imixs-workflow-core,"",workflow,6,16,0.38
+org.imixs.workflow.engine,TestDocumentService,junit:junit,Testing Frameworks,"testing,junit",10,16,0.63
+org.imixs.workflow.engine.jpa,EventLog,jakarta.platform:jakarta.jakartaee-api,"","api,platform",13,15,0.87
+org.imixs.workflow.engine.jpa,EventLog,org.imixs.workflow:imixs-workflow-core,"",workflow,2,15,0.13
+org.imixs.workflow.faces.data,WorkflowController,jakarta.platform:jakarta.jakartaee-api,"","api,platform",33,166,0.2
+org.imixs.workflow.faces.data,WorkflowController,org.imixs.workflow:imixs-workflow-core,"",workflow,121,166,0.73
+org.imixs.workflow.faces.data,WorkflowController,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",12,166,0.07
+org.imixs.workflow.engine,SimulationService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",30,81,0.37
+org.imixs.workflow.engine,SimulationService,org.imixs.workflow:imixs-workflow-core,"",workflow,51,81,0.63
+org.imixs.workflow.faces.util,ValidationException,org.imixs.workflow:imixs-workflow-core,"",workflow,1,1,1.0
+org.imixs.workflow.engine.scheduler,SchedulerConfigurationService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",9,14,0.64
+org.imixs.workflow.engine.scheduler,SchedulerConfigurationService,org.imixs.workflow:imixs-workflow-core,"",workflow,5,14,0.36
+org.imixs.workflow.engine.adapters,AccessAdapter,org.imixs.workflow:imixs-workflow-core,"",workflow,88,90,0.98
+org.imixs.workflow.engine.adapters,AccessAdapter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,90,0.02
+org.imixs.workflow.bpmn,TestBPMNParserMessageText,junit:junit,Testing Frameworks,"testing,junit",35,35,1.0
+org.imixs.workflow.engine.plugins,IntervalPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,45,45,1.0
+org.imixs.workflow.plugins,TestMailPlugin,junit:junit,Testing Frameworks,"testing,junit",22,95,0.23
+org.imixs.workflow.plugins,TestMailPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",9,95,0.09
+org.imixs.workflow.plugins,TestMailPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,64,95,0.67
+org.imixs.workflow.bpmn,TestBPMNParserCollaborationMinutes,junit:junit,Testing Frameworks,"testing,junit",35,35,1.0
+org.imixs.workflow.engine.plugins,OwnerPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,47,47,1.0
+org.imixs.workflow.xml,TestReadWriteXMLData,jakarta.platform:jakarta.jakartaee-api,"","api,platform",18,40,0.45
+org.imixs.workflow.xml,TestReadWriteXMLData,junit:junit,Testing Frameworks,"testing,junit",22,40,0.55
+org.imixs.workflow.engine.adapters,TestAccessAdapterProcessEntity,org.imixs.workflow:imixs-workflow-core,"",workflow,134,248,0.54
+org.imixs.workflow.engine.adapters,TestAccessAdapterProcessEntity,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",20,248,0.08
+org.imixs.workflow.engine.adapters,TestAccessAdapterProcessEntity,junit:junit,Testing Frameworks,"testing,junit",94,248,0.38
+org.imixs.workflow.bpmn,TestBPMNParserRuleEvents,junit:junit,Testing Frameworks,"testing,junit",85,85,1.0
+org.imixs.workflow.jaxrs,DocumentTableWriter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",9,28,0.32
+org.imixs.workflow.jaxrs,DocumentTableWriter,org.imixs.workflow:imixs-workflow-core,"",workflow,19,28,0.68
+org.imixs.workflow.engine.solr,SolrUpdateService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",4,12,0.33
+org.imixs.workflow.engine.solr,SolrUpdateService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",1,12,0.08
+org.imixs.workflow.engine.solr,SolrUpdateService,org.imixs.workflow:imixs-workflow-core,"",workflow,7,12,0.58
+org.imixs.workflow.jee.faces.workitem,DataControllerTest,junit:junit,Testing Frameworks,"testing,junit",8,19,0.42
+org.imixs.workflow.jee.faces.workitem,DataControllerTest,org.imixs.workflow:imixs-workflow-core,"",workflow,11,19,0.58
+org.imixs.workflow,TestWorkflowKernelEval,junit:junit,Testing Frameworks,"testing,junit",21,21,1.0
+org.imixs.workflow.bpmn,TestBPMNParserCollaborationMessageFlow,junit:junit,Testing Frameworks,"testing,junit",58,58,1.0
+org.imixs.workflow,TestWorkflowKernelModels,org.mockito:mockito-all,Mocking,"mock,mocking,testing",22,116,0.19
+org.imixs.workflow,TestWorkflowKernelModels,junit:junit,Testing Frameworks,"testing,junit",89,116,0.77
+org.imixs.workflow,TestWorkflowKernelModels,jakarta.platform:jakarta.jakartaee-api,"","api,platform",5,116,0.04
+org.imixs.workflow.engine.solr,SolrAutoFlushScheduler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",12,12,1.0
+org.imixs.workflow,TestRuleEngine,junit:junit,Testing Frameworks,"testing,junit",11,11,1.0
+org.imixs.workflow.engine,ReportService,org.imixs.workflow:imixs-workflow-core,"",workflow,138,145,0.95
+org.imixs.workflow.engine,ReportService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",7,145,0.05
+org.imixs.workflow.xml,XSLHandler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",22,22,1.0
+org.imixs.workflow.faces.fileupload,AjaxFileUploadServlet,jakarta.platform:jakarta.jakartaee-api,"","api,platform",88,123,0.72
+org.imixs.workflow.faces.fileupload,AjaxFileUploadServlet,org.imixs.workflow:imixs-workflow-core,"",workflow,35,123,0.28
+org.imixs.workflow.faces.util,ErrorHandler,org.imixs.workflow:imixs-workflow-core,"",workflow,51,83,0.61
+org.imixs.workflow.faces.util,ErrorHandler,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",2,83,0.02
+org.imixs.workflow.faces.util,ErrorHandler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",30,83,0.36
+org.imixs.workflow.engine.plugins,VersionPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,106,106,1.0
+org.imixs.workflow.engine,ModelService,org.imixs.workflow:imixs-workflow-core,"",workflow,170,182,0.93
+org.imixs.workflow.engine,ModelService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",12,182,0.07
+org.imixs.workflow.bpmn,TestBPMNParserLinkEvent,junit:junit,Testing Frameworks,"testing,junit",156,156,1.0
+org.imixs.workflow.engine.index,SearchService,org.imixs.workflow:imixs-workflow-core,"",workflow,3,3,1.0
+org.imixs.workflow.plugins,TestOwnerPluginProcessEntity,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",19,225,0.08
+org.imixs.workflow.plugins,TestOwnerPluginProcessEntity,junit:junit,Testing Frameworks,"testing,junit",82,225,0.36
+org.imixs.workflow.plugins,TestOwnerPluginProcessEntity,org.imixs.workflow:imixs-workflow-core,"",workflow,124,225,0.55
+org.imixs.workflow.bpmn,TestBPMNParserTicket,junit:junit,Testing Frameworks,"testing,junit",103,103,1.0
+org.imixs.workflow.engine.scheduler,Scheduler,org.imixs.workflow:imixs-workflow-core,"",workflow,2,2,1.0
+org.imixs.workflow.engine.index,UpdateService,org.imixs.workflow:imixs-workflow-core,"",workflow,1,1,1.0
+org.imixs.workflow.engine,DocumentEvent,org.imixs.workflow:imixs-workflow-core,"",workflow,6,6,1.0
+org.imixs.workflow.engine,WorkflowScheduler,org.imixs.workflow:imixs-workflow-core,"",workflow,163,175,0.93
+org.imixs.workflow.engine,WorkflowScheduler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",12,175,0.07
+org.imixs.workflow.engine.solr,SolrSearchService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",99,151,0.66
+org.imixs.workflow.engine.solr,SolrSearchService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",16,151,0.11
+org.imixs.workflow.engine.solr,SolrSearchService,org.imixs.workflow:imixs-workflow-core,"",workflow,36,151,0.24
+org.imixs.workflow.engine.index,IndexEvent,org.imixs.workflow:imixs-workflow-core,"",workflow,6,6,1.0
+org.imixs.workflow.xml,XMLDocumentAdapter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",20,20,1.0
+org.imixs.workflow.engine,TestModelService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",10,178,0.06
+org.imixs.workflow.engine,TestModelService,org.imixs.workflow:imixs-workflow-core,"",workflow,114,178,0.64
+org.imixs.workflow.engine,TestModelService,junit:junit,Testing Frameworks,"testing,junit",54,178,0.3
+org.imixs.workflow.faces.data,DocumentController,jakarta.platform:jakarta.jakartaee-api,"","api,platform",42,74,0.57
+org.imixs.workflow.faces.data,DocumentController,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",7,74,0.09
+org.imixs.workflow.faces.data,DocumentController,org.imixs.workflow:imixs-workflow-core,"",workflow,25,74,0.34
+org.imixs.workflow.engine,ModelPluginMock,org.imixs.workflow:imixs-workflow-core,"",workflow,72,72,1.0
+org.imixs.workflow.jaxrs,AdminPRestService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",8,118,0.07
+org.imixs.workflow.jaxrs,AdminPRestService,org.imixs.workflow:imixs-workflow-core,"",workflow,34,118,0.29
+org.imixs.workflow.jaxrs,AdminPRestService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",76,118,0.64
+org.imixs.workflow,FileData,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,2,1.0
+org.imixs.workflow.engine.plugins,ApplicationPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,38,38,1.0
+org.imixs.workflow.faces.util,SelectItemComparator,jakarta.platform:jakarta.jakartaee-api,"","api,platform",11,11,1.0
+org.imixs.workflow.xml,TestReadWriteByteArray,jakarta.platform:jakarta.jakartaee-api,"","api,platform",4,31,0.13
+org.imixs.workflow.xml,TestReadWriteByteArray,junit:junit,Testing Frameworks,"testing,junit",27,31,0.87
+org.imixs.workflow.xml,XMLCount,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,2,1.0
+org.imixs.workflow.plugins,TestAnalysisPlugin,junit:junit,Testing Frameworks,"testing,junit",52,207,0.25
+org.imixs.workflow.plugins,TestAnalysisPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",15,207,0.07
+org.imixs.workflow.plugins,TestAnalysisPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,140,207,0.68
+org.imixs.workflow.plugins,TestIntervalPlugin,junit:junit,Testing Frameworks,"testing,junit",62,144,0.43
+org.imixs.workflow.plugins,TestIntervalPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,62,144,0.43
+org.imixs.workflow.plugins,TestIntervalPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",20,144,0.14
+org.imixs.workflow,TestRuleEngineGraalJS,junit:junit,Testing Frameworks,"testing,junit",19,19,1.0
+org.imixs.workflow.engine.adminp,JobHandlerRenameUser,jakarta.platform:jakarta.jakartaee-api,"","api,platform",12,86,0.14
+org.imixs.workflow.engine.adminp,JobHandlerRenameUser,org.imixs.workflow:imixs-workflow-core,"",workflow,74,86,0.86
+org.imixs.workflow.engine.plugins,TaxonomyPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,60,60,1.0
+org.imixs.workflow.engine,EventLogService,org.imixs.workflow:imixs-workflow-core,"",workflow,18,94,0.19
+org.imixs.workflow.engine,EventLogService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",76,94,0.81
+org.imixs.workflow.engine,TextPropertyValueAdapter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",3,7,0.43
+org.imixs.workflow.engine,TextPropertyValueAdapter,org.imixs.workflow:imixs-workflow-core,"",workflow,4,7,0.57
+org.imixs.workflow.engine.plugins,SplitAndJoinPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,218,218,1.0
+org.imixs.workflow.jaxrs,BPMNUnmarshaller,jakarta.platform:jakarta.jakartaee-api,"","api,platform",10,18,0.56
+org.imixs.workflow.jaxrs,BPMNUnmarshaller,org.imixs.workflow:imixs-workflow-core,"",workflow,8,18,0.44
+org.imixs.workflow.engine.plugins,AccessPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,5,5,1.0
+org.imixs.workflow.jaxrs,XMLItemCollectionWriter,org.imixs.workflow:imixs-workflow-core,"",workflow,14,25,0.56
+org.imixs.workflow.jaxrs,XMLItemCollectionWriter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",11,25,0.44
+org.imixs.workflow.engine,TestWorkflowScheduler,org.imixs.workflow:imixs-workflow-core,"",workflow,48,245,0.2
+org.imixs.workflow.engine,TestWorkflowScheduler,junit:junit,Testing Frameworks,"testing,junit",136,245,0.56
+org.imixs.workflow.engine,TestWorkflowScheduler,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",61,245,0.25
+org.imixs.workflow.engine.solr,SolrIndexService,org.imixs.workflow:imixs-workflow-core,"",workflow,84,194,0.43
+org.imixs.workflow.engine.solr,SolrIndexService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",82,194,0.42
+org.imixs.workflow.engine.solr,SolrIndexService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",28,194,0.14
+org.imixs.workflow.engine,TextItemValueAdapter,org.imixs.workflow:imixs-workflow-core,"",workflow,15,17,0.88
+org.imixs.workflow.engine,TextItemValueAdapter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,17,0.12
+org.imixs.workflow.engine.scheduler,SchedulerException,org.imixs.workflow:imixs-workflow-core,"",workflow,1,1,1.0
+org.imixs.workflow.faces.data,WorkflowEvent,org.imixs.workflow:imixs-workflow-core,"",workflow,6,6,1.0
+org.imixs.workflow.jaxrs,EventLogRestService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",76,148,0.51
+org.imixs.workflow.jaxrs,EventLogRestService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",44,148,0.3
+org.imixs.workflow.jaxrs,EventLogRestService,org.imixs.workflow:imixs-workflow-core,"",workflow,28,148,0.19
+org.imixs.workflow.plugins,TestSplitAndJoinPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",41,776,0.05
+org.imixs.workflow.plugins,TestSplitAndJoinPlugin,org.mockito:mockito-all,Mocking,"mock,mocking,testing",12,776,0.02
+org.imixs.workflow.plugins,TestSplitAndJoinPlugin,junit:junit,Testing Frameworks,"testing,junit",341,776,0.44
+org.imixs.workflow.plugins,TestSplitAndJoinPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,382,776,0.49
+org.imixs.workflow.bpmn,TestBPMNParserSimple,junit:junit,Testing Frameworks,"testing,junit",197,197,1.0
+org.imixs.workflow.engine,AsyncEventScheduler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",24,24,1.0
+org.imixs.workflow.engine.adminp,AdminPService,org.imixs.workflow:imixs-workflow-core,"",workflow,73,127,0.57
+org.imixs.workflow.engine.adminp,AdminPService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",54,127,0.43
+org.imixs.workflow.engine.jpa,Document,jakarta.platform:jakarta.jakartaee-api,"","api,platform",14,16,0.88
+org.imixs.workflow.engine.jpa,Document,org.imixs.workflow:imixs-workflow-core,"",workflow,2,16,0.13
+org.imixs.workflow,TestWorkflowKernel,jakarta.platform:jakarta.jakartaee-api,"","api,platform",5,198,0.03
+org.imixs.workflow,TestWorkflowKernel,org.mockito:mockito-all,Mocking,"mock,mocking,testing",12,198,0.06
+org.imixs.workflow,TestWorkflowKernel,junit:junit,Testing Frameworks,"testing,junit",181,198,0.91
+org.imixs.workflow.bpmn,TestBPMNParserStartEventFollowUp,junit:junit,Testing Frameworks,"testing,junit",85,85,1.0
+org.imixs.workflow.engine,TestSimulationService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",4,86,0.05
+org.imixs.workflow.engine,TestSimulationService,junit:junit,Testing Frameworks,"testing,junit",14,86,0.16
+org.imixs.workflow.engine,TestSimulationService,org.imixs.workflow:imixs-workflow-core,"",workflow,68,86,0.79
+org.imixs.workflow.engine,TextForEachAdapter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",8,23,0.35
+org.imixs.workflow.engine,TextForEachAdapter,org.imixs.workflow:imixs-workflow-core,"",workflow,15,23,0.65
+org.imixs.workflow.bpmn,MigrateImixsModelToBPMN,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,2,1.0
+org.imixs.workflow.engine,TestEvaluateWorkflowResult,junit:junit,Testing Frameworks,"testing,junit",354,941,0.38
+org.imixs.workflow.engine,TestEvaluateWorkflowResult,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",23,941,0.02
+org.imixs.workflow.engine,TestEvaluateWorkflowResult,org.imixs.workflow:imixs-workflow-core,"",workflow,564,941,0.6
+org.imixs.workflow.engine,SetupService,org.imixs.workflow:imixs-workflow-core,"",workflow,95,139,0.68
+org.imixs.workflow.engine,SetupService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",44,139,0.32
+org.imixs.workflow.engine,ProcessingEvent,org.imixs.workflow:imixs-workflow-core,"",workflow,6,6,1.0
+org.imixs.workflow.engine,AsyncEventService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",15,72,0.21
+org.imixs.workflow.engine,AsyncEventService,org.imixs.workflow:imixs-workflow-core,"",workflow,57,72,0.79
+org.imixs.workflow.bpmn,TestBPMNParserAsyncEvent,junit:junit,Testing Frameworks,"testing,junit",26,26,1.0
+org.imixs.workflow.bpmn,TestBPMNParserAdapter,junit:junit,Testing Frameworks,"testing,junit",42,42,1.0
+org.imixs.workflow.engine,WorkflowSimulationEnvironment,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",20,186,0.11
+org.imixs.workflow.engine,WorkflowSimulationEnvironment,org.imixs.workflow:imixs-workflow-core,"",workflow,76,186,0.41
+org.imixs.workflow.engine,WorkflowSimulationEnvironment,jakarta.platform:jakarta.jakartaee-api,"","api,platform",12,186,0.06
+org.imixs.workflow.engine,WorkflowSimulationEnvironment,junit:junit,Testing Frameworks,"testing,junit",2,186,0.01
+org.imixs.workflow.engine,WorkflowSimulationEnvironment,org.mockito:mockito-all,Mocking,"mock,mocking,testing",76,186,0.41
+org.imixs.workflow.jaxrs,DocumentRestService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",27,414,0.07
+org.imixs.workflow.jaxrs,DocumentRestService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",269,414,0.65
+org.imixs.workflow.jaxrs,DocumentRestService,org.imixs.workflow:imixs-workflow-core,"",workflow,118,414,0.29
+org.imixs.workflow.engine.adminp,JobHandler,org.imixs.workflow:imixs-workflow-core,"",workflow,2,2,1.0
+org.imixs.workflow.engine.adapters,TestAccessAdapter,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",20,360,0.06
+org.imixs.workflow.engine.adapters,TestAccessAdapter,junit:junit,Testing Frameworks,"testing,junit",138,360,0.38
+org.imixs.workflow.engine.adapters,TestAccessAdapter,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,360,0.02
+org.imixs.workflow.engine.adapters,TestAccessAdapter,org.imixs.workflow:imixs-workflow-core,"",workflow,196,360,0.54
+org.imixs.workflow.engine,TestAdaptText,org.imixs.workflow:imixs-workflow-core,"",workflow,126,198,0.64
+org.imixs.workflow.engine,TestAdaptText,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",10,198,0.05
+org.imixs.workflow.engine,TestAdaptText,junit:junit,Testing Frameworks,"testing,junit",62,198,0.31
+org.imixs.workflow.engine.plugins,AnalysisPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,35,35,1.0
+org.imixs.workflow.xml,TestXMLParser,junit:junit,Testing Frameworks,"testing,junit",178,178,1.0
+org.imixs.workflow.faces.util,VectorIntegerConverter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",7,7,1.0
+org.imixs.workflow.bpmn,TestBPMNParserSharedEvent,junit:junit,Testing Frameworks,"testing,junit",179,179,1.0
+org.imixs.workflow.jaxrs,TestReportService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",15,56,0.27
+org.imixs.workflow.jaxrs,TestReportService,junit:junit,Testing Frameworks,"testing,junit",40,56,0.71
+org.imixs.workflow.jaxrs,TestReportService,org.imixs.workflow:imixs-workflow-core,"",workflow,1,56,0.02
+org.imixs.workflow.util,TestImixsJSONParser,junit:junit,Testing Frameworks,"testing,junit",56,56,1.0
+org.imixs.workflow.xml,XMLDataCollection,jakarta.platform:jakarta.jakartaee-api,"","api,platform",1,1,1.0
+org.imixs.workflow.bpmn,TestBPMNParserDataObject,junit:junit,Testing Frameworks,"testing,junit",45,45,1.0
+org.imixs.workflow.engine.plugins,AbstractPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,14,14,1.0
+org.imixs.workflow.plugins,TestScheduler,junit:junit,Testing Frameworks,"testing,junit",6,6,1.0
+org.imixs.workflow.engine,WorkflowMockEnvironment,org.mockito:mockito-all,Mocking,"mock,mocking,testing",274,639,0.43
+org.imixs.workflow.engine,WorkflowMockEnvironment,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",89,639,0.14
+org.imixs.workflow.engine,WorkflowMockEnvironment,junit:junit,Testing Frameworks,"testing,junit",2,639,0.0
+org.imixs.workflow.engine,WorkflowMockEnvironment,org.imixs.workflow:imixs-workflow-core,"",workflow,260,639,0.41
+org.imixs.workflow.engine,WorkflowMockEnvironment,jakarta.platform:jakarta.jakartaee-api,"","api,platform",14,639,0.02
+org.imixs.workflow.jaxrs,ReportRestService,org.apache.xmlgraphics:fop,"",apache,11,322,0.03
+org.imixs.workflow.jaxrs,ReportRestService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",26,322,0.08
+org.imixs.workflow.jaxrs,ReportRestService,org.imixs.workflow:imixs-workflow-core,"",workflow,84,322,0.26
+org.imixs.workflow.jaxrs,ReportRestService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",201,322,0.62
+org.imixs.workflow.engine.plugins,LogPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,11,11,1.0
+org.imixs.workflow.bpmn,TestBPMNParserConditionalEvents,junit:junit,Testing Frameworks,"testing,junit",155,155,1.0
+org.imixs.workflow.plugins,TestApproverResetPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",33,347,0.1
+org.imixs.workflow.plugins,TestApproverResetPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,192,347,0.55
+org.imixs.workflow.plugins,TestApproverResetPlugin,org.mockito:mockito-all,Mocking,"mock,mocking,testing",28,347,0.08
+org.imixs.workflow.plugins,TestApproverResetPlugin,junit:junit,Testing Frameworks,"testing,junit",94,347,0.27
+org.imixs.workflow.xml,TestXMLItemCollectionAdapter,junit:junit,Testing Frameworks,"testing,junit",170,170,1.0
+org.imixs.workflow.engine,MetricService,org.eclipse.microprofile.metrics:microprofile-metrics-api,"","eclipse,metrics,api",78,99,0.79
+org.imixs.workflow.engine,MetricService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",9,99,0.09
+org.imixs.workflow.engine,MetricService,org.imixs.workflow:imixs-workflow-core,"",workflow,12,99,0.12
+org.imixs.workflow.engine.plugins,MailPlugin,jakarta.platform:jakarta.jakartaee-api,"","api,platform",166,251,0.66
+org.imixs.workflow.engine.plugins,MailPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,85,251,0.34
+org.imixs.workflow.jaxrs,RootRestService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",31,31,1.0
+org.imixs.workflow.engine,TestReportService,junit:junit,Testing Frameworks,"testing,junit",26,40,0.65
+org.imixs.workflow.engine,TestReportService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",14,40,0.35
+org.imixs.workflow.engine,TestAdaptForEach,junit:junit,Testing Frameworks,"testing,junit",14,96,0.15
+org.imixs.workflow.engine,TestAdaptForEach,org.imixs.workflow:imixs-workflow-core,"",workflow,80,96,0.83
+org.imixs.workflow.engine,TestAdaptForEach,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",2,96,0.02
+org.imixs.workflow.util,JSONParser,jakarta.platform:jakarta.jakartaee-api,"","api,platform",45,45,1.0
+org.imixs.workflow.faces.util,ViewExpiredExceptionHandler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",40,40,1.0
+org.imixs.workflow.bpmn,TestBPMNParserSharedLinkEvent,junit:junit,Testing Frameworks,"testing,junit",27,27,1.0
+org.imixs.workflow.engine.plugins,HistoryPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,31,31,1.0
+org.imixs.workflow.engine,TextEvent,org.imixs.workflow:imixs-workflow-core,"",workflow,6,6,1.0
+org.imixs.workflow.engine.index,SchemaService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",8,22,0.36
+org.imixs.workflow.engine.index,SchemaService,org.imixs.workflow:imixs-workflow-core,"",workflow,14,22,0.64
+org.imixs.workflow.engine.lucene,LuceneIndexService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",19,296,0.06
+org.imixs.workflow.engine.lucene,LuceneIndexService,org.imixs.workflow:imixs-workflow-core,"",workflow,61,296,0.21
+org.imixs.workflow.engine.lucene,LuceneIndexService,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,296,0.0
+org.imixs.workflow.engine.lucene,LuceneIndexService,org.apache.lucene:lucene-facet,"","lucene,apache,index",26,296,0.09
+org.imixs.workflow.engine.lucene,LuceneIndexService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",61,296,0.21
+org.imixs.workflow.engine.lucene,LuceneIndexService,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",128,296,0.43
+org.imixs.workflow.plugins,TestResultPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",35,693,0.05
+org.imixs.workflow.plugins,TestResultPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,466,693,0.67
+org.imixs.workflow.plugins,TestResultPlugin,junit:junit,Testing Frameworks,"testing,junit",192,693,0.28
+org.imixs.workflow.xml,TestWriteXMLData,jakarta.platform:jakarta.jakartaee-api,"","api,platform",19,44,0.43
+org.imixs.workflow.xml,TestWriteXMLData,junit:junit,Testing Frameworks,"testing,junit",25,44,0.57
+org.imixs.workflow.engine.solr,TestParseSolrJSONResult,junit:junit,Testing Frameworks,"testing,junit",15,33,0.45
+org.imixs.workflow.engine.solr,TestParseSolrJSONResult,org.imixs.workflow:imixs-workflow-core,"",workflow,18,33,0.55
+org.imixs.workflow.engine.adminp,AdminPException,org.imixs.workflow:imixs-workflow-core,"",workflow,1,1,1.0
+org.imixs.workflow.engine.plugins,ReportPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,38,48,0.79
+org.imixs.workflow.engine.plugins,ReportPlugin,jakarta.platform:jakarta.jakartaee-api,"","api,platform",10,48,0.21
+org.imixs.workflow.engine.plugins,RulePlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,52,52,1.0
+org.imixs.workflow.xml,XMLDocument,jakarta.platform:jakarta.jakartaee-api,"","api,platform",1,1,1.0
+org.imixs.workflow.engine.lucene,LuceneItemAdapter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,14,0.86
+org.imixs.workflow.engine.lucene,LuceneItemAdapter,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",1,14,0.07
+org.imixs.workflow.engine.lucene,LuceneItemAdapter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",1,14,0.07
+org.imixs.workflow.bpmn,TestBPMNParserStartEvent,junit:junit,Testing Frameworks,"testing,junit",58,58,1.0
+org.imixs.workflow.engine.lucene,ExtendedFacetsExample,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",131,269,0.49
+org.imixs.workflow.engine.lucene,ExtendedFacetsExample,org.apache.lucene:lucene-facet,"","lucene,apache,index",137,269,0.51
+org.imixs.workflow.engine.lucene,ExtendedFacetsExample,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,269,0.0
+org.imixs.workflow.faces.util,ViewExpiredExceptionHandlerFactory,jakarta.platform:jakarta.jakartaee-api,"","api,platform",12,12,1.0
+org.imixs.workflow.jaxrs,WorkflowRestService,org.imixs.workflow:imixs-workflow-core,"",workflow,162,528,0.31
+org.imixs.workflow.jaxrs,WorkflowRestService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",26,528,0.05
+org.imixs.workflow.jaxrs,WorkflowRestService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",340,528,0.64
+org.imixs.workflow.engine.solr,TestStripInvalidCharacters,org.imixs.workflow:imixs-workflow-core,"",workflow,2,6,0.33
+org.imixs.workflow.engine.solr,TestStripInvalidCharacters,junit:junit,Testing Frameworks,"testing,junit",4,6,0.67
+org.imixs.workflow,TestWorkflowKernelPluginRegistration,junit:junit,Testing Frameworks,"testing,junit",25,42,0.6
+org.imixs.workflow,TestWorkflowKernelPluginRegistration,org.mockito:mockito-all,Mocking,"mock,mocking,testing",12,42,0.29
+org.imixs.workflow,TestWorkflowKernelPluginRegistration,jakarta.platform:jakarta.jakartaee-api,"","api,platform",5,42,0.12
+org.imixs.workflow.engine.plugins,ResultPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,17,17,1.0
+org.imixs.workflow.bpmn,TestBPMNModelProperties,junit:junit,Testing Frameworks,"testing,junit",122,122,1.0
+org.imixs.workflow.plugins,TestOwnerPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,138,231,0.6
+org.imixs.workflow.plugins,TestOwnerPlugin,junit:junit,Testing Frameworks,"testing,junit",74,231,0.32
+org.imixs.workflow.plugins,TestOwnerPlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",19,231,0.08
+org.imixs.workflow.util,TestJSONParserSimple,junit:junit,Testing Frameworks,"testing,junit",8,8,1.0
+org.imixs.workflow.engine.lucene,LuceneSearchService,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",91,267,0.34
+org.imixs.workflow.engine.lucene,LuceneSearchService,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",61,267,0.23
+org.imixs.workflow.engine.lucene,LuceneSearchService,org.imixs.workflow:imixs-workflow-core,"",workflow,40,267,0.15
+org.imixs.workflow.engine.lucene,LuceneSearchService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",6,267,0.02
+org.imixs.workflow.engine.lucene,LuceneSearchService,org.apache.lucene:lucene-facet,"","lucene,apache,index",27,267,0.1
+org.imixs.workflow.engine.lucene,LuceneSearchService,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,267,0.0
+org.imixs.workflow.engine.lucene,LuceneSearchService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",41,267,0.15
+org.imixs.workflow.engine,HealthCheckService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,2,1.0
+org.imixs.workflow.engine.scheduler,SchedulerService,org.imixs.workflow:imixs-workflow-core,"",workflow,160,248,0.65
+org.imixs.workflow.engine.scheduler,SchedulerService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",88,248,0.35
+org.imixs.workflow.faces.data,ViewController,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",7,21,0.33
+org.imixs.workflow.faces.data,ViewController,org.imixs.workflow:imixs-workflow-core,"",workflow,10,21,0.48
+org.imixs.workflow.faces.data,ViewController,jakarta.platform:jakarta.jakartaee-api,"","api,platform",4,21,0.19
+org.imixs.workflow.engine.index,TestNormalizePhrase,org.imixs.workflow:imixs-workflow-core,"",workflow,12,49,0.24
+org.imixs.workflow.engine.index,TestNormalizePhrase,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",11,49,0.22
+org.imixs.workflow.engine.index,TestNormalizePhrase,junit:junit,Testing Frameworks,"testing,junit",26,49,0.53
+org.imixs.workflow.engine,WorkflowService,org.imixs.workflow:imixs-workflow-core,"",workflow,320,385,0.83
+org.imixs.workflow.engine,WorkflowService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",65,385,0.17
+org.imixs.workflow.engine.adminp,JobHandlerRebuildIndex,jakarta.platform:jakarta.jakartaee-api,"","api,platform",37,101,0.37
+org.imixs.workflow.engine.adminp,JobHandlerRebuildIndex,org.imixs.workflow:imixs-workflow-core,"",workflow,64,101,0.63
+org.imixs.workflow,TestItemCollection,junit:junit,Testing Frameworks,"testing,junit",563,563,1.0
+org.imixs.workflow.engine,DocumentService,org.imixs.workflow:imixs-workflow-core,"",workflow,170,281,0.6
+org.imixs.workflow.engine,DocumentService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",111,281,0.4
+org.imixs.workflow.engine.plugins,ApproverPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,43,43,1.0
+org.imixs.workflow.bpmn,TestBPMNParserSplitEvents,junit:junit,Testing Frameworks,"testing,junit",50,50,1.0
+org.imixs.workflow.xml,DocumentTable,jakarta.platform:jakarta.jakartaee-api,"","api,platform",1,1,1.0
+org.imixs.workflow.engine.lucene,LuceneUpdateService,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,5,0.4
+org.imixs.workflow.engine.lucene,LuceneUpdateService,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",1,5,0.2
+org.imixs.workflow.engine.lucene,LuceneUpdateService,org.imixs.workflow:imixs-workflow-core,"",workflow,2,5,0.4
+org.imixs.workflow.plugins,TestRulePlugin,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",71,1345,0.05
+org.imixs.workflow.plugins,TestRulePlugin,junit:junit,Testing Frameworks,"testing,junit",339,1345,0.25
+org.imixs.workflow.plugins,TestRulePlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,935,1345,0.7
+org.imixs.workflow.util,ImixsJSONParser,jakarta.platform:jakarta.jakartaee-api,"","api,platform",89,89,1.0
+org.imixs.workflow.bpmn,TestBPMNParserGroups,junit:junit,Testing Frameworks,"testing,junit",26,26,1.0
+org.imixs.workflow.engine.adminp,JobHandlerUpgradeWorkitems,org.imixs.workflow:imixs-workflow-core,"",workflow,133,143,0.93
+org.imixs.workflow.engine.adminp,JobHandlerUpgradeWorkitems,jakarta.platform:jakarta.jakartaee-api,"","api,platform",10,143,0.07
+org.imixs.workflow.faces.util,LoginController,jakarta.platform:jakarta.jakartaee-api,"","api,platform",62,65,0.95
+org.imixs.workflow.faces.util,LoginController,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",3,65,0.05
+org.imixs.workflow.engine.plugins,DocumentComposerPlugin,jakarta.platform:jakarta.jakartaee-api,"","api,platform",10,59,0.17
+org.imixs.workflow.engine.plugins,DocumentComposerPlugin,org.imixs.workflow:imixs-workflow-core,"",workflow,49,59,0.83
+org.imixs.workflow.faces.fileupload,FileUploadController,org.imixs.workflow:imixs-workflow-core,"",workflow,65,88,0.74
+org.imixs.workflow.faces.fileupload,FileUploadController,jakarta.platform:jakarta.jakartaee-api,"","api,platform",23,88,0.26
+org.imixs.workflow.engine,WorkflowSchedulerController,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,2,1.0
+org.imixs.workflow.util,TestJSONParserWorkitem,junit:junit,Testing Frameworks,"testing,junit",46,46,1.0
+org.imixs.workflow.xml,XMLDataCollectionAdapter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",28,28,1.0
+org.imixs.workflow.xml,XMLItem,jakarta.platform:jakarta.jakartaee-api,"","api,platform",3,3,1.0
+org.imixs.workflow.faces.data,AbstractDataController,org.imixs.workflow:imixs-workflow-core,"",workflow,14,69,0.2
+org.imixs.workflow.faces.data,AbstractDataController,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",5,69,0.07
+org.imixs.workflow.faces.data,AbstractDataController,jakarta.platform:jakarta.jakartaee-api,"","api,platform",50,69,0.72
+org.imixs.workflow.faces.util,ResourceBundleHandler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",8,8,1.0
+org.imixs.workflow.jaxrs,DocumentCollectionWriter,org.imixs.workflow:imixs-workflow-core,"",workflow,10,21,0.48
+org.imixs.workflow.jaxrs,DocumentCollectionWriter,jakarta.platform:jakarta.jakartaee-api,"","api,platform",11,21,0.52

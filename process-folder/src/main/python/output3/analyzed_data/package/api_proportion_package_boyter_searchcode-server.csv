@@ -1,0 +1,79 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+com.searchcode.app.service,com.google.code.gson:gson,JSON Libraries,"google,json",18,1932,0.01
+com.searchcode.app.service,org.zeroturnaround:zt-exec,External Process Execution,"execution,process,command,external",15,1932,0.01
+com.searchcode.app.service,org.mockito:mockito-all,Mocking,"mock,mocking,testing",541,1932,0.28
+com.searchcode.app.service,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",16,1932,0.01
+com.searchcode.app.service,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",245,1932,0.13
+com.searchcode.app.service,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",33,1932,0.02
+com.searchcode.app.service,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",417,1932,0.22
+com.searchcode.app.service,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",16,1932,0.01
+com.searchcode.app.service,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",234,1932,0.12
+com.searchcode.app.service,commons-io:commons-io,I/O Utilities,io,2,1932,0.0
+com.searchcode.app.service,org.apache.lucene:lucene-facet,"","lucene,apache,index",192,1932,0.1
+com.searchcode.app.service,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",4,1932,0.0
+com.searchcode.app.service,junit:junit,Testing Frameworks,"testing,junit",10,1932,0.01
+com.searchcode.app.service,org.quartz-scheduler:quartz,Job Scheduling,scheduling,189,1932,0.1
+com.searchcode.app.jobs.enqueue,org.quartz-scheduler:quartz,Job Scheduling,scheduling,12,12,1.0
+com.searchcode.app,com.sparkjava:spark-template-freemarker,"","spark,template",49,222,0.22
+com.searchcode.app,commons-io:commons-io,I/O Utilities,io,4,222,0.02
+com.searchcode.app,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,222,0.01
+com.searchcode.app,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,222,0.02
+com.searchcode.app,de.svenkubiak:jBCrypt,Hashing Libraries,hashing,5,222,0.02
+com.searchcode.app,junit:junit,Testing Frameworks,"testing,junit",1,222,0.0
+com.searchcode.app,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",157,222,0.71
+com.searchcode.app.jobs,junit:junit,Testing Frameworks,"testing,junit",15,147,0.1
+com.searchcode.app.jobs,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",46,147,0.31
+com.searchcode.app.jobs,org.quartz-scheduler:quartz,Job Scheduling,scheduling,32,147,0.22
+com.searchcode.app.jobs,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",1,147,0.01
+com.searchcode.app.jobs,commons-io:commons-io,I/O Utilities,io,12,147,0.08
+com.searchcode.app.jobs,org.mockito:mockito-all,Mocking,"mock,mocking,testing",41,147,0.28
+com.searchcode.app.dao,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",8,110,0.07
+com.searchcode.app.dao,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",87,110,0.79
+com.searchcode.app.dao,junit:junit,Testing Frameworks,"testing,junit",15,110,0.14
+com.searchcode.app.jobs.repository,commons-io:commons-io,I/O Utilities,io,12,214,0.06
+com.searchcode.app.jobs.repository,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",3,214,0.01
+com.searchcode.app.jobs.repository,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",3,214,0.01
+com.searchcode.app.jobs.repository,net.sf.opencsv:opencsv,CSV Libraries,"csv,tabular",8,214,0.04
+com.searchcode.app.jobs.repository,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",160,214,0.75
+com.searchcode.app.jobs.repository,org.quartz-scheduler:quartz,Job Scheduling,scheduling,28,214,0.13
+com.searchcode.app.model,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,9,0.11
+com.searchcode.app.model,com.google.code.gson:gson,JSON Libraries,"google,json",8,9,0.89
+com.searchcode.app.dto,junit:junit,Testing Frameworks,"testing,junit",2,9,0.22
+com.searchcode.app.dto,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,9,0.11
+com.searchcode.app.dto,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,9,0.67
+com.searchcode.app.config,com.zaxxer:HikariCP,JDBC Pools,"jdbc,pool",6,11,0.55
+com.searchcode.app.config,junit:junit,Testing Frameworks,"testing,junit",2,11,0.18
+com.searchcode.app.config,mysql:mysql-connector-java,MySQL Drivers,"mysql,database,connector,driver",3,11,0.27
+com.searchcode.app.service.route,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",30,421,0.07
+com.searchcode.app.service.route,junit:junit,Testing Frameworks,"testing,junit",1,421,0.0
+com.searchcode.app.service.route,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",16,421,0.04
+com.searchcode.app.service.route,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",360,421,0.86
+com.searchcode.app.service.route,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,421,0.01
+com.searchcode.app.service.route,com.google.code.gson:gson,JSON Libraries,"google,json",10,421,0.02
+com.searchcode.app.service.index,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",31,844,0.04
+com.searchcode.app.service.index,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",20,844,0.02
+com.searchcode.app.service.index,junit:junit,Testing Frameworks,"testing,junit",3,844,0.0
+com.searchcode.app.service.index,org.mockito:mockito-all,Mocking,"mock,mocking,testing",30,844,0.04
+com.searchcode.app.service.index,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",456,844,0.54
+com.searchcode.app.service.index,org.apache.lucene:lucene-facet,"","lucene,apache,index",116,844,0.14
+com.searchcode.app.service.index,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",180,844,0.21
+com.searchcode.app.service.index,commons-io:commons-io,I/O Utilities,io,8,844,0.01
+com.searchcode.app.util,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",353,648,0.54
+com.searchcode.app.util,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",3,648,0.0
+com.searchcode.app.util,com.google.code.gson:gson,JSON Libraries,"google,json",25,648,0.04
+com.searchcode.app.util,com.google.guava:guava,Core Utilities,google,85,648,0.13
+com.searchcode.app.util,org.mockito:mockito-all,Mocking,"mock,mocking,testing",14,648,0.02
+com.searchcode.app.util,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",37,648,0.06
+com.searchcode.app.util,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,648,0.0
+com.searchcode.app.util,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",6,648,0.01
+com.searchcode.app.util,org.codehaus.guessencoding:guessencoding,"",codehaus,2,648,0.0
+com.searchcode.app.util,commons-io:commons-io,I/O Utilities,io,10,648,0.02
+com.searchcode.app.util,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",1,648,0.0
+com.searchcode.app.util,org.apache.lucene:lucene-facet,"","lucene,apache,index",2,648,0.0
+com.searchcode.app.util,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",32,648,0.05
+com.searchcode.app.util,junit:junit,Testing Frameworks,"testing,junit",70,648,0.11
+com.searchcode.app.util,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",6,648,0.01
+com.searchcode.app.integration,junit:junit,Testing Frameworks,"testing,junit",1,59,0.02
+com.searchcode.app.integration,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",58,59,0.98
+com.searchcode.app.jobs.searchcode,org.quartz-scheduler:quartz,Job Scheduling,scheduling,4,5,0.8
+com.searchcode.app.jobs.searchcode,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2

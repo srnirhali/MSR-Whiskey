@@ -1,0 +1,22 @@
+packageName,className,methodName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.wltea.analyzer.query,IKQueryExpressionParser,parseSyntax,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+org.wltea.analyzer.lucene,IKTokenizerFactory,inform,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",3,3,1.0
+org.wltea.analyzer.lucene,IKAnalyzer,createComponents,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+org.wltea.analyzer.query,IKQueryExpressionParser,toBooleanQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",149,149,1.0
+org.wltea.analyzer.query,IKQueryExpressionParser,parseExp,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+org.wltea.analyzer.lucene,IKAnalyzer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+org.wltea.analyzer.lucene,IKTokenizerFactory,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",3,3,1.0
+org.wltea.analyzer.lucene,IKTokenizer,incrementToken,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+org.wltea.analyzer.lucene,IKTokenizerFactory,canUpdate,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,2,1.0
+org.wltea.analyzer.lucene,IKTokenizerFactory,update,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,2,1.0
+org.wltea.analyzer.query,SWMCQueryBuilder,create,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+org.wltea.analyzer.query,IKQueryExpressionParser,toTermRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+org.wltea.analyzer.query,IKQueryExpressionParser,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+org.wltea.analyzer.lucene,IKTokenizer,init,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+org.wltea.analyzer.lucene,IKTokenizerFactory,create,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+org.wltea.analyzer.query,SWMCQueryBuilder,getSWMCQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",16,18,0.89
+org.wltea.analyzer.query,SWMCQueryBuilder,getSWMCQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,18,0.11
+org.wltea.analyzer.lucene,IKTokenizer,end,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+org.wltea.analyzer.lucene,IKTokenizer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+org.wltea.analyzer.query,IKQueryExpressionParser,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+org.wltea.analyzer.lucene,IKTokenizer,reset,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0

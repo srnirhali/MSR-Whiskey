@@ -1,0 +1,276 @@
+packageName,className,methodName,api,mcrCategories,mcrTags,count,countAll,proportion
+edu.gslis.ttg.main,RunTTGBaseline,main,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",1,42,0.02
+edu.gslis.ttg.main,RunTTGBaseline,main,cc.twittertools:twitter-tools-core,"","tools,twitter",20,42,0.48
+edu.gslis.ttg.main,RunTTGBaseline,main,com.googlecode.json-simple:json-simple,JSON Libraries,json,21,42,0.5
+cc.twittertools.corpus.demo,ReadStatuses,main,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",4,39,0.1
+cc.twittertools.corpus.demo,ReadStatuses,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",35,39,0.9
+edu.illinois.lis.feedback,FeedbackModel,setRes,cc.twittertools:twitter-tools-core,"","tools,twitter",3,3,1.0
+edu.illinois.lis.query,GQueriesJsonImpl,"",com.google.code.gson:gson,JSON Libraries,"google,json",2,5,0.4
+edu.illinois.lis.query,GQueriesJsonImpl,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,5,0.6
+cc.twittertools.thrift.gen,TResult,isSetFollowers_count,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,"",com.google.guava:guava,Core Utilities,google,4,9,0.44
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,9,0.33
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,"",com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",2,9,0.22
+cc.twittertools.search,TrecTopicSet,"",com.google.guava:guava,Core Utilities,google,2,2,1.0
+edu.illinois.lis.searchsource,IndexWrapperMicroblogApi,runQuery,cc.twittertools:twitter-tools-core,"","tools,twitter",15,15,1.0
+edu.illinois.lis.query,GQueriesJsonImpl,read,com.google.code.gson:gson,JSON Libraries,"google,json",45,47,0.96
+edu.illinois.lis.query,GQueriesJsonImpl,read,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,47,0.04
+edu.illinois.lis.searchsource,IndexWrapperMicroblogApi,"",cc.twittertools:twitter-tools-core,"","tools,twitter",3,3,1.0
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,withRepairedOutput,com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.index,ExtractTweetidsFromIndex,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",27,45,0.6
+cc.twittertools.index,ExtractTweetidsFromIndex,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,45,0.4
+cc.twittertools.index,TokenizationTest,verify,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+cc.twittertools.thrift.gen,TResult,unsetRetweeted_status_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.index,TweetAnalyzer,createComponents,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,12,0.17
+cc.twittertools.index,TweetAnalyzer,createComponents,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,12,0.83
+cc.twittertools.corpus.data,HTMLStatusExtractor,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",27,35,0.77
+cc.twittertools.corpus.data,HTMLStatusExtractor,main,com.google.code.gson:gson,JSON Libraries,"google,json",8,35,0.23
+cc.twittertools.piggybank,GetLongitude,"",org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",1,1,1.0
+cc.twittertools.search.local,RunQueries,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",41,123,0.33
+cc.twittertools.search.local,RunQueries,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",78,123,0.63
+cc.twittertools.search.local,RunQueries,main,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,123,0.03
+cc.twittertools.piggybank,IsMap,"",org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",1,1,1.0
+cc.twittertools.search,TrecTopicSet,fromFile,com.google.guava:guava,Core Utilities,google,10,10,1.0
+cc.twittertools.search.api,RunQueriesBaselineThrift,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",100,100,1.0
+cc.twittertools.thrift.gen,TResult,unsetIn_reply_to_user_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,crawlURL,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,7,0.29
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,crawlURL,com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",5,7,0.71
+cc.twittertools.index,IndexStatuses,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,6,0.5
+cc.twittertools.index,IndexStatuses,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,6,0.5
+cc.twittertools.corpus.data,HTMLStatusExtractor,extractTweet,com.google.code.gson:gson,JSON Libraries,"google,json",46,92,0.5
+cc.twittertools.corpus.data,HTMLStatusExtractor,extractTweet,org.jsoup:jsoup,HTML Parsers,"html,parser",46,92,0.5
+cc.twittertools.corpus.data,Status,"",com.google.code.gson:gson,JSON Libraries,"google,json",3,6,0.5
+cc.twittertools.corpus.data,Status,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,6,0.5
+cc.twittertools.index,TokenizationTest,basic,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+cc.twittertools.index,TokenizationTest,basic,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,5,0.8
+cc.twittertools.thrift.gen,TResult,setRetweeted_user_idIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+edu.illinois.lis.feedback,FeedbackRelevanceModel,build,cc.twittertools:twitter-tools-core,"","tools,twitter",15,15,1.0
+cc.twittertools.search.api,TrecSearchHandler,"",org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,24,0.08
+cc.twittertools.search.api,TrecSearchHandler,"",com.google.guava:guava,Core Utilities,google,4,24,0.17
+cc.twittertools.search.api,TrecSearchHandler,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,24,0.13
+cc.twittertools.search.api,TrecSearchHandler,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,24,0.63
+cc.twittertools.thrift.gen,TrecSearchException,write,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",9,9,1.0
+cc.twittertools.search.api,TrecSearchThriftServer,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",65,85,0.76
+cc.twittertools.search.api,TrecSearchThriftServer,main,com.google.guava:guava,Core Utilities,google,5,85,0.06
+cc.twittertools.search.api,TrecSearchThriftServer,main,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",15,85,0.18
+cc.twittertools.search.local,SearchStatuses,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",100,145,0.69
+cc.twittertools.search.local,SearchStatuses,main,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,145,0.03
+cc.twittertools.search.local,SearchStatuses,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",41,145,0.28
+cc.twittertools.thrift.gen,TQuery,readObject,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",4,4,1.0
+cc.twittertools.search.api,TrecSearchThriftLoadGenerator,withThreads,com.google.guava:guava,Core Utilities,google,2,2,1.0
+edu.illinois.lis.query,TrecTemporalTopicSet,fromFile,com.google.guava:guava,Core Utilities,google,10,10,1.0
+cc.twittertools.thrift.gen,TResult,setRetweeted_countIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+edu.illinois.lis.utils,ExtractGqueriesFromTrecFormat,toString,com.google.code.gson:gson,JSON Libraries,"google,json",7,7,1.0
+cc.twittertools.thrift.gen,TrecSearchException,writeObject,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",4,4,1.0
+cc.twittertools.corpus.data,JsonStatusCorpusReader,"",com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.search.api,TrecSearchThriftClient,"",com.google.guava:guava,Core Utilities,google,4,4,1.0
+cc.twittertools.thrift.gen,TQuery,isSetNum_results,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TResult,isSetIn_reply_to_user_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,withOutputFailure,com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.index,LowerCaseEntityPreservingFilter,isEntityDelimiter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+edu.gslis.ttg.clusters.clusterers,SimpleJaccardClusterer,"",cc.twittertools:twitter-tools-core,"","tools,twitter",4,4,1.0
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,fetch,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",20,22,0.91
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,fetch,com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",2,22,0.09
+edu.illinois.lis.query,TrecTemporalTopicSet,"",com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.thrift.gen,TResult,unsetId,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TrecSearchException,validate,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",1,1,1.0
+edu.illinois.lis.query,GQueriesJsonImpl,getIthQuery,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,2,1.0
+cc.twittertools.search,TrecTopicSetTest,topics2012,com.google.guava:guava,Core Utilities,google,2,7,0.29
+cc.twittertools.search,TrecTopicSetTest,topics2012,junit:junit,Testing Frameworks,"testing,junit",5,7,0.71
+edu.illinois.lis.document,FeatureVector,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",19,31,0.61
+edu.illinois.lis.document,FeatureVector,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,31,0.39
+edu.illinois.lis.search,RunQueries,main,cc.twittertools:twitter-tools-core,"","tools,twitter",18,18,1.0
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,"",commons-lang:commons-lang,Core Utilities,"",2,91,0.02
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,"",com.google.guava:guava,Core Utilities,google,4,91,0.04
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",23,91,0.25
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,"",com.google.code.gson:gson,JSON Libraries,"google,json",18,91,0.2
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,"",com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",44,91,0.48
+cc.twittertools.thrift.gen,TQuery,"",org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",202,202,1.0
+cc.twittertools.thrift.gen,TResult,isSetRetweeted_count,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TResult,validate,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",1,1,1.0
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,getUrl,com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.search.api,TrecSearchThriftLoadGenerator,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",87,87,1.0
+cc.twittertools.thrift.gen,TQuery,setNum_resultsIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TQuery,write,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",9,9,1.0
+cc.twittertools.piggybank,ConvertCreatedAtToEpoch,"",org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",1,1,1.0
+cc.twittertools.thrift.gen,TResult,setIn_reply_to_user_idIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.udf,LuceneTokenizer,"",org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",8,8,1.0
+cc.twittertools.util,VerifySubcollection,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,3,1.0
+cc.twittertools.udf,GetInterval,"",org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",1,1,1.0
+edu.illinois.lis.utils,ExtractGqueriesFromTrecFormat,harvest,com.google.code.gson:gson,JSON Libraries,"google,json",32,32,1.0
+cc.twittertools.download,FetchStatusTest,basicHTML,junit:junit,Testing Frameworks,"testing,junit",2,14,0.14
+cc.twittertools.download,FetchStatusTest,basicHTML,com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",12,14,0.86
+cc.twittertools.corpus.data,TSVStatusCorpusReader,next,cc.twittertools:twitter-tools-core,"","tools,twitter",5,5,1.0
+cc.twittertools.thrift.gen,TResult,read,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",9,9,1.0
+cc.twittertools.corpus.data,TSVStatusBlockReader,next,cc.twittertools:twitter-tools-core,"","tools,twitter",8,8,1.0
+cc.twittertools.index,IndexStatuses,main,it.unimi.dsi:fastutil,Collections,"collections,structures",12,221,0.05
+cc.twittertools.index,IndexStatuses,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",75,221,0.34
+cc.twittertools.index,IndexStatuses,main,org.apache.ant:ant,Build Tools,"apache,ant,build,tools",1,221,0.0
+cc.twittertools.index,IndexStatuses,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",111,221,0.5
+cc.twittertools.index,IndexStatuses,main,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",22,221,0.1
+cc.twittertools.index,LowerCaseEntityPreservingFilter,incrementToken,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",31,31,1.0
+cc.twittertools.search.api,TrecSearchThriftLoadGenerator,"",com.google.guava:guava,Core Utilities,google,13,25,0.52
+cc.twittertools.search.api,TrecSearchThriftLoadGenerator,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",11,25,0.44
+cc.twittertools.search.api,TrecSearchThriftLoadGenerator,"",org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",1,25,0.04
+cc.twittertools.index,LowerCaseEntityPreservingFilter,removeNonAlphanumeric,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+cc.twittertools.index,ExtractTweetidsFromCollection,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",27,27,1.0
+cc.twittertools.util,ExtractSubcollection,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,3,1.0
+edu.illinois.lis.rerank,TResultComparator,"",cc.twittertools:twitter-tools-core,"","tools,twitter",1,1,1.0
+cc.twittertools.thrift.gen,TQuery,unsetNum_results,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.corpus.data,JsonStatusBlockReader,"",com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.piggybank,GetLatitude,"",org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",1,1,1.0
+cc.twittertools.thrift.gen,TResult,isSetRetweeted_status_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TrecSearch,"",org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",392,392,1.0
+cc.twittertools.index,LowerCaseEntityPreservingFilter,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,fetch,com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",2,22,0.09
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,fetch,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",20,22,0.91
+cc.twittertools.hbase,WordCountDAO,CreateTable,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",29,31,0.94
+cc.twittertools.hbase,WordCountDAO,CreateTable,org.apache.hadoop:hadoop-core,Distributed Computing,"computing,distributed,hadoop,apache",2,31,0.06
+cc.twittertools.piggybank,GetLongitude,exec,org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",15,15,1.0
+cc.twittertools.util,ExtractSubcollection,main,com.google.code.gson:gson,JSON Libraries,"google,json",1,95,0.01
+cc.twittertools.util,ExtractSubcollection,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",60,95,0.63
+cc.twittertools.util,ExtractSubcollection,main,it.unimi.dsi:fastutil,Collections,"collections,structures",24,95,0.25
+cc.twittertools.util,ExtractSubcollection,main,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",10,95,0.11
+cc.twittertools.thrift.gen,TQuery,writeObject,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",4,4,1.0
+edu.illinois.lis.document,FeatureVector,analyze,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,13,0.92
+edu.illinois.lis.document,FeatureVector,analyze,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,13,0.08
+edu.illinois.lis.query,TrecTemporalTopic,"",com.google.guava:guava,Core Utilities,google,8,8,1.0
+cc.twittertools.thrift.gen,TResult,setIdIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.util,VerifySubcollection,main,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",10,65,0.15
+cc.twittertools.util,VerifySubcollection,main,com.google.guava:guava,Core Utilities,google,2,65,0.03
+cc.twittertools.util,VerifySubcollection,main,it.unimi.dsi:fastutil,Collections,"collections,structures",14,65,0.22
+cc.twittertools.util,VerifySubcollection,main,com.google.code.gson:gson,JSON Libraries,"google,json",1,65,0.02
+cc.twittertools.util,VerifySubcollection,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",38,65,0.58
+edu.gslis.ttg.clusters.clusterers,SimpleJaccardClusterer,computeJaccardSimilarity,cc.twittertools:twitter-tools-core,"","tools,twitter",14,14,1.0
+cc.twittertools.hbase,WordCountDAO,addWordCount,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",9,9,1.0
+cc.twittertools.hbase,WordCountDAO,mkDel,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",6,8,0.75
+cc.twittertools.hbase,WordCountDAO,mkDel,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,8,0.25
+cc.twittertools.index,TokenizationTest,parseKeywords,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,20,0.9
+cc.twittertools.index,TokenizationTest,parseKeywords,com.google.guava:guava,Core Utilities,google,2,20,0.1
+edu.illinois.lis.utils,ExtractGqueriesFromTrecFormat,"",com.google.code.gson:gson,JSON Libraries,"google,json",3,3,1.0
+cc.twittertools.download,FetchStatusTest,"",com.google.code.gson:gson,JSON Libraries,"google,json",2,2,1.0
+cc.twittertools.hbase,WordCountDAO,mkGet,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,10,0.2
+cc.twittertools.hbase,WordCountDAO,mkGet,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",8,10,0.8
+edu.illinois.lis.rerank,TResultComparator,compare,cc.twittertools:twitter-tools-core,"","tools,twitter",6,6,1.0
+edu.illinois.lis.utils,ParameterBroker,"",com.google.code.gson:gson,JSON Libraries,"google,json",21,21,1.0
+cc.twittertools.thrift.gen,TQuery,compareTo,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",10,10,1.0
+cc.twittertools.stream,GatherStatusStream,main,org.twitter4j:twitter4j-core,Social Network Clients,"social,twitter",1,108,0.01
+cc.twittertools.stream,GatherStatusStream,main,org.twitter4j:twitter4j-stream,Social Network Clients,"streaming,social,twitter",10,108,0.09
+cc.twittertools.stream,GatherStatusStream,main,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",97,108,0.9
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,"",com.google.guava:guava,Core Utilities,google,4,79,0.05
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,"",com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",43,79,0.54
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",21,79,0.27
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,"",com.google.code.gson:gson,JSON Libraries,"google,json",11,79,0.14
+cc.twittertools.thrift.gen,TResult,isSetId,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.search.api,TrecSearchHandler,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",62,74,0.84
+cc.twittertools.search.api,TrecSearchHandler,search,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",6,74,0.08
+cc.twittertools.search.api,TrecSearchHandler,search,com.google.guava:guava,Core Utilities,google,4,74,0.05
+cc.twittertools.search.api,TrecSearchHandler,search,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,74,0.03
+cc.twittertools.thrift.gen,TResult,writeObject,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",4,4,1.0
+edu.gslis.ttg.searchers,SimpleSearcher,search,cc.twittertools:twitter-tools-core,"","tools,twitter",20,20,1.0
+cc.twittertools.thrift.gen,TQuery,setMax_idIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TResult,unsetRetweeted_count,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.index,LowerCaseEntityPreservingFilter,isNonentityDelimiter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+cc.twittertools.thrift.gen,TQuery,read,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",9,9,1.0
+cc.twittertools.thrift.gen,TrecSearchException,read,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",9,9,1.0
+edu.gslis.ttg.clusters.clusterers,SimpleJaccardClusterer,getResults,cc.twittertools:twitter-tools-core,"","tools,twitter",2,2,1.0
+cc.twittertools.search,TrecTopicSetTest,topics2011,junit:junit,Testing Frameworks,"testing,junit",5,7,0.71
+cc.twittertools.search,TrecTopicSetTest,topics2011,com.google.guava:guava,Core Utilities,google,2,7,0.29
+cc.twittertools.corpus.data,Status,getJsonObject,com.google.code.gson:gson,JSON Libraries,"google,json",2,2,1.0
+cc.twittertools.thrift.gen,TResult,"",org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",418,418,1.0
+cc.twittertools.thrift.gen,TResult,write,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",9,9,1.0
+cc.twittertools.udf,GetInterval,exec,org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",6,6,1.0
+cc.twittertools.search.api,RunQueriesThrift,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",100,100,1.0
+cc.twittertools.piggybank,IsMap,exec,org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",6,6,1.0
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,main,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,54,0.04
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,main,cc.twittertools:twitter-tools-core,"","tools,twitter",1,54,0.02
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",51,54,0.94
+cc.twittertools.hbase,WordCountDAO,mkPut,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,8,0.25
+cc.twittertools.hbase,WordCountDAO,mkPut,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",6,8,0.75
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,verify,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",30,54,0.56
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,verify,cc.twittertools:twitter-tools-core,"","tools,twitter",11,54,0.2
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,verify,com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",13,54,0.24
+edu.illinois.lis.utils,Stopper,"",commons-io:commons-io,I/O Utilities,io,2,2,1.0
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,withOutputSuccess,com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.index,ExtractTermStatisticsFromIndex,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",38,67,0.57
+cc.twittertools.index,ExtractTermStatisticsFromIndex,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",29,67,0.43
+cc.twittertools.thrift.gen,TResult,unsetRsv,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,getUrl,com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.thrift.gen,TResult,isSetEpoch,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.download,FetchStatusTest,suite,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,"",com.google.guava:guava,Core Utilities,google,6,50,0.12
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,"",com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",24,50,0.48
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,"",cc.twittertools:twitter-tools-core,"","tools,twitter",3,50,0.06
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",17,50,0.34
+cc.twittertools.hbase,LoadWordCount,main,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",5,20,0.25
+cc.twittertools.hbase,LoadWordCount,main,com.google.guava:guava,Core Utilities,google,15,20,0.75
+edu.illinois.lis.utils,Qrels,"",commons-io:commons-io,I/O Utilities,io,2,2,1.0
+cc.twittertools.thrift.gen,TResult,unsetEpoch,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TResult,isSetRsv,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.index,LowerCaseEntityPreservingFilter,isEntity,com.twitter:twitter-text,"","twitter,text",3,3,1.0
+cc.twittertools.thrift.gen,TResult,isSetRetweeted_user_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.corpus.data,TSVStatusCorpusReader,"",cc.twittertools:twitter-tools-core,"","tools,twitter",1,1,1.0
+cc.twittertools.corpus.data,TSVStatusBlockReader,"",cc.twittertools:twitter-tools-core,"","tools,twitter",1,1,1.0
+cc.twittertools.thrift.gen,TResult,unsetStatuses_count,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+edu.illinois.lis.rerank,SearchReranker,getReranked,cc.twittertools:twitter-tools-core,"","tools,twitter",3,3,1.0
+cc.twittertools.piggybank,ConvertCreatedAtToEpoch,exec,org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",6,6,1.0
+cc.twittertools.thrift.gen,TResult,setEpochIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TResult,setStatuses_countIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+edu.gslis.ttg.clusters.clusterers,SimpleJaccardClusterer,setResults,cc.twittertools:twitter-tools-core,"","tools,twitter",3,3,1.0
+cc.twittertools.search.api,SearchStatusesThrift,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",125,125,1.0
+edu.illinois.lis.rerank,SearchReranker,"",cc.twittertools:twitter-tools-core,"","tools,twitter",1,1,1.0
+cc.twittertools.hbase,WordCountDAO,getWordCount,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",13,15,0.87
+cc.twittertools.hbase,WordCountDAO,getWordCount,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,15,0.13
+cc.twittertools.download,FetchStatusTest,basicFamous,commons-lang:commons-lang,Core Utilities,"",2,32,0.06
+cc.twittertools.download,FetchStatusTest,basicFamous,com.google.code.gson:gson,JSON Libraries,"google,json",10,32,0.31
+cc.twittertools.download,FetchStatusTest,basicFamous,com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",16,32,0.5
+cc.twittertools.download,FetchStatusTest,basicFamous,junit:junit,Testing Frameworks,"testing,junit",4,32,0.13
+cc.twittertools.udf,LuceneTokenizer,exec,org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",12,26,0.46
+cc.twittertools.udf,LuceneTokenizer,exec,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,26,0.46
+cc.twittertools.udf,LuceneTokenizer,exec,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,26,0.04
+cc.twittertools.udf,LuceneTokenizer,exec,cc.twittertools:twitter-tools-core,"","tools,twitter",1,26,0.04
+edu.illinois.lis.feedback,FeedbackModel,"",cc.twittertools:twitter-tools-core,"","tools,twitter",1,1,1.0
+cc.twittertools.thrift.gen,TResult,unsetRetweeted_user_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TResult,unsetFollowers_count,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.index,TokenizationTest,suite,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+cc.twittertools.search,TrecTopicSetTest,suite,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+cc.twittertools.search,TrecTopic,"",com.google.guava:guava,Core Utilities,google,6,6,1.0
+cc.twittertools.hbase,WordCountDAO,mkScan,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",6,6,1.0
+edu.gslis.ttg.searchers,SimpleSearcher,"",cc.twittertools:twitter-tools-core,"","tools,twitter",4,4,1.0
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",51,51,1.0
+cc.twittertools.piggybank,GetLatitude,exec,org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",13,13,1.0
+cc.twittertools.thrift.gen,TrecSearchException,"",org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",95,95,1.0
+cc.twittertools.hbase,WordCountDAO,"",org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",23,26,0.88
+cc.twittertools.hbase,WordCountDAO,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,26,0.12
+cc.twittertools.thrift.gen,TResult,setRsvIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.corpus.demo,ReadStatuses,"",log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",3,3,1.0
+cc.twittertools.thrift.gen,TResult,setRetweeted_status_idIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",51,51,1.0
+cc.twittertools.hbase,WordCountDAO,deleteUser,org.apache.hbase:hbase,Hadoop Databases,"database,nosql,hadoop,apache,hbase",9,9,1.0
+cc.twittertools.thrift.gen,TResult,isSetIn_reply_to_status_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.index,TweetAnalyzer,"",com.google.guava:guava,Core Utilities,google,2,9,0.22
+cc.twittertools.index,TweetAnalyzer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,9,0.78
+cc.twittertools.download,VerifyJsonStatusBlockCrawl,main,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",71,71,1.0
+edu.illinois.lis.query,GQueriesJsonImpl,getNamedQuery,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,2,1.0
+cc.twittertools.corpus.data,Status,fromJson,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,75,0.03
+cc.twittertools.corpus.data,Status,fromJson,com.google.code.gson:gson,JSON Libraries,"google,json",73,75,0.97
+cc.twittertools.thrift.gen,TResult,unsetIn_reply_to_status_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TResult,readObject,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",4,4,1.0
+cc.twittertools.search.api,TrecSearchThriftLoadGenerator,run,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",12,12,1.0
+cc.twittertools.thrift.gen,TQuery,unsetMax_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,fetch,com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",5,19,0.26
+cc.twittertools.download,AsyncJsonStatusBlockCrawler,fetch,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",14,19,0.74
+cc.twittertools.thrift.gen,TQuery,validate,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",1,1,1.0
+cc.twittertools.download,AsyncHTMLStatusBlockCrawler,getUrl,com.google.guava:guava,Core Utilities,google,2,2,1.0
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,crawlURL,log4j:apache-log4j-extras,Logging Frameworks,"logging,apache",2,7,0.29
+cc.twittertools.download,AsyncEmbeddedJsonStatusBlockCrawler,crawlURL,com.ning:async-http-client,HTTP Clients,"client,asynchronous,http",5,7,0.71
+cc.twittertools.thrift.gen,TResult,setFollowers_countIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TResult,setIn_reply_to_status_idIsSet,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TrecSearchException,compareTo,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.thrift.gen,TQuery,isSetMax_id,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.udf,GetDate,exec,org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",6,6,1.0
+cc.twittertools.thrift.gen,TResult,isSetStatuses_count,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",2,2,1.0
+cc.twittertools.search.api,TrecSearchThriftClient,search,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",9,9,1.0
+cc.twittertools.thrift.gen,TResult,compareTo,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",26,26,1.0
+cc.twittertools.thrift.gen,TrecSearchException,readObject,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",4,4,1.0
+cc.twittertools.udf,GetDate,"",org.apache.pig:pig,Hadoop Query Engines,"apache,hadoop,query,bigdata",1,1,1.0

@@ -1,0 +1,52 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+ciir.umass.edu,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+edu.cmu.lti.oaqa.nmslib,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",1903,1903,1.0
+ciir.umass.edu.features,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",16,16,1.0
+edu.cmu.lti.oaqa.flexneuart.utils,junit:junit,Testing Frameworks,"testing,junit",39,200,0.2
+edu.cmu.lti.oaqa.flexneuart.utils,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",34,200,0.17
+edu.cmu.lti.oaqa.flexneuart.utils,commons-io:commons-io,I/O Utilities,io,10,200,0.05
+edu.cmu.lti.oaqa.flexneuart.utils,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",15,200,0.08
+edu.cmu.lti.oaqa.flexneuart.utils,org.mongodb:bson,"","mongodb,database,bson",25,200,0.13
+edu.cmu.lti.oaqa.flexneuart.utils,org.apache.ant:ant,Build Tools,"apache,ant,build,tools",7,200,0.04
+edu.cmu.lti.oaqa.flexneuart.utils,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",26,200,0.13
+edu.cmu.lti.oaqa.flexneuart.utils,com.google.code.gson:gson,JSON Libraries,"google,json",39,200,0.2
+edu.cmu.lti.oaqa.flexneuart.utils,org.htmlparser:htmlparser,HTML Parsers,"parser,html",5,200,0.03
+edu.cmu.lti.oaqa.flexneuart.apps,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",58,1088,0.05
+edu.cmu.lti.oaqa.flexneuart.apps,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,1088,0.0
+edu.cmu.lti.oaqa.flexneuart.apps,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",38,1088,0.03
+edu.cmu.lti.oaqa.flexneuart.apps,args4j:args4j,Command Line Parsers,"cli,parser",138,1088,0.13
+edu.cmu.lti.oaqa.flexneuart.apps,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",490,1088,0.45
+edu.cmu.lti.oaqa.flexneuart.apps,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",293,1088,0.27
+edu.cmu.lti.oaqa.flexneuart.apps,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",70,1088,0.06
+edu.cmu.lti.oaqa.flexneuart.giza,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",84,199,0.42
+edu.cmu.lti.oaqa.flexneuart.giza,junit:junit,Testing Frameworks,"testing,junit",62,199,0.31
+edu.cmu.lti.oaqa.flexneuart.giza,net.openhft:koloboke-api-jdk6-7,"",api,53,199,0.27
+edu.cmu.lti.oaqa.flexneuart.cand_providers,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,85,0.01
+edu.cmu.lti.oaqa.flexneuart.cand_providers,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",8,85,0.09
+edu.cmu.lti.oaqa.flexneuart.cand_providers,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",21,85,0.25
+edu.cmu.lti.oaqa.flexneuart.cand_providers,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",6,85,0.07
+edu.cmu.lti.oaqa.flexneuart.cand_providers,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",45,85,0.53
+edu.cmu.lti.oaqa.flexneuart.cand_providers,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",4,85,0.05
+edu.cmu.lti.oaqa.flexneuart.fwdindx,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,209,0.02
+edu.cmu.lti.oaqa.flexneuart.fwdindx,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,209,0.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",60,209,0.29
+edu.cmu.lti.oaqa.flexneuart.fwdindx,junit:junit,Testing Frameworks,"testing,junit",12,209,0.06
+edu.cmu.lti.oaqa.flexneuart.fwdindx,commons-io:commons-io,I/O Utilities,io,2,209,0.01
+edu.cmu.lti.oaqa.flexneuart.fwdindx,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",89,209,0.43
+edu.cmu.lti.oaqa.flexneuart.fwdindx,org.mapdb:mapdb,Collections,"collections,structures",41,209,0.2
+edu.cmu.lti.oaqa.flexneuart.simil_func,net.openhft:koloboke-api-jdk6-7,"",api,30,44,0.68
+edu.cmu.lti.oaqa.flexneuart.simil_func,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",14,44,0.32
+edu.cmu.lti.oaqa.flexneuart.resources,commons-io:commons-io,I/O Utilities,io,4,184,0.02
+edu.cmu.lti.oaqa.flexneuart.resources,junit:junit,Testing Frameworks,"testing,junit",25,184,0.14
+edu.cmu.lti.oaqa.flexneuart.resources,com.google.code.gson:gson,JSON Libraries,"google,json",128,184,0.7
+edu.cmu.lti.oaqa.flexneuart.resources,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",18,184,0.1
+edu.cmu.lti.oaqa.flexneuart.resources,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",9,184,0.05
+edu.cmu.lti.oaqa.flexneuart.simil,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",12,31,0.39
+edu.cmu.lti.oaqa.flexneuart.simil,junit:junit,Testing Frameworks,"testing,junit",19,31,0.61
+edu.cmu.lti.oaqa.flexneuart.letor.external,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",1532,1532,1.0
+edu.cmu.lti.oaqa.flexneuart,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",3,3,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",109,209,0.52
+edu.cmu.lti.oaqa.flexneuart.letor,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",56,209,0.27
+edu.cmu.lti.oaqa.flexneuart.letor,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",10,209,0.05
+edu.cmu.lti.oaqa.flexneuart.letor,net.openhft:koloboke-api-jdk6-7,"",api,34,209,0.16
+ciir.umass.edu.eval,junit:junit,Testing Frameworks,"testing,junit",22,22,1.0

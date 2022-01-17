@@ -1,0 +1,23 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+pitt.search.lucene,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",14,433,0.03
+pitt.search.lucene,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",413,433,0.95
+pitt.search.lucene,pitt.search:semanticvectors,"",search,6,433,0.01
+pitt.search.semanticvectors,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1011,1208,0.84
+pitt.search.semanticvectors,pitt.search:semanticvectors,"",search,65,1208,0.05
+pitt.search.semanticvectors,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,1208,0.0
+pitt.search.semanticvectors,junit:junit,Testing Frameworks,"testing,junit",131,1208,0.11
+pitt.search.semanticvectors.experiments,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",239,264,0.91
+pitt.search.semanticvectors.experiments,pitt.search:semanticvectors,"",search,25,264,0.09
+pitt.search.semanticvectors.integrationtests,junit:junit,Testing Frameworks,"testing,junit",109,109,1.0
+pitt.search.examples,pitt.search:semanticvectors,"",search,271,271,1.0
+pitt.search.semanticvectors.tables,junit:junit,Testing Frameworks,"testing,junit",18,18,1.0
+pitt.search.semanticvectors.utils,junit:junit,Testing Frameworks,"testing,junit",43,43,1.0
+pitt.search.semanticvectors.orthography,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",31,55,0.56
+pitt.search.semanticvectors.orthography,pitt.search:semanticvectors,"",search,10,55,0.18
+pitt.search.semanticvectors.orthography,junit:junit,Testing Frameworks,"testing,junit",14,55,0.25
+pitt.search.semanticvectors.vectors,pitt.search:semanticvectors,"",search,14,640,0.02
+pitt.search.semanticvectors.vectors,net.sourceforge.parallelcolt:parallelcolt,Vector/Matrix Libraries,"match,vector,matrix",26,640,0.04
+pitt.search.semanticvectors.vectors,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",433,640,0.68
+pitt.search.semanticvectors.vectors,junit:junit,Testing Frameworks,"testing,junit",167,640,0.26
+pitt.search.semanticvectors.viz,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+null,pitt.search:semanticvectors,"",search,34,34,1.0

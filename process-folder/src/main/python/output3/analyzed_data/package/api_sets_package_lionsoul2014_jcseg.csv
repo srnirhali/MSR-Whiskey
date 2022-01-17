@@ -1,0 +1,11 @@
+packageName,apis
+org.lionsoul.jcseg.analyzer,"[junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.lionsoul:jcseg-core]"
+org.lionsoul.jcseg.opensearch.index.analysis,"[org.apache.lucene:lucene-core,org.lionsoul:jcseg-analyzer,org.lionsoul:jcseg-core,org.opensearch:opensearch]"
+org.lionsoul.jcseg.elasticsearch.index.analysis,"[org.apache.lucene:lucene-core,org.elasticsearch:elasticsearch,org.lionsoul:jcseg-analyzer,org.lionsoul:jcseg-core]"
+org.lionsoul.jcseg.server.core,"[org.eclipse.jetty:jetty-server,org.lionsoul:jcseg-core]"
+org.lionsoul.jcseg.opensearch,[junit:junit]
+org.lionsoul.jcseg.opensearch.plugin,"[org.apache.lucene:lucene-core,org.lionsoul:jcseg-core,org.opensearch:opensearch]"
+org.lionsoul.jcseg.server,"[junit:junit,org.eclipse.jetty:jetty-server,org.lionsoul:jcseg-core]"
+org.lionsoul.jcseg.server.controller,"[org.eclipse.jetty:jetty-server,org.lionsoul:jcseg-core]"
+org.lionsoul.jcseg.elasticsearch,[junit:junit]
+org.lionsoul.jcseg.elasticsearch.plugin,"[org.apache.lucene:lucene-core,org.elasticsearch:elasticsearch,org.lionsoul:jcseg-core]"

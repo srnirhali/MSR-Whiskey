@@ -1,0 +1,198 @@
+packageName,className,api,mcrCategories,mcrTags,count,countAll,proportion
+com.searchcode.app.service,ICodeSearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+com.searchcode.app.service,CodeRouteServiceTest,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",61,143,0.43
+com.searchcode.app.service,CodeRouteServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,143,0.01
+com.searchcode.app.service,CodeRouteServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",45,143,0.31
+com.searchcode.app.service,CodeRouteServiceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",36,143,0.25
+com.searchcode.app.util,SpellingCorrectorTest,junit:junit,Testing Frameworks,"testing,junit",14,18,0.78
+com.searchcode.app.util,SpellingCorrectorTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,18,0.22
+com.searchcode.app.jobs.repository,IndexGitRepoJob,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",160,166,0.96
+com.searchcode.app.jobs.repository,IndexGitRepoJob,commons-io:commons-io,I/O Utilities,io,4,166,0.02
+com.searchcode.app.jobs.repository,IndexGitRepoJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,2,166,0.01
+com.searchcode.app.jobs.repository,IndexSvnRepoJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,2,2,1.0
+com.searchcode.app.service,ApiServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,13,0.08
+com.searchcode.app.service,ApiServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",12,13,0.92
+com.searchcode.app.config,SphinxSearchConfigTest,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,SQLiteRepoTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",42,44,0.95
+com.searchcode.app.dao,SQLiteRepoTest,junit:junit,Testing Frameworks,"testing,junit",2,44,0.05
+com.searchcode.app.dao,MySQLRepoTest,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.searchcode.app.service,DataServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",16,17,0.94
+com.searchcode.app.service,DataServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,17,0.06
+com.searchcode.app.service,HighlightTest,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.route,AdminRouteService,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",90,104,0.87
+com.searchcode.app.service.route,AdminRouteService,com.google.code.gson:gson,JSON Libraries,"google,json",4,104,0.04
+com.searchcode.app.service.route,AdminRouteService,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",10,104,0.1
+com.searchcode.app.service.route,ApiRouteService,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",88,88,1.0
+com.searchcode.app.service,ApiService,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",4,8,0.5
+com.searchcode.app.service,ApiService,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,8,0.5
+com.searchcode.app,SearchcodeRoutes,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",18,26,0.69
+com.searchcode.app,SearchcodeRoutes,com.sparkjava:spark-template-freemarker,"","spark,template",8,26,0.31
+com.searchcode.app.dao,SourceCodeTest,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+com.searchcode.app.dao,SourceCodeTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,5,0.8
+com.searchcode.app.util,SearchCodeLib,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",6,32,0.19
+com.searchcode.app.util,SearchCodeLib,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",6,32,0.19
+com.searchcode.app.util,SearchCodeLib,com.google.guava:guava,Core Utilities,google,20,32,0.63
+com.searchcode.app.dao,SQLiteDataTest,junit:junit,Testing Frameworks,"testing,junit",2,32,0.06
+com.searchcode.app.dao,SQLiteDataTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",26,32,0.81
+com.searchcode.app.dao,SQLiteDataTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,32,0.13
+com.searchcode.app.service,Singleton,org.quartz-scheduler:quartz,Job Scheduling,scheduling,15,15,1.0
+com.searchcode.app.service,ValidatorServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,25,0.04
+com.searchcode.app.service,ValidatorServiceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",18,25,0.72
+com.searchcode.app.service,ValidatorServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,25,0.24
+com.searchcode.app.service.index,SphinxIndexServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,9,0.67
+com.searchcode.app.service.index,SphinxIndexServiceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,9,0.22
+com.searchcode.app.service.index,SphinxIndexServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+com.searchcode.app,TestHelpers,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,10,0.4
+com.searchcode.app,TestHelpers,commons-io:commons-io,I/O Utilities,io,4,10,0.4
+com.searchcode.app,TestHelpers,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,10,0.2
+com.searchcode.app.service,CodeMatcher,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",8,8,1.0
+com.searchcode.app.service,DataService,com.google.code.gson:gson,JSON Libraries,"google,json",12,12,1.0
+com.searchcode.app.service.index,IIndexService,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.searchcode.app.util,OWASPClassifier,com.google.code.gson:gson,JSON Libraries,"google,json",5,5,1.0
+com.searchcode.app.util,CodeAnalyzer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+com.searchcode.app.service.route,CodeRouteService,com.google.code.gson:gson,JSON Libraries,"google,json",6,106,0.06
+com.searchcode.app.service.route,CodeRouteService,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",96,106,0.91
+com.searchcode.app.service.route,CodeRouteService,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,106,0.04
+com.searchcode.app.util,AESEncryptorTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,13,0.15
+com.searchcode.app.util,AESEncryptorTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,13,0.77
+com.searchcode.app.util,AESEncryptorTest,junit:junit,Testing Frameworks,"testing,junit",1,13,0.08
+com.searchcode.app.service.route,CommonRouteServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+com.searchcode.app.service.route,CommonRouteServiceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,5,0.8
+com.searchcode.app.util,JsonTransformer,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",1,5,0.2
+com.searchcode.app.util,JsonTransformer,com.google.code.gson:gson,JSON Libraries,"google,json",4,5,0.8
+com.searchcode.app.util,RepositorySource,com.google.code.gson:gson,JSON Libraries,"google,json",8,8,1.0
+com.searchcode.app.service,AdminRouteServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",115,206,0.56
+com.searchcode.app.service,AdminRouteServiceTest,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",80,206,0.39
+com.searchcode.app.service,AdminRouteServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,206,0.0
+com.searchcode.app.service,AdminRouteServiceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,206,0.05
+com.searchcode.app.jobs,IndexSvnRepoJobTest,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs.repository,SearchcodeFileVisitor,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",3,5,0.6
+com.searchcode.app.jobs.repository,SearchcodeFileVisitor,commons-io:commons-io,I/O Utilities,io,2,5,0.4
+com.searchcode.app.dao,SourceTest,junit:junit,Testing Frameworks,"testing,junit",2,7,0.29
+com.searchcode.app.dao,SourceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",5,7,0.71
+com.searchcode.app.service,JobServiceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+com.searchcode.app.service,JobServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+com.searchcode.app.util,LoggerWrapperTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",12,93,0.13
+com.searchcode.app.util,LoggerWrapperTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",80,93,0.86
+com.searchcode.app.util,LoggerWrapperTest,junit:junit,Testing Frameworks,"testing,junit",1,93,0.01
+com.searchcode.app.dto,CodeIndexDocument,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,1,1.0
+com.searchcode.app.jobs.enqueue,EnqueueRepositoryJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,4,4,1.0
+com.searchcode.app.util,LengthFilter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,7,0.86
+com.searchcode.app.util,LengthFilter,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,7,0.14
+com.searchcode.app.config,MySQLDatabaseConfig,com.zaxxer:HikariCP,JDBC Pools,"jdbc,pool",6,6,1.0
+com.searchcode.app.util,Cocomo2Test,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.searchcode.app,App,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.jobs,IndexDocumentsJobTest,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+com.searchcode.app.jobs,IndexDocumentsJobTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",4,8,0.5
+com.searchcode.app.jobs,IndexDocumentsJobTest,org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,8,0.38
+com.searchcode.app.util,LoggerWrapper,com.google.guava:guava,Core Utilities,google,63,63,1.0
+com.searchcode.app.jobs.searchcode,ReindexerJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,4,4,1.0
+com.searchcode.app.jobs.repository,IndexGitHistoryJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,3,1.0
+com.searchcode.app.dao,LanguageTypeTest,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.searchcode.app.jobs,PopulateSpellingCorrectorJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,4,8,0.5
+com.searchcode.app.jobs,PopulateSpellingCorrectorJob,commons-io:commons-io,I/O Utilities,io,4,8,0.5
+com.searchcode.app.util,Helpers,org.apache.lucene:lucene-facet,"","lucene,apache,index",2,26,0.08
+com.searchcode.app.util,Helpers,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,26,0.08
+com.searchcode.app.util,Helpers,commons-io:commons-io,I/O Utilities,io,8,26,0.31
+com.searchcode.app.util,Helpers,org.codehaus.guessencoding:guessencoding,"",codehaus,2,26,0.08
+com.searchcode.app.util,Helpers,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",6,26,0.23
+com.searchcode.app.util,Helpers,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,26,0.23
+com.searchcode.app.service,GitService,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",33,33,1.0
+com.searchcode.app.jobs.repository,IndexDocumentsJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,4,4,1.0
+com.searchcode.app.config,SphinxSearchConfig,mysql:mysql-connector-java,MySQL Drivers,"mysql,database,connector,driver",3,3,1.0
+com.searchcode.app.integration,EndToEndITCase,junit:junit,Testing Frameworks,"testing,junit",1,59,0.02
+com.searchcode.app.integration,EndToEndITCase,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",58,59,0.98
+com.searchcode.app.service.index,IndexService,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",31,589,0.05
+com.searchcode.app.service.index,IndexService,commons-io:commons-io,I/O Utilities,io,8,589,0.01
+com.searchcode.app.service.index,IndexService,org.apache.lucene:lucene-facet,"","lucene,apache,index",116,589,0.2
+com.searchcode.app.service.index,IndexService,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",426,589,0.72
+com.searchcode.app.service.index,IndexService,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",8,589,0.01
+com.searchcode.app.util,HelpersTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",10,90,0.11
+com.searchcode.app.util,HelpersTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",72,90,0.8
+com.searchcode.app.util,HelpersTest,junit:junit,Testing Frameworks,"testing,junit",8,90,0.09
+com.searchcode.app.service,StatsServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",18,19,0.95
+com.searchcode.app.service,StatsServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,19,0.05
+com.searchcode.app.util,SearchcodeLibTest,junit:junit,Testing Frameworks,"testing,junit",16,144,0.11
+com.searchcode.app.util,SearchcodeLibTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",116,144,0.81
+com.searchcode.app.util,SearchcodeLibTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",4,144,0.03
+com.searchcode.app.util,SearchcodeLibTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",8,144,0.06
+com.searchcode.app.util,SlocCounterTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,5,0.8
+com.searchcode.app.util,SlocCounterTest,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+com.searchcode.app.dto,CodeIndexDocumentTest,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+com.searchcode.app.dto,CodeIndexDocumentTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,5,0.8
+com.searchcode.app.jobs.enqueue,EnqueueFileRepositoryJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,4,4,1.0
+com.searchcode.app.util,FileClassifierTest,junit:junit,Testing Frameworks,"testing,junit",7,36,0.19
+com.searchcode.app.util,FileClassifierTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",29,36,0.81
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,commons-io:commons-io,I/O Utilities,io,6,58,0.1
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",18,58,0.31
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,junit:junit,Testing Frameworks,"testing,junit",10,58,0.17
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",24,58,0.41
+com.searchcode.app.service.route,SearchRouteService,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",41,41,1.0
+com.searchcode.app,ServerRoutes,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",133,174,0.76
+com.searchcode.app,ServerRoutes,com.sparkjava:spark-template-freemarker,"","spark,template",41,174,0.24
+com.searchcode.app.util,FileClassifier,com.google.guava:guava,Core Utilities,google,2,10,0.2
+com.searchcode.app.util,FileClassifier,com.google.code.gson:gson,JSON Libraries,"google,json",8,10,0.8
+com.searchcode.app.dao,ApiTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,14,0.14
+com.searchcode.app.dao,ApiTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,14,0.71
+com.searchcode.app.dao,ApiTest,junit:junit,Testing Frameworks,"testing,junit",2,14,0.14
+com.searchcode.app,AppTest,junit:junit,Testing Frameworks,"testing,junit",1,6,0.17
+com.searchcode.app,AppTest,de.svenkubiak:jBCrypt,Hashing Libraries,hashing,5,6,0.83
+com.searchcode.app.service,ApiRouteServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,774,0.0
+com.searchcode.app.service,ApiRouteServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",329,774,0.43
+com.searchcode.app.service,ApiRouteServiceTest,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",276,774,0.36
+com.searchcode.app.service,ApiRouteServiceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",168,774,0.22
+com.searchcode.app.util,OWASPFileClassifierResultTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",26,27,0.96
+com.searchcode.app.util,OWASPFileClassifierResultTest,junit:junit,Testing Frameworks,"testing,junit",1,27,0.04
+com.searchcode.app.dao,MySQLDataTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",1,3,0.33
+com.searchcode.app.dao,MySQLDataTest,junit:junit,Testing Frameworks,"testing,junit",2,3,0.67
+com.searchcode.app.jobs,IndexFileRepoJobTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,7,0.86
+com.searchcode.app.jobs,IndexFileRepoJobTest,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+com.searchcode.app.jobs.enqueue,EnqueueSearchcodeRepositoryJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,4,4,1.0
+com.searchcode.app.dto,RepoResultTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+com.searchcode.app.dto,RepoResultTest,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+com.searchcode.app.jobs.repository,IndexFileRepoJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,11,11,1.0
+com.searchcode.app.jobs,IndexBaseRepoJobTest,org.quartz-scheduler:quartz,Job Scheduling,scheduling,21,57,0.37
+com.searchcode.app.jobs,IndexBaseRepoJobTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",16,57,0.28
+com.searchcode.app.jobs,IndexBaseRepoJobTest,junit:junit,Testing Frameworks,"testing,junit",1,57,0.02
+com.searchcode.app.jobs,IndexBaseRepoJobTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",19,57,0.33
+com.searchcode.app.service,JobService,org.quartz-scheduler:quartz,Job Scheduling,scheduling,174,194,0.9
+com.searchcode.app.service,JobService,commons-io:commons-io,I/O Utilities,io,2,194,0.01
+com.searchcode.app.service,JobService,org.zeroturnaround:zt-exec,External Process Execution,"execution,process,command,external",15,194,0.08
+com.searchcode.app.service,JobService,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",3,194,0.02
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,6,23,0.26
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",3,23,0.13
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,commons-io:commons-io,I/O Utilities,io,6,23,0.26
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,net.sf.opencsv:opencsv,CSV Libraries,"csv,tabular",8,23,0.35
+com.searchcode.app.service.index,IndexServiceTest,junit:junit,Testing Frameworks,"testing,junit",1,243,0.0
+com.searchcode.app.service.index,IndexServiceTest,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,243,0.12
+com.searchcode.app.service.index,IndexServiceTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",12,243,0.05
+com.searchcode.app.service.index,IndexServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",24,243,0.1
+com.searchcode.app.service.index,IndexServiceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",178,243,0.73
+com.searchcode.app.service,TimeCodeSearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",242,450,0.54
+com.searchcode.app.service,TimeCodeSearcher,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",16,450,0.04
+com.searchcode.app.service,TimeCodeSearcher,org.apache.lucene:lucene-facet,"","lucene,apache,index",192,450,0.43
+com.searchcode.app.service.index,IndexSharedTest,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs.searchcode,ReindexerJobTest,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,RepositorySourceTest,junit:junit,Testing Frameworks,"testing,junit",1,13,0.08
+com.searchcode.app.util,RepositorySourceTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,13,0.92
+com.searchcode.app.service.index,SphinxIndexService,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.searchcode.app.jobs,DeleteRepositoryJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,4,6,0.67
+com.searchcode.app.jobs,DeleteRepositoryJob,commons-io:commons-io,I/O Utilities,io,2,6,0.33
+com.searchcode.app.util,CodeTokenizer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+com.searchcode.app.util,CodeTokenizer,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,3,0.33
+com.searchcode.app.config,MySQLDatabaseConfigTest,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",16,77,0.21
+com.searchcode.app.service.route,TimeSearchRouteService,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",16,77,0.21
+com.searchcode.app.service.route,TimeSearchRouteService,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",45,77,0.58
+com.searchcode.app.util,UniqueRepoQueueTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,17,0.24
+com.searchcode.app.util,UniqueRepoQueueTest,junit:junit,Testing Frameworks,"testing,junit",13,17,0.76
+com.searchcode.app.jobs,IndexGitHistoryJobTest,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+com.searchcode.app.jobs,IndexGitHistoryJobTest,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",1,2,0.5
+com.searchcode.app.util,AESEncryptor,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,1,1.0
+com.searchcode.app.util,Properties,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+com.searchcode.app.model,RepoResult,com.google.code.gson:gson,JSON Libraries,"google,json",8,9,0.89
+com.searchcode.app.model,RepoResult,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,9,0.11
+com.searchcode.app.service,Highlight,com.google.code.gson:gson,JSON Libraries,"google,json",6,7,0.86
+com.searchcode.app.service,Highlight,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",1,7,0.14
+com.searchcode.app.dao,SourceCode,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",1,1,1.0
+com.searchcode.app.service,TimeCodeSearcherTest,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0

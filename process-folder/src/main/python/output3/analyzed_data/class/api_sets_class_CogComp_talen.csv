@@ -1,0 +1,11 @@
+packageName,className,apis
+io.github.mayhewsw,ConfigFile,[org.apache.commons:commons-lang3]
+io.github.mayhewsw.utils,SentenceCache,[org.apache.lucene:lucene-core]
+io.github.mayhewsw.controllers,DictionaryController,[org.apache.commons:commons-lang3]
+io.github.mayhewsw,TextFileIndexer,"[commons-cli:commons-cli,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core]"
+io.github.mayhewsw.controllers,DocumentController,"[org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.apache.lucene:lucene-queryparser]"
+io.github.mayhewsw.utils,HtmlGenerator,[org.apache.commons:commons-lang3]
+io.github.mayhewsw.utils,Utils,[cz.jirutka.unidecode:unidecode]
+io.github.mayhewsw,SessionData,[org.apache.lucene:lucene-core]
+io.github.mayhewsw.controllers,SentenceController,[org.apache.commons:commons-lang3]
+io.github.mayhewsw.utils,TalenCLI,[commons-cli:commons-cli]

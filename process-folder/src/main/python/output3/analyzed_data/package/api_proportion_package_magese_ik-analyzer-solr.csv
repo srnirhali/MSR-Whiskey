@@ -1,0 +1,5 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.wltea.analyzer.lucene,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,48,0.79
+org.wltea.analyzer.lucene,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",10,48,0.21
+org.wltea.analyzer.query,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",189,205,0.92
+org.wltea.analyzer.query,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",16,205,0.08

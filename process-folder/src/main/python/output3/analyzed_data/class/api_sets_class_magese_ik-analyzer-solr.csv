@@ -1,0 +1,6 @@
+packageName,className,apis
+org.wltea.analyzer.query,SWMCQueryBuilder,"[org.apache.lucene:lucene-core,org.apache.lucene:lucene-queryparser]"
+org.wltea.analyzer.lucene,IKAnalyzer,[org.apache.lucene:lucene-core]
+org.wltea.analyzer.query,IKQueryExpressionParser,[org.apache.lucene:lucene-core]
+org.wltea.analyzer.lucene,IKTokenizerFactory,"[org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core]"
+org.wltea.analyzer.lucene,IKTokenizer,[org.apache.lucene:lucene-core]

@@ -1,0 +1,48 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+com.browseengine.bobo.sort,log4j:log4j,Logging Frameworks,logging,7,547,0.01
+com.browseengine.bobo.sort,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",521,547,0.95
+com.browseengine.bobo.sort,it.unimi.dsi:fastutil,Collections,"collections,structures",19,547,0.03
+com.browseengine.bobo.index.digest,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+com.browseengine.bobo.facets,log4j:log4j,Logging Frameworks,logging,5,25,0.2
+com.browseengine.bobo.facets,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",20,25,0.8
+com.browseengine.bobo.query,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",148,148,1.0
+com.browseengine.bobo.util,log4j:log4j,Logging Frameworks,logging,5,98,0.05
+com.browseengine.bobo.util,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",93,98,0.95
+com.browseengine.bobo.search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",87,87,1.0
+com.browseengine.bobo.docidset,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",156,156,1.0
+com.browseengine.bobo.search.section,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",249,249,1.0
+com.browseengine.bobo.facets.range,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+com.browseengine.bobo.facets.data,log4j:log4j,Logging Frameworks,logging,5,476,0.01
+com.browseengine.bobo.facets.data,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",218,476,0.46
+com.browseengine.bobo.facets.data,junit:junit,Testing Frameworks,"testing,junit",11,476,0.02
+com.browseengine.bobo.facets.data,it.unimi.dsi:fastutil,Collections,"collections,structures",242,476,0.51
+com.browseengine.bobo.service,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",81,95,0.85
+com.browseengine.bobo.service,log4j:log4j,Logging Frameworks,logging,14,95,0.15
+com.browseengine.bobo.server.qlog,log4j:log4j,Logging Frameworks,logging,5,5,1.0
+com.browseengine.bobo.facets.attribute,junit:junit,Testing Frameworks,"testing,junit",67,170,0.39
+com.browseengine.bobo.facets.attribute,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,170,0.01
+com.browseengine.bobo.facets.attribute,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",101,170,0.59
+com.browseengine.bobo.query.scoring,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",119,124,0.96
+com.browseengine.bobo.query.scoring,log4j:log4j,Logging Frameworks,logging,5,124,0.04
+com.browseengine.bobo.facets.filter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",227,233,0.97
+com.browseengine.bobo.facets.filter,it.unimi.dsi:fastutil,Collections,"collections,structures",6,233,0.03
+com.browseengine.bobo.util.test,junit:junit,Testing Frameworks,"testing,junit",50,58,0.86
+com.browseengine.bobo.util.test,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,58,0.14
+com.browseengine.bobo.impl,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,42,0.02
+com.browseengine.bobo.impl,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,42,0.1
+com.browseengine.bobo.impl,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,42,0.67
+com.browseengine.bobo.impl,log4j:log4j,Logging Frameworks,logging,9,42,0.21
+com.browseengine.bobo.api,log4j:log4j,Logging Frameworks,logging,25,306,0.08
+com.browseengine.bobo.api,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",281,306,0.92
+com.browseengine.bobo.facets.impl,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",104,193,0.54
+com.browseengine.bobo.facets.impl,org.apache.lucene:lucene-spatial,"","lucene,spatial,apache,index",13,193,0.07
+com.browseengine.bobo.facets.impl,it.unimi.dsi:fastutil,Collections,"collections,structures",48,193,0.25
+com.browseengine.bobo.facets.impl,log4j:log4j,Logging Frameworks,logging,28,193,0.15
+com.browseengine.bobo.index,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,153,0.01
+com.browseengine.bobo.index,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",39,153,0.25
+com.browseengine.bobo.index,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",113,153,0.74
+com.browseengine.bobo.test,junit:junit,Testing Frameworks,"testing,junit",222,1538,0.14
+com.browseengine.bobo.test,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",11,1538,0.01
+com.browseengine.bobo.test,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1259,1538,0.82
+com.browseengine.bobo.test,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",24,1538,0.02
+com.browseengine.bobo.test,log4j:log4j,Logging Frameworks,logging,22,1538,0.01

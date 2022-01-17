@@ -1,0 +1,25 @@
+packageName,className,methodName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.sifarish.common,ItemDynamicAttributeSimilarity,"",org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+org.sifarish.common,TextAnalyzer,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",7,50,0.14
+org.sifarish.common,TextAnalyzer,"",org.apache.lucene:lucene-analyzers-morfologik,"","lucene,analyzer,apache,index",1,50,0.02
+org.sifarish.common,TextAnalyzer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",42,50,0.84
+org.sifarish.etl,TextFieldTokenNormalizer,fuzzymatchWithUnnormalized,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",1,1,1.0
+org.sifarish.realtime,DitheringBolt,"",com.google.guava:guava,Core Utilities,google,2,2,1.0
+org.sifarish.realtime,DitheringBolt,process,com.google.guava:guava,Core Utilities,google,2,2,1.0
+org.sifarish.realtime,DitheringBolt,intialize,com.google.guava:guava,Core Utilities,google,7,7,1.0
+org.sifarish.etl,CountryStandardFormat,emailFormat,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+org.sifarish.social,PearsonCorrelator,"",org.apache.commons:commons-lang3,Core Utilities,"apache,commons",17,17,1.0
+org.sifarish.etl,StructuredTextAnalyzer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,22,0.95
+org.sifarish.etl,StructuredTextAnalyzer,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,22,0.05
+org.sifarish.etl,TextFieldTokenNormalizer,fuzzymatchWithNormalized,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",1,1,1.0
+org.sifarish.etl,UnitedStatesStandardFormat,streetAddressOneFormat,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",5,5,1.0
+org.sifarish.etl,UnitedStatesStandardFormat,streetAddressTwoFormat,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",5,5,1.0
+org.sifarish.feature,RecordDistanceFinder,findDistance,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+org.sifarish.realtime,UserItemRatings,"",com.google.guava:guava,Core Utilities,google,15,15,1.0
+org.sifarish.etl,UnitedStatesStandardFormat,stateFormat,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",10,10,1.0
+org.sifarish.realtime,UserItemRatings,addEvent,com.google.guava:guava,Core Utilities,google,1,1,1.0
+org.sifarish.etl,CountryStandardFormat,fuzyyMatchComponent,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",12,12,1.0
+org.sifarish.etl,UnitedStatesStandardFormat,caseFormat,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+org.sifarish.etl,TextFieldTokenNormalizer,fuzzymatch,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,4,1.0
+org.sifarish.etl,CountryStandardFormat,personNameFormat,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",10,10,1.0
+org.sifarish.feature,SameTypeSimilarity,"",org.apache.commons:commons-lang3,Core Utilities,"apache,commons",6,6,1.0

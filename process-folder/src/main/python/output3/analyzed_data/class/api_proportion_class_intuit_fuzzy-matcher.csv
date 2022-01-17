@@ -1,0 +1,27 @@
+packageName,className,api,mcrCategories,mcrTags,count,countAll,proportion
+com.intuit.fuzzymatcher.component,MatchServicePerfTest,junit:junit,Testing Frameworks,"testing,junit",2,8,0.25
+com.intuit.fuzzymatcher.component,MatchServicePerfTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",3,8,0.38
+com.intuit.fuzzymatcher.component,MatchServicePerfTest,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",3,8,0.38
+com.intuit.fuzzymatcher.domain,ElementTest,junit:junit,Testing Frameworks,"testing,junit",35,35,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,junit:junit,Testing Frameworks,"testing,junit",35,35,1.0
+com.intuit.fuzzymatcher.domain,Element,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,4,1.0
+com.intuit.fuzzymatcher.domain,Document,org.apache.commons:commons-collections4,Collections,"structures,collections,apache,commons",4,6,0.67
+com.intuit.fuzzymatcher.domain,Document,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,6,0.33
+com.intuit.fuzzymatcher.component,Dictionary,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,7,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunction,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",4,4,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,junit:junit,Testing Frameworks,"testing,junit",50,50,1.0
+com.intuit.fuzzymatcher.util,Utils,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,17,0.35
+com.intuit.fuzzymatcher.util,Utils,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",11,17,0.65
+com.intuit.fuzzymatcher.component,ElementMatch,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,TokenRepoTest,junit:junit,Testing Frameworks,"testing,junit",41,41,1.0
+com.intuit.fuzzymatcher.component,MatchService,org.apache.commons:commons-collections4,Collections,"structures,collections,apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,DocumentMatch,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,ElementMatchTest,junit:junit,Testing Frameworks,"testing,junit",41,41,1.0
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",9,27,0.33
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,junit:junit,Testing Frameworks,"testing,junit",18,27,0.67
+com.intuit.fuzzymatcher.component,MatchServiceTest,junit:junit,Testing Frameworks,"testing,junit",117,157,0.75
+com.intuit.fuzzymatcher.component,MatchServiceTest,com.opencsv:opencsv,CSV Libraries,"csv,tabular",24,157,0.15
+com.intuit.fuzzymatcher.component,MatchServiceTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,157,0.03
+com.intuit.fuzzymatcher.component,MatchServiceTest,org.mockito:mockito-all,Mocking,"mock,mocking,testing",11,157,0.07
+com.intuit.fuzzymatcher.function,PreProcessFunction,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",6,6,1.0
+com.intuit.fuzzymatcher.domain,DocumentTest,junit:junit,Testing Frameworks,"testing,junit",27,27,1.0

@@ -1,0 +1,54 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+uk.co.flax.luwak.matchers,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",56,546,0.1
+uk.co.flax.luwak.matchers,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",455,546,0.83
+uk.co.flax.luwak.matchers,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,546,0.0
+uk.co.flax.luwak.matchers,junit:junit,Testing Frameworks,"testing,junit",29,546,0.05
+uk.co.flax.luwak.matchers,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,546,0.01
+uk.co.flax.luwak.util,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",450,484,0.93
+uk.co.flax.luwak.util,junit:junit,Testing Frameworks,"testing,junit",6,484,0.01
+uk.co.flax.luwak.util,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",28,484,0.06
+uk.co.flax.luwak.analysis,com.google.guava:guava,Core Utilities,google,3,173,0.02
+uk.co.flax.luwak.analysis,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,173,0.01
+uk.co.flax.luwak.analysis,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",164,173,0.95
+uk.co.flax.luwak.analysis,junit:junit,Testing Frameworks,"testing,junit",5,173,0.03
+uk.co.flax.luwak.assertions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",81,132,0.61
+uk.co.flax.luwak.assertions,com.google.guava:guava,Core Utilities,google,2,132,0.02
+uk.co.flax.luwak.assertions,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",49,132,0.37
+uk.co.flax.luwak.benchmark,com.github.flaxsearch:luwak,"",github,212,334,0.63
+uk.co.flax.luwak.benchmark,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",22,334,0.07
+uk.co.flax.luwak.benchmark,com.google.guava:guava,Core Utilities,google,60,334,0.18
+uk.co.flax.luwak.benchmark,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,334,0.03
+uk.co.flax.luwak.benchmark,io.dropwizard.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,io,performance",24,334,0.07
+uk.co.flax.luwak.benchmark,junit:junit,Testing Frameworks,"testing,junit",5,334,0.01
+uk.co.flax.luwak.termextractor.querytree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.queryparsers,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",19,35,0.54
+uk.co.flax.luwak.queryparsers,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,35,0.46
+uk.co.flax.luwak.demo,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,10,0.4
+uk.co.flax.luwak.demo,com.google.guava:guava,Core Utilities,google,6,10,0.6
+uk.co.flax.luwak.presearcher,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",6,551,0.01
+uk.co.flax.luwak.presearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",456,551,0.83
+uk.co.flax.luwak.presearcher,junit:junit,Testing Frameworks,"testing,junit",27,551,0.05
+uk.co.flax.luwak.presearcher,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",36,551,0.07
+uk.co.flax.luwak.presearcher,com.google.guava:guava,Core Utilities,google,26,551,0.05
+uk.co.flax.luwak.termextractor,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",94,453,0.21
+uk.co.flax.luwak.termextractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",290,453,0.64
+uk.co.flax.luwak.termextractor,org.apache.lucene:lucene-queries,"","lucene,apache,index",3,453,0.01
+uk.co.flax.luwak.termextractor,ch.qos.logback:logback-classic,Logging Frameworks,logging,5,453,0.01
+uk.co.flax.luwak.termextractor,junit:junit,Testing Frameworks,"testing,junit",47,453,0.1
+uk.co.flax.luwak.termextractor,com.google.guava:guava,Core Utilities,google,10,453,0.02
+uk.co.flax.luwak.termextractor,org.reflections:reflections,Reflection Libraries,reflection,4,453,0.01
+uk.co.flax.luwak.termextractor.treebuilder,org.apache.lucene:lucene-queries,"","lucene,apache,index",18,158,0.11
+uk.co.flax.luwak.termextractor.treebuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",140,158,0.89
+uk.co.flax.luwak,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",210,1088,0.19
+uk.co.flax.luwak,com.google.guava:guava,Core Utilities,google,24,1088,0.02
+uk.co.flax.luwak,junit:junit,Testing Frameworks,"testing,junit",64,1088,0.06
+uk.co.flax.luwak,org.apache.lucene:lucene-memory,"","lucene,apache,index,memory",10,1088,0.01
+uk.co.flax.luwak,org.mockito:mockito-core,Mocking,"mock,mocking,testing",10,1088,0.01
+uk.co.flax.luwak,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",16,1088,0.01
+uk.co.flax.luwak,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",3,1088,0.0
+uk.co.flax.luwak,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",751,1088,0.69
+uk.co.flax.luwak.termextractor.weights,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+uk.co.flax.luwak.testutils,junit:junit,Testing Frameworks,"testing,junit",1,29,0.03
+uk.co.flax.luwak.testutils,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,29,0.38
+uk.co.flax.luwak.testutils,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",9,29,0.31
+uk.co.flax.luwak.testutils,com.google.guava:guava,Core Utilities,google,8,29,0.28

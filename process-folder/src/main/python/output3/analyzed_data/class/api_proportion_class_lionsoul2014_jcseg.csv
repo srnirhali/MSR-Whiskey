@@ -1,0 +1,87 @@
+packageName,className,api,mcrCategories,mcrTags,count,countAll,proportion
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegAnalyzerProvider,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",10,22,0.45
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegAnalyzerProvider,org.lionsoul:jcseg-analyzer,"",analyzer,6,22,0.27
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegAnalyzerProvider,org.lionsoul:jcseg-core,"","",6,22,0.27
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegMostAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegMostAnalyzerProvider,org.opensearch:opensearch,"","search,server",6,9,0.67
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegAnalyzerProvider,org.lionsoul:jcseg-core,"","",6,22,0.27
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegAnalyzerProvider,org.opensearch:opensearch,"","search,server",10,22,0.45
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegAnalyzerProvider,org.lionsoul:jcseg-analyzer,"",analyzer,6,22,0.27
+org.lionsoul.jcseg.server.core,JSONWriter,org.lionsoul:jcseg-core,"","",103,103,1.0
+org.lionsoul.jcseg.opensearch.plugin,AnalysisJcsegPlugin,org.lionsoul:jcseg-core,"","",31,70,0.44
+org.lionsoul.jcseg.opensearch.plugin,AnalysisJcsegPlugin,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,70,0.16
+org.lionsoul.jcseg.opensearch.plugin,AnalysisJcsegPlugin,org.opensearch:opensearch,"","search,server",28,70,0.4
+org.lionsoul.jcseg.server,Bootstrap,org.lionsoul:jcseg-core,"","",2,2,1.0
+org.lionsoul.jcseg.server.controller,MainController,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",2,2,1.0
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegMostAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegMostAnalyzerProvider,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",6,9,0.67
+org.lionsoul.jcseg.analyzer,JcsegTokenizerFactory,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,25,0.04
+org.lionsoul.jcseg.analyzer,JcsegTokenizerFactory,org.lionsoul:jcseg-core,"","",22,25,0.88
+org.lionsoul.jcseg.analyzer,JcsegTokenizerFactory,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,25,0.08
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegNGramAnalyzerProvider,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",6,9,0.67
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegNGramAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.server,JcsegGlobalResource,org.lionsoul:jcseg-core,"","",18,18,1.0
+org.lionsoul.jcseg.server,JcsegServer,org.lionsoul:jcseg-core,"","",45,80,0.56
+org.lionsoul.jcseg.server,JcsegServer,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",35,80,0.44
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegComplexAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegComplexAnalyzerProvider,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",6,9,0.67
+org.lionsoul.jcseg.server.controller,KeyphraseController,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",2,18,0.11
+org.lionsoul.jcseg.server.controller,KeyphraseController,org.lionsoul:jcseg-core,"","",16,18,0.89
+org.lionsoul.jcseg.elasticsearch.plugin,AnalysisJcsegPlugin,org.lionsoul:jcseg-core,"","",31,70,0.44
+org.lionsoul.jcseg.elasticsearch.plugin,AnalysisJcsegPlugin,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",28,70,0.4
+org.lionsoul.jcseg.elasticsearch.plugin,AnalysisJcsegPlugin,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,70,0.16
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegNLPAnalyzerProvider,org.opensearch:opensearch,"","search,server",6,9,0.67
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegNLPAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.server,JcsegTokenizerEntry,org.lionsoul:jcseg-core,"","",18,18,1.0
+org.lionsoul.jcseg.analyzer,AppTest,junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegDelimiterAnalyzerProvider,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",6,9,0.67
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegDelimiterAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegDelimiterAnalyzerProvider,org.opensearch:opensearch,"","search,server",6,9,0.67
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegDelimiterAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.server.core,StandardHandler,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",5,5,1.0
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegSimpleAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegSimpleAnalyzerProvider,org.opensearch:opensearch,"","search,server",6,9,0.67
+org.lionsoul.jcseg.server,JcsegResourceHandler,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",3,3,1.0
+org.lionsoul.jcseg.analyzer,JcsegTokenizer,org.lionsoul:jcseg-core,"","",26,54,0.48
+org.lionsoul.jcseg.analyzer,JcsegTokenizer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,54,0.52
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegNGramAnalyzerProvider,org.opensearch:opensearch,"","search,server",6,9,0.67
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegNGramAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegSimpleAnalyzerProvider,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",6,9,0.67
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegSimpleAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegNoOpTokenFilterFactory,org.opensearch:opensearch,"","search,server",6,9,0.67
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegNoOpTokenFilterFactory,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,9,0.33
+org.lionsoul.jcseg.elasticsearch,AppTest,junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegNLPAnalyzerProvider,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",6,9,0.67
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegNLPAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegDetectAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegDetectAnalyzerProvider,org.opensearch:opensearch,"","search,server",6,9,0.67
+org.lionsoul.jcseg.server,AppTest,junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+org.lionsoul.jcseg.server.controller,SummaryController,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",2,13,0.15
+org.lionsoul.jcseg.server.controller,SummaryController,org.lionsoul:jcseg-core,"","",11,13,0.85
+org.lionsoul.jcseg.server.core,UriEntry,org.lionsoul:jcseg-core,"","",12,12,1.0
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegNoOpTokenFilterFactory,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,9,0.33
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegNoOpTokenFilterFactory,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",6,9,0.67
+org.lionsoul.jcseg.server,JcsegServerConfig,org.lionsoul:jcseg-core,"","",8,8,1.0
+org.lionsoul.jcseg.server.controller,SentenceController,org.lionsoul:jcseg-core,"","",13,15,0.87
+org.lionsoul.jcseg.server.controller,SentenceController,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",2,15,0.13
+org.lionsoul.jcseg.server,JcsegController,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",2,2,1.0
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegTokenizerTokenizerFactory,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",10,26,0.38
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegTokenizerTokenizerFactory,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,26,0.04
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegTokenizerTokenizerFactory,org.lionsoul:jcseg-analyzer,"",analyzer,1,26,0.04
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegTokenizerTokenizerFactory,org.lionsoul:jcseg-core,"","",14,26,0.54
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegTokenizerTokenizerFactory,org.lionsoul:jcseg-analyzer,"",analyzer,1,26,0.04
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegTokenizerTokenizerFactory,org.lionsoul:jcseg-core,"","",14,26,0.54
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegTokenizerTokenizerFactory,org.opensearch:opensearch,"","search,server",10,26,0.38
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegTokenizerTokenizerFactory,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,26,0.04
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegDetectAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.elasticsearch.index.analysis,JcsegDetectAnalyzerProvider,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",6,9,0.67
+org.lionsoul.jcseg.analyzer,JcsegAnalyzer,org.lionsoul:jcseg-core,"","",19,24,0.79
+org.lionsoul.jcseg.analyzer,JcsegAnalyzer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,24,0.21
+org.lionsoul.jcseg.server.core,Controller,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",4,4,1.0
+org.lionsoul.jcseg.server.controller,KeywordsController,org.lionsoul:jcseg-core,"","",14,16,0.88
+org.lionsoul.jcseg.server.controller,KeywordsController,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",2,16,0.13
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegComplexAnalyzerProvider,org.opensearch:opensearch,"","search,server",6,9,0.67
+org.lionsoul.jcseg.opensearch.index.analysis,JcsegComplexAnalyzerProvider,org.lionsoul:jcseg-core,"","",3,9,0.33
+org.lionsoul.jcseg.opensearch,AppTest,junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+org.lionsoul.jcseg.server.controller,TokenizerController,org.lionsoul:jcseg-core,"","",17,19,0.89
+org.lionsoul.jcseg.server.controller,TokenizerController,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",2,19,0.11

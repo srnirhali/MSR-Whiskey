@@ -1,0 +1,63 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.imixs.workflow.util,jakarta.platform:jakarta.jakartaee-api,"","api,platform",134,267,0.5
+org.imixs.workflow.util,junit:junit,Testing Frameworks,"testing,junit",133,267,0.5
+org.imixs.workflow.faces.fileupload,jakarta.platform:jakarta.jakartaee-api,"","api,platform",111,211,0.53
+org.imixs.workflow.faces.fileupload,org.imixs.workflow:imixs-workflow-core,"",workflow,100,211,0.47
+org.imixs.workflow.jaxrs,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",180,1982,0.09
+org.imixs.workflow.jaxrs,org.apache.xmlgraphics:fop,"",apache,11,1982,0.01
+org.imixs.workflow.jaxrs,jakarta.platform:jakarta.jakartaee-api,"","api,platform",1189,1982,0.6
+org.imixs.workflow.jaxrs,junit:junit,Testing Frameworks,"testing,junit",40,1982,0.02
+org.imixs.workflow.jaxrs,org.imixs.workflow:imixs-workflow-core,"",workflow,562,1982,0.28
+org.imixs.workflow.faces.util,jakarta.platform:jakarta.jakartaee-api,"","api,platform",178,235,0.76
+org.imixs.workflow.faces.util,org.imixs.workflow:imixs-workflow-core,"",workflow,52,235,0.22
+org.imixs.workflow.faces.util,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",5,235,0.02
+org.imixs.workflow.engine.adminp,jakarta.platform:jakarta.jakartaee-api,"","api,platform",113,460,0.25
+org.imixs.workflow.engine.adminp,org.imixs.workflow:imixs-workflow-core,"",workflow,347,460,0.75
+org.imixs.workflow.engine,junit:junit,Testing Frameworks,"testing,junit",789,4975,0.16
+org.imixs.workflow.engine,org.eclipse.microprofile.metrics:microprofile-metrics-api,"","eclipse,metrics,api",78,4975,0.02
+org.imixs.workflow.engine,org.imixs.workflow:imixs-workflow-core,"",workflow,3039,4975,0.61
+org.imixs.workflow.engine,jakarta.platform:jakarta.jakartaee-api,"","api,platform",448,4975,0.09
+org.imixs.workflow.engine,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",255,4975,0.05
+org.imixs.workflow.engine,org.mockito:mockito-all,Mocking,"mock,mocking,testing",366,4975,0.07
+org.imixs.workflow.engine.solr,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",99,408,0.24
+org.imixs.workflow.engine.solr,org.imixs.workflow:imixs-workflow-core,"",workflow,147,408,0.36
+org.imixs.workflow.engine.solr,junit:junit,Testing Frameworks,"testing,junit",19,408,0.05
+org.imixs.workflow.engine.solr,jakarta.platform:jakarta.jakartaee-api,"","api,platform",143,408,0.35
+org.imixs.workflow.engine.index,junit:junit,Testing Frameworks,"testing,junit",26,81,0.32
+org.imixs.workflow.engine.index,org.imixs.workflow:imixs-workflow-core,"",workflow,36,81,0.44
+org.imixs.workflow.engine.index,jakarta.platform:jakarta.jakartaee-api,"","api,platform",8,81,0.1
+org.imixs.workflow.engine.index,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",11,81,0.14
+org.imixs.workflow.engine.plugins,org.imixs.workflow:imixs-workflow-core,"",workflow,894,1080,0.83
+org.imixs.workflow.engine.plugins,jakarta.platform:jakarta.jakartaee-api,"","api,platform",186,1080,0.17
+org.imixs.workflow.engine.scheduler,jakarta.platform:jakarta.jakartaee-api,"","api,platform",102,294,0.35
+org.imixs.workflow.engine.scheduler,org.imixs.workflow:imixs-workflow-core,"",workflow,192,294,0.65
+org.imixs.workflow.xml,jakarta.platform:jakarta.jakartaee-api,"","api,platform",158,701,0.23
+org.imixs.workflow.xml,junit:junit,Testing Frameworks,"testing,junit",543,701,0.77
+org.imixs.workflow.engine.jpa,org.imixs.workflow:imixs-workflow-core,"",workflow,4,31,0.13
+org.imixs.workflow.engine.jpa,jakarta.platform:jakarta.jakartaee-api,"","api,platform",27,31,0.87
+org.imixs.workflow.bpmn,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,1711,0.0
+org.imixs.workflow.bpmn,junit:junit,Testing Frameworks,"testing,junit",1709,1711,1.0
+org.imixs.workflow.faces.data,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",31,357,0.09
+org.imixs.workflow.faces.data,org.imixs.workflow:imixs-workflow-core,"",workflow,194,357,0.54
+org.imixs.workflow.faces.data,jakarta.platform:jakarta.jakartaee-api,"","api,platform",132,357,0.37
+org.imixs.workflow,jakarta.platform:jakarta.jakartaee-api,"","api,platform",19,1012,0.02
+org.imixs.workflow,org.mockito:mockito-all,Mocking,"mock,mocking,testing",46,1012,0.05
+org.imixs.workflow,junit:junit,Testing Frameworks,"testing,junit",947,1012,0.94
+org.imixs.workflow.engine.lucene,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",104,1007,0.1
+org.imixs.workflow.engine.lucene,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",459,1007,0.46
+org.imixs.workflow.engine.lucene,jakarta.platform:jakarta.jakartaee-api,"","api,platform",28,1007,0.03
+org.imixs.workflow.engine.lucene,org.apache.lucene:lucene-facet,"","lucene,apache,index",248,1007,0.25
+org.imixs.workflow.engine.lucene,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",61,1007,0.06
+org.imixs.workflow.engine.lucene,org.imixs.workflow:imixs-workflow-core,"",workflow,103,1007,0.1
+org.imixs.workflow.engine.lucene,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",4,1007,0.0
+org.imixs.workflow.engine.adapters,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,698,0.01
+org.imixs.workflow.engine.adapters,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",40,698,0.06
+org.imixs.workflow.engine.adapters,org.imixs.workflow:imixs-workflow-core,"",workflow,418,698,0.6
+org.imixs.workflow.engine.adapters,jakarta.platform:jakarta.jakartaee-api,"","api,platform",2,698,0.0
+org.imixs.workflow.engine.adapters,junit:junit,Testing Frameworks,"testing,junit",232,698,0.33
+org.imixs.workflow.jee.faces.workitem,org.imixs.workflow:imixs-workflow-core,"",workflow,11,19,0.58
+org.imixs.workflow.jee.faces.workitem,junit:junit,Testing Frameworks,"testing,junit",8,19,0.42
+org.imixs.workflow.plugins,org.mockito:mockito-all,Mocking,"mock,mocking,testing",92,4886,0.02
+org.imixs.workflow.plugins,junit:junit,Testing Frameworks,"testing,junit",1488,4886,0.3
+org.imixs.workflow.plugins,org.imixs.workflow:imixs-workflow-core,"",workflow,2959,4886,0.61
+org.imixs.workflow.plugins,org.imixs.workflow:imixs-workflow-engine,"","workflow,engine",347,4886,0.07

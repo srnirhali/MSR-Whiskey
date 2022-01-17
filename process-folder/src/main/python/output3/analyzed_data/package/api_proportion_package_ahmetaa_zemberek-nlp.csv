@@ -1,0 +1,90 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+zemberek.apps,com.google.guava:guava,Core Utilities,google,8,21,0.38
+zemberek.apps,com.beust:jcommander,Command Line Parsers,"cli,parser",13,21,0.62
+zemberek.tokenization.antlr,org.antlr:antlr4-runtime,"","compiler,parser,runtime",117,124,0.94
+zemberek.tokenization.antlr,com.google.guava:guava,Core Utilities,google,7,124,0.06
+zemberek.phrase,com.google.guava:guava,Core Utilities,google,5,5,1.0
+zemberek.normalization,com.google.guava:guava,Core Utilities,google,120,247,0.49
+zemberek.normalization,junit:junit,Testing Frameworks,"testing,junit",127,247,0.51
+zemberek.core.embeddings,com.google.guava:guava,Core Utilities,google,27,34,0.79
+zemberek.core.embeddings,junit:junit,Testing Frameworks,"testing,junit",7,34,0.21
+zemberek.apps.fasttext,com.beust:jcommander,Command Line Parsers,"cli,parser",25,26,0.96
+zemberek.apps.fasttext,com.google.guava:guava,Core Utilities,google,1,26,0.04
+zemberek.corpus,com.google.guava:guava,Core Utilities,google,28,214,0.13
+zemberek.corpus,com.h2database:h2,Embedded SQL Databases,"embedded,database,sql",17,214,0.08
+zemberek.corpus,junit:junit,Testing Frameworks,"testing,junit",16,214,0.07
+zemberek.corpus,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",15,214,0.07
+zemberek.corpus,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",10,214,0.05
+zemberek.corpus,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",128,214,0.6
+zemberek.core.io,com.google.guava:guava,Core Utilities,google,71,434,0.16
+zemberek.core.io,junit:junit,Testing Frameworks,"testing,junit",363,434,0.84
+zemberek.apps.lm,junit:junit,Testing Frameworks,"testing,junit",4,56,0.07
+zemberek.apps.lm,com.beust:jcommander,Command Line Parsers,"cli,parser",17,56,0.3
+zemberek.apps.lm,com.google.guava:guava,Core Utilities,google,35,56,0.63
+zemberek.lm,com.google.guava:guava,Core Utilities,google,35,123,0.28
+zemberek.lm,junit:junit,Testing Frameworks,"testing,junit",88,123,0.72
+zemberek.apps.ner,com.beust:jcommander,Command Line Parsers,"cli,parser",11,21,0.52
+zemberek.apps.ner,com.google.guava:guava,Core Utilities,google,10,21,0.48
+zemberek.embedding.fasttext,com.google.guava:guava,Core Utilities,google,5,13,0.38
+zemberek.embedding.fasttext,junit:junit,Testing Frameworks,"testing,junit",8,13,0.62
+zemberek.grpc.server,io.grpc:grpc-netty-shaded,"","network,grpc,socket,netty,io,rpc,protocol",1,1,1.0
+zemberek.core.text,junit:junit,Testing Frameworks,"testing,junit",13,58,0.22
+zemberek.core.text,com.google.guava:guava,Core Utilities,google,45,58,0.78
+zemberek.morphology.ambiguity,com.google.guava:guava,Core Utilities,google,29,33,0.88
+zemberek.morphology.ambiguity,junit:junit,Testing Frameworks,"testing,junit",4,33,0.12
+zemberek.keyphrase,com.google.guava:guava,Core Utilities,google,3,3,1.0
+zemberek.lm.compression,junit:junit,Testing Frameworks,"testing,junit",92,136,0.68
+zemberek.lm.compression,com.google.guava:guava,Core Utilities,google,44,136,0.32
+zemberek.morphology.morphotactics,com.google.guava:guava,Core Utilities,google,8,8,1.0
+zemberek.morphology.external,com.google.guava:guava,Core Utilities,google,65,65,1.0
+zemberek.lm.backoff,com.google.guava:guava,Core Utilities,google,15,15,1.0
+zemberek.morphology.old_ambiguity,com.google.guava:guava,Core Utilities,google,83,83,1.0
+zemberek.langid.model,com.google.guava:guava,Core Utilities,google,14,14,1.0
+zemberek.ner,junit:junit,Testing Frameworks,"testing,junit",4,16,0.25
+zemberek.ner,com.google.guava:guava,Core Utilities,google,12,16,0.75
+zemberek.morphology.lexicon.tr,junit:junit,Testing Frameworks,"testing,junit",84,129,0.65
+zemberek.morphology.lexicon.tr,com.google.guava:guava,Core Utilities,google,45,129,0.35
+zemberek.scratchpad,org.jsoup:jsoup,HTML Parsers,"html,parser",14,50,0.28
+zemberek.scratchpad,com.google.guava:guava,Core Utilities,google,36,50,0.72
+zemberek.core.collections,com.google.guava:guava,Core Utilities,google,153,725,0.21
+zemberek.core.collections,junit:junit,Testing Frameworks,"testing,junit",572,725,0.79
+zemberek.embedding,com.google.guava:guava,Core Utilities,google,2,2,1.0
+zemberek.core.logging,com.google.guava:guava,Core Utilities,google,9,20,0.45
+zemberek.core.logging,junit:junit,Testing Frameworks,"testing,junit",11,20,0.55
+zemberek.apps.corpus,com.beust:jcommander,Command Line Parsers,"cli,parser",14,19,0.74
+zemberek.apps.corpus,com.google.guava:guava,Core Utilities,google,5,19,0.26
+zemberek.examples.classification,com.google.guava:guava,Core Utilities,google,6,6,1.0
+zemberek.langid.train,com.google.guava:guava,Core Utilities,google,53,53,1.0
+zemberek.classification,com.google.guava:guava,Core Utilities,google,22,22,1.0
+zemberek.langid,junit:junit,Testing Frameworks,"testing,junit",62,116,0.53
+zemberek.langid,com.google.guava:guava,Core Utilities,google,54,116,0.47
+zemberek.core.hash,com.google.guava:guava,Core Utilities,google,23,33,0.7
+zemberek.core.hash,junit:junit,Testing Frameworks,"testing,junit",10,33,0.3
+zemberek.morphology.analysis.tr,com.google.guava:guava,Core Utilities,google,10,83,0.12
+zemberek.morphology.analysis.tr,junit:junit,Testing Frameworks,"testing,junit",73,83,0.88
+zemberek.core,com.google.guava:guava,Core Utilities,google,4,4,1.0
+zemberek.examples.tokenization,com.google.guava:guava,Core Utilities,google,2,2,1.0
+zemberek.core.math,com.google.guava:guava,Core Utilities,google,41,436,0.09
+zemberek.core.math,junit:junit,Testing Frameworks,"testing,junit",395,436,0.91
+zemberek.morphology.lexicon,com.google.guava:guava,Core Utilities,google,24,24,1.0
+zemberek.core.turkish,com.google.guava:guava,Core Utilities,google,6,44,0.14
+zemberek.core.turkish,junit:junit,Testing Frameworks,"testing,junit",38,44,0.86
+zemberek.morphology.generator,junit:junit,Testing Frameworks,"testing,junit",25,43,0.58
+zemberek.morphology.generator,com.google.guava:guava,Core Utilities,google,18,43,0.42
+zemberek.core.quantization,com.google.guava:guava,Core Utilities,google,6,6,1.0
+zemberek.core.enums,com.google.guava:guava,Core Utilities,google,24,24,1.0
+zemberek.dependency,com.google.guava:guava,Core Utilities,google,9,9,1.0
+zemberek.morphology.apps,junit:junit,Testing Frameworks,"testing,junit",58,108,0.54
+zemberek.morphology.apps,com.google.guava:guava,Core Utilities,google,50,108,0.46
+zemberek.core.process,com.google.guava:guava,Core Utilities,google,9,9,1.0
+zemberek.apps.morphology,com.beust:jcommander,Command Line Parsers,"cli,parser",2,2,1.0
+zemberek.apps.grpc,com.beust:jcommander,Command Line Parsers,"cli,parser",2,2,1.0
+zemberek.tokenization,junit:junit,Testing Frameworks,"testing,junit",151,292,0.52
+zemberek.tokenization,org.antlr:antlr4-runtime,"","compiler,parser,runtime",69,292,0.24
+zemberek.tokenization,com.google.guava:guava,Core Utilities,google,40,292,0.14
+zemberek.tokenization,org.apache.opennlp:opennlp-tools,Natural Language Processing,"nlp,tools,apache",32,292,0.11
+zemberek.morphology,junit:junit,Testing Frameworks,"testing,junit",141,146,0.97
+zemberek.morphology,com.google.guava:guava,Core Utilities,google,5,146,0.03
+zemberek.morphology.analysis,com.google.guava:guava,Core Utilities,google,153,529,0.29
+zemberek.morphology.analysis,junit:junit,Testing Frameworks,"testing,junit",358,529,0.68
+zemberek.morphology.analysis,com.github.ben-manes.caffeine:caffeine,Cache Implementations,"github,cache",18,529,0.03

@@ -1,0 +1,121 @@
+packageName,className,methodName,api,mcrCategories,mcrTags,count,countAll,proportion
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchByGroups,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithDateForHighNeighborhoodRange,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchByDocIdForAList,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithDifferentVariance,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithScoreNotMoreThanOne,junit:junit,Testing Frameworks,"testing,junit",6,7,0.86
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithScoreNotMoreThanOne,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,7,0.14
+com.intuit.fuzzymatcher.domain,Document,getUnmatchedChildCount,org.apache.commons:commons-collections4,Collections,"structures,collections,apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,itShouldGetExponentialWeightedScoring_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.domain,DocumentTest,itShouldGetUnmatchedCountForMultiElementTypesWithNonMatch,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldPreprocessAddress,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldGetWordTokenizerForName_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithDate,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldGetWordSoundexEncodeTokenizerForAddress,junit:junit,Testing Frameworks,"testing,junit",11,11,1.0
+com.intuit.fuzzymatcher.component,ElementMatchTest,itShouldNotMatch,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchByDocIdForSingleDoc,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForMultipleEmptyPhoneNumber,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForMultipleEmptyPhoneNumber,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.function,TokenizerFunction,wordSoundexEncodeTokenizer,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,2,1.0
+com.intuit.fuzzymatcher.component,MatchServicePerfTest,itShouldApplyMatchForBigDataForMemoryPerf,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithAge,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,itShouldGetExponentialScoring_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.domain,ElementTest,itShouldSetTokenizerFunction,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldApplyNumberPreprocessing_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldReturnNGramTokenForSmallStrings_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithDoubleType,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.component,ElementMatchTest,itShouldMatchElementsWithRepeatingTokens,junit:junit,Testing Frameworks,"testing,junit",11,11,1.0
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,itShouldGiveWeightedAverageScore_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.domain,ElementTest,itShouldMatchUnequalWordsWithChainTokenizerFunction2,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForDuplicateTokensWithNoMatch,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,writeOutput,com.opencsv:opencsv,CSV Libraries,"csv,tabular",20,22,0.91
+com.intuit.fuzzymatcher.component,MatchServiceTest,writeOutput,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",2,22,0.09
+com.intuit.fuzzymatcher.component,TokenRepoTest,shouldGetForDateWithNearestNeighbor,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,Dictionary,getNameDictionary,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",2,2,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldNormalizeAddress_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,TokenRepoTest,shouldGetForNumberWithEquality,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldTestExtraSpaceAndSpecialCharacters_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServicePerfTest,"",org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,"",org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",3,3,1.0
+com.intuit.fuzzymatcher.domain,DocumentTest,itShouldGetUnmatchedCountForMultiElementTypes,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldGetNGramTokenizerLongString,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithInteger,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldRemoveSpecialCharPhone_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldOverridePreProcessingDictionary,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldGetNullString_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldGetValueTokenizerForNumber_Success,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,itShouldGiveAverageScoreWithEmptyFields_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.domain,ElementTest,itShouldNotMatchPhoneticWordsWithChainTokenizerFunction,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.intuit.fuzzymatcher.util,Utils,getNGrams,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",11,17,0.65
+com.intuit.fuzzymatcher.util,Utils,getNGrams,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,17,0.35
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldRemoveTrailingNumbersFromName_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,ElementMatchTest,itShouldMatchUnorderedTokens,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,getMockToken,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.intuit.fuzzymatcher.domain,ElementTest,itShouldMatchUnequalWordsWithChainTokenizerFunction,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.intuit.fuzzymatcher.component,TokenRepoTest,shouldGetForNumberWithNearestNeighbor,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+com.intuit.fuzzymatcher.domain,DocumentTest,itShouldGetUnmatchedCountForUnbalancedDoc,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.intuit.fuzzymatcher.component,MatchService,applyMatchByGroups,org.apache.commons:commons-collections4,Collections,"structures,collections,apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForUnBalancedEmptyElements,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForUnBalancedEmptyElements,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.component,TokenRepoTest,shouldGetForNameWithEquality,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldApplyNumberPreprocessing_Failure,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldGetValueTokenizer_Success,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.component,MatchServicePerfTest,itShouldApplyMatchForBigData,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.intuit.fuzzymatcher.component,Dictionary,"",org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",3,3,1.0
+com.intuit.fuzzymatcher.component,TokenRepoTest,shouldGetForNotSupportedWithNearestNeighbor,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.intuit.fuzzymatcher.component,ElementMatchTest,itShouldGiveAverageScoreWithBalancedElements,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithVariance,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithVariance,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,itShouldGiveAverageScore_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,ElementMatchTest,itShouldNotScoreMoreThanOneForName,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.intuit.fuzzymatcher.component,MatchServicePerfTest,getAddress,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchByDocId,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatch,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatch,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.domain,DocumentTest,itShouldGetUnmatchedCountForUnbalancedDocWithEmpty,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldCustomPreprocessAddress,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunction,toLowerCase,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldGetWordSoundexEncodeTokenizerForName,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForBalancedEmptyElements,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForBalancedEmptyElements,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForEmptyInput,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForMultiplePhoneNumber,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForMultiplePhoneNumber,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldGetNGramTokenizer_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.domain,Document,getChildCount,org.apache.commons:commons-collections4,Collections,"structures,collections,apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithSourceList,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithSourceList,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldTestComposingFunction,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWith3Documents,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWith3Documents,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchByGroupsForAList,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.domain,Element,getUnmatchedChildCount,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,4,1.0
+com.intuit.fuzzymatcher.domain,Document,getDistinctNonEmptyElements,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,TokenRepoTest,shouldGetMultipleMatchedWithNearestNeighbour,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunction,trim,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunction,"",commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,2,1.0
+com.intuit.fuzzymatcher.component,DocumentMatch,documentThresholdMatching,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchElementsWithDifferentType,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForWhiteSpaceWithNoFalsePositive,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,getCSVReader,com.opencsv:opencsv,CSV Libraries,"csv,tabular",4,4,1.0
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,itShouldGiveSimpleAverageScore_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.domain,DocumentTest,itShouldGetUnmatchedCountForBalancedDoc,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.component,Dictionary,getAddressDictionary,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",2,2,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForMulitipleEmptyField,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForMulitipleEmptyField,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.component,ElementMatchTest,itShouldGiveAverageScoreWithUnbalancedElements,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchForDemo,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,ElementMatch,matchElement,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithFailure,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithSourceDocument,junit:junit,Testing Frameworks,"testing,junit",4,5,0.8
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithSourceDocument,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,5,0.2
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,getMockElement,org.mockito:mockito-all,Mocking,"mock,mocking,testing",5,5,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunction,removeDomain,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.intuit.fuzzymatcher.component,ElementMatchTest,itShouldNotScoreMoreThanOneForAddress,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.component,MatchServiceTest,itShouldApplyMatchWithConfigurablePreProcessingFunctions,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldApplyNonePreprocessing_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.function,ScoringFunctionTest,getMockDocument,org.mockito:mockito-all,Mocking,"mock,mocking,testing",3,3,1.0
+com.intuit.fuzzymatcher.component,TokenRepoTest,shouldGetForNumberForNegativeWithNearestNeighbor,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+com.intuit.fuzzymatcher.function,PreProcessFunctionTest,itShouldRemoveSuffixFromName_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.intuit.fuzzymatcher.domain,ElementTest,itShouldNotMatchPhoneticWordsWithChainTokenizerFunction2,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.intuit.fuzzymatcher.function,TokenizerFunctionTest,itShouldGetWordTokenizerForAddress_Success,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0

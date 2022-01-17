@@ -1,0 +1,3 @@
+packageName,apis
+org.wltea.analyzer.lucene,"[org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core]"
+org.wltea.analyzer.query,"[org.apache.lucene:lucene-core,org.apache.lucene:lucene-queryparser]"

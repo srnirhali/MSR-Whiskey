@@ -1,0 +1,23 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.aksw.agdistis.algorithm,org.apache.lucene:lucene-spellchecker,"","lucene,apache,index",11,105,0.1
+org.aksw.agdistis.algorithm,net.sf.jung:jung-graph-impl,"",graph,26,105,0.25
+org.aksw.agdistis.algorithm,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",68,105,0.65
+org.aksw.agdistis.graph,net.sf.jung:jung-graph-impl,"",graph,6,6,1.0
+org.aksw.agdistis.util,com.googlecode.json-simple:json-simple,JSON Libraries,json,2,649,0.0
+org.aksw.agdistis.util,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",108,649,0.17
+org.aksw.agdistis.util,com.github.haifengl:smile-nlp,Natural Language Processing,"github,nlp",3,649,0.0
+org.aksw.agdistis.util,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",22,649,0.03
+org.aksw.agdistis.util,commons-validator:commons-validator,Validation Frameworks,validation,6,649,0.01
+org.aksw.agdistis.util,com.google.guava:guava,Core Utilities,google,18,649,0.03
+org.aksw.agdistis.util,edu.stanford.nlp:stanford-corenlp,Natural Language Processing,nlp,21,649,0.03
+org.aksw.agdistis.util,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",453,649,0.7
+org.aksw.agdistis.util,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,649,0.01
+org.aksw.agdistis.util,org.openrdf.sesame:sesame-rio-turtle,"","",2,649,0.0
+org.aksw.agdistis.util,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",10,649,0.02
+org.aksw.agdistis.webapp,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",32,58,0.55
+org.aksw.agdistis.webapp,com.googlecode.json-simple:json-simple,JSON Libraries,json,26,58,0.45
+null,org.apache.lucene:lucene-spellchecker,"","lucene,apache,index",6,86,0.07
+null,net.sf.jung:jung-graph-impl,"",graph,4,86,0.05
+null,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",32,86,0.37
+null,com.google.guava:guava,Core Utilities,google,2,86,0.02
+null,junit:junit,Testing Frameworks,"testing,junit",42,86,0.49

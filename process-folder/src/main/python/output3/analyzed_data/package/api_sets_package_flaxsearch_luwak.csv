@@ -1,0 +1,15 @@
+packageName,apis
+uk.co.flax.luwak.matchers,"[junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.apache.lucene:lucene-queryparser,org.assertj:assertj-core]"
+uk.co.flax.luwak.util,"[junit:junit,org.apache.lucene:lucene-core,org.assertj:assertj-core]"
+uk.co.flax.luwak.analysis,"[com.google.guava:guava,junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core]"
+uk.co.flax.luwak.assertions,"[com.google.guava:guava,org.apache.lucene:lucene-core,org.assertj:assertj-core]"
+uk.co.flax.luwak.benchmark,"[com.github.flaxsearch:luwak,com.google.guava:guava,io.dropwizard.metrics:metrics-core,junit:junit,org.apache.lucene:lucene-core,org.assertj:assertj-core]"
+uk.co.flax.luwak.termextractor.querytree,[org.apache.lucene:lucene-core]
+uk.co.flax.luwak.queryparsers,"[org.apache.lucene:lucene-core,org.apache.lucene:lucene-queryparser]"
+uk.co.flax.luwak.demo,"[com.google.guava:guava,org.apache.lucene:lucene-core]"
+uk.co.flax.luwak.presearcher,"[com.google.guava:guava,junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.assertj:assertj-core]"
+uk.co.flax.luwak.termextractor,"[ch.qos.logback:logback-classic,com.google.guava:guava,junit:junit,org.apache.lucene:lucene-core,org.apache.lucene:lucene-queries,org.assertj:assertj-core,org.reflections:reflections]"
+uk.co.flax.luwak.termextractor.treebuilder,"[org.apache.lucene:lucene-core,org.apache.lucene:lucene-queries]"
+uk.co.flax.luwak,"[com.google.guava:guava,junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.apache.lucene:lucene-memory,org.apache.lucene:lucene-queryparser,org.assertj:assertj-core,org.mockito:mockito-core]"
+uk.co.flax.luwak.termextractor.weights,[org.apache.lucene:lucene-core]
+uk.co.flax.luwak.testutils,"[com.google.guava:guava,junit:junit,org.apache.lucene:lucene-core,org.assertj:assertj-core]"

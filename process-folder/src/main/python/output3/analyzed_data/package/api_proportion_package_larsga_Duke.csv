@@ -1,0 +1,22 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+no.priv.garshol.duke.cleaners,junit:junit,Testing Frameworks,"testing,junit",124,124,1.0
+no.priv.garshol.duke.server,org.codehaus.fabric3.api:commonj,"","codehaus,api",13,13,1.0
+no.priv.garshol.duke.matchers,junit:junit,Testing Frameworks,"testing,junit",28,28,1.0
+no.priv.garshol.duke.test,junit:junit,Testing Frameworks,"testing,junit",325,325,1.0
+no.priv.garshol.duke.comparators,junit:junit,Testing Frameworks,"testing,junit",361,361,1.0
+no.priv.garshol.duke,junit:junit,Testing Frameworks,"testing,junit",37,37,1.0
+no.priv.garshol.duke.integration,junit:junit,Testing Frameworks,"testing,junit",51,51,1.0
+no.priv.garshol.duke.databases.es,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,223,0.08
+no.priv.garshol.duke.databases.es,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,223,0.0
+no.priv.garshol.duke.databases.es,junit:junit,Testing Frameworks,"testing,junit",12,223,0.05
+no.priv.garshol.duke.databases.es,org.elasticsearch:elasticsearch,ElasticSearch Clients,"server,elasticsearch,elastic,client,search",193,223,0.87
+no.priv.garshol.duke.datasources,com.fasterxml.jackson.core:jackson-core,JSON Libraries,json,54,440,0.12
+no.priv.garshol.duke.datasources,org.mongodb:mongo-java-driver,MongoDB Clients,"database,nosql,driver,client,mongodb",78,440,0.18
+no.priv.garshol.duke.datasources,junit:junit,Testing Frameworks,"testing,junit",308,440,0.7
+no.priv.garshol.duke.utils,junit:junit,Testing Frameworks,"testing,junit",337,337,1.0
+no.priv.garshol.duke.databases,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",236,384,0.61
+no.priv.garshol.duke.databases,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",3,384,0.01
+no.priv.garshol.duke.databases,junit:junit,Testing Frameworks,"testing,junit",79,384,0.21
+no.priv.garshol.duke.databases,org.apache.lucene:lucene-spatial,"","lucene,spatial,apache,index",14,384,0.04
+no.priv.garshol.duke.databases,org.mapdb:mapdb,Collections,"collections,structures",52,384,0.14
+no.priv.garshol.duke.genetic,junit:junit,Testing Frameworks,"testing,junit",22,22,1.0

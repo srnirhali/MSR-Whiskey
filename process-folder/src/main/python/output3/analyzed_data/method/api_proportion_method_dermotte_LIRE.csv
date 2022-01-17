@@ -1,0 +1,525 @@
+packageName,className,methodName,api,mcrCategories,mcrTags,count,countAll,proportion
+net.semanticmetadata.lire.benchmarking.custom,AloiTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.builders,TestBuilders,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.hashing,MetricSpacesTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+net.semanticmetadata.lire,VisualWordsTest,testSearchInIndexSift,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.benchmarking,TestGroundTruth,testSearchBenchmark,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.benchmarking,TestSimple,performWSs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestACCID,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.impl,GenericImageSearcher,getDistance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.imageanalysis,ColorLayoutTest,testExtraction,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,VLADBuilder,selectVocabularyDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.invertedlist,GeneralInvertedListTest,getQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+net.semanticmetadata.lire.benchmarking.custom,TwicTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.builders,AbstractLocalDocumentBuilder,getLocalDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,TamuraTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,testEdgeHistogramFastMap,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.benchmarking,UCIDBenchmark,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.impl,MSERDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.classifiers,ClassifierTest,testClassifyFashionAllCombinedFeatures,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",60,60,1.0
+net.semanticmetadata.lire.imageanalysis,CEDDTest,testSerialization,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire.impl,ChainedDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,17,1.0
+liredemo,SearchResultsTableModel,setHits,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.benchmarking,UCIDBenchmark,testMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,21,1.0
+net.semanticmetadata.lire.builders,DocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,FuzzyColorTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.classifiers,HashingSearchBasedClassifierMod,getTag,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,VLADBuilder,createVisualWords,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",26,26,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestCentrist,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexing,HashingTest,rerank,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",27,27,1.0
+net.semanticmetadata.lire.applications,GlobalFeatureIndexSearchTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,EdgeHistogramTest,testExtraction,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,CvLocalTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+net.semanticmetadata.lire.imageanalysis,JCDTest,testExtraction,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,TestExtraction,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.impl,ParallelImageSearcher,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,17,1.0
+net.semanticmetadata.lire.indexing,LocalitySensitiveHashingTest,createQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesTest,testPerformance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.indexing,VladTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.lucene,TestSearchID,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,17,1.0
+net.semanticmetadata.lire.benchmarking,TestHashingIndex,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderFromCodeBook,createVisualWords,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",26,26,1.0
+net.semanticmetadata.lire.sampleapp,Indexer,main,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,14,0.07
+net.semanticmetadata.lire.sampleapp,Indexer,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,14,0.93
+net.semanticmetadata.lire,TestImageSearcher,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers.forevaluations,GenericFastImageSearcherForEvaluation,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",35,35,1.0
+liredemo,LireDemoFrame,searchForImage,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+net.semanticmetadata.lire,GeneralTest,testDuplicatesInIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.impl,SurfDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,18,0.33
+net.semanticmetadata.lire.impl,SurfDocumentBuilder,createDescriptorFields,com.sangupta:jopensurf,"","",12,18,0.67
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,CvSurfExtractor,computeSurfKeypoints,nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",42,42,1.0
+net.semanticmetadata.lire.searchers.forevaluations,ImageSearcherUsingWSsForEvaluation,computeFeatureCache,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire,MserTest,testExtendedIndexMSER,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,10,0.1
+net.semanticmetadata.lire,MserTest,testExtendedIndexMSER,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,10,0.9
+net.semanticmetadata.lire.impl,SurfDocumentBuilder,createDocument,com.sangupta:jopensurf,"","",11,25,0.44
+net.semanticmetadata.lire.impl,SurfDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,25,0.56
+net.semanticmetadata.lire,CreateIndexTest,indexFilesMultithreaded,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,findDoc,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestGlobalFeature,testSerialization,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,TestImageSearcher,testFindDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.imageanalysis.sift,TestLocalFeatureHistogram,testCreateLocalFeatureHistogram,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,searchWithDocValues,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",6,38,0.16
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,searchWithDocValues,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",31,38,0.82
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,searchWithDocValues,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,38,0.03
+net.semanticmetadata.lire.indexing,VladTest,testIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.benchmarking,TestUCID,testMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.imageanalysis,PHOGTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,GenericFastImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,22,1.0
+net.semanticmetadata.lire.benchmarking.custom,AloiTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.filters,CannyEdgeDetectorTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+edu.uniklu.itec.mosaix.engine,WeightingDataFactory,newInstance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.benchmarking.custom,ProfimediaTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis,AttentionModelTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,FCTHTest,testExtraction,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexing,HashingTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",26,26,1.0
+net.semanticmetadata.lire.indexing,IndexVisualWordsTest,testIndexSurfHistogram,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.applications,GlobalFeatureIndexSearchTest,"",junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+net.semanticmetadata.lire.builders,GlobalDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.indexers,LireCustomCodec,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire,SimpleTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+net.semanticmetadata.lire.benchmarking,TestGeneral,indexFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+net.semanticmetadata.lire.builders,AbstractLocalDocumentBuilder,createLocalDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.imageanalysis,ColorLayoutTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.sampleapp,ExtractMultipleFeatures,main,commons-io:commons-io,I/O Utilities,io,5,5,1.0
+net.semanticmetadata.lire.imageanalysis.sift,TestLocalFeatureHistogram,testSiftIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.indexing,VladTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,LshImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.searchers.forevaluations,GenericFastImageSearcherForEvaluation,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,19,1.0
+net.semanticmetadata.lire.imageanalysis,TestJointHistogram,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,BOVWBuilder,index,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,38,1.0
+net.semanticmetadata.lire.searchers,GenericDocValuesImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.searchers,TestSearching,testSeparateIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",53,53,1.0
+net.semanticmetadata.lire,TestImageSearcher,testCorrelationSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.utils,FileUtilsTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.utils,SerializationUtilsTest,testSerialization,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire.classifiers,ClassifierTest,testClassifyFashion,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+net.semanticmetadata.lire.imageanalysis,OpponentHistogramTest,testFromString,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+net.semanticmetadata.lire.imageanalysis,SurfMserTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.tools.text,ParallelExtraction,run,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,openIndexSearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis,FCTHTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,HashingTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.hashing,MetricSpacesTest,testSearchAccuracy,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+net.semanticmetadata.lire.indexing,HashingTest,printToHtml,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.indexing,LocalitySensitiveHashingTest,singleSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",36,36,1.0
+net.semanticmetadata.lire,RuntimeTest,testCreateCorrelogramIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.classifiers,ClassifierTest,testClassifyNCombinedFeaturesMulti,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",228,228,1.0
+net.semanticmetadata.lire.indexing,HashingTest,testImageSearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+liredemo,LireDemoFrame,rerankLsaActionPerformed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+net.semanticmetadata.lire,MserTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderFromCodeBook,getVisualWords,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,GeneralTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,ImageSearcherUsingWSs,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.utils,FileUtils,getAllImageFiles,commons-io:commons-io,I/O Utilities,io,8,8,1.0
+net.semanticmetadata.lire,CreateIndexTest,"",junit:junit,Testing Frameworks,"testing,junit",1,11,0.09
+net.semanticmetadata.lire,CreateIndexTest,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,11,0.91
+net.semanticmetadata.lire,GeneralTest,indexFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,TestImageSearcher,testCachingSearcherParallel,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,17,1.0
+net.semanticmetadata.lire.benchmarking,TestGeneral,"",junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+net.semanticmetadata.lire.benchmarking,TestGeneral,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+net.semanticmetadata.lire.indexers.tools.binary,Indexor,readFile,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,CvSiftExtractor,init,nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",13,13,1.0
+net.semanticmetadata.lire.searchers,TestSearching,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+net.semanticmetadata.lire.benchmarking,UCIDBenchmark,testSearchSpeed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,24,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.shapecontext,ShapeContextExtractor,calculateRadiusMatrix,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",17,17,1.0
+net.semanticmetadata.lire.impl,ChainedDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.impl,ParallelImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire,CreateIndexTest,indexFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestCentrist,testExtractionSpatialPyramidCentrist,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestPascalVOC2007,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.invertedlist,GeneralInvertedListTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,GeneralTest,getTag,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.benchmarking,TestTruthFile,testPerformance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+net.semanticmetadata.lire.benchmarking,TestZuBuD,testMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",58,58,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,BOVWBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",32,32,1.0
+liredemo.flickr,SinglePhotoThread,run,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+net.semanticmetadata.lire.imageanalysis,OpponentHistogramTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.impl,GenericImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,21,1.0
+net.semanticmetadata.lire.searchers,GenericFastImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",35,35,1.0
+net.semanticmetadata.lire.searchers,ImageSearcher,relevanceFeedback,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.searchers,SearchHitsFilter,filter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+liredemo.indexing,ParallelIndexer,getNext,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.benchmarking,TestUniversal,testMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",36,36,1.0
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,testIterativeFastMap,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire,CreateIndexTest,testCreateIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire,GeneralTest,testClassify,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,RuntimeTest,testCreateIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.benchmarking,TestTruthFile,getRecall,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,indexFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.benchmarking.custom,AloiTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,SimpleFeatureBOVWBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+net.semanticmetadata.lire.utils,SerializationUtilsTest,testByteCompression,junit:junit,Testing Frameworks,"testing,junit",6,6,1.0
+net.semanticmetadata.lire,CvLocalTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,PHOGTest,testSerialization,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.tools.text,LuceneIndexWriter,finishWriting,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.searchers,GenericDocValuesImageSearcher,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,testParallelMAP,junit:junit,Testing Frameworks,"testing,junit",4,11,0.36
+net.semanticmetadata.lire.benchmarking,TestWang,testParallelMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,11,0.64
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,CvSurfExtractor,extract,nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",52,52,1.0
+net.semanticmetadata.lire,RuntimeTest,indexFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.indexing,LocalitySensitiveHashingTest,rerank,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",35,35,1.0
+net.semanticmetadata.lire.builders,GlobalDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+liredemo.indexing,MetadataBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.builders,GlobalDocumentBuilder,getGlobalDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",32,32,1.0
+net.semanticmetadata.lire.impl,SiftDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire,TestImageSearcher,testSimpleColorHistogramSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.builders,DocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.surf,SurfFeature,"",com.sangupta:jopensurf,"","",9,9,1.0
+samples,Search,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire,GeneralTest,testReadIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",33,33,1.0
+net.semanticmetadata.lire.searchers,VisualWordsImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire,TestImageSearcher,testMSERHistogramSearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+net.semanticmetadata.lire.benchmarking,TestNister,computePrecision,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,18,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,CvSurfExtractor,"",nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",2,2,1.0
+net.semanticmetadata.lire.utils,FileUtilsTest,testListFiles,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire,VisualWordsTest,testWikiCreateIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+net.semanticmetadata.lire.applications,GlobalFeatureIndexSearchTest,testSearchDocValues,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.benchmarking.custom,TwicTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+liredemo,LireDemoFrame,spinnerCurrentDocNumStateChanged,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,BOVWBuilder,selectVocabularyDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderKmeansPlusPlus,index,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",30,101,0.3
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderKmeansPlusPlus,index,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",71,101,0.7
+net.semanticmetadata.lire.indexers.tools.text,ParallelExtraction,"",commons-io:commons-io,I/O Utilities,io,2,4,0.5
+net.semanticmetadata.lire.indexers.tools.text,ParallelExtraction,"",commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,4,0.5
+net.semanticmetadata.lire.indexing,MetricSpacesInvertedListIndexing,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+net.semanticmetadata.lire.filter,FilterTest,testRerankFilter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.searchers,ImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.applications,GlobalFeatureIndexSearchTest,testSearchPlain,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire,GeneralTest,testCreateAndSearchSmallIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,29,0.97
+net.semanticmetadata.lire,GeneralTest,testCreateAndSearchSmallIndex,junit:junit,Testing Frameworks,"testing,junit",1,29,0.03
+net.semanticmetadata.lire.searchers.custom,SingleNddCeddImageSearcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.searchers.forevaluations,GenericFastImageSearcherForEvaluation,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,22,1.0
+net.semanticmetadata.lire.indexers.hashing,MetricSpacesTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.impl,ParallelImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,doParams,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+edu.uniklu.itec.mosaix,ImageFunctions,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.classifiers,HashingSearchBasedClassifierMod,testClassifyFashionThreeCombinedFeaturesMulti,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.indexing,IndexVisualWordsTest,testIndexMissingFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,22,1.0
+net.semanticmetadata.lire.sampleapp,IndexingAndSearchWithLocalFeatures,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+liredemo.flickr,FlickrDownloadThread,addDocumentToFinished,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,VisualWordsTest,testWikiSearchIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.benchmarking,SerializationTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.parallel,ParallelIndexer,selectVocabularyDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,21,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesInvertedListIndexing,createIndex,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",5,71,0.07
+net.semanticmetadata.lire.indexing,MetricSpacesInvertedListIndexing,createIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",66,71,0.93
+net.semanticmetadata.lire.searchers,ImageSearcherUsingWSs,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,createIndexWriter,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",5,64,0.08
+net.semanticmetadata.lire.utils,LuceneUtils,createIndexWriter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",59,64,0.92
+net.semanticmetadata.lire.utils,QuantizationUtilsTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.classifiers,ClassifierTest,testClassifyFashionCombinedFeatures,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire,ArffGeneratorTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.tools.text,LuceneIndexWriter,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,22,1.0
+net.semanticmetadata.lire.indexers.tools.text,AbstractDocumentWriter,run,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,13,0.15
+net.semanticmetadata.lire.indexers.tools.text,AbstractDocumentWriter,run,commons-io:commons-io,I/O Utilities,io,11,13,0.85
+net.semanticmetadata.lire.searchers.custom,SingleNddCeddImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,19,1.0
+net.semanticmetadata.lire.benchmarking,SerializationTest,testPerformance,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,BinaryPatternsPyramidTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestZuBuD,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,3,0.33
+net.semanticmetadata.lire.benchmarking,TestZuBuD,"",junit:junit,Testing Frameworks,"testing,junit",2,3,0.67
+net.semanticmetadata.lire.imageanalysis.bovw,SiftFeatureHistogramBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+liredemo,LireDemoFrame,buttonStartMosaicingActionPerformed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire,VisualWordsTest,testIndexingAndSearchSift,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,16,0.06
+net.semanticmetadata.lire,VisualWordsTest,testIndexingAndSearchSift,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,16,0.94
+net.semanticmetadata.lire.classifiers,ClassifierTest,testClassifyFashionThreeCombinedFeaturesMulti,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,VLADBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",32,32,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.surf,SurfExtractor,extract,com.sangupta:jopensurf,"","",8,8,1.0
+net.semanticmetadata.lire.indexers,LireCustomCodec,storedFieldsFormat,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,closeWriter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.benchmarking,TestGroundTruth,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestSimple,testMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,22,1.0
+net.semanticmetadata.lire.imageanalysis,LuminanceLayoutTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,TestImageSearcher,testCachingSearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",27,27,1.0
+net.semanticmetadata.lire.benchmarking,TestUniversal,performWSs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",51,51,1.0
+net.semanticmetadata.lire.classifiers,ClassifierTest,testClassifyFashionThreeCombinedFeatures,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.imageanalysis,ScalableColorTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.shapecontext,ShapeContextExtractor,elements,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",11,11,1.0
+net.semanticmetadata.lire.classifiers,ClassifierTest,getTag,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestGenericFeatures,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+liredemo.indexing,MetadataBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.filters,RerankFilter,filter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",63,63,1.0
+net.semanticmetadata.lire.indexing,ExtractorTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestGlobalFeature,testDistance,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestGenericFeatures,testGenericByteLireFeature,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.hashing,MetricSpaces,main,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,CvSiftExtractor,computeSiftKeypoints,nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",42,42,1.0
+net.semanticmetadata.lire.indexers,DocValuesTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,24,1.0
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,38,1.0
+net.semanticmetadata.lire.utils,FileUtils,saveImageResultsToPng,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.benchmarking,TestUCID,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestNister,testIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+liredemo,LireDemoFrame,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire,VisualWordsTest,testCvSurfBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.benchmarking,TestHashingIndex,testHashing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+edu.uniklu.itec.mosaix,ImageFunctions,getMosaic,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,CvLocalTest,testIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis.sift,TestLocalFeatureHistogram,testCreateSurfFeatureHistogram,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,testAutoColorCorrelogramFastMap,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,VLADBuilder,index,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,38,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,VisualWordsTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,ImageSearcherUsingWSs,computeFeatureCache,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.benchmarking,TestNister,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.classifiers,ClassifierTest,testClassify,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.indexers.tools.binary,Indexor,addToDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.searchers.forevaluations,GenericFastImageSearcherForEvaluation,getDistance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,CvSurfExtractor,init,nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",13,13,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.shapecontext,ShapeContextExtractor,calculateAngleMatrix,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",13,13,1.0
+net.semanticmetadata.lire.searchers,GenericDocValuesImageSearcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,CvSiftExtractor,"",nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",2,2,1.0
+net.semanticmetadata.lire.imageanalysis,FuzzyColorHistogramTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.hashing,MetricSpacesTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.tools.binary,ProximityHashingIndexor,readFile,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,searchWithField,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",6,41,0.15
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,searchWithField,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",34,41,0.83
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,searchWithField,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,41,0.02
+net.semanticmetadata.lire.searchers.custom,SingleNddCeddImageSearcher,getDistance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+liredemo.indexing,ParallelIndexer,addDoc,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestGenericFeatures,testGenericIntLireFeature,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.sift,FloatArray2DScaleOctaveDoGDetector,detectCandidates,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",10,10,1.0
+net.semanticmetadata.lire.searchers.forevaluations,GenericFastImageSearcherForEvaluation,init,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+net.semanticmetadata.lire.utils,FileUtils,saveImageResultsToHtml,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+net.semanticmetadata.lire,DocumentBuilderFactoryTest,testBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,5,0.6
+net.semanticmetadata.lire,DocumentBuilderFactoryTest,testBuilder,junit:junit,Testing Frameworks,"testing,junit",2,5,0.4
+net.semanticmetadata.lire.imageanalysis,AutoColorCorrelogramTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexing,LocalitySensitiveHashingTest,testIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+net.semanticmetadata.lire.benchmarking,TestGroundTruth,getRecall,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.benchmarking,TestTruthFile,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.classifiers,TestKMeans,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.impl,GenericDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,"",junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderKmeansPlusPlus,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,setUp,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,4,0.75
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+net.semanticmetadata.lire.searchers.forevaluations,ImageSearcherUsingWSsForEvaluation,init,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",44,44,1.0
+net.semanticmetadata.lire.utils,FileUtilsTest,testListFilesString,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire,DocumentBuilderFactoryTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestACCID,testDistance,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexing,IndexVisualWordsTest,indexFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesInvertedListIndexing,scoreDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesInvertedListIndexing,updateIndex,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",5,57,0.09
+net.semanticmetadata.lire.indexing,MetricSpacesInvertedListIndexing,updateIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",52,57,0.91
+net.semanticmetadata.lire.benchmarking,TestZuBuD,testSearchSpeed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,24,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderKmeansPlusPlus,selectVocabularyDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+liredemo.flickr,FlickrDownloadThread,getCurrentDoc,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestACCID,testSerialization,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,VisualWordsTest,testSearchInIndexSurf,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.classifiers,ClassifierTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,GenericFastImageSearcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,19,1.0
+liredemo.flickr,FlickrIndexingThread,run,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+net.semanticmetadata.lire.imageanalysis.sift,TestLocalFeatureHistogram,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestUniversal,"",junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire.classifiers,HashingSearchBasedClassifierMod,testClassify,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.impl,MSERDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+net.semanticmetadata.lire.searchers,FastOpponentImageSearcher,getDistance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+edu.uniklu.itec.mosaix,ImageFunctions,getLireResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.imageanalysis,MSERTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,BOVWBuilder,createVisualWords,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",26,26,1.0
+net.semanticmetadata.lire.imageanalysis,SimpleHistogramTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,VisualWordsTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,ImageSearcherUsingWSs,init,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",42,42,1.0
+net.semanticmetadata.lire.benchmarking,TestGeneral,computeErrorRate,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+net.semanticmetadata.lire.benchmarking,TestZuBuD,computeMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",41,41,1.0
+net.semanticmetadata.lire.classifiers,HashingSearchBasedClassifierMod,testClassifyNCombinedFeaturesMulti,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",27,27,1.0
+net.semanticmetadata.lire.searchers,AbstractImageSearcher,relevanceFeedback,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.imageanalysis,CEDDTest,testIndexSerialization,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.imageanalysis,LocalBinaryPatternsTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.utils,FileUtils,"",commons-io:commons-io,I/O Utilities,io,4,4,1.0
+net.semanticmetadata.lire.utils,FileUtils,getAllImages,commons-io:commons-io,I/O Utilities,io,8,8,1.0
+net.semanticmetadata.lire,SimpleTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderFromCodeBook,selectVocabularyDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.searchers,MetricSpacesImageSearcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+net.semanticmetadata.lire.utils,ImageUtilsTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestNister,testDocLengthIDF,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,computeMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,11,0.73
+net.semanticmetadata.lire.benchmarking,TestWang,computeMAP,junit:junit,Testing Frameworks,"testing,junit",3,11,0.27
+net.semanticmetadata.lire,GeneralTest,testIndexLarge,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis,GaborTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,optimizeWriter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.utils,MetricsUtilsTest,cosineCoefficient,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,tttestMAPLocalFeatureHistogram,junit:junit,Testing Frameworks,"testing,junit",1,11,0.09
+net.semanticmetadata.lire.benchmarking,TestWang,tttestMAPLocalFeatureHistogram,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,11,0.91
+net.semanticmetadata.lire.searchers,GenericFastImageSearcher,getDistance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.benchmarking,TestUniversal,setUp,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,VLADBuilder,getVisualWords,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.searchers.custom,SingleNddCeddImageSearcher,init,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,21,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,closeReader,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.imageanalysis,ScalableColorTest,testSerialization,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire.searchers.custom,TopDocsImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,18,1.0
+net.semanticmetadata.lire.benchmarking,CombinationTest,testIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+net.semanticmetadata.lire.benchmarking.custom,ProfimediaTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,MSERTest,testMSERExtraction,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire,SimpleTest,testIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,SimpleFeatureVLADBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+net.semanticmetadata.lire.impl,CvSurfDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+net.semanticmetadata.lire.benchmarking,TestUniversal,testSearchSpeed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",50,50,1.0
+liredemo,LireDemoFrame,searchForDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,19,1.0
+liredemo.indexing,MetadataBuilder,getDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.impl,GenericDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+net.semanticmetadata.lire.indexers.tools.binary,ProximityHashingIndexor,addToDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.indexing,LocalitySensitiveHashingTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,CreateIndexTest,testCreateCorrelogramIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.benchmarking,CombinationTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,GenericDocValuesImageSearcher,init,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+liredemo,LireDemoFrame,setDocumentImageIcon,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.benchmarking,TestNister,createVocabulary,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,testMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.imageanalysis,ScalableColorTest,testIndexSerialization,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,VLADBuilder,indexMissing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+net.semanticmetadata.lire.impl,GenericImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.impl,DocumentFactory,createColorOnlyDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.indexers,LireFeatureStoredFieldFormat,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.benchmarking,TestUniversal,computeMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",41,41,1.0
+net.semanticmetadata.lire.applications,GlobalFeatureIndexSearchTest,testSearchCaching,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.impl,GenericImageSearcher,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,18,1.0
+net.semanticmetadata.lire.lucene,TestRerankTextSearch,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,BitSamplingImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",66,66,1.0
+liredemo,LireDemoFrame,rerankFeatureActionPerformed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+liredemo.indexing,ParallelIndexer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,GeneralTest,testSearchIndexLarge,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+net.semanticmetadata.lire.searchers,FastOpponentImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",20,20,1.0
+net.semanticmetadata.lire,VisualWordsTest,testSearchExternalImageSift,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.impl,CvSiftDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+net.semanticmetadata.lire.impl,CvSiftDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+net.semanticmetadata.lire.imageanalysis,CEDDTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,TestSearching,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestUCID,computeMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,18,1.0
+net.semanticmetadata.lire.builders,TestBuilders,testLocal,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",66,66,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.shapecontext,ShapeContextExtractor,createHistogram,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",4,4,1.0
+net.semanticmetadata.lire.indexers,DocValuesTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,GenericFastImageSearcher,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire,TestImageSearcher,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,VisualWordsTest,testCreateQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+edu.uniklu.itec.mosaix.engine,SimpleWeightingDataFactory,newInstance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire,CvLocalTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,JCDTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.impl,ParallelImageSearcher,getDistance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.searchers,GenericDocValuesImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",30,30,1.0
+net.semanticmetadata.lire.utils,FileUtils,readFileLines,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+net.semanticmetadata.lire.benchmarking,TestSimple,doSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+net.semanticmetadata.lire.indexers.parallel,ParallelIndexer,run,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+net.semanticmetadata.lire.benchmarking,TestSimple,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,BitSamplingImageSearcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire,TestImageSearcher,testCachingSearcherParallelWithBundling,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.benchmarking,TestUCID,performWSs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,17,1.0
+net.semanticmetadata.lire.builders,AbstractLocalDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.impl,SiftDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+net.semanticmetadata.lire.utils,SerializationUtilsTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,GeneralTest,testRerankFilters,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire,RuntimeTest,testCreateCEDDIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire,TestProperties,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestSimple,"",junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+net.semanticmetadata.lire.benchmarking,TestSimple,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+net.semanticmetadata.lire.benchmarking,TestWang,tttestGetDistribution,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",27,27,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderFromCodeBook,index,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.filter,FilterTest,indexFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,SurfFeatureHistogramBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestCentrist,testExtractionSimpleCentrist,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.sift,TestLocalFeatureHistogram,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.sift,TestLocalFeatureHistogram,testSurfIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,CreateIndexTest,testCreateCEDDIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.searchers,ImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,VisualWordsTest,testIndexingAndSearchSurf,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.imageanalysis,LocalBinaryPatternsTest,testSerialization,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.tools.binary,HashingIndexor,addToDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.searchers,BitSamplingImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.searchers,GenericFastImageSearcher,init,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+net.semanticmetadata.lire.searchers,VisualWordsImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,27,0.85
+net.semanticmetadata.lire.searchers,VisualWordsImageSearcher,search,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,27,0.15
+liredemo,LireDemoFrame,buttonSearchFromBrowseActionPerformed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.benchmarking.custom,TwicTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,writeFeaturesToIndex,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,18,1.0
+net.semanticmetadata.lire.benchmarking,TestZuBuD,setUp,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire.searchers,AbstractImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+net.semanticmetadata.lire.benchmarking,TestZuBuD,performWSs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",69,69,1.0
+net.semanticmetadata.lire.benchmarking,UCIDBenchmark,computeMAP,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,18,1.0
+net.semanticmetadata.lire.searchers.custom,SingleNddCeddImageSearcher,findMostSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,openIndexReader,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+net.semanticmetadata.lire.benchmarking,TestPascalVOC2007,indexFiles,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.benchmarking,UCIDBenchmark,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestGenericFeatures,testGenericShortLireFeature,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,RuntimeTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.lucene,TestRerankTextSearch,testSearch,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,45,0.02
+net.semanticmetadata.lire.lucene,TestRerankTextSearch,testSearch,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",5,45,0.11
+net.semanticmetadata.lire.lucene,TestRerankTextSearch,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",39,45,0.87
+liredemo,LireDemoFrame,resultsTableMouseClicked,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire,TestImageSearcher,testCEDDSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.indexers.tools.binary,Indexor,run,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.searchers,LshImageSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",56,56,1.0
+net.semanticmetadata.lire.imageanalysis,SurfMserTest,testExtract,com.sangupta:jopensurf,"","",14,14,1.0
+net.semanticmetadata.lire.indexing,IndexVisualWordsTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.filter,FilterTest,testLsaFilter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,testScalableColorFastMap,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.benchmarking,TestUCID,testSearchSpeed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,24,1.0
+net.semanticmetadata.lire.lucene,TestSearchID,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,AutoColorCorrelogramTest,testSerialization,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexing,HashingTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers.custom,SingleNddCeddImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestGeneral,rerank,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.indexers.tools.binary,ProximityHashingIndexor,run,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.indexing,LocalitySensitiveHashingTest,testOutputSearchResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,22,1.0
+net.semanticmetadata.lire.searchers,VisualWordsImageSearcher,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,22,0.09
+net.semanticmetadata.lire.searchers,VisualWordsImageSearcher,"",org.apache.lucene:lucene-queryparser,"","lucene,apache,index",5,22,0.23
+net.semanticmetadata.lire.searchers,VisualWordsImageSearcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,22,0.68
+liredemo.flickr,FlickrDownloadThread,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.filter,FilterTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire,VisualWordsTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,OpponentHistogramTest,testFastSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,LocalFeatureHistogramBuilderFromCodeBook,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+net.semanticmetadata.lire.searchers.forevaluations,GenericFastImageSearcherForEvaluation,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,19,1.0
+net.semanticmetadata.lire.indexing.fastmap,FastMapTest,testColorLayoutFastMap,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.utils,FileUtils,createImagefileList,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+net.semanticmetadata.lire.indexers,TestIndexing,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,CvSiftExtractor,extract,nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",52,52,1.0
+net.semanticmetadata.lire.searchers.custom,TopDocsImageSearcher,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,22,1.0
+net.semanticmetadata.lire.sampleapp,Searcher,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.searchers,FastOpponentImageSearcher,findDuplicates,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.searchers.forevaluations,ImageSearcherUsingWSsForEvaluation,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire,VisualWordsTest,testSearchExternalImageSurf,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.searchers.custom,TopDocsImageSearcher,getDistance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,commitWriter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.benchmarking,TestUCID,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis.bovw,BOVWBuilder,indexMissing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",33,33,1.0
+net.semanticmetadata.lire.benchmarking.custom,ProfimediaTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.imageanalysis,BinaryPatternsPyramidTest,testSerialization,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+net.semanticmetadata.lire.imageanalysis,EdgeHistogramTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesInvertedListIndexing,getIndexReader,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+net.semanticmetadata.lire.indexing,VladTest,testSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+net.semanticmetadata.lire.lucene,TestRerankTextSearch,testIndexing,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,21,0.05
+net.semanticmetadata.lire.lucene,TestRerankTextSearch,testIndexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",20,21,0.95
+net.semanticmetadata.lire,GeneralTest,testSearchRunTime,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+net.semanticmetadata.lire,TestImageSearcher,findDoc,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.builders,TestBuilders,testSimple,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",66,66,1.0
+net.semanticmetadata.lire,TestImageSearcher,testCachingSearcherBundling,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.builders,TestBuilders,testGlobal,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",55,55,1.0
+net.semanticmetadata.lire.imageanalysis.features,TestGlobalFeature,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.indexers.parallel,ParallelIndexer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",46,46,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesInvertedListIndexing,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,18,1.0
+net.semanticmetadata.lire,RuntimeTest,testCEDDSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.sampleapp,ExtractFeatures,main,commons-io:commons-io,I/O Utilities,io,5,5,1.0
+net.semanticmetadata.lire.impl,SimpleBuilderTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.searchers,FastOpponentImageSearcher,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+net.semanticmetadata.lire,AbstractDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire,SimpleTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+net.semanticmetadata.lire.benchmarking,TestGroundTruth,testBitSampling,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.shapecontext,ShapeContextExtractor,constructFeatureList,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",21,21,1.0
+net.semanticmetadata.lire.indexing,MetricSpacesTest,testMetrics,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+liredemo,LireDemoFrame,initReader,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,19,1.0
+net.semanticmetadata.lire.benchmarking,TestWang,findDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+edu.uniklu.itec.mosaix.engine,Engine,findBestMatch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+net.semanticmetadata.lire.impl,CvSurfDocumentBuilder,createDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+net.semanticmetadata.lire.searchers,TestSearching,testSearchMulImages,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+net.semanticmetadata.lire,TestImageSearcher,testCustomCachingSearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+net.semanticmetadata.lire.builders,AbstractLocalDocumentBuilder,createDescriptorFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+net.semanticmetadata.lire.filters,LsaFilter,filter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",41,63,0.65
+net.semanticmetadata.lire.filters,LsaFilter,filter,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",22,63,0.35
+net.semanticmetadata.lire.imageanalysis.bovw,BOVWBuilder,getVisualWords,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+net.semanticmetadata.lire.searchers.custom,SingleNddCeddImageSearcher,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.indexers.parallel,ParallelIndexer,flushDocuments,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+net.semanticmetadata.lire.searchers.forevaluations,ImageSearcherUsingWSsForEvaluation,findSimilar,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+net.semanticmetadata.lire.utils,LuceneUtils,getBytes,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0

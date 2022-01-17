@@ -1,0 +1,90 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.dependencytrack.integrations.defectdojo,com.konghq:unirest-java,"","",30,73,0.41
+org.dependencytrack.integrations.defectdojo,org.mock-server:mockserver-netty,Mocking,"network,mock,socket,server,mocking,testing,netty",4,73,0.05
+org.dependencytrack.integrations.defectdojo,us.springett:alpine,"","",36,73,0.49
+org.dependencytrack.integrations.defectdojo,org.json:json,JSON Libraries,json,3,73,0.04
+org.dependencytrack.resources.v1.serializers,com.github.package-url:packageurl-java,"","github,url",5,5,1.0
+org.dependencytrack.policy,us.springett:alpine,"","",98,115,0.85
+org.dependencytrack.policy,org.json:json,JSON Libraries,json,8,115,0.07
+org.dependencytrack.policy,com.github.package-url:packageurl-java,"","github,url",9,115,0.08
+org.dependencytrack.util,org.apache.commons:commons-compress,Compression Libraries,"compression,apache,commons",11,149,0.07
+org.dependencytrack.util,com.github.package-url:packageurl-java,"","github,url",52,149,0.35
+org.dependencytrack.util,org.mockito:mockito-core,Mocking,"mock,mocking,testing",7,149,0.05
+org.dependencytrack.util,org.cyclonedx:cyclonedx-core-java,"","",19,149,0.13
+org.dependencytrack.util,us.springett:alpine,"","",60,149,0.4
+org.dependencytrack.parser.npm,us.springett:alpine,"","",10,106,0.09
+org.dependencytrack.parser.npm,com.konghq:unirest-java,"","",96,106,0.91
+org.dependencytrack.parser.github.graphql,com.konghq:unirest-java,"","",133,133,1.0
+org.dependencytrack.resources.v1,org.cyclonedx:cyclonedx-core-java,"","",76,2511,0.03
+org.dependencytrack.resources.v1,us.springett:cvss-calculator,"","",38,2511,0.02
+org.dependencytrack.resources.v1,org.json:json,JSON Libraries,json,1,2511,0.0
+org.dependencytrack.resources.v1,com.github.package-url:packageurl-java,"","github,url",14,2511,0.01
+org.dependencytrack.resources.v1,us.springett:alpine,"","",2382,2511,0.95
+org.dependencytrack.notification.publisher,com.konghq:unirest-java,"","",21,313,0.07
+org.dependencytrack.notification.publisher,io.pebbletemplates:pebble,"",io,45,313,0.14
+org.dependencytrack.notification.publisher,us.springett:alpine,"","",235,313,0.75
+org.dependencytrack.notification.publisher,org.mock-server:mockserver-netty,Mocking,"network,mock,socket,server,mocking,testing,netty",12,313,0.04
+org.dependencytrack.upgrade.v410,us.springett:alpine,"","",12,12,1.0
+org.dependencytrack.integration,com.konghq:unirest-java,"","",50,50,1.0
+org.dependencytrack.notification,us.springett:alpine,"","",171,171,1.0
+org.dependencytrack.event,us.springett:alpine,"","",117,117,1.0
+org.dependencytrack.integrations,org.json:json,JSON Libraries,json,61,140,0.44
+org.dependencytrack.integrations,us.springett:alpine,"","",54,140,0.39
+org.dependencytrack.integrations,org.mockito:mockito-core,Mocking,"mock,mocking,testing",25,140,0.18
+org.dependencytrack.parser.nvd,us.springett:cpe-parser,"",parser,42,69,0.61
+org.dependencytrack.parser.nvd,us.springett:alpine,"","",19,69,0.28
+org.dependencytrack.parser.nvd,us.springett:cvss-calculator,"","",8,69,0.12
+org.dependencytrack,us.springett:alpine,"","",42,42,1.0
+org.dependencytrack.upgrade.v400,us.springett:alpine,"","",7,7,1.0
+org.dependencytrack.upgrade,us.springett:alpine,"","",39,39,1.0
+org.dependencytrack.parser.cyclonedx.util,us.springett:alpine,"","",11,541,0.02
+org.dependencytrack.parser.cyclonedx.util,com.github.package-url:packageurl-java,"","github,url",7,541,0.01
+org.dependencytrack.parser.cyclonedx.util,org.json:json,JSON Libraries,json,16,541,0.03
+org.dependencytrack.parser.cyclonedx.util,org.cyclonedx:cyclonedx-core-java,"","",507,541,0.94
+org.dependencytrack.persistence.defaults,us.springett:alpine,"","",11,29,0.38
+org.dependencytrack.persistence.defaults,org.json:json,JSON Libraries,json,18,29,0.62
+org.dependencytrack.persistence,com.github.package-url:packageurl-java,"","github,url",60,640,0.09
+org.dependencytrack.persistence,us.springett:alpine,"","",580,640,0.91
+org.dependencytrack.model,com.github.package-url:packageurl-java,"","github,url",88,404,0.22
+org.dependencytrack.model,us.springett:alpine,"","",260,404,0.64
+org.dependencytrack.model,org.json:json,JSON Libraries,json,22,404,0.05
+org.dependencytrack.model,us.springett:cpe-parser,"",parser,5,404,0.01
+org.dependencytrack.model,org.cyclonedx:cyclonedx-core-java,"","",29,404,0.07
+org.dependencytrack.integrations.fortifyssc,org.mock-server:mockserver-netty,Mocking,"network,mock,socket,server,mocking,testing,netty",4,122,0.03
+org.dependencytrack.integrations.fortifyssc,us.springett:alpine,"","",50,122,0.41
+org.dependencytrack.integrations.fortifyssc,com.konghq:unirest-java,"","",65,122,0.53
+org.dependencytrack.integrations.fortifyssc,org.json:json,JSON Libraries,json,3,122,0.02
+org.dependencytrack.upgrade.v420,us.springett:alpine,"","",11,11,1.0
+org.dependencytrack.parser.ossindex,com.konghq:unirest-java,"","",48,53,0.91
+org.dependencytrack.parser.ossindex,us.springett:alpine,"","",5,53,0.09
+org.dependencytrack.resources.v1.misc,io.pebbletemplates:pebble,"",io,19,22,0.86
+org.dependencytrack.resources.v1.misc,us.springett:alpine,"","",3,22,0.14
+org.dependencytrack.search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",282,656,0.43
+org.dependencytrack.search,us.springett:alpine,"","",362,656,0.55
+org.dependencytrack.search,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",12,656,0.02
+org.dependencytrack.integrations.kenna,com.konghq:unirest-java,"","",41,168,0.24
+org.dependencytrack.integrations.kenna,org.json:json,JSON Libraries,json,82,168,0.49
+org.dependencytrack.integrations.kenna,us.springett:alpine,"","",45,168,0.27
+org.dependencytrack.tasks,org.cyclonedx:cyclonedx-core-java,"","",20,639,0.03
+org.dependencytrack.tasks,us.springett:cpe-parser,"",parser,15,639,0.02
+org.dependencytrack.tasks,us.springett:alpine,"","",539,639,0.84
+org.dependencytrack.tasks,com.konghq:unirest-java,"","",22,639,0.03
+org.dependencytrack.tasks,us.springett:vulndb-data-mirror,"",data,43,639,0.07
+org.dependencytrack.tasks.repositories,org.apache.maven:maven-artifact,Build Models,"model,build,build-system,maven,apache",9,561,0.02
+org.dependencytrack.tasks.repositories,us.springett:alpine,"","",113,561,0.2
+org.dependencytrack.tasks.repositories,com.github.package-url:packageurl-java,"","github,url",89,561,0.16
+org.dependencytrack.tasks.repositories,org.mock-server:mockserver-netty,Mocking,"network,mock,socket,server,mocking,testing,netty",9,561,0.02
+org.dependencytrack.tasks.repositories,com.konghq:unirest-java,"","",341,561,0.61
+org.dependencytrack.servlets,us.springett:alpine,"","",4,4,1.0
+org.dependencytrack.parser.vulndb,us.springett:vulndb-data-mirror,"",data,62,93,0.67
+org.dependencytrack.parser.vulndb,us.springett:cvss-calculator,"","",26,93,0.28
+org.dependencytrack.parser.vulndb,us.springett:alpine,"","",5,93,0.05
+org.dependencytrack.common,com.konghq:unirest-java,"","",17,90,0.19
+org.dependencytrack.common,us.springett:alpine,"","",73,90,0.81
+org.dependencytrack.resources.v1.vo,us.springett:alpine,"","",17,17,1.0
+org.dependencytrack.tasks.scanners,com.konghq:unirest-java,"","",90,389,0.23
+org.dependencytrack.tasks.scanners,us.springett:cpe-parser,"",parser,39,389,0.1
+org.dependencytrack.tasks.scanners,us.springett:cvss-calculator,"","",27,389,0.07
+org.dependencytrack.tasks.scanners,us.springett:alpine,"","",162,389,0.42
+org.dependencytrack.tasks.scanners,com.github.package-url:packageurl-java,"","github,url",48,389,0.12
+org.dependencytrack.tasks.scanners,us.springett:vulndb-data-mirror,"",data,23,389,0.06

@@ -1,0 +1,11 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.sifarish.common,org.apache.lucene:lucene-analyzers-morfologik,"","lucene,analyzer,apache,index",1,52,0.02
+org.sifarish.common,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",7,52,0.13
+org.sifarish.common,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",42,52,0.81
+org.sifarish.common,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,52,0.04
+org.sifarish.feature,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",8,8,1.0
+org.sifarish.realtime,com.google.guava:guava,Core Utilities,google,27,27,1.0
+org.sifarish.etl,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,74,0.28
+org.sifarish.etl,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,74,0.01
+org.sifarish.etl,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",52,74,0.7
+org.sifarish.social,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",17,17,1.0

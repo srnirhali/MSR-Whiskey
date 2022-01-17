@@ -1,0 +1,161 @@
+packageName,className,api,mcrCategories,mcrTags,count,countAll,proportion
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrSparseDocEmbedDotProdSimilarity,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,13,0.38
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrSparseDocEmbedDotProdSimilarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",8,13,0.62
+edu.cmu.lti.oaqa.flexneuart.giza,GizaFilterAndRecoderTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",57,119,0.48
+edu.cmu.lti.oaqa.flexneuart.giza,GizaFilterAndRecoderTest,junit:junit,Testing Frameworks,"testing,junit",62,119,0.52
+edu.cmu.lti.oaqa.flexneuart.utils,DataEntryReader,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,7,1.0
+edu.cmu.lti.oaqa.flexneuart.giza,GizaVocabularyReader,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,5,1.0
+edu.cmu.lti.oaqa.nmslib,QueryService,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",1559,1559,1.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,LuceneDbBackend,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",82,92,0.89
+edu.cmu.lti.oaqa.flexneuart.fwdindx,LuceneDbBackend,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,92,0.01
+edu.cmu.lti.oaqa.flexneuart.fwdindx,LuceneDbBackend,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,92,0.04
+edu.cmu.lti.oaqa.flexneuart.fwdindx,LuceneDbBackend,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,92,0.05
+edu.cmu.lti.oaqa.flexneuart.utils,CompressUtils,org.apache.ant:ant,Build Tools,"apache,ant,build,tools",7,13,0.54
+edu.cmu.lti.oaqa.flexneuart.utils,CompressUtils,commons-io:commons-io,I/O Utilities,io,6,13,0.46
+edu.cmu.lti.oaqa.flexneuart.apps,GenFeaturesAppImpl,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",7,11,0.64
+edu.cmu.lti.oaqa.flexneuart.apps,GenFeaturesAppImpl,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",4,11,0.36
+edu.cmu.lti.oaqa.flexneuart.apps,CheckDenseSparseExportScores,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,39,0.18
+edu.cmu.lti.oaqa.flexneuart.apps,CheckDenseSparseExportScores,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",10,39,0.26
+edu.cmu.lti.oaqa.flexneuart.apps,CheckDenseSparseExportScores,args4j:args4j,Command Line Parsers,"cli,parser",22,39,0.56
+edu.cmu.lti.oaqa.flexneuart.apps,QueryAppImpl,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",4,5,0.8
+edu.cmu.lti.oaqa.flexneuart.apps,QueryAppImpl,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",1,5,0.2
+edu.cmu.lti.oaqa.flexneuart.utils,EvalUtils,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,7,1.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,BackendTest,commons-io:commons-io,I/O Utilities,io,2,8,0.25
+edu.cmu.lti.oaqa.flexneuart.fwdindx,BackendTest,junit:junit,Testing Frameworks,"testing,junit",6,8,0.75
+edu.cmu.lti.oaqa.flexneuart.utils,RandomUtilsTest,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,CheckSparseExportScores,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",13,48,0.27
+edu.cmu.lti.oaqa.flexneuart.apps,CheckSparseExportScores,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",11,48,0.23
+edu.cmu.lti.oaqa.flexneuart.apps,CheckSparseExportScores,args4j:args4j,Command Line Parsers,"cli,parser",24,48,0.5
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainNegSampleBase,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",38,57,0.67
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainNegSampleBase,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",19,57,0.33
+edu.cmu.lti.oaqa.flexneuart.letor,SingleFieldFeatExtractor,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",9,29,0.31
+edu.cmu.lti.oaqa.flexneuart.letor,SingleFieldFeatExtractor,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",20,29,0.69
+edu.cmu.lti.oaqa.flexneuart.utils,VectorUtils,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",34,34,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainCEDRWithScores,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",11,23,0.48
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainCEDRWithScores,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",12,23,0.52
+edu.cmu.lti.oaqa.flexneuart.letor.external,WordEntryInfo,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",194,194,1.0
+edu.cmu.lti.oaqa.flexneuart.resources,RestrictedJsonConfigTest,com.google.code.gson:gson,JSON Libraries,"google,json",4,29,0.14
+edu.cmu.lti.oaqa.flexneuart.resources,RestrictedJsonConfigTest,junit:junit,Testing Frameworks,"testing,junit",25,29,0.86
+edu.cmu.lti.oaqa.flexneuart.utils,HTMLParser,org.htmlparser:htmlparser,HTML Parsers,"parser,html",3,3,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainBase,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",4,4,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,LuceneIndexer,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,125,0.01
+edu.cmu.lti.oaqa.flexneuart.apps,LuceneIndexer,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",15,125,0.12
+edu.cmu.lti.oaqa.flexneuart.apps,LuceneIndexer,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",51,125,0.41
+edu.cmu.lti.oaqa.flexneuart.apps,LuceneIndexer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",58,125,0.46
+edu.cmu.lti.oaqa.flexneuart.resources,RestrictedJsonConfig,com.google.code.gson:gson,JSON Libraries,"google,json",124,126,0.98
+edu.cmu.lti.oaqa.flexneuart.resources,RestrictedJsonConfig,commons-io:commons-io,I/O Utilities,io,2,126,0.02
+edu.cmu.lti.oaqa.flexneuart.utils,ParamHelper,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",15,15,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,DataPointWrapper,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",7,7,1.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,ForwardIndexTextInMem,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,5,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrSDMSimilarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",1,1,1.0
+edu.cmu.lti.oaqa.flexneuart.simil,SparseCosineTest,junit:junit,Testing Frameworks,"testing,junit",10,10,1.0
+edu.cmu.lti.oaqa.flexneuart.utils,QrelReader,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+edu.cmu.lti.oaqa.flexneuart.cand_providers,LuceneCandidateProvider,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,61,0.02
+edu.cmu.lti.oaqa.flexneuart.cand_providers,LuceneCandidateProvider,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",45,61,0.74
+edu.cmu.lti.oaqa.flexneuart.cand_providers,LuceneCandidateProvider,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",8,61,0.13
+edu.cmu.lti.oaqa.flexneuart.cand_providers,LuceneCandidateProvider,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,61,0.11
+edu.cmu.lti.oaqa.flexneuart.utils,CleanerUtil,org.htmlparser:htmlparser,HTML Parsers,"parser,html",2,2,1.0
+edu.cmu.lti.oaqa.flexneuart.utils,XmlIteratorTest,junit:junit,Testing Frameworks,"testing,junit",16,23,0.7
+edu.cmu.lti.oaqa.flexneuart.utils,XmlIteratorTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,23,0.3
+edu.cmu.lti.oaqa.flexneuart.apps,BaseQueryApp,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",30,177,0.17
+edu.cmu.lti.oaqa.flexneuart.apps,BaseQueryApp,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",102,177,0.58
+edu.cmu.lti.oaqa.flexneuart.apps,BaseQueryApp,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",39,177,0.22
+edu.cmu.lti.oaqa.flexneuart.apps,BaseQueryApp,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",6,177,0.03
+edu.cmu.lti.oaqa.flexneuart.utils,StringUtilsTest,junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+edu.cmu.lti.oaqa.flexneuart.giza,GizaTranTableReaderAndRecoder,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",17,70,0.24
+edu.cmu.lti.oaqa.flexneuart.giza,GizaTranTableReaderAndRecoder,net.openhft:koloboke-api-jdk6-7,"",api,53,70,0.76
+edu.cmu.lti.oaqa.nmslib,QueryException,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",116,116,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,FeatureExtractor,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",12,12,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,FilterTranTable,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",40,53,0.75
+edu.cmu.lti.oaqa.flexneuart.apps,FilterTranTable,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",13,53,0.25
+edu.cmu.lti.oaqa.flexneuart.simil,LCSTest,junit:junit,Testing Frameworks,"testing,junit",2,6,0.33
+edu.cmu.lti.oaqa.flexneuart.simil,LCSTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",4,6,0.67
+edu.cmu.lti.oaqa.flexneuart.letor.external,TextEntryParsed,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",176,176,1.0
+edu.cmu.lti.oaqa.flexneuart.simil_func,BM25CloseUnorderPairSimilQueryNorm,net.openhft:koloboke-api-jdk6-7,"",api,15,15,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,BaseProcessingUnit,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",8,60,0.13
+edu.cmu.lti.oaqa.flexneuart.apps,BaseProcessingUnit,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",24,60,0.4
+edu.cmu.lti.oaqa.flexneuart.apps,BaseProcessingUnit,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",28,60,0.47
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrModel1Similarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",9,41,0.22
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrModel1Similarity,net.openhft:koloboke-api-jdk6-7,"",api,26,41,0.63
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrModel1Similarity,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",6,41,0.15
+edu.cmu.lti.oaqa.flexneuart.apps,AnswBasedQRELGenWorker,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",11,11,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrTFIDFSimilarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",1,1,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrBM25ClosePairSimilarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",1,1,1.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,LuceneDbKeyIterator,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,12,0.58
+edu.cmu.lti.oaqa.flexneuart.fwdindx,LuceneDbKeyIterator,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,12,0.42
+ciir.umass.edu.eval,EvaluatorTest,junit:junit,Testing Frameworks,"testing,junit",22,22,1.0
+edu.cmu.lti.oaqa.flexneuart.simil,WMDTest,junit:junit,Testing Frameworks,"testing,junit",5,9,0.56
+edu.cmu.lti.oaqa.flexneuart.simil,WMDTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",4,9,0.44
+edu.cmu.lti.oaqa.flexneuart.apps,BuildFwdIndexApp,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",69,82,0.84
+edu.cmu.lti.oaqa.flexneuart.apps,BuildFwdIndexApp,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",13,82,0.16
+edu.cmu.lti.oaqa.flexneuart.apps,YahooAnswersCollectionSplitter,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",1,8,0.13
+edu.cmu.lti.oaqa.flexneuart.apps,YahooAnswersCollectionSplitter,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,8,0.88
+edu.cmu.lti.oaqa.flexneuart.fwdindx,ForwardIndex,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",19,19,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,SingleFieldInnerProdFeatExtractor,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",1,1,1.0
+edu.cmu.lti.oaqa.flexneuart.letor.external,ExternalScorer,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",885,885,1.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,FrequentIndexWordFilterAndRecoder,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,7,1.0
+edu.cmu.lti.oaqa.flexneuart.resources,ResourceManager,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",9,17,0.53
+edu.cmu.lti.oaqa.flexneuart.resources,ResourceManager,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",6,17,0.35
+edu.cmu.lti.oaqa.flexneuart.resources,ResourceManager,commons-io:commons-io,I/O Utilities,io,2,17,0.12
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainPairs,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",86,97,0.89
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainPairs,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",11,97,0.11
+edu.cmu.lti.oaqa.flexneuart.cand_providers,TrecRunCandidateProvider,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,7,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,ExportToNMSLIBSparse,args4j:args4j,Command Line Parsers,"cli,parser",23,39,0.59
+edu.cmu.lti.oaqa.flexneuart.apps,ExportToNMSLIBSparse,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",5,39,0.13
+edu.cmu.lti.oaqa.flexneuart.apps,ExportToNMSLIBSparse,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",11,39,0.28
+edu.cmu.lti.oaqa.flexneuart.apps,CollectionSplitterBase,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",38,47,0.81
+edu.cmu.lti.oaqa.flexneuart.apps,CollectionSplitterBase,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",9,47,0.19
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrDenseDocEmbedDotProdSimilarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",8,13,0.62
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrDenseDocEmbedDotProdSimilarity,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,13,0.38
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtractorRM3Similarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",9,13,0.69
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtractorRM3Similarity,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",4,13,0.31
+edu.cmu.lti.oaqa.flexneuart.simil,LCSIntTest,junit:junit,Testing Frameworks,"testing,junit",2,6,0.33
+edu.cmu.lti.oaqa.flexneuart.simil,LCSIntTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",4,6,0.67
+edu.cmu.lti.oaqa.flexneuart,AbstractTest,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",3,3,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,CreateBitextFromQRELs,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",15,39,0.38
+edu.cmu.lti.oaqa.flexneuart.apps,CreateBitextFromQRELs,args4j:args4j,Command Line Parsers,"cli,parser",24,39,0.62
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainCEDR,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",12,23,0.52
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainCEDR,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",11,23,0.48
+edu.cmu.lti.oaqa.flexneuart.fwdindx,ForwardIndexBinaryDataDict,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,5,1.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,DocEntryParsedTest,junit:junit,Testing Frameworks,"testing,junit",6,6,1.0
+edu.cmu.lti.oaqa.flexneuart.letor.external,ScoringException,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",124,124,1.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,MapDbBackend,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",9,50,0.18
+edu.cmu.lti.oaqa.flexneuart.fwdindx,MapDbBackend,org.mapdb:mapdb,Collections,"collections,structures",41,50,0.82
+edu.cmu.lti.oaqa.flexneuart.cand_providers,IdMapperCandidateProvider,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,7,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,AnswerBasedQRELGenerator,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",13,38,0.34
+edu.cmu.lti.oaqa.flexneuart.apps,AnswerBasedQRELGenerator,args4j:args4j,Command Line Parsers,"cli,parser",25,38,0.66
+edu.cmu.lti.oaqa.flexneuart.giza,GizaVocabularyFilterStand,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,5,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,FilterVocabulary,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",20,27,0.74
+edu.cmu.lti.oaqa.flexneuart.apps,FilterVocabulary,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,27,0.26
+edu.cmu.lti.oaqa.flexneuart.utils,JSONLUtilsTest,junit:junit,Testing Frameworks,"testing,junit",9,9,1.0
+edu.cmu.lti.oaqa.flexneuart.utils,RandomUtils,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,5,1.0
+edu.cmu.lti.oaqa.nmslib,ReplyEntry,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",228,228,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,ExportToNMSLIBDenseSparseFusion,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",11,31,0.35
+edu.cmu.lti.oaqa.flexneuart.apps,ExportToNMSLIBDenseSparseFusion,args4j:args4j,Command Line Parsers,"cli,parser",20,31,0.65
+edu.cmu.lti.oaqa.flexneuart.simil_func,BM25CloseOrderPairSimilQueryNorm,net.openhft:koloboke-api-jdk6-7,"",api,15,15,1.0
+edu.cmu.lti.oaqa.flexneuart.letor.external,TextEntryRaw,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",153,153,1.0
+edu.cmu.lti.oaqa.flexneuart.utils,DictNoComments,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,TextXmlIterAndParserApp,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",7,7,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrWordEmbedSimilarity,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",4,13,0.31
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrWordEmbedSimilarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",9,13,0.69
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainNegSampleWithScoresBase,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",13,13,1.0
+edu.cmu.lti.oaqa.flexneuart.cand_providers,NmslibKNNCandidateProvider,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",6,10,0.6
+edu.cmu.lti.oaqa.flexneuart.cand_providers,NmslibKNNCandidateProvider,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",4,10,0.4
+edu.cmu.lti.oaqa.flexneuart.utils,JSONDataUtils,com.google.code.gson:gson,JSON Libraries,"google,json",39,39,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,ExportCEDRParams,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",9,9,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrPassRetrScore,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",8,8,1.0
+edu.cmu.lti.oaqa.flexneuart.simil_func,DistanceFunctions,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",14,14,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,EmbeddingReaderAndRecoder,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",9,17,0.53
+edu.cmu.lti.oaqa.flexneuart.letor,EmbeddingReaderAndRecoder,net.openhft:koloboke-api-jdk6-7,"",api,8,17,0.47
+edu.cmu.lti.oaqa.flexneuart.utils,BSONDataUtils,org.mongodb:bson,"","mongodb,database,bson",25,25,1.0
+ciir.umass.edu.features,FeatureStats,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",16,16,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,BaseQueryAppProcessingThread,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",4,4,1.0
+edu.cmu.lti.oaqa.flexneuart.apps,ExportTrainNegSampleWithoutScoresBase,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",11,11,1.0
+edu.cmu.lti.oaqa.flexneuart.utils,CompressUtilsTest,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtrTermMatchSimilarity,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",1,1,1.0
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtractorExternalApacheThrift,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",14,38,0.37
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtractorExternalApacheThrift,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",14,38,0.37
+edu.cmu.lti.oaqa.flexneuart.letor,FeatExtractorExternalApacheThrift,org.apache.thrift:libthrift,Object Serialization,"serialization,apache,thrift,protocol",10,38,0.26
+ciir.umass.edu,SimpleTest,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+edu.cmu.lti.oaqa.flexneuart.fwdindx,ForwardIndexBinaryOffsetDict,org.slf4j:slf4j-api,Logging Frameworks,"logging,api,slf4j",5,5,1.0
+edu.cmu.lti.oaqa.flexneuart.resources,CompositeFeatureExtractor,com.googlecode.matrix-toolkits-java:mtj,Vector/Matrix Libraries,"vector,matrix,match,toolkit",12,12,1.0

@@ -1,0 +1,62 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+proj.zoie.api,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",144,210,0.69
+proj.zoie.api,it.unimi.dsi:fastutil,Collections,"collections,structures",30,210,0.14
+proj.zoie.api,log4j:log4j,Logging Frameworks,logging,36,210,0.17
+proj.zoie.tools.luke,com.senseidb.zoie:zoie-core,Search Engines,"engine,search",3,17,0.18
+proj.zoie.tools.luke,it.unimi.dsi:fastutil,Collections,"collections,structures",12,17,0.71
+proj.zoie.tools.luke,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,17,0.12
+proj.zoie.perf.tools,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,51,0.02
+proj.zoie.perf.tools,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",40,51,0.78
+proj.zoie.perf.tools,com.senseidb.zoie:zoie-core,Search Engines,"engine,search",10,51,0.2
+proj.zoie.impl.indexing.internal,log4j:log4j,Logging Frameworks,logging,158,496,0.32
+proj.zoie.impl.indexing.internal,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",280,496,0.56
+proj.zoie.impl.indexing.internal,it.unimi.dsi:fastutil,Collections,"collections,structures",58,496,0.12
+proj.zoie.impl.indexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",113,256,0.44
+proj.zoie.impl.indexing,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",3,256,0.01
+proj.zoie.impl.indexing,log4j:log4j,Logging Frameworks,logging,140,256,0.55
+proj.zoie.api.impl.util,it.unimi.dsi:fastutil,Collections,"collections,structures",86,124,0.69
+proj.zoie.api.impl.util,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",31,124,0.25
+proj.zoie.api.impl.util,log4j:log4j,Logging Frameworks,logging,7,124,0.06
+proj.zoie.store,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",112,153,0.73
+proj.zoie.store,log4j:log4j,Logging Frameworks,logging,19,153,0.12
+proj.zoie.store,it.unimi.dsi:fastutil,Collections,"collections,structures",21,153,0.14
+proj.zoie.store,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,153,0.01
+proj.zoie.dataprovider.jdbc,log4j:log4j,Logging Frameworks,logging,19,19,1.0
+proj.zoie.test,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",686,959,0.72
+proj.zoie.test,it.unimi.dsi:fastutil,Collections,"collections,structures",39,959,0.04
+proj.zoie.test,junit:junit,Testing Frameworks,"testing,junit",87,959,0.09
+proj.zoie.test,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",24,959,0.03
+proj.zoie.test,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,959,0.0
+proj.zoie.test,log4j:log4j,Logging Frameworks,logging,121,959,0.13
+proj.zoie.hourglass.impl,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",78,263,0.3
+proj.zoie.hourglass.impl,log4j:log4j,Logging Frameworks,logging,185,263,0.7
+proj.zoie.api.impl,log4j:log4j,Logging Frameworks,logging,34,224,0.15
+proj.zoie.api.impl,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",190,224,0.85
+proj.zoie.test.data,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",40,40,1.0
+proj.zoie.pair.impl,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,32,0.41
+proj.zoie.pair.impl,log4j:log4j,Logging Frameworks,logging,19,32,0.59
+proj.zoie.example.service.impl,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",56,122,0.46
+proj.zoie.example.service.impl,log4j:log4j,Logging Frameworks,logging,7,122,0.06
+proj.zoie.example.service.impl,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,122,0.03
+proj.zoie.example.service.impl,com.senseidb.zoie:zoie-core,Search Engines,"engine,search",45,122,0.37
+proj.zoie.example.service.impl,org.apache.lucene:lucene-highlighter,"","lucene,apache,index",10,122,0.08
+proj.zoie.server,log4j:log4j,Logging Frameworks,logging,41,86,0.48
+proj.zoie.server,org.mortbay.jetty:jetty,Web Servers,"webserver,server,jetty,web",30,86,0.35
+proj.zoie.server,org.mortbay.jetty:jetty-util,"","server,webserver,jetty",15,86,0.17
+proj.zoie.perf.client,com.senseidb.zoie:zoie-core,Search Engines,"engine,search",109,335,0.33
+proj.zoie.perf.client,org.mortbay.jetty:jetty,Web Servers,"webserver,server,jetty,web",32,335,0.1
+proj.zoie.perf.client,org.json:json,JSON Libraries,json,8,335,0.02
+proj.zoie.perf.client,it.unimi.dsi:fastutil,Collections,"collections,structures",8,335,0.02
+proj.zoie.perf.client,com.yammer.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,performance",55,335,0.16
+proj.zoie.perf.client,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,335,0.0
+proj.zoie.perf.client,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",68,335,0.2
+proj.zoie.perf.client,commons-configuration:commons-configuration,Configuration Libraries,config,53,335,0.16
+proj.zoie.perf.client,org.mortbay.jetty:jetty-util,"","server,webserver,jetty",1,335,0.0
+proj.zoie.perf.indexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,34,0.29
+proj.zoie.perf.indexing,com.senseidb.zoie:zoie-core,Search Engines,"engine,search",15,34,0.44
+proj.zoie.perf.indexing,log4j:log4j,Logging Frameworks,logging,9,34,0.26
+proj.zoie.dataprovider.jms,org.mockito:mockito-all,Mocking,"mock,mocking,testing",12,70,0.17
+proj.zoie.dataprovider.jms,junit:junit,Testing Frameworks,"testing,junit",6,70,0.09
+proj.zoie.dataprovider.jms,log4j:log4j,Logging Frameworks,logging,17,70,0.24
+proj.zoie.dataprovider.jms,com.senseidb.zoie:zoie-core,Search Engines,"engine,search",35,70,0.5
+proj.zoie.api.indexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0

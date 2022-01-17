@@ -1,0 +1,73 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+com.vmware.xenon.workshop,com.vmware.xenon:xenon-common,"","",550,550,1.0
+com.vmware.workshop.labs,junit:junit,Testing Frameworks,"testing,junit",6,47,0.13
+com.vmware.workshop.labs,com.vmware.xenon:xenon-common,"","",41,47,0.87
+com.vmware.xenonlabs,com.vmware.xenon:xenon-common,"","",728,784,0.93
+com.vmware.xenonlabs,junit:junit,Testing Frameworks,"testing,junit",56,784,0.07
+com.vmware.xenon.samples,com.vmware.xenon:xenon-ui,"",ui,1,20,0.05
+com.vmware.xenon.samples,com.vmware.xenon:xenon-common,"","",19,20,0.95
+com.vmware.xenon,org.openjdk.jmh:jmh-core,Microbenchmarks,"performance,benchmark",34,137,0.25
+com.vmware.xenon,com.esotericsoftware:kryo-shaded,"","",2,137,0.01
+com.vmware.xenon,com.vmware.xenon:xenon-common,"","",87,137,0.64
+com.vmware.xenon,junit:junit,Testing Frameworks,"testing,junit",14,137,0.1
+com.vmware.xenon.common.config,junit:junit,Testing Frameworks,"testing,junit",64,64,1.0
+com.vmware.xenon.common.opentracing,io.opentracing:opentracing-mock,"","io,tracing,mock",174,366,0.48
+com.vmware.xenon.common.opentracing,io.opentracing:opentracing-noop,"","io,tracing",6,366,0.02
+com.vmware.xenon.common.opentracing,io.zipkin.reporter2:zipkin-sender-okhttp3,"","reporter,io,tracing,http",1,366,0.0
+com.vmware.xenon.common.opentracing,com.uber.jaeger:jaeger-core,Distributed Tracing,"distributed,tracing",6,366,0.02
+com.vmware.xenon.common.opentracing,com.google.code.findbugs:annotations,Defect Detection Metadata,"defect,google,annotations,analysis,metadata",1,366,0.0
+com.vmware.xenon.common.opentracing,junit:junit,Testing Frameworks,"testing,junit",60,366,0.16
+com.vmware.xenon.common.opentracing,io.opentracing:opentracing-api,Distributed Tracing,"io,tracing,api,distributed",114,366,0.31
+com.vmware.xenon.common.opentracing,io.zipkin.reporter2:zipkin-sender-urlconnection,"","url,reporter,io,connection,tracing",1,366,0.0
+com.vmware.xenon.common.opentracing,io.opentracing:opentracing-util,"","io,tracing",1,366,0.0
+com.vmware.xenon.common.opentracing,io.opentracing.brave:brave-opentracing,Distributed Tracing,"io,tracing,distributed",2,366,0.01
+com.vmware.xenon.common.jwt,junit:junit,Testing Frameworks,"testing,junit",24,87,0.28
+com.vmware.xenon.common.jwt,com.google.code.gson:gson,JSON Libraries,"google,json",63,87,0.72
+com.vmware.xenon.common,com.esotericsoftware:kryo-shaded,"","",66,2621,0.03
+com.vmware.xenon.common,com.google.code.gson:gson,JSON Libraries,"google,json",96,2621,0.04
+com.vmware.xenon.common,com.vmware.xenon:xenon-common,"","",195,2621,0.07
+com.vmware.xenon.common,io.netty:netty-all,Network App Frameworks,"network,socket,framework,netty,io",55,2621,0.02
+com.vmware.xenon.common,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2621,0.0
+com.vmware.xenon.common,junit:junit,Testing Frameworks,"testing,junit",2139,2621,0.82
+com.vmware.xenon.common,io.opentracing:opentracing-api,Distributed Tracing,"io,tracing,api,distributed",68,2621,0.03
+com.vmware.xenon.services.common.stress,junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+com.vmware.xenon.services.common.authn,junit:junit,Testing Frameworks,"testing,junit",43,51,0.84
+com.vmware.xenon.services.common.authn,io.netty:netty-all,Network App Frameworks,"network,socket,framework,netty,io",8,51,0.16
+example.group,junit:junit,Testing Frameworks,"testing,junit",32,270,0.12
+example.group,com.vmware.xenon:xenon-common,"","",238,270,0.88
+com.vmware.xenon.common.test.websockets,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",151,420,0.36
+com.vmware.xenon.common.test.websockets,junit:junit,Testing Frameworks,"testing,junit",17,420,0.04
+com.vmware.xenon.common.test.websockets,io.netty:netty-all,Network App Frameworks,"network,socket,framework,netty,io",127,420,0.3
+com.vmware.xenon.common.test.websockets,com.vmware.xenon:xenon-common,"","",125,420,0.3
+com.vmware.xenon.ui,com.vmware.xenon:xenon-common,"","",25,25,1.0
+com.vmware.xenon.host,io.netty:netty-all,Network App Frameworks,"network,socket,framework,netty,io",58,325,0.18
+com.vmware.xenon.host,com.vmware.xenon:xenon-ui,"",ui,2,325,0.01
+com.vmware.xenon.host,com.vmware.xenon:xenon-common,"","",204,325,0.63
+com.vmware.xenon.host,junit:junit,Testing Frameworks,"testing,junit",61,325,0.19
+com.vmware.xenon.common.test,io.netty:netty-all,Network App Frameworks,"network,socket,framework,netty,io",30,259,0.12
+com.vmware.xenon.common.test,com.esotericsoftware:kryo-shaded,"","",1,259,0.0
+com.vmware.xenon.common.test,com.github.docker-java:docker-java,Docker Clients,"github,container,docker,client",184,259,0.71
+com.vmware.xenon.common.test,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,259,0.0
+com.vmware.xenon.common.test,junit:junit,Testing Frameworks,"testing,junit",43,259,0.17
+com.vmware.xenon.services.samples,junit:junit,Testing Frameworks,"testing,junit",82,1518,0.05
+com.vmware.xenon.services.samples,io.netty:netty-all,Network App Frameworks,"network,socket,framework,netty,io",6,1518,0.0
+com.vmware.xenon.services.samples,com.vmware.xenon:xenon-common,"","",1430,1518,0.94
+com.vmware.xenon.services.common,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,3788,0.0
+com.vmware.xenon.services.common,com.esotericsoftware:kryo-shaded,"","",16,3788,0.0
+com.vmware.xenon.services.common,junit:junit,Testing Frameworks,"testing,junit",1879,3788,0.5
+com.vmware.xenon.services.common,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1788,3788,0.47
+com.vmware.xenon.services.common,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",66,3788,0.02
+com.vmware.xenon.services.common,org.apache.lucene:lucene-grouping,"","lucene,apache,index",24,3788,0.01
+com.vmware.xenon.services.common,com.google.code.gson:gson,JSON Libraries,"google,json",14,3788,0.0
+com.vmware.xenon.examples.classic,com.vmware.xenon:xenon-common,"","",3,3,1.0
+com.vmware.xenon.common.fsm,junit:junit,Testing Frameworks,"testing,junit",25,25,1.0
+com.vmware.workshop.labs.answer,com.vmware.xenon:xenon-common,"","",111,128,0.87
+com.vmware.workshop.labs.answer,junit:junit,Testing Frameworks,"testing,junit",17,128,0.13
+com.vmware.xenon.common.cloning,junit:junit,Testing Frameworks,"testing,junit",6,6,1.0
+com.vmware.xenon.examples,com.vmware.xenon:xenon-common,"","",14,14,1.0
+com.vmware.xenon.common.http.netty,junit:junit,Testing Frameworks,"testing,junit",158,1744,0.09
+com.vmware.xenon.common.http.netty,io.netty:netty-all,Network App Frameworks,"network,socket,framework,netty,io",1586,1744,0.91
+com.vmware.xenon.performance,com.vmware.xenon:xenon-common,"","",98,98,1.0
+com.vmware.xenon.common.serialization,junit:junit,Testing Frameworks,"testing,junit",107,604,0.18
+com.vmware.xenon.common.serialization,com.esotericsoftware:kryo-shaded,"","",276,604,0.46
+com.vmware.xenon.common.serialization,com.google.code.gson:gson,JSON Libraries,"google,json",221,604,0.37

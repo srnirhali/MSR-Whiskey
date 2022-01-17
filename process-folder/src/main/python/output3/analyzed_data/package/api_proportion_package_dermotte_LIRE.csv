@@ -1,0 +1,75 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+net.semanticmetadata.lire.imageanalysis.features,junit:junit,Testing Frameworks,"testing,junit",13,13,1.0
+net.semanticmetadata.lire.impl,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",241,265,0.91
+net.semanticmetadata.lire.impl,com.sangupta:jopensurf,"","",23,265,0.09
+net.semanticmetadata.lire.impl,junit:junit,Testing Frameworks,"testing,junit",1,265,0.0
+net.semanticmetadata.lire.filter,junit:junit,Testing Frameworks,"testing,junit",1,31,0.03
+net.semanticmetadata.lire.filter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",30,31,0.97
+net.semanticmetadata.lire.indexers.hashing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,26,0.85
+net.semanticmetadata.lire.indexers.hashing,junit:junit,Testing Frameworks,"testing,junit",2,26,0.08
+net.semanticmetadata.lire.indexers.hashing,commons-io:commons-io,I/O Utilities,io,2,26,0.08
+net.semanticmetadata.lire.imageanalysis.bovw,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",30,496,0.06
+net.semanticmetadata.lire.imageanalysis.bovw,junit:junit,Testing Frameworks,"testing,junit",1,496,0.0
+net.semanticmetadata.lire.imageanalysis.bovw,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",465,496,0.94
+net.semanticmetadata.lire.builders,junit:junit,Testing Frameworks,"testing,junit",1,283,0.0
+net.semanticmetadata.lire.builders,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",282,283,1.0
+net.semanticmetadata.lire.searchers.forevaluations,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",187,187,1.0
+net.semanticmetadata.lire.imageanalysis,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",55,105,0.52
+net.semanticmetadata.lire.imageanalysis,junit:junit,Testing Frameworks,"testing,junit",36,105,0.34
+net.semanticmetadata.lire.imageanalysis,com.sangupta:jopensurf,"","",14,105,0.13
+net.semanticmetadata.lire.classifiers,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",387,389,0.99
+net.semanticmetadata.lire.classifiers,junit:junit,Testing Frameworks,"testing,junit",2,389,0.01
+net.semanticmetadata.lire.indexers.parallel,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",81,81,1.0
+net.semanticmetadata.lire.indexers.tools.text,commons-io:commons-io,I/O Utilities,io,15,45,0.33
+net.semanticmetadata.lire.indexers.tools.text,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",26,45,0.58
+net.semanticmetadata.lire.indexers.tools.text,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",4,45,0.09
+net.semanticmetadata.lire.indexers,junit:junit,Testing Frameworks,"testing,junit",2,31,0.06
+net.semanticmetadata.lire.indexers,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",29,31,0.94
+net.semanticmetadata.lire.lucene,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",5,85,0.06
+net.semanticmetadata.lire.lucene,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",76,85,0.89
+net.semanticmetadata.lire.lucene,junit:junit,Testing Frameworks,"testing,junit",2,85,0.02
+net.semanticmetadata.lire.lucene,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,85,0.02
+net.semanticmetadata.lire.indexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",429,446,0.96
+net.semanticmetadata.lire.indexing,junit:junit,Testing Frameworks,"testing,junit",7,446,0.02
+net.semanticmetadata.lire.indexing,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",10,446,0.02
+net.semanticmetadata.lire.sampleapp,commons-io:commons-io,I/O Utilities,io,10,39,0.26
+net.semanticmetadata.lire.sampleapp,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,39,0.72
+net.semanticmetadata.lire.sampleapp,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,39,0.03
+net.semanticmetadata.lire.imageanalysis.filters,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+liredemo.flickr,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",36,36,1.0
+net.semanticmetadata.lire.utils,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",5,210,0.02
+net.semanticmetadata.lire.utils,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",164,210,0.78
+net.semanticmetadata.lire.utils,junit:junit,Testing Frameworks,"testing,junit",17,210,0.08
+net.semanticmetadata.lire.utils,commons-io:commons-io,I/O Utilities,io,24,210,0.11
+net.semanticmetadata.lire.indexers.tools.binary,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",66,66,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.sift,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",10,10,1.0
+edu.uniklu.itec.mosaix,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,12,1.0
+net.semanticmetadata.lire.filters,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",104,126,0.83
+net.semanticmetadata.lire.filters,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",22,126,0.17
+samples,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+liredemo,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",91,91,1.0
+net.semanticmetadata.lire.imageanalysis.features.local.shapecontext,org.apache.commons:commons-math3,Math Libraries,"math,apache,commons",66,66,1.0
+edu.uniklu.itec.mosaix.engine,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+net.semanticmetadata.lire.benchmarking,junit:junit,Testing Frameworks,"testing,junit",33,810,0.04
+net.semanticmetadata.lire.benchmarking,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",777,810,0.96
+net.semanticmetadata.lire.benchmarking.custom,junit:junit,Testing Frameworks,"testing,junit",6,18,0.33
+net.semanticmetadata.lire.benchmarking.custom,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,18,0.67
+net.semanticmetadata.lire.imageanalysis.sift,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,14,0.86
+net.semanticmetadata.lire.imageanalysis.sift,junit:junit,Testing Frameworks,"testing,junit",2,14,0.14
+net.semanticmetadata.lire.imageanalysis.features.local.surf,com.sangupta:jopensurf,"","",17,17,1.0
+liredemo.indexing,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,38,1.0
+net.semanticmetadata.lire.applications,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",30,35,0.86
+net.semanticmetadata.lire.applications,junit:junit,Testing Frameworks,"testing,junit",5,35,0.14
+net.semanticmetadata.lire.imageanalysis.features.local.opencvfeatures,nu.pattern:opencv,Computer Vision,"pattern,computer-vision,ai",218,218,1.0
+net.semanticmetadata.lire.indexing.fastmap,junit:junit,Testing Frameworks,"testing,junit",2,37,0.05
+net.semanticmetadata.lire.indexing.fastmap,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",35,37,0.95
+net.semanticmetadata.lire.invertedlist,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,13,0.92
+net.semanticmetadata.lire.invertedlist,junit:junit,Testing Frameworks,"testing,junit",1,13,0.08
+net.semanticmetadata.lire.searchers,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",4,723,0.01
+net.semanticmetadata.lire.searchers,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",697,723,0.96
+net.semanticmetadata.lire.searchers,junit:junit,Testing Frameworks,"testing,junit",1,723,0.0
+net.semanticmetadata.lire.searchers,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",21,723,0.03
+net.semanticmetadata.lire,junit:junit,Testing Frameworks,"testing,junit",17,497,0.03
+net.semanticmetadata.lire,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",478,497,0.96
+net.semanticmetadata.lire,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,497,0.0
+net.semanticmetadata.lire.searchers.custom,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",118,118,1.0

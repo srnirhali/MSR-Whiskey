@@ -1,0 +1,27 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+org.weiboad.ragnar.util,org.jetbrains:annotations,Defect Detection Metadata,"annotations,analysis,defect,metadata",2,24,0.08
+org.weiboad.ragnar.util,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",22,24,0.92
+org.weiboad.ragnar.kafka,org.apache.kafka:kafka-clients,"","streaming,kafka,apache,client",25,25,1.0
+org.weiboad.ragnar.server.statistics.sql,com.alibaba:druid,"","",6,6,1.0
+org.weiboad.ragnar.server.statistics.error,com.google.code.gson:gson,JSON Libraries,"google,json",60,60,1.0
+org.weiboad.ragnar.server.search,org.apache.lucene:lucene-analyzers-smartcn,"","lucene,analyzer,apache,index",2,190,0.01
+org.weiboad.ragnar.server.search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",188,190,0.99
+org.weiboad.ragnar.server.kafka,com.google.code.gson:gson,JSON Libraries,"google,json",11,61,0.18
+org.weiboad.ragnar.server.kafka,org.apache.kafka:kafka-clients,"","streaming,kafka,apache,client",50,61,0.82
+org.weiboad.ragnar.server.controller.web,commons-lang:commons-lang,Core Utilities,"",8,304,0.03
+org.weiboad.ragnar.server.controller.web,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",60,304,0.2
+org.weiboad.ragnar.server.controller.web,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,304,0.01
+org.weiboad.ragnar.server.controller.web,org.apache.lucene:lucene-analyzers-smartcn,"","lucene,analyzer,apache,index",1,304,0.0
+org.weiboad.ragnar.server.controller.web,com.google.code.gson:gson,JSON Libraries,"google,json",231,304,0.76
+org.weiboad.ragnar.server.statistics.api,com.google.code.gson:gson,JSON Libraries,"google,json",14,14,1.0
+org.weiboad.ragnar.util.concurrent,org.jetbrains:annotations,Defect Detection Metadata,"annotations,analysis,defect,metadata",1,1,1.0
+org.weiboad.ragnar.server.processor,com.google.code.gson:gson,JSON Libraries,"google,json",122,122,1.0
+org.weiboad.ragnar.server.storage,org.rocksdb:rocksdbjni,"",rocksdb,42,42,1.0
+org.weiboad.ragnar.http,com.google.code.gson:gson,JSON Libraries,"google,json",18,51,0.35
+org.weiboad.ragnar.http,com.squareup.okhttp3:okhttp,HTTP Clients,"http,client",33,51,0.65
+org.weiboad.ragnar.server.controller.search,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,33,0.12
+org.weiboad.ragnar.server.controller.search,org.apache.lucene:lucene-analyzers-smartcn,"","lucene,analyzer,apache,index",1,33,0.03
+org.weiboad.ragnar.server.controller.search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,33,0.85
+org.weiboad.ragnar.server.struct,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",157,157,1.0
+org.weiboad.ragnar.server.controller.ragnarlog,com.google.code.gson:gson,JSON Libraries,"google,json",11,11,1.0
+org.weiboad.ragnar.logpusher,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",25,25,1.0

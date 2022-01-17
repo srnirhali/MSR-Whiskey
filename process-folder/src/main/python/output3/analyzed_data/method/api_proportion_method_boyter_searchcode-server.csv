@@ -1,0 +1,722 @@
+packageName,className,methodName,api,mcrCategories,mcrTags,count,countAll,proportion
+com.searchcode.app.dto,CodeIndexDocumentTest,testMd5CalcA,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,DataServiceTest,testTestAddToPersistent,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,8,1.0
+com.searchcode.app.service.index,IndexService,buildFacets,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,12,0.33
+com.searchcode.app.service.index,IndexService,buildFacets,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",8,12,0.67
+com.searchcode.app.util,UniqueRepoQueueTest,testQueueClear,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.dao,SourceTest,testGetSourceByIdFirst100,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",1,1,1.0
+com.searchcode.app.service,TimeCodeSearcher,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,22,0.82
+com.searchcode.app.service,TimeCodeSearcher,search,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,22,0.18
+com.searchcode.app.dao,SQLiteDataTest,testSaveWithRandomValuesAndGet,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.dao,SQLiteDataTest,testSaveWithRandomValuesAndGet,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,4,0.5
+com.searchcode.app.jobs.repository,IndexDocumentsJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,1,1.0
+com.searchcode.app.service,StatsServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,TimeCodeSearcher,doPagingSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",68,68,1.0
+com.searchcode.app.util,FileClassifier,loadDatabase,com.google.code.gson:gson,JSON Libraries,"google,json",8,10,0.8
+com.searchcode.app.util,FileClassifier,loadDatabase,com.google.guava:guava,Core Utilities,google,2,10,0.2
+com.searchcode.app.service,Highlight,highlightInternal,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",1,1,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getLanguages,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+com.searchcode.app.service.route,TimeSearchRouteService,getLanguages,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.service,ApiRouteServiceTest,testGetIndexTime,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,17,0.47
+com.searchcode.app.service,ApiRouteServiceTest,testGetIndexTime,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,17,0.12
+com.searchcode.app.service,ApiRouteServiceTest,testGetIndexTime,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,17,0.41
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthMissingPub,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,10,0.6
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthMissingPub,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,10,0.1
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthMissingPub,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,10,0.3
+com.searchcode.app,App,main,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.service.route,SearchRouteService,codeSearch_I,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,3,1.0
+com.searchcode.app.util,AESEncryptorTest,testEncryptBase64,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserText,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs.enqueue,EnqueueRepositoryJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,1,1.0
+com.searchcode.app.service.route,CommonRouteServiceTest,testGetPhotoId,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltQueries,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,4,0.25
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltQueries,junit:junit,Testing Frameworks,"testing,junit",3,4,0.75
+com.searchcode.app.util,HelpersTest,testSortByValue,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperMemoryLeak,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,12,0.33
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperMemoryLeak,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,12,0.67
+com.searchcode.app.service.index,IndexService,getRepoFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.service.index,IndexService,getRepoFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryNullByte,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,DataService,getPersistentDelete,com.google.code.gson:gson,JSON Libraries,"google,json",4,4,1.0
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperGetLogReversed,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,12,1.0
+com.searchcode.app,ServerRoutes,checkLoggedIn,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.jobs,IndexBaseRepoJobTest,testGetCodeLinesLogIndexedInvalid,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoUsername,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,21,0.19
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoUsername,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",9,21,0.43
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoUsername,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,21,0.38
+com.searchcode.app.service,Highlight,"",com.google.code.gson:gson,JSON Libraries,"google,json",3,3,1.0
+com.searchcode.app,AppTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app,TestHelpers,createDirectory,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+com.searchcode.app.dao,SQLiteDataTest,testGetWithRandomValuesExpectingNull,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.dao,SQLiteDataTest,testGetWithRandomValuesExpectingNull,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,4,0.5
+com.searchcode.app.dao,SQLiteRepoTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,TimeCodeSearcher,getById,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,28,1.0
+com.searchcode.app.service,ValidatorServiceTest,testRepoResultValidSlashesEtcReponame,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,8,1.0
+com.searchcode.app.service.index,IndexServiceTest,testShouldRepoParserJobPauseWhenIndexQueueSizeLarge,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.route,CodeRouteService,getPage,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,5,1.0
+com.searchcode.app,ServerRoutes,addAuthenticatedUser,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.service.index,IndexService,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",20,24,0.83
+com.searchcode.app.service.index,IndexService,search,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,24,0.17
+com.searchcode.app.jobs,DeleteRepositoryJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,3,1.0
+com.searchcode.app.dao,ApiTest,testGetAllApi,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,indexDocsByPath,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testGetRelativeToProjectPath,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,10,1.0
+com.searchcode.app.service,DataServiceTest,testTestRemoveFromPersistent,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,8,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testEmptyNullTerms,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.searchcode.app.service,CodeRouteServiceTest,testHtmlNoQueryString,org.mockito:mockito-all,Mocking,"mock,mocking,testing",2,11,0.18
+com.searchcode.app.service,CodeRouteServiceTest,testHtmlNoQueryString,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,11,0.55
+com.searchcode.app.service,CodeRouteServiceTest,testHtmlNoQueryString,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,11,0.27
+com.searchcode.app.service.index,IndexServiceTest,testSearchWithFlip,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",16,16,1.0
+com.searchcode.app.service.index,IndexServiceTest,testShouldRepoParserJobPauseWhenIndexLinesSizeLarge,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,LoggerWrapper,"",com.google.guava:guava,Core Utilities,google,24,24,1.0
+com.searchcode.app.service.index,IndexService,deleteAll,commons-io:commons-io,I/O Utilities,io,4,4,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCodeOwnerManyOwnersOldFile,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.index,IndexServiceTest,testChangeCodeIndexLinesCount,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,8,1.0
+com.searchcode.app.service.index,IndexServiceTest,testGetProjectFileTree,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.route,CodeRouteService,getProject,com.google.code.gson:gson,JSON Libraries,"google,json",1,11,0.09
+com.searchcode.app.service.route,CodeRouteService,getProject,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",10,11,0.91
+com.searchcode.app.service,TimeCodeSearcher,getYearMonthDayFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.service,TimeCodeSearcher,getYearMonthDayFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app,TestHelpers,getRandomAlphanumeric,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.searchcode.app.dao,ApiTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,SQLiteRepoTest,testRepoSaveGetCacheBug,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.index,IndexServiceTest,testBuildFacets,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",24,24,1.0
+com.searchcode.app.dao,SourceTest,testGetSourceByNameNonExistent,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeSingleMatch,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testSpellingCorrectorTwoMatchesOfSameLengthMostCommonWins,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testCloneSucess,commons-io:commons-io,I/O Utilities,io,2,5,0.4
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testCloneSucess,junit:junit,Testing Frameworks,"testing,junit",3,5,0.6
+com.searchcode.app.util,SearchcodeLibTest,testIsMinifiedFalse,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SlocCounterTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs.searchcode,ReindexerJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,3,1.0
+com.searchcode.app.jobs.repository,IndexGitRepoJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,2,2,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthNotEnabledRebuildAllWorks,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,11,0.36
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthNotEnabledRebuildAllWorks,org.mockito:mockito-all,Mocking,"mock,mocking,testing",4,11,0.36
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthNotEnabledRebuildAllWorks,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,11,0.27
+com.searchcode.app.util,HelpersTest,testFilterRunningAndDeletedRepoJobs,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCleanPipelineDots,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,TimeCodeSearcher,getTotalNumberDocumentsIndexed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+com.searchcode.app.service.index,IndexServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,CodeAnalyzer,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getTimeSearch,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",43,43,1.0
+com.searchcode.app.service,TimeCodeSearcher,getYearMonthFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.service,TimeCodeSearcher,getYearMonthFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.service.index,IndexService,doPagingSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",34,34,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getPage,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",2,2,1.0
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeMultipleMatch,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,RepositorySourceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,SQLiteRepoTest,testRepoSaveDelete,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",18,18,1.0
+com.searchcode.app.util,HelpersTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getRevisions,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+com.searchcode.app.service.route,TimeSearchRouteService,getRevisions,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.util,Cocomo2Test,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,IndexSvnRepoJobTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testCheckCloneSuccessEmptyReturnsTrue,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service.index,IndexServiceTest,testIndexerWithThreads,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,22,0.45
+com.searchcode.app.service.index,IndexServiceTest,testIndexerWithThreads,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",12,22,0.55
+com.searchcode.app.util,JsonTransformer,"",com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",1,3,0.33
+com.searchcode.app.util,JsonTransformer,"",com.google.code.gson:gson,JSON Libraries,"google,json",2,3,0.67
+com.searchcode.app.service,JobService,startSpellingJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,17,17,1.0
+com.searchcode.app.util,HelpersTest,testTryParseInt,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,JobServiceTest,testPass,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserFullname,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperFineAdd,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testDetermineBinary,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCleanPipelineCustom,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testFormatQueryStringOperatorsOr,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.searchcode.app.jobs.repository,IndexFileRepoJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,2,2,1.0
+com.searchcode.app.jobs.repository,IndexGitRepoJob,updateGitRepository,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",73,77,0.95
+com.searchcode.app.jobs.repository,IndexGitRepoJob,updateGitRepository,commons-io:commons-io,I/O Utilities,io,4,77,0.05
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameFailedAuth,org.mockito:mockito-all,Mocking,"mock,mocking,testing",13,28,0.46
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameFailedAuth,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,28,0.21
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameFailedAuth,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",9,28,0.32
+com.searchcode.app.util,Cocomo2Test,testCocomo1740Lines,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testIndexSucess,junit:junit,Testing Frameworks,"testing,junit",3,5,0.6
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testIndexSucess,commons-io:commons-io,I/O Utilities,io,2,5,0.4
+com.searchcode.app.util,Helpers,readFileLinesGuessEncoding,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteNoAuthReponame,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,18,0.22
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteNoAuthReponame,org.mockito:mockito-all,Mocking,"mock,mocking,testing",9,18,0.5
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteNoAuthReponame,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,18,0.28
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexApiNoMatchingRepo,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,17,0.47
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexApiNoMatchingRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,17,0.29
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexApiNoMatchingRepo,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,17,0.24
+com.searchcode.app.service,StatsServiceTest,testIncrementSearchCountTwo,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,6,1.0
+com.searchcode.app.service.route,AdminRouteService,adminLogs,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",8,8,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testDeleteNoFile,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+com.searchcode.app.service.route,ApiRouteService,repoList,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",8,8,1.0
+com.searchcode.app.util,RepositorySourceTest,testGetSourceByName,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,CodeRouteServiceTest,testHtmlQueryString,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,17,0.41
+com.searchcode.app.service,CodeRouteServiceTest,testHtmlQueryString,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,17,0.24
+com.searchcode.app.service,CodeRouteServiceTest,testHtmlQueryString,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,17,0.35
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoPassword,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",11,25,0.44
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoPassword,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,25,0.16
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoPassword,org.mockito:mockito-all,Mocking,"mock,mocking,testing",10,25,0.4
+com.searchcode.app.service,CodeMatcher,findMatchingLines,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.searchcode.app.util,HelpersTest,testTryParseDouble,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testSpellingCorrectorMissingLetter,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testGetBlameFilePathWindows,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthInvalidSigned,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,21,0.38
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthInvalidSigned,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,21,0.33
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthInvalidSigned,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,21,0.29
+com.searchcode.app.service,DataServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.route,ApiRouteService,repositoryIndex,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltQueriesNoDupes,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app,AppTest,testCrypt,de.svenkubiak:jBCrypt,Hashing Libraries,hashing,5,5,1.0
+com.searchcode.app.service.index,SphinxIndexService,buildDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryTrue,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testLanguageCostIgnore,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,12,1.0
+com.searchcode.app,TestHelpers,clearAndCreateTempPath,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,4,0.5
+com.searchcode.app,TestHelpers,clearAndCreateTempPath,commons-io:commons-io,I/O Utilities,io,2,4,0.5
+com.searchcode.app.service,ApiService,validateRequest,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",4,4,1.0
+com.searchcode.app.service,ApiServiceTest,testCreateKeys,org.mockito:mockito-all,Mocking,"mock,mocking,testing",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testInterestingKeywords,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testTermsLowercased,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.searchcode.app.service.index,IndexService,reindexAll,commons-io:commons-io,I/O Utilities,io,4,4,1.0
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperAll,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.jobs,IndexFileRepoJobTest,testGetFileLocationFilename,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthPubMissing,org.mockito:mockito-all,Mocking,"mock,mocking,testing",19,40,0.48
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthPubMissing,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,40,0.1
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthPubMissing,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",17,40,0.43
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddNoAuthSucessful,org.mockito:mockito-all,Mocking,"mock,mocking,testing",26,47,0.55
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddNoAuthSucessful,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,47,0.09
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddNoAuthSucessful,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",17,47,0.36
+com.searchcode.app.util,HelpersTest,testGetLogPath,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs,IndexFileRepoJobTest,testGetCodeOwner,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeMultipleMatchCorrectLineNumbersSingleMatch,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.service.route,ApiRouteService,repositoryReindex,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",8,8,1.0
+com.searchcode.app.service,JobService,startIndexSvnRepoJobs,org.quartz-scheduler:quartz,Job Scheduling,scheduling,17,17,1.0
+com.searchcode.app.service.index,IndexService,deleteByRepo,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",20,20,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testGetAverageIndexTimeSeconds,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,17,0.12
+com.searchcode.app.service,ApiRouteServiceTest,testGetAverageIndexTimeSeconds,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,17,0.47
+com.searchcode.app.service,ApiRouteServiceTest,testGetAverageIndexTimeSeconds,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,17,0.41
+com.searchcode.app.service,ApiServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.index,IndexServiceTest,testReindexAllNoReturnSetsIndexingStatus,org.mockito:mockito-all,Mocking,"mock,mocking,testing",3,13,0.23
+com.searchcode.app.service.index,IndexServiceTest,testReindexAllNoReturnSetsIndexingStatus,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,13,0.77
+com.searchcode.app.service.route,SearchRouteService,codeResult,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.dao,SQLiteRepoTest,testGetAllRepo,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,ApiServiceTest,testValidateRequestInCorrectHmac,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.service.route,CodeRouteService,getMap,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,3,1.0
+com.searchcode.app.util,SearchcodeLibTest,testFormatQueryStringDefaultAnd,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.index,IndexServiceTest,testIndexerLock,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testFormatQueryStringOperators,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.searchcode.app.dao,SQLiteRepoTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,Highlight,highlightExternal,com.google.code.gson:gson,JSON Libraries,"google,json",3,3,1.0
+com.searchcode.app.service,ValidatorServiceTest,testRepoResultInValidUrl,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.index,IndexService,getOwnerFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.service.index,IndexService,getOwnerFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.service.route,ApiRouteService,repoDelete,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",10,10,1.0
+com.searchcode.app,SearchcodeRoutes,addJsonHeaders,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,3,1.0
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperInfoAdd,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.dao,SQLiteDataTest,testGetWithoutSave,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service.index,IndexServiceTest,testSearch,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,10,1.0
+com.searchcode.app.service.route,ApiRouteService,getAverageIndexTimeSeconds,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryWhiteListedPropertyExtension,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testSplitKeywords2,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.model,RepoResult,setData,com.google.code.gson:gson,JSON Libraries,"google,json",4,4,1.0
+com.searchcode.app.service.route,AdminRouteService,adminSettings,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testInterestingCharacters,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.dao,SourceTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testSomething,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCleanPipelineTwo,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.service,ApiServiceTest,testValidateRequestNoMatchingKeyExpectFalse,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.service,TimeCodeSearcher,getLanguageFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.service,TimeCodeSearcher,getLanguageFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.dao,MySQLDataTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,JobService,startIndexGitRepoJobs,org.quartz-scheduler:quartz,Job Scheduling,scheduling,17,17,1.0
+com.searchcode.app.service.route,CodeRouteService,root,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",41,43,0.95
+com.searchcode.app.service.route,CodeRouteService,root,com.google.code.gson:gson,JSON Libraries,"google,json",2,43,0.05
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryBlackListWithNoDotFileName,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dao,SQLiteRepoTest,testGetPagedRepo,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCodeOwnerManyOwners,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoUrl,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,13,0.31
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoUrl,org.mockito:mockito-all,Mocking,"mock,mocking,testing",4,13,0.31
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoUrl,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,13,0.38
+com.searchcode.app.util,FileClassifierTest,testIdentifyLanguageAdditionalDots,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,HelpersTest,testIsNullEmptyOrWhitespace,junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+com.searchcode.app.service,JobService,startEnqueueJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,31,31,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getRepos,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+com.searchcode.app.service.route,TimeSearchRouteService,getRepos,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteApiNotEnabled,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.dao,MySQLDataTest,testGetWithRandomValuesExpectingNull,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",1,1,1.0
+com.searchcode.app.service,StatsServiceTest,testIncrementSearchCount,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,6,1.0
+com.searchcode.app.service,TimeCodeSearcher,getRepoFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.service,TimeCodeSearcher,getRepoFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.service,TimeCodeSearcherTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app,ServerRoutes,RegisterServerRoutes,com.sparkjava:spark-template-freemarker,"","spark,template",41,150,0.27
+com.searchcode.app,ServerRoutes,RegisterServerRoutes,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",109,150,0.73
+com.searchcode.app.jobs.searchcode,ReindexerJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,1,1.0
+com.searchcode.app.service,TimeCodeSearcher,getOwnerFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.service,TimeCodeSearcher,getOwnerFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.util,CodeAnalyzer,createComponents,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+com.searchcode.app.service.route,AdminRouteService,adminGetRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testSpellingCorrectorExtraLetter,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthMissingSig,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,14,0.36
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthMissingSig,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,14,0.43
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthMissingSig,org.mockito:mockito-all,Mocking,"mock,mocking,testing",3,14,0.21
+com.searchcode.app.service.index,IndexServiceTest,testIndexContentPipeline,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testIsMinifiedTrue,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.config,SphinxSearchConfig,getConnection,mysql:mysql-connector-java,MySQL Drivers,"mysql,database,connector,driver",3,3,1.0
+com.searchcode.app.jobs,IndexDocumentsJobTest,testExecute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,7,0.43
+com.searchcode.app.jobs,IndexDocumentsJobTest,testExecute,org.mockito:mockito-all,Mocking,"mock,mocking,testing",4,7,0.57
+com.searchcode.app.service,DataService,removeFromPersistentDelete,com.google.code.gson:gson,JSON Libraries,"google,json",4,4,1.0
+com.searchcode.app.service.index,IndexServiceTest,testDeleteAll,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getYearMonths,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+com.searchcode.app.service.route,TimeSearchRouteService,getYearMonths,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.util,RepositorySource,loadDatabase,com.google.code.gson:gson,JSON Libraries,"google,json",8,8,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCleanPipelineCustom2,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddApiNotEnabled,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service.index,IndexService,getProjectStats,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,12,0.08
+com.searchcode.app.service.index,IndexService,getProjectStats,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,12,0.92
+com.searchcode.app.util,SearchcodeLibTest,testCodeCleanPipelineIssue165,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,UniqueRepoQueueTest,testEnqueueDifferent,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthValid,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,22,0.27
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthValid,org.mockito:mockito-all,Mocking,"mock,mocking,testing",9,22,0.41
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledAuthValid,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,22,0.32
+com.searchcode.app.util,JsonTransformer,render,com.google.code.gson:gson,JSON Libraries,"google,json",2,2,1.0
+com.searchcode.app.service,TimeCodeSearcher,getRevisionFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.service,TimeCodeSearcher,getRevisionFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserUnknown,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,LoggerWrapperTest,testIsLoggableWarning,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.util,SearchcodeLibTest,testSplitKeywords3,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testSpellingCorrectorEmptyDictionary,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app,TestHelpers,getRandomAscii,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserNoExtension,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,SlocCounterTest,testBomSkipAll,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,AdminRouteServiceTest,testDeleteRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,19,0.26
+com.searchcode.app.service,AdminRouteServiceTest,testDeleteRepo,org.mockito:mockito-all,Mocking,"mock,mocking,testing",14,19,0.74
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexMatchingRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,20,0.25
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexMatchingRepo,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,20,0.2
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexMatchingRepo,org.mockito:mockito-all,Mocking,"mock,mocking,testing",11,20,0.55
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeSingleMatchFirstLineCorrectLineNumber,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dao,MySQLDataTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.index,SphinxIndexServiceTest,testTransformLanguageTypeEmpty,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,8,0.25
+com.searchcode.app.service.index,SphinxIndexServiceTest,testTransformLanguageTypeEmpty,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,8,0.75
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserKotlin,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app,SearchcodeRoutes,RegisterSearchcodeRoutes,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",15,23,0.65
+com.searchcode.app,SearchcodeRoutes,RegisterSearchcodeRoutes,com.sparkjava:spark-template-freemarker,"","spark,template",8,23,0.35
+com.searchcode.app.dao,SQLiteDataTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,SourceCodeTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dto,RepoResultTest,testGetDirectoryNameFileOnlyAsciiMultiple,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.integration,EndToEndITCase,testEndToEndSvnPath,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",18,18,1.0
+com.searchcode.app.util,SearchcodeLibTest,testIsBinary,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dao,SourceCodeTest,testGetLocation,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testMissingPathFilesShouldPage,org.mockito:mockito-all,Mocking,"mock,mocking,testing",13,13,1.0
+com.searchcode.app.jobs.enqueue,EnqueueRepositoryJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,3,1.0
+com.searchcode.app.util,HelpersTest,testReadFileLines,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,SearchcodeLibTest,testFormatQueryStringDefaultOr,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiServiceTest,testCase3,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.service,DataService,addToPersistentDelete,com.google.code.gson:gson,JSON Libraries,"google,json",4,4,1.0
+com.searchcode.app.util,FileClassifierTest,testGetExtension,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs,DeleteRepositoryJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,3,0.33
+com.searchcode.app.jobs,DeleteRepositoryJob,execute,commons-io:commons-io,I/O Utilities,io,2,3,0.67
+com.searchcode.app.jobs,IndexBaseRepoJobTest,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,4,0.75
+com.searchcode.app.jobs,IndexBaseRepoJobTest,"",junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiNotEnabled,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service.index,IndexServiceTest,testIndexDocumentNoQueueEndToEnd,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledNoAuth,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,10,0.1
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledNoAuth,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,10,0.6
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiEnabledNoAuth,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,10,0.3
+com.searchcode.app.util,SpellingCorrectorTest,testSpellingCorrectorTwoMatchesSameLengthWins,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,MySQLRepoTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiService,createKeys,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,4,1.0
+com.searchcode.app.service.route,SearchRouteService,getSearchResult,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",28,28,1.0
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeSingleMatchSecondLineCorrectLineNumber,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.config,MySQLDatabaseConfig,"",com.zaxxer:HikariCP,JDBC Pools,"jdbc,pool",4,4,1.0
+com.searchcode.app.util,FileClassifierTest,testGetExtensionMultiple,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,FileClassifierTest,testIdentifyLanguage,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeNoMatch,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs,IndexGitHistoryJobTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,LoggerWrapperTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,SQLiteDataTest,testDataSaveUpdate,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.dao,SQLiteDataTest,testDefaultReturns,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,HighlightTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ICodeSearcher,doPagingSearch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+com.searchcode.app.service.index,IndexService,indexDocument,org.apache.lucene:lucene-facet,"","lucene,apache,index",16,42,0.38
+com.searchcode.app.service.index,IndexService,indexDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",26,42,0.62
+com.searchcode.app.service.index,IndexServiceTest,testSearchLiteral,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,12,1.0
+com.searchcode.app.util,HelpersTest,testReadFileLinesIssue168,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.dao,MySQLRepoTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,SearchcodeLibTest,testGenerateBusBlurb,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.service.index,IndexService,getCodeResultByCodeId,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",8,38,0.21
+com.searchcode.app.service.index,IndexService,getCodeResultByCodeId,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",30,38,0.79
+com.searchcode.app.util,AESEncryptorTest,testCreateWithRandomKeysWorks,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.util,AESEncryptorTest,testCreateWithRandomKeysWorks,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,4,0.5
+com.searchcode.app.service,CodeMatcher,highlightLine,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",6,6,1.0
+com.searchcode.app.service.index,IndexService,deleteByCodeId,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,33,0.73
+com.searchcode.app.service.index,IndexService,deleteByCodeId,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",9,33,0.27
+com.searchcode.app.service,AdminRouteServiceTest,testPostRepoMultipleRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",23,61,0.38
+com.searchcode.app.service,AdminRouteServiceTest,testPostRepoMultipleRepo,org.mockito:mockito-all,Mocking,"mock,mocking,testing",38,61,0.62
+com.searchcode.app.service,ValidatorServiceTest,testValidatorServiceExistingNameIgnored,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,5,0.4
+com.searchcode.app.service,ValidatorServiceTest,testValidatorServiceExistingNameIgnored,org.mockito:mockito-all,Mocking,"mock,mocking,testing",3,5,0.6
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserCssBug,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app,ServerRoutes,addJsonHeaders,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,3,1.0
+com.searchcode.app,ServerRoutes,removeAuthenticatedUser,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.jobs.enqueue,EnqueueFileRepositoryJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,3,1.0
+com.searchcode.app.jobs.repository,IndexSvnRepoJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,2,2,1.0
+com.searchcode.app.model,RepoResult,getDirectoryName,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthValidSigned,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",21,58,0.36
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthValidSigned,org.mockito:mockito-all,Mocking,"mock,mocking,testing",33,58,0.57
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthValidSigned,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,58,0.07
+com.searchcode.app.service,ApiServiceTest,testValidateRequestCorrectHmacMethod,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.util,LoggerWrapperTest,testIsLoggableSevere,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.util,SearchCodeLib,splitKeywords,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testFormatQueryStringAnd,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,12,1.0
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserHTML,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperSearchAdd,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,checkCloneSuccess,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getDeleted,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.service.route,TimeSearchRouteService,getDeleted,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+com.searchcode.app.util,HelpersTest,testGetRandomSleepTime,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,LoggerWrapper,getApiLogs,com.google.guava:guava,Core Utilities,google,3,3,1.0
+com.searchcode.app.util,HelpersTest,testAllUnique,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.util,UniqueRepoQueueTest,testEnqueueMultipleTimes,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.route,AdminRouteService,deleteRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.util,Helpers,closeQuietly,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,14,0.43
+com.searchcode.app.util,Helpers,closeQuietly,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",6,14,0.43
+com.searchcode.app.util,Helpers,closeQuietly,org.apache.lucene:lucene-facet,"","lucene,apache,index",2,14,0.14
+com.searchcode.app.dao,SQLiteDataTest,testSingleSaveManyGet,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.dao,SourceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,PopulateSpellingCorrectorJob,execute,commons-io:commons-io,I/O Utilities,io,4,5,0.8
+com.searchcode.app.jobs,PopulateSpellingCorrectorJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,5,0.2
+com.searchcode.app.service,JobServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,LoggerWrapper,getSearchLogs,com.google.guava:guava,Core Utilities,google,3,3,1.0
+com.searchcode.app.util,Properties,getProperties,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+com.searchcode.app.dao,SQLiteDataTest,testGetAll,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,ApiServiceTest,testCase2,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.util,LoggerWrapper,searchLog,com.google.guava:guava,Core Utilities,google,2,2,1.0
+com.searchcode.app.service.index,IndexService,getLanguageFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.service.index,IndexService,getLanguageFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeEmptyReturnsEmpty,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.index,SphinxIndexServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,LengthFilter,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,6,0.83
+com.searchcode.app.util,LengthFilter,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,6,0.17
+com.searchcode.app.util,SearchCodeLib,formatQueryStringAndDefault,com.google.guava:guava,Core Utilities,google,20,26,0.77
+com.searchcode.app.util,SearchCodeLib,formatQueryStringAndDefault,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,26,0.15
+com.searchcode.app.util,SearchCodeLib,formatQueryStringAndDefault,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,26,0.08
+com.searchcode.app.util,SpellingCorrectorTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testFuzzSpellingCorrector,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,4,1.0
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,1,1.0
+com.searchcode.app.config,SphinxSearchConfigTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.index,IndexService,getIndexedDocumentCount,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryEmptyTrue,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameAuth,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,29,0.14
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameAuth,org.mockito:mockito-all,Mocking,"mock,mocking,testing",16,29,0.55
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameAuth,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",9,29,0.31
+com.searchcode.app.service.index,IndexServiceTest,testIndexEndToEndDots,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,AESEncryptor,setKey,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,1,1.0
+com.searchcode.app.util,CodeAnalyzer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testSpellingCorrectorIncorrectLetter,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,HelpersTest,testReplaceForIndex,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,10,1.0
+com.searchcode.app.util,OWASPClassifier,loadDatabase,com.google.code.gson:gson,JSON Libraries,"google,json",5,5,1.0
+com.searchcode.app.util,LoggerWrapperTest,testIsLoggableInfo,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.integration,EndToEndITCase,testEndToEndGitPath,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",18,18,1.0
+com.searchcode.app.service,JobService,startReIndexer,org.quartz-scheduler:quartz,Job Scheduling,scheduling,17,17,1.0
+com.searchcode.app.service.route,AdminRouteService,postSettings,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",20,20,1.0
+com.searchcode.app.service,CodeRouteServiceTest,testRootNoQueryString,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,30,0.2
+com.searchcode.app.service,CodeRouteServiceTest,testRootNoQueryString,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",16,30,0.53
+com.searchcode.app.service,CodeRouteServiceTest,testRootNoQueryString,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",8,30,0.27
+com.searchcode.app.service.index,IndexService,createCodeResult,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",31,31,1.0
+com.searchcode.app.util,FileClassifierTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.integration,EndToEndITCase,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs.repository,IndexGitHistoryJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,1,1.0
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperSevereAdd,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.jobs,PopulateSpellingCorrectorJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,3,1.0
+com.searchcode.app.jobs.repository,SearchcodeFileVisitor,visitFile,commons-io:commons-io,I/O Utilities,io,2,5,0.4
+com.searchcode.app.jobs.repository,SearchcodeFileVisitor,visitFile,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",3,5,0.6
+com.searchcode.app.service,Singleton,getScheduler,org.quartz-scheduler:quartz,Job Scheduling,scheduling,14,14,1.0
+com.searchcode.app.service,ApiServiceTest,testValidateRequestCorrectHmac,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.service,JobService,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,2,2,1.0
+com.searchcode.app.service.route,SearchRouteService,literalCodeSearch,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,3,1.0
+com.searchcode.app.util,CodeTokenizer,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,3,0.33
+com.searchcode.app.util,CodeTokenizer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryBlackListedPropertyExtension,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,3,0.33
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryBlackListedPropertyExtension,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+com.searchcode.app.dao,SourceCode,getByIds,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",1,1,1.0
+com.searchcode.app.jobs,IndexFileRepoJobTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs.enqueue,EnqueueSearchcodeRepositoryJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,1,1.0
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectNbspBecauseIntercoolerJS,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,14,0.5
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectNbspBecauseIntercoolerJS,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,14,0.14
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectNbspBecauseIntercoolerJS,org.mockito:mockito-all,Mocking,"mock,mocking,testing",5,14,0.36
+com.searchcode.app.service.index,IndexService,getRepoDocuments,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,6,0.83
+com.searchcode.app.service.index,IndexService,getRepoDocuments,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,6,0.17
+com.searchcode.app.util,OWASPFileClassifierResultTest,testOWASPLoader,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,UniqueRepoQueueTest,testBleedingBetweenUniqueQueues,junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+com.searchcode.app.jobs,IndexBaseRepoJobTest,testGetCodeLinesLogNotIndexedInvalid,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,JobService,moveDirectoryToTrash,commons-io:commons-io,I/O Utilities,io,2,2,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getYears,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+com.searchcode.app.service.route,TimeSearchRouteService,getYears,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.util,SearchcodeLibTest,testInterestingKeywordsNull,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.index,IndexServiceTest,testBuildDocument,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",18,46,0.39
+com.searchcode.app.service.index,IndexServiceTest,testBuildDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,46,0.61
+com.searchcode.app.util,OWASPFileClassifierResultTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.config,MySQLDatabaseConfig,getConnection,com.zaxxer:HikariCP,JDBC Pools,"jdbc,pool",2,2,1.0
+com.searchcode.app.jobs.enqueue,EnqueueFileRepositoryJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,1,1.0
+com.searchcode.app.service,CodeRouteServiceTest,testGetCodeNoParams,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",9,15,0.6
+com.searchcode.app.service,CodeRouteServiceTest,testGetCodeNoParams,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,15,0.4
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeNullReturnsEmpty,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltQueriesAnother,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,3,0.33
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltQueriesAnother,junit:junit,Testing Frameworks,"testing,junit",2,3,0.67
+com.searchcode.app.jobs.enqueue,EnqueueSearchcodeRepositoryJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,3,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledPubMissing,org.mockito:mockito-all,Mocking,"mock,mocking,testing",2,9,0.22
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledPubMissing,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,9,0.33
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledPubMissing,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,9,0.44
+com.searchcode.app.service,CodeRouteServiceTest,testGetProject,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,15,0.4
+com.searchcode.app.service,CodeRouteServiceTest,testGetProject,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",9,15,0.6
+com.searchcode.app.util,SearchCodeLib,generateBusBlurb,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.searchcode.app.config,MySQLDatabaseConfigTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testGetFileLocationFilename,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.jobs.repository,IndexGitRepoJob,cloneGitRepository,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",22,22,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthInvalidSigned,org.mockito:mockito-all,Mocking,"mock,mocking,testing",23,48,0.48
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthInvalidSigned,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,48,0.08
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthInvalidSigned,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",21,48,0.44
+com.searchcode.app.service.route,ApiRouteService,repoTree,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.service.route,TimeSearchRouteService,getYearMonthDays,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.service.route,TimeSearchRouteService,getYearMonthDays,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+com.searchcode.app.util,AESEncryptorTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,Singleton,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,1,1,1.0
+com.searchcode.app.service.route,ApiRouteService,getIndexTime,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCodeOwnerSameTimeDifferntCount,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoListApiNotEnabled,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,Cocomo2Test,testCocomo77873Lines,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.searchcode.app.util,LoggerWrapper,clearAllLogs,com.google.guava:guava,Core Utilities,google,12,12,1.0
+com.searchcode.app.util,UniqueRepoQueueTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthSigMissing,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",19,44,0.43
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthSigMissing,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,44,0.09
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddAuthSigMissing,org.mockito:mockito-all,Mocking,"mock,mocking,testing",21,44,0.48
+com.searchcode.app.service.index,IIndexService,buildDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.searchcode.app.service.index,IndexSharedTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.route,CodeRouteService,getRepositoryList,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,5,1.0
+com.searchcode.app.dao,LanguageTypeTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.model,RepoResult,getDataAsJson,com.google.code.gson:gson,JSON Libraries,"google,json",4,4,1.0
+com.searchcode.app.service.route,SearchRouteService,codeSearch,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,3,1.0
+com.searchcode.app.dto,CodeIndexDocumentTest,testMd5CalcB,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,TimeCodeSearcher,getYearFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.service,TimeCodeSearcher,getYearFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.service.route,ApiRouteService,repoAdd,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",28,28,1.0
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserMultiple,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCleanPipelineThree,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,JobService,startSearchcodeEnqueueJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,17,17,1.0
+com.searchcode.app.util,Cocomo2Test,testCocomo26Lines,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.searchcode.app.util,HelpersTest,testIgnoreFilesDefaults,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",14,14,1.0
+com.searchcode.app.service.route,AdminRouteService,checkIndexStatus,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCodeCleanPipelineIssue188,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dto,RepoResultTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,AdminRouteServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexApiNoRepositorySupplied,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,15,0.53
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexApiNoRepositorySupplied,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,15,0.27
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexApiNoRepositorySupplied,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,15,0.2
+com.searchcode.app.service.index,IndexServiceTest,testIndexReversedFilename,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.index,IndexServiceTest,testReindexAllSetsIndexingStatus,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",14,17,0.82
+com.searchcode.app.service.index,IndexServiceTest,testReindexAllSetsIndexingStatus,org.mockito:mockito-all,Mocking,"mock,mocking,testing",3,17,0.18
+com.searchcode.app.jobs.repository,IndexGitRepoJob,getBlameInfo,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",65,65,1.0
+com.searchcode.app.service,StatsServiceTest,testIncrementSearchIntergerOverflow,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,6,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoBranch,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",15,33,0.45
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoBranch,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,33,0.12
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoBranch,org.mockito:mockito-all,Mocking,"mock,mocking,testing",14,33,0.42
+com.searchcode.app.dao,SQLiteRepoTest,testRepoByUrl,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.integration,EndToEndITCase,testEndToEndFilePath,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",22,22,1.0
+com.searchcode.app.service.index,IndexServiceTest,testShouldNotBackOffWhenLoadZero,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,8,0.25
+com.searchcode.app.service.index,IndexServiceTest,testShouldNotBackOffWhenLoadZero,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,8,0.75
+com.searchcode.app.service.index,IndexServiceTest,testShouldRepoAdderJobPauseWhenSet,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,8,1.0
+com.searchcode.app.util,SearchcodeLibTest,testInterestingCharactersNullExpectEmpty,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dao,ApiTest,testMultipleRetrieveCache,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,LoggerWrapper,getInfoLogs,com.google.guava:guava,Core Utilities,google,3,3,1.0
+com.searchcode.app.util,UniqueRepoQueueTest,testOrderAndPoll,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryIndexApiNotEnabled,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service.route,AdminRouteService,adminPage,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",2,2,1.0
+com.searchcode.app.util,FileClassifierTest,testGetExtensionNoExtension,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dao,SQLiteRepoTest,testRepoByUrlMemoryLeak,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs.repository,IndexFileRepoJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,9,9,1.0
+com.searchcode.app.jobs.repository,IndexGitHistoryJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,2,2,1.0
+com.searchcode.app.service,CodeRouteServiceTest,testGetCodeWithParamsNoMatch,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,19,0.42
+com.searchcode.app.service,CodeRouteServiceTest,testGetCodeWithParamsNoMatch,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",11,19,0.58
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryFalse,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testSpellingCorrectorWordExistsInDictionary,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,ApiTest,testSaveRetrieve,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service.index,IndexServiceTest,testGetRepoDocuments,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltQueriesOther,junit:junit,Testing Frameworks,"testing,junit",2,3,0.67
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltQueriesOther,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,3,0.33
+com.searchcode.app.dao,SQLiteRepoTest,testGetRepoByNameUsingNull,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatLogs,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,15,0.47
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatLogs,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,15,0.4
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatLogs,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,15,0.13
+com.searchcode.app.service.index,IndexServiceTest,testGetProjectStats,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service.route,AdminRouteService,checkVersion,com.google.code.gson:gson,JSON Libraries,"google,json",1,1,1.0
+com.searchcode.app.util,HelpersTest,testReplaceNonAlphanumeric,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,12,1.0
+com.searchcode.app.jobs.repository,IndexDocumentsJob,"",org.quartz-scheduler:quartz,Job Scheduling,scheduling,3,3,1.0
+com.searchcode.app.service,CodeRouteServiceTest,testRootQueryString,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,28,0.36
+com.searchcode.app.service,CodeRouteServiceTest,testRootQueryString,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,28,0.21
+com.searchcode.app.service,CodeRouteServiceTest,testRootQueryString,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",12,28,0.43
+com.searchcode.app.service,JobService,startHighlighter,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",3,18,0.17
+com.searchcode.app.service,JobService,startHighlighter,org.zeroturnaround:zt-exec,External Process Execution,"execution,process,command,external",15,18,0.83
+com.searchcode.app.service,JobService,startIndexerJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,17,17,1.0
+com.searchcode.app.util,LoggerWrapperTest,testWrapperProperties,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,SearchcodeLibTest,testGenerateBusBlurbMore,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,8,1.0
+com.searchcode.app.service,ApiServiceTest,testValidateRequestCorrectHmacMethodSha512,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.service.route,AdminRouteService,adminRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.service.index,IndexService,buildDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",164,168,0.98
+com.searchcode.app.service.index,IndexService,buildDocument,org.apache.lucene:lucene-facet,"","lucene,apache,index",4,168,0.02
+com.searchcode.app.util,AESEncryptorTest,testEncryptBytes,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,AdminRouteServiceTest,testPostRepoRepoNamesEmptyNothing,org.mockito:mockito-all,Mocking,"mock,mocking,testing",20,37,0.54
+com.searchcode.app.service,AdminRouteServiceTest,testPostRepoRepoNamesEmptyNothing,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",17,37,0.46
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameNoPub,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,17,0.35
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameNoPub,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,17,0.35
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameNoPub,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,17,0.29
+com.searchcode.app.service.index,IndexServiceTest,testShouldBackOffWhenLoadHigherThanValue,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,8,0.25
+com.searchcode.app.service.index,IndexServiceTest,testShouldBackOffWhenLoadHigherThanValue,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,8,0.75
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameNoSig,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,21,0.29
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameNoSig,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,21,0.33
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteAuthReponameNoSig,org.mockito:mockito-all,Mocking,"mock,mocking,testing",8,21,0.38
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledSigMissing,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,13,0.31
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledSigMissing,org.mockito:mockito-all,Mocking,"mock,mocking,testing",4,13,0.31
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledSigMissing,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",5,13,0.38
+com.searchcode.app.service.index,IndexServiceTest,testDeleteByRepoName,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,HelpersTest,testIgnoreFilesBlackListSingleResult,org.mockito:mockito-all,Mocking,"mock,mocking,testing",5,13,0.38
+com.searchcode.app.util,HelpersTest,testIgnoreFilesBlackListSingleResult,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,13,0.62
+com.searchcode.app.util,LoggerWrapper,getAllLogs,com.google.guava:guava,Core Utilities,google,3,3,1.0
+com.searchcode.app.util,LoggerWrapper,info,com.google.guava:guava,Core Utilities,google,4,4,1.0
+com.searchcode.app.dto,CodeIndexDocument,getHash,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,1,1.0
+com.searchcode.app.jobs,IndexDocumentsJobTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service.index,IndexServiceTest,testShouldRepoParserJobPause,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.route,CommonRouteServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltNeverEmptyString,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepotype,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,17,0.41
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepotype,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,17,0.35
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepotype,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,17,0.24
+com.searchcode.app.service.route,ApiRouteService,getFileCount,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCleanPipeline,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.service,TimeCodeSearcher,getByRepoFileName,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",44,52,0.85
+com.searchcode.app.service,TimeCodeSearcher,getByRepoFileName,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",8,52,0.15
+com.searchcode.app.service,TimeCodeSearcher,getDeletedFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.service,TimeCodeSearcher,getDeletedFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.util,LoggerWrapper,severe,com.google.guava:guava,Core Utilities,google,4,4,1.0
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeSingleMatchWrongLanguage,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dao,SQLiteDataTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,SourceTest,testGetSourceByIdNonExistent,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs,IndexGitHistoryJobTest,testGetBlameFilePath,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",1,1,1.0
+com.searchcode.app.util,SearchcodeLibTest,testIsBinaryWhiteListedExtension,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,execute,org.quartz-scheduler:quartz,Job Scheduling,scheduling,5,5,1.0
+com.searchcode.app.service,AdminRouteServiceTest,testCheckIndexStatus,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,15,0.47
+com.searchcode.app.service,AdminRouteServiceTest,testCheckIndexStatus,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,15,0.4
+com.searchcode.app.service,AdminRouteServiceTest,testCheckIndexStatus,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,15,0.13
+com.searchcode.app.service.index,IndexService,getSourceFacetResults,org.apache.lucene:lucene-facet,"","lucene,apache,index",24,30,0.8
+com.searchcode.app.service.index,IndexService,getSourceFacetResults,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,30,0.2
+com.searchcode.app.util,HelpersTest,testIgnoreFilesBlackListNoResults,org.mockito:mockito-all,Mocking,"mock,mocking,testing",5,7,0.71
+com.searchcode.app.util,HelpersTest,testIgnoreFilesBlackListNoResults,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,7,0.29
+com.searchcode.app.util,SearchcodeLibTest,testIsMinifiedWhiteListAlwaysWins,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testSplitKeywords,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dao,LanguageTypeTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,logIndexed,net.sf.opencsv:opencsv,CSV Libraries,"csv,tabular",8,8,1.0
+com.searchcode.app.jobs.searchcode,ReindexerJobTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectValue,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,29,0.07
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectValue,org.mockito:mockito-all,Mocking,"mock,mocking,testing",20,29,0.69
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectValue,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,29,0.24
+com.searchcode.app.service,ApiServiceTest,testValidateRequestInCorrectHmacMethodSha512,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.service,JobService,startIndexFileRepoJobs,org.quartz-scheduler:quartz,Job Scheduling,scheduling,17,17,1.0
+com.searchcode.app.service.route,CodeRouteService,"",com.google.code.gson:gson,JSON Libraries,"google,json",3,3,1.0
+com.searchcode.app.jobs,IndexBaseRepoJobTest,setUp,org.quartz-scheduler:quartz,Job Scheduling,scheduling,16,32,0.5
+com.searchcode.app.jobs,IndexBaseRepoJobTest,setUp,org.mockito:mockito-all,Mocking,"mock,mocking,testing",16,32,0.5
+com.searchcode.app.service,CodeRouteServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ValidatorServiceTest,testValidatorServiceExistingName,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,5,0.4
+com.searchcode.app.service,ValidatorServiceTest,testValidatorServiceExistingName,org.mockito:mockito-all,Mocking,"mock,mocking,testing",3,5,0.6
+com.searchcode.app.service.index,IndexService,getProjectFileTree,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,32,0.13
+com.searchcode.app.service.index,IndexService,getProjectFileTree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,32,0.88
+com.searchcode.app.service.index,IndexServiceTest,testShouldBackOffWhenLoadVeryHigh,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,8,0.75
+com.searchcode.app.service.index,IndexServiceTest,testShouldBackOffWhenLoadVeryHigh,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,8,0.25
+com.searchcode.app.dto,CodeIndexDocumentTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesserXAML,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testCheckCloneSuccessEmptyReturnsFalse,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,ValidatorServiceTest,"",junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ValidatorServiceTest,testRepoResultValidReponame,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.route,AdminRouteService,postRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",22,22,1.0
+com.searchcode.app.service.index,IndexServiceTest,testIndexDocumentEndToEnd,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,UniqueRepoQueueTest,testEnqueueSameRepoMultipleTimes,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectEmpty,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,15,0.13
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectEmpty,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,15,0.47
+com.searchcode.app.service,AdminRouteServiceTest,testGetStatValuesExpectEmpty,org.mockito:mockito-all,Mocking,"mock,mocking,testing",6,15,0.4
+com.searchcode.app.service.route,TimeSearchRouteService,getOwners,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+com.searchcode.app.service.route,TimeSearchRouteService,getOwners,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,4,0.5
+com.searchcode.app.util,LoggerWrapper,apiLog,com.google.guava:guava,Core Utilities,google,2,2,1.0
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWrapperApiAdd,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,LoggerWrapperTest,testIsLoggableOff,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+com.searchcode.app.dao,ApiTest,getRandomString,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,2,1.0
+com.searchcode.app.dao,SQLiteDataTest,testManySaveAndGet,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,JobService,shutdownScheduler,org.quartz-scheduler:quartz,Job Scheduling,scheduling,5,5,1.0
+com.searchcode.app.util,Helpers,tryDelete,commons-io:commons-io,I/O Utilities,io,4,4,1.0
+com.searchcode.app.util,SearchcodeLibTest,testGenerateAltQueriesFuzz,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",8,8,1.0
+com.searchcode.app.util,SearchcodeLibTest,testSplitKeywords4,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.route,AdminRouteService,"",com.google.code.gson:gson,JSON Libraries,"google,json",3,3,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteNoAuthNoReponame,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,8,0.5
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteNoAuthNoReponame,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,8,0.38
+com.searchcode.app.service,ApiRouteServiceTest,testRepoDeleteNoAuthNoReponame,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,8,0.13
+com.searchcode.app.util,LoggerWrapper,getSevereLogs,com.google.guava:guava,Core Utilities,google,3,3,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledValidSig,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,21,0.19
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledValidSig,org.mockito:mockito-all,Mocking,"mock,mocking,testing",10,21,0.48
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledValidSig,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,21,0.33
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthNotEnabledRebuildAllFails,org.mockito:mockito-all,Mocking,"mock,mocking,testing",4,11,0.36
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthNotEnabledRebuildAllFails,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,11,0.36
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthNotEnabledRebuildAllFails,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,11,0.27
+com.searchcode.app.service,JobService,startDeleteJob,org.quartz-scheduler:quartz,Job Scheduling,scheduling,17,17,1.0
+com.searchcode.app.util,OWASPFileClassifierResultTest,testClassifyCodeSingleMatchRightLanguage,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testGetBlameFilePath,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoSource,org.mockito:mockito-all,Mocking,"mock,mocking,testing",12,29,0.41
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoSource,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,29,0.14
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoSource,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",13,29,0.45
+com.searchcode.app.util,RepositorySourceTest,testLoader,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app,ServerRoutes,addXmlHeaders,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,3,1.0
+com.searchcode.app.util,Helpers,calculateMd5,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,4,0.5
+com.searchcode.app.util,Helpers,calculateMd5,commons-io:commons-io,I/O Utilities,io,2,4,0.5
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWithThreads,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,14,0.43
+com.searchcode.app.util,LoggerWrapperTest,testLoggerWithThreads,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",8,14,0.57
+com.searchcode.app.util,SearchcodeLibTest,testCodeOwnerManyOwnersFirstWins,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,FileClassifierTest,testDatabaseControl,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.util,FileClassifierTest,testGetExtensionSecondPass,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,RepositorySourceTest,testGetLink,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,cleanMissingPathFiles,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",1,1,1.0
+com.searchcode.app.service.index,IndexServiceTest,testShouldRepoAdderJobPause,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,RepositorySourceTest,testGetLinkMissingRepository,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service,TimeCodeSearcher,getRepoDocuments,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,31,0.13
+com.searchcode.app.service,TimeCodeSearcher,getRepoDocuments,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",27,31,0.87
+com.searchcode.app.service,ValidatorServiceTest,testRepoResultNull,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.service.route,AdminRouteService,postBulk,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.service.route,CodeRouteService,html,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,28,0.14
+com.searchcode.app.service.route,CodeRouteService,html,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",24,28,0.86
+com.searchcode.app.util,FileClassifierTest,testGetExtensionLeadingDot,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.util,SearchcodeLibTest,testCodeOwnerManyOwnersRandom,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,getFileMd5,commons-io:commons-io,I/O Utilities,io,2,4,0.5
+com.searchcode.app.jobs.repository,IndexBaseRepoJob,getFileMd5,commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,4,0.5
+com.searchcode.app.service,GitService,fetchFileRevision,org.eclipse.jgit:org.eclipse.jgit,Git Tools,"eclipse,git,scm,version-control",33,33,1.0
+com.searchcode.app.jobs,IndexBaseRepoJobTest,testGetMinified,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,4,1.0
+com.searchcode.app.service,ApiServiceTest,testCase1,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.util,Helpers,guessCharset,org.codehaus.guessencoding:guessencoding,"",codehaus,2,2,1.0
+com.searchcode.app.util,SpellingCorrectorTest,testSpellingCorrectorSecondCycle,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledInvalidSig,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,20,0.2
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledInvalidSig,org.mockito:mockito-all,Mocking,"mock,mocking,testing",9,20,0.45
+com.searchcode.app.service,ApiRouteServiceTest,testRepositoryReindexApiAuthEnabledInvalidSig,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",7,20,0.35
+com.searchcode.app.service.route,AdminRouteService,reindexRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.util,FileClassifierTest,testLanguageGuesser,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app,ServerRoutes,getAuthenticatedUser,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",4,4,1.0
+com.searchcode.app.service,ApiServiceTest,testValidateRequestCorrectHmacMethodSha1,org.mockito:mockito-all,Mocking,"mock,mocking,testing",1,1,1.0
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoName,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",3,9,0.33
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoName,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,9,0.44
+com.searchcode.app.service,ApiRouteServiceTest,testRepoAddMissingRepoName,org.mockito:mockito-all,Mocking,"mock,mocking,testing",2,9,0.22
+com.searchcode.app.service.route,AdminRouteService,adminApi,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",2,2,1.0
+com.searchcode.app.service.route,AdminRouteService,getStat,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",10,16,0.63
+com.searchcode.app.service.route,AdminRouteService,getStat,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,16,0.38
+com.searchcode.app.util,FileClassifierTest,testLoadDatabase,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+com.searchcode.app.util,SearchcodeLibTest,testSplitKeywords5,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+com.searchcode.app.dao,ApiTest,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+com.searchcode.app.dao,SQLiteRepoTest,testSearchRepo,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,8,1.0
+com.searchcode.app.jobs,IndexBaseRepoJobTest,testExecuteNothingInQueue,org.mockito:mockito-all,Mocking,"mock,mocking,testing",3,7,0.43
+com.searchcode.app.jobs,IndexBaseRepoJobTest,testExecuteNothingInQueue,org.quartz-scheduler:quartz,Job Scheduling,scheduling,2,7,0.29
+com.searchcode.app.jobs,IndexBaseRepoJobTest,testExecuteNothingInQueue,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,7,0.29
+com.searchcode.app.service,CodeRouteServiceTest,testGetCodeWithParamsWithMatch,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",2,7,0.29
+com.searchcode.app.service,CodeRouteServiceTest,testGetCodeWithParamsWithMatch,org.mockito:mockito-all,Mocking,"mock,mocking,testing",5,7,0.71
+com.searchcode.app.service.route,ApiRouteService,getRepo,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",6,6,1.0
+com.searchcode.app.jobs,IndexBaseAndGitRepoJobTest,testMissingPathFilesNoLocations,org.mockito:mockito-all,Mocking,"mock,mocking,testing",5,5,1.0
+com.searchcode.app.service.route,CodeRouteService,getCode,com.sparkjava:spark-core,Web Frameworks,"spark,web,framework",8,8,1.0
+com.searchcode.app.util,LengthFilter,accept,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.searchcode.app.util,SearchCodeLib,formatQueryStringOrDefault,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,2,1.0

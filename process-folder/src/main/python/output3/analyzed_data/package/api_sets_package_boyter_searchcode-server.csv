@@ -1,0 +1,15 @@
+packageName,apis
+com.searchcode.app.service,"[com.google.code.gson:gson,com.sparkjava:spark-core,commons-codec:commons-codec,commons-io:commons-io,junit:junit,org.apache.commons:commons-lang3,org.apache.lucene:lucene-core,org.apache.lucene:lucene-facet,org.apache.lucene:lucene-queryparser,org.assertj:assertj-core,org.eclipse.jgit:org.eclipse.jgit,org.mockito:mockito-all,org.quartz-scheduler:quartz,org.zeroturnaround:zt-exec]"
+com.searchcode.app.jobs.enqueue,[org.quartz-scheduler:quartz]
+com.searchcode.app,"[com.sparkjava:spark-core,com.sparkjava:spark-template-freemarker,commons-codec:commons-codec,commons-io:commons-io,de.svenkubiak:jBCrypt,junit:junit,org.apache.commons:commons-lang3]"
+com.searchcode.app.jobs,"[commons-io:commons-io,junit:junit,org.assertj:assertj-core,org.eclipse.jgit:org.eclipse.jgit,org.mockito:mockito-all,org.quartz-scheduler:quartz]"
+com.searchcode.app.dao,"[junit:junit,org.apache.commons:commons-lang3,org.assertj:assertj-core]"
+com.searchcode.app.jobs.repository,"[commons-codec:commons-codec,commons-io:commons-io,net.sf.opencsv:opencsv,org.apache.commons:commons-lang3,org.eclipse.jgit:org.eclipse.jgit,org.quartz-scheduler:quartz]"
+com.searchcode.app.model,"[com.google.code.gson:gson,commons-codec:commons-codec]"
+com.searchcode.app.dto,"[commons-codec:commons-codec,junit:junit,org.assertj:assertj-core]"
+com.searchcode.app.config,"[com.zaxxer:HikariCP,junit:junit,mysql:mysql-connector-java]"
+com.searchcode.app.service.route,"[com.google.code.gson:gson,com.sparkjava:spark-core,junit:junit,org.apache.commons:commons-lang3,org.apache.lucene:lucene-queryparser,org.assertj:assertj-core]"
+com.searchcode.app.service.index,"[commons-io:commons-io,junit:junit,org.apache.commons:commons-lang3,org.apache.lucene:lucene-core,org.apache.lucene:lucene-facet,org.apache.lucene:lucene-queryparser,org.assertj:assertj-core,org.mockito:mockito-all]"
+com.searchcode.app.util,"[com.google.code.gson:gson,com.google.guava:guava,com.sparkjava:spark-core,commons-codec:commons-codec,commons-io:commons-io,junit:junit,org.apache.commons:commons-lang3,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.apache.lucene:lucene-facet,org.apache.lucene:lucene-queryparser,org.assertj:assertj-core,org.codehaus.guessencoding:guessencoding,org.eclipse.jgit:org.eclipse.jgit,org.mockito:mockito-all]"
+com.searchcode.app.integration,"[junit:junit,org.assertj:assertj-core]"
+com.searchcode.app.jobs.searchcode,"[junit:junit,org.quartz-scheduler:quartz]"

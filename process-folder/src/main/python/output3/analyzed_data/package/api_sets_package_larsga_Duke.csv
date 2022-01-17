@@ -1,0 +1,13 @@
+packageName,apis
+no.priv.garshol.duke.cleaners,[junit:junit]
+no.priv.garshol.duke.server,[org.codehaus.fabric3.api:commonj]
+no.priv.garshol.duke.matchers,[junit:junit]
+no.priv.garshol.duke.test,[junit:junit]
+no.priv.garshol.duke.comparators,[junit:junit]
+no.priv.garshol.duke,[junit:junit]
+no.priv.garshol.duke.integration,[junit:junit]
+no.priv.garshol.duke.databases.es,"[junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.elasticsearch:elasticsearch]"
+no.priv.garshol.duke.datasources,"[com.fasterxml.jackson.core:jackson-core,junit:junit,org.mongodb:mongo-java-driver]"
+no.priv.garshol.duke.utils,[junit:junit]
+no.priv.garshol.duke.databases,"[junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.apache.lucene:lucene-spatial,org.mapdb:mapdb]"
+no.priv.garshol.duke.genetic,[junit:junit]

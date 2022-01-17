@@ -1,0 +1,6 @@
+packageName,apis
+org.sifarish.common,"[org.apache.commons:commons-lang3,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-analyzers-morfologik,org.apache.lucene:lucene-core]"
+org.sifarish.feature,[org.apache.commons:commons-lang3]
+org.sifarish.realtime,[com.google.guava:guava]
+org.sifarish.etl,"[org.apache.commons:commons-lang3,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core]"
+org.sifarish.social,[org.apache.commons:commons-lang3]

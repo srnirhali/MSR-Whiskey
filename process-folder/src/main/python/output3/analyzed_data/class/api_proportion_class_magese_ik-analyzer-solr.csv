@@ -1,0 +1,8 @@
+packageName,className,api,mcrCategories,mcrTags,count,countAll,proportion
+org.wltea.analyzer.query,SWMCQueryBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,19,0.16
+org.wltea.analyzer.query,SWMCQueryBuilder,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",16,19,0.84
+org.wltea.analyzer.lucene,IKAnalyzer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+org.wltea.analyzer.query,IKQueryExpressionParser,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",186,186,1.0
+org.wltea.analyzer.lucene,IKTokenizerFactory,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,13,0.23
+org.wltea.analyzer.lucene,IKTokenizerFactory,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",10,13,0.77
+org.wltea.analyzer.lucene,IKTokenizer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",30,30,1.0

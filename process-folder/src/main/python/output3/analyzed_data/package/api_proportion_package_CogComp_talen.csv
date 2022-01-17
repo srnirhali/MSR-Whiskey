@@ -1,0 +1,13 @@
+packageName,api,mcrCategories,mcrTags,count,countAll,proportion
+io.github.mayhewsw.utils,cz.jirutka.unidecode:unidecode,"","",5,101,0.05
+io.github.mayhewsw.utils,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,101,0.04
+io.github.mayhewsw.utils,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",56,101,0.55
+io.github.mayhewsw.utils,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",36,101,0.36
+io.github.mayhewsw,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",106,169,0.63
+io.github.mayhewsw,commons-cli:commons-cli,Command Line Parsers,"command-line,cli,parser",59,169,0.35
+io.github.mayhewsw,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,169,0.01
+io.github.mayhewsw,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",2,169,0.01
+io.github.mayhewsw.controllers,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",99,109,0.91
+io.github.mayhewsw.controllers,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,109,0.04
+io.github.mayhewsw.controllers,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,109,0.02
+io.github.mayhewsw.controllers,org.apache.commons:commons-lang3,Core Utilities,"apache,commons",4,109,0.04

@@ -1,0 +1,699 @@
+packageName,className,methodName,api,mcrCategories,mcrTags,count,countAll,proportion
+uk.co.flax.luwak.termextractor.treebuilder,TreeBuilders,newFilteringQueryBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDown,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,Monitor,decomposeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,2,0.5
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak,TestQueryDecomposer,testNestedDisjunctions,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,5,0.4
+uk.co.flax.luwak,TestQueryDecomposer,testNestedDisjunctions,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak,TestQueryDecomposer,testNestedDisjunctions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,5,0.4
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,testParallelSlowLog,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,testParallelSlowLog,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,9,0.89
+uk.co.flax.luwak.matchers,HighlightingMatcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+uk.co.flax.luwak.presearcher,TermFilteredPresearcher,showQueryTree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testDisjunctionsWithAnyClausesOnlyReturnANYTOKEN,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testDisjunctionsWithAnyClausesOnlyReturnANYTOKEN,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.demo,LuwakDemo,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+uk.co.flax.luwak,TestMonitorErrorHandling,testPresearcherErrors,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",7,17,0.41
+uk.co.flax.luwak,TestMonitorErrorHandling,testPresearcherErrors,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,17,0.18
+uk.co.flax.luwak,TestMonitorErrorHandling,testPresearcherErrors,org.mockito:mockito-core,Mocking,"mock,mocking,testing",6,17,0.35
+uk.co.flax.luwak,TestMonitorErrorHandling,testPresearcherErrors,junit:junit,Testing Frameworks,"testing,junit",1,17,0.06
+uk.co.flax.luwak.termextractor,TestBooleanClauseWeightings,longerTermsPreferred,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.termextractor,TestBooleanClauseWeightings,longerTermsPreferred,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanBoost,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanBoost,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,9,0.89
+uk.co.flax.luwak,Monitor,prepareQueryCache,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+uk.co.flax.luwak.matchers,PartitionMatcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak,TestQueryDecomposer,q,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.presearcher,MultipassTermFilteredPresearcher,buildQueryDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",20,20,1.0
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testOrderedNearWithWildcardExtractor,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testOrderedNearWithWildcardExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,9,0.89
+uk.co.flax.luwak.termextractor.treebuilder,TreeBuilders,newDisjunctionBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak,TestInputDocument,"",junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+uk.co.flax.luwak.benchmark,ValidatorDocument,getDocument,com.github.flaxsearch:luwak,"",github,2,2,1.0
+uk.co.flax.luwak.benchmark,PresearcherMatch,"",com.github.flaxsearch:luwak,"",github,1,1,1.0
+uk.co.flax.luwak.testutils,TestCollectionUtils,list,com.google.guava:guava,Core Utilities,google,2,2,1.0
+uk.co.flax.luwak.benchmark,BenchmarkResults,toString,io.dropwizard.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,io,performance",6,6,1.0
+uk.co.flax.luwak,TestMonitor,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,2,0.5
+uk.co.flax.luwak,TestMonitor,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak.assertions,HighlightingMatchAssert,hasErrorCount,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.presearcher,TestTermPresearcher,matchesAnyQueries,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,MonitorQuery,serialize,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+uk.co.flax.luwak.analysis,BytesRefFilteredTokenFilter,accept,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testShorterTermListsArePreferred,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testShorterTermListsArePreferred,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,8,0.25
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testShorterTermListsArePreferred,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,8,0.63
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testMinWeightAdvances,junit:junit,Testing Frameworks,"testing,junit",1,12,0.08
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testMinWeightAdvances,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,12,0.5
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testMinWeightAdvances,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,12,0.42
+uk.co.flax.luwak.termextractor.treebuilder,PayloadScoreQueryTreeBuilder,"",org.apache.lucene:lucene-queries,"","lucene,apache,index",3,3,1.0
+uk.co.flax.luwak.termextractor,QueryAnalyzer,buildTree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,hashCode,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.presearcher,WildcardNGramPresearcherComponent,extraToken,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.queryparsers,LuceneQueryParser,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak,TestMonitorPersistence,setup,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,TestQueryDecomposer,testSingleValuedConjunctWithExclusions,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak,TestQueryDecomposer,testSingleValuedConjunctWithExclusions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+uk.co.flax.luwak.assertions,HighlightingMatchAssert,hasQueriesRunCount,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.util,SpanRewriter,rewriteMultiTermQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak,QueryDecomposer,decompose,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+uk.co.flax.luwak,TestMonitorQuerySerialization,testSimpleQuery,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.termextractor,TestCoreLuceneQueryExtractors,shouldHandle,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak,TestQueryDecomposer,testExclusions,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak,TestQueryDecomposer,testExclusions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+uk.co.flax.luwak,TestSimilarities,testNonStandardSimilarity,junit:junit,Testing Frameworks,"testing,junit",1,10,0.1
+uk.co.flax.luwak,TestSimilarities,testNonStandardSimilarity,com.google.guava:guava,Core Utilities,google,4,10,0.4
+uk.co.flax.luwak,TestSimilarities,testNonStandardSimilarity,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,10,0.5
+uk.co.flax.luwak.util,SpanRewriter,rewriteDisjunctionMaxQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testFieldSpecificTermWeightNorms,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testFieldSpecificTermWeightNorms,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,5,0.8
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDisjunctionWithOrderedNearMatch,junit:junit,Testing Frameworks,"testing,junit",1,39,0.03
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDisjunctionWithOrderedNearMatch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,39,0.97
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,ngramsOnlyMatchWildcards,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanPositionQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,9,0.89
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanPositionQuery,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak,TestQueryIndex,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak.benchmark,Benchmark,timePresearcher,com.github.flaxsearch:luwak,"",github,5,5,1.0
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,matchDoublePointfields,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,5,0.4
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,matchDoublePointfields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,5,0.4
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,matchDoublePointfields,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak,TestSlowLog,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcardCombinations,junit:junit,Testing Frameworks,"testing,junit",1,23,0.04
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcardCombinations,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",22,23,0.96
+uk.co.flax.luwak.presearcher,TermFilteredPresearcher,indexQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordNot,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,8,0.25
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordNot,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",5,8,0.63
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordNot,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak,TestInputDocument,testCannotAddReservedFieldName,junit:junit,Testing Frameworks,"testing,junit",3,4,0.75
+uk.co.flax.luwak,TestInputDocument,testCannotAddReservedFieldName,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,4,0.25
+uk.co.flax.luwak.analysis,SuffixingNGramTokenFilter,reset,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testMutliValuedFieldWithNonDefaultGaps,junit:junit,Testing Frameworks,"testing,junit",1,12,0.08
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testMutliValuedFieldWithNonDefaultGaps,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,12,0.08
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testMutliValuedFieldWithNonDefaultGaps,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,12,0.83
+uk.co.flax.luwak.util,SpanRewriter,forceOffsets,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+uk.co.flax.luwak.analysis,TermsEnumTokenStream,incrementToken,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+uk.co.flax.luwak.presearcher,MultipassTermFilteredPresearcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,38,1.0
+uk.co.flax.luwak,CandidateMatcher,getIndexReader,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanContains,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,22,0.95
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanContains,junit:junit,Testing Frameworks,"testing,junit",1,22,0.05
+uk.co.flax.luwak.presearcher,WildcardNGramPresearcherComponent,filterDocumentTokens,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak,QueryIndex,purgeCache,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+uk.co.flax.luwak.presearcher,TestTermPresearcher,filtersOnTermQueries,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,Monitor,deleteById,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testFieldFiltering,junit:junit,Testing Frameworks,"testing,junit",1,16,0.06
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testFieldFiltering,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,16,0.44
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testFieldFiltering,com.google.guava:guava,Core Utilities,google,8,16,0.5
+uk.co.flax.luwak.presearcher,PresearcherComponent,filterDocumentTokens,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+uk.co.flax.luwak.termextractor,QueryAnalyzer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.termextractor.treebuilder,TreeBuilders,newConjunctionBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.matchers,ExplainingMatch,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testConjunctionsDoNotAdvanceOverANYTOKENs,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testConjunctionsDoNotAdvanceOverANYTOKENs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testConjunctionsDoNotAdvanceOverANYTOKENs,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,9,0.67
+uk.co.flax.luwak.benchmark,Benchmark,batchDocuments,com.github.flaxsearch:luwak,"",github,14,16,0.88
+uk.co.flax.luwak.benchmark,Benchmark,batchDocuments,com.google.guava:guava,Core Utilities,google,2,16,0.13
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testIdenticalMatches,junit:junit,Testing Frameworks,"testing,junit",1,17,0.06
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testIdenticalMatches,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,17,0.94
+uk.co.flax.luwak.termextractor,TestExtractors,testBoostQueryExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,22,0.95
+uk.co.flax.luwak.termextractor,TestExtractors,testBoostQueryExtractor,junit:junit,Testing Frameworks,"testing,junit",1,22,0.05
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,toString,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.benchmark,TestBenchmark,testValidation,junit:junit,Testing Frameworks,"testing,junit",1,42,0.02
+uk.co.flax.luwak.benchmark,TestBenchmark,testValidation,io.dropwizard.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,io,performance",1,42,0.02
+uk.co.flax.luwak.benchmark,TestBenchmark,testValidation,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",16,42,0.38
+uk.co.flax.luwak.benchmark,TestBenchmark,testValidation,com.github.flaxsearch:luwak,"",github,22,42,0.52
+uk.co.flax.luwak.benchmark,TestBenchmark,testValidation,com.google.guava:guava,Core Utilities,google,2,42,0.05
+uk.co.flax.luwak.benchmark,ValidatorResults,"",com.github.flaxsearch:luwak,"",github,1,7,0.14
+uk.co.flax.luwak.benchmark,ValidatorResults,"",com.google.guava:guava,Core Utilities,google,6,7,0.86
+uk.co.flax.luwak,QueryIndex,closeWhileHandlingException,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+uk.co.flax.luwak,TestInputDocument,testOmitNorms,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,19,0.84
+uk.co.flax.luwak,TestInputDocument,testOmitNorms,junit:junit,Testing Frameworks,"testing,junit",1,19,0.05
+uk.co.flax.luwak,TestInputDocument,testOmitNorms,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,19,0.11
+uk.co.flax.luwak.queryparsers,LuceneQueryParser,parse,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,4,0.5
+uk.co.flax.luwak.queryparsers,LuceneQueryParser,parse,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+uk.co.flax.luwak,QueryIndex,commit,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,15,1.0
+uk.co.flax.luwak.assertions,MatchesAssert,"",org.assertj:assertj-core,Assertion Libraries,"assertion,quality",1,1,1.0
+uk.co.flax.luwak.termextractor,QueryAnalyzer,getTreeBuilderForQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,TestConcurrentQueryLoader,testLoading,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak,TestConcurrentQueryLoader,testLoading,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,5,0.8
+uk.co.flax.luwak.termextractor,TestExtractors,testBooleanExtractsFilter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,17,0.94
+uk.co.flax.luwak.termextractor,TestExtractors,testBooleanExtractsFilter,junit:junit,Testing Frameworks,"testing,junit",1,17,0.06
+uk.co.flax.luwak.util,TestSpanRewriter,testMultiTermQueryEquals,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,12,0.17
+uk.co.flax.luwak.util,TestSpanRewriter,testMultiTermQueryEquals,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,12,0.75
+uk.co.flax.luwak.util,TestSpanRewriter,testMultiTermQueryEquals,junit:junit,Testing Frameworks,"testing,junit",1,12,0.08
+uk.co.flax.luwak,TestMonitorQuerySerialization,testMonitorQueryToString,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",9,12,0.75
+uk.co.flax.luwak,TestMonitorQuerySerialization,testMonitorQueryToString,junit:junit,Testing Frameworks,"testing,junit",1,12,0.08
+uk.co.flax.luwak,TestMonitorQuerySerialization,testMonitorQueryToString,com.google.guava:guava,Core Utilities,google,2,12,0.17
+uk.co.flax.luwak,TestQueryIndex,testHighConcurrency,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,7,0.86
+uk.co.flax.luwak,TestQueryIndex,testHighConcurrency,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,highlightBatches,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,4,0.75
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,highlightBatches,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+uk.co.flax.luwak.presearcher,DocumentQueryBuilder,addTerm,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.termextractor.treebuilder,RegexpNGramTermQueryTreeBuilder,buildTree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak.util,TestForceNoBulkScoringQuery,testEquality,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,30,0.63
+uk.co.flax.luwak.util,TestForceNoBulkScoringQuery,testEquality,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,30,0.33
+uk.co.flax.luwak.util,TestForceNoBulkScoringQuery,testEquality,junit:junit,Testing Frameworks,"testing,junit",1,30,0.03
+uk.co.flax.luwak,TestMonitor,testDocumentBatching,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,9,0.67
+uk.co.flax.luwak,TestMonitor,testDocumentBatching,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+uk.co.flax.luwak,TestMonitor,testDocumentBatching,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,setUp,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,allNestedDisjunctionClausesAreIncluded,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,allNestedDisjunctionClausesAreIncluded,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak,InputDocument,getAnalyzers,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",2,2,1.0
+uk.co.flax.luwak,Presearcher,indexQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,TestMonitor,testMatcherMetadata,junit:junit,Testing Frameworks,"testing,junit",1,6,0.17
+uk.co.flax.luwak,TestMonitor,testMatcherMetadata,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+uk.co.flax.luwak,TestMonitor,testMatcherMetadata,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,6,0.5
+uk.co.flax.luwak.termextractor.treebuilder,PayloadScoreQueryTreeBuilder,buildTree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,3,0.33
+uk.co.flax.luwak.termextractor.treebuilder,PayloadScoreQueryTreeBuilder,buildTree,org.apache.lucene:lucene-queries,"","lucene,apache,index",2,3,0.67
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcards,junit:junit,Testing Frameworks,"testing,junit",1,6,0.17
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcards,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,6,0.5
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcards,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+uk.co.flax.luwak,TestMonitor,testMatchesAgainstAnEmptyMonitor,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak,TestMonitor,testMatchesAgainstAnEmptyMonitor,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,8,0.75
+uk.co.flax.luwak,TestMonitor,testMatchesAgainstAnEmptyMonitor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,8,0.13
+uk.co.flax.luwak.assertions,MatchesAssert,matchesQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testConjunctionsCannotAdvanceOverZeroWeightedTokens,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,7,0.57
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testConjunctionsCannotAdvanceOverZeroWeightedTokens,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,7,0.29
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testConjunctionsCannotAdvanceOverZeroWeightedTokens,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak.assertions,HighlightingMatchHitsAssert,withHitCount,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.termextractor.treebuilder,RegexpNGramTermQueryTreeBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.util,TestForceNoBulkScoringQuery,testRewrite,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,43,0.14
+uk.co.flax.luwak.util,TestForceNoBulkScoringQuery,testRewrite,junit:junit,Testing Frameworks,"testing,junit",1,43,0.02
+uk.co.flax.luwak.util,TestForceNoBulkScoringQuery,testRewrite,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",36,43,0.84
+uk.co.flax.luwak.matchers,ParallelMatcher,doMatchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.termextractor.weights,FieldSpecificTermWeightNorm,norm,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,singleTermQueryMatchesSingleDocument,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.presearcher,TermFilteredPresearcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",27,27,1.0
+uk.co.flax.luwak.testutils,ParserUtils,parse,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.testutils,TokenStreamUtils,dumpTokenStream,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+uk.co.flax.luwak,TestQueryDecomposer,testNestedExclusions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+uk.co.flax.luwak,TestQueryDecomposer,testNestedExclusions,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.benchmark,ValidatorResults,getBadDocuments,com.google.guava:guava,Core Utilities,google,6,6,1.0
+uk.co.flax.luwak.matchers,CollectingMatcher,doMatch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testToString,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,4,0.75
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testToString,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+uk.co.flax.luwak,TestMonitorErrorHandling,createMockCache,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,13,0.69
+uk.co.flax.luwak,TestMonitorErrorHandling,createMockCache,org.mockito:mockito-core,Mocking,"mock,mocking,testing",4,13,0.31
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanMultiTerms,junit:junit,Testing Frameworks,"testing,junit",1,6,0.17
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanMultiTerms,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,6,0.83
+uk.co.flax.luwak.assertions,HighlightingMatchHitsAssert,"",org.assertj:assertj-core,Assertion Libraries,"assertion,quality",1,1,1.0
+uk.co.flax.luwak.termextractor,TestBooleanClauseWeightings,exactClausesPreferred,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestBooleanClauseWeightings,exactClausesPreferred,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testFieldWeights,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testFieldWeights,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,5,0.8
+uk.co.flax.luwak,TestMonitorPersistence,testMonitorCanAvoidStoringQueries,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,19,0.16
+uk.co.flax.luwak,TestMonitorPersistence,testMonitorCanAvoidStoringQueries,junit:junit,Testing Frameworks,"testing,junit",1,19,0.05
+uk.co.flax.luwak,TestMonitorPersistence,testMonitorCanAvoidStoringQueries,com.google.guava:guava,Core Utilities,google,4,19,0.21
+uk.co.flax.luwak,TestMonitorPersistence,testMonitorCanAvoidStoringQueries,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",11,19,0.58
+uk.co.flax.luwak.presearcher,DocumentQueryBuilder,build,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponent,adjustQueryDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+uk.co.flax.luwak.termextractor,TestCoreLuceneQueryExtractors,checkAllCoreQueriesAreHandled,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,17,0.59
+uk.co.flax.luwak.termextractor,TestCoreLuceneQueryExtractors,checkAllCoreQueriesAreHandled,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,17,0.12
+uk.co.flax.luwak.termextractor,TestCoreLuceneQueryExtractors,checkAllCoreQueriesAreHandled,org.reflections:reflections,Reflection Libraries,reflection,4,17,0.24
+uk.co.flax.luwak.termextractor,TestCoreLuceneQueryExtractors,checkAllCoreQueriesAreHandled,junit:junit,Testing Frameworks,"testing,junit",1,17,0.06
+uk.co.flax.luwak,QueryIndex,numDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,TestQueryIndex,setUp,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,filtersWildcards,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,TestQueryTermFilter,indexable,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,14,0.86
+uk.co.flax.luwak,TestQueryTermFilter,indexable,com.google.guava:guava,Core Utilities,google,2,14,0.14
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testComplexPhraseQueryParser,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",4,6,0.67
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testComplexPhraseQueryParser,junit:junit,Testing Frameworks,"testing,junit",1,6,0.17
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testComplexPhraseQueryParser,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,6,0.17
+uk.co.flax.luwak.presearcher,TestTermPresearcher,testAnyTermsAreCorrectlyAnalyzed,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,7,0.43
+uk.co.flax.luwak.presearcher,TestTermPresearcher,testAnyTermsAreCorrectlyAnalyzed,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak.presearcher,TestTermPresearcher,testAnyTermsAreCorrectlyAnalyzed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,7,0.43
+uk.co.flax.luwak,TestQueryIndex,getSumOfIds,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,12,0.5
+uk.co.flax.luwak,TestQueryIndex,getSumOfIds,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,12,0.5
+uk.co.flax.luwak.presearcher,PresearcherTestBase,must,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testTermTypeWeightNorms,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,7,0.86
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testTermTypeWeightNorms,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak,Monitor,debug,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.benchmark,ValidatorResults,getExtraMatches,com.google.guava:guava,Core Utilities,google,2,2,1.0
+uk.co.flax.luwak,Monitor,delete,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testBatchFiltering,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,17,0.35
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testBatchFiltering,com.google.guava:guava,Core Utilities,google,10,17,0.59
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testBatchFiltering,junit:junit,Testing Frameworks,"testing,junit",1,17,0.06
+uk.co.flax.luwak.termextractor.weights,TermFrequencyWeightNorm,norm,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDisjunctionWithUnorderedNearSpans,junit:junit,Testing Frameworks,"testing,junit",1,39,0.03
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDisjunctionWithUnorderedNearSpans,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,39,0.97
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testFilteringOnMatchAllQueries,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testFilteringOnMatchAllQueries,com.google.guava:guava,Core Utilities,google,2,5,0.4
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testFilteringOnMatchAllQueries,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,5,0.4
+uk.co.flax.luwak.presearcher,PresearcherComponent,adjustQueryDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.termextractor.treebuilder,TreeBuilders,"",org.apache.lucene:lucene-queries,"","lucene,apache,index",8,68,0.12
+uk.co.flax.luwak.termextractor.treebuilder,TreeBuilders,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",60,68,0.88
+uk.co.flax.luwak.util,SpanRewriter,rewriteUnknown,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak,Monitor,buildIndexableQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",27,27,1.0
+uk.co.flax.luwak.presearcher,PresearcherTestBase,testEmptyMonitorHandling,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.presearcher,TestTermPresearcher,ignoresTermsOnNotQueries,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.termextractor,TestCoreLuceneQueryExtractors,quietLogging,ch.qos.logback:logback-classic,Logging Frameworks,logging,5,5,1.0
+uk.co.flax.luwak.benchmark,BenchmarkResults,"",com.github.flaxsearch:luwak,"",github,1,9,0.11
+uk.co.flax.luwak.benchmark,BenchmarkResults,"",io.dropwizard.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,io,performance",8,9,0.89
+uk.co.flax.luwak.termextractor.weights,FieldWeightNorm,norm,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,Monitor,clear,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak,TestMonitor,testMutliValuedFieldWithNonDefaultGaps,junit:junit,Testing Frameworks,"testing,junit",1,10,0.1
+uk.co.flax.luwak,TestMonitor,testMutliValuedFieldWithNonDefaultGaps,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,10,0.1
+uk.co.flax.luwak,TestMonitor,testMutliValuedFieldWithNonDefaultGaps,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,10,0.8
+uk.co.flax.luwak,TestMonitor,testUpdateReporting,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak,TestMonitor,testUpdateReporting,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,8,0.75
+uk.co.flax.luwak,TestMonitor,testUpdateReporting,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,8,0.13
+uk.co.flax.luwak.matchers,ExplainingMatch,hashCode,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsIsOnlyQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",15,29,0.52
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsIsOnlyQuery,com.google.guava:guava,Core Utilities,google,2,29,0.07
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsIsOnlyQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",11,29,0.38
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsIsOnlyQuery,junit:junit,Testing Frameworks,"testing,junit",1,29,0.03
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,getWrappedQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,TestCachePurging,testQueryCacheCanBePurged,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",20,22,0.91
+uk.co.flax.luwak,TestCachePurging,testQueryCacheCanBePurged,junit:junit,Testing Frameworks,"testing,junit",1,22,0.05
+uk.co.flax.luwak,TestCachePurging,testQueryCacheCanBePurged,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,22,0.05
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDisjunctionWithOrderedNearSpans,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,39,0.97
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDisjunctionWithOrderedNearSpans,junit:junit,Testing Frameworks,"testing,junit",1,39,0.03
+uk.co.flax.luwak.termextractor,QueryTreeBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.termextractor.weights,TokenLengthNorm,norm,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak.benchmark,Benchmark,run,com.github.flaxsearch:luwak,"",github,12,12,1.0
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testDebugQueries,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testDebugQueries,com.google.guava:guava,Core Utilities,google,2,8,0.25
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testDebugQueries,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,8,0.38
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testDebugQueries,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,8,0.25
+uk.co.flax.luwak,TestMonitorPersistence,teardown,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.assertions,HighlightingMatchAssert,doesNotMatchQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.termextractor,TestExtractors,testPhraseQueryExtractor,junit:junit,Testing Frameworks,"testing,junit",1,11,0.09
+uk.co.flax.luwak.termextractor,TestExtractors,testPhraseQueryExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,11,0.91
+uk.co.flax.luwak.analysis,TestTermsEnumTokenFilter,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+uk.co.flax.luwak.assertions,MatchesAssert,matchesDoc,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.assertions,TokenStreamAssert,"",org.assertj:assertj-core,Assertion Libraries,"assertion,quality",1,21,0.05
+uk.co.flax.luwak.assertions,TokenStreamAssert,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",20,21,0.95
+uk.co.flax.luwak.presearcher,TestMultipassPresearcher,testMultipleFields,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.presearcher,TestMultipassPresearcher,testMultipleFields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testNestedConjunctions,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,11,0.18
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testNestedConjunctions,junit:junit,Testing Frameworks,"testing,junit",1,11,0.09
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testNestedConjunctions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,11,0.73
+uk.co.flax.luwak,DocumentBatch,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",66,76,0.87
+uk.co.flax.luwak,DocumentBatch,"",org.apache.lucene:lucene-memory,"","lucene,apache,index,memory",10,76,0.13
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,singlePhraseQueryMatchesSingleDocument,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,TestMonitorErrorHandling,testMonitorQueryNullValues,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+uk.co.flax.luwak,TestMonitorErrorHandling,testMonitorQueryNullValues,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,4,0.75
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.presearcher,PresearcherTestBase,should,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+uk.co.flax.luwak.util,SpanRewriter,rewritePhraseQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",18,18,1.0
+uk.co.flax.luwak.presearcher,TermFilteredPresearcher,collectTerms,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,24,1.0
+uk.co.flax.luwak.termextractor,QueryTerm,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+uk.co.flax.luwak,MonitorQuery,deserialize,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+uk.co.flax.luwak,TestMonitor,matchStatisticsAreReported,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",9,11,0.82
+uk.co.flax.luwak,TestMonitor,matchStatisticsAreReported,junit:junit,Testing Frameworks,"testing,junit",1,11,0.09
+uk.co.flax.luwak,TestMonitor,matchStatisticsAreReported,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,11,0.09
+uk.co.flax.luwak,TestQueryIndex,createDelete,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.assertions,HighlightingMatchHitsAssert,inField,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.queryparsers,FlexibleLuceneQueryParser,getPointsConfig,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,2,1.0
+uk.co.flax.luwak,TestQueryDecomposer,testBoostsArePreserved,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak,TestQueryDecomposer,testBoostsArePreserved,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,7,0.86
+uk.co.flax.luwak.assertions,MatchesAssert,selectedQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,2,1.0
+uk.co.flax.luwak.termextractor,QueryAnalyzer,collectTerms,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.termextractor,TestExtractors,testDisjunctionMaxExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,10,0.7
+uk.co.flax.luwak.termextractor,TestExtractors,testDisjunctionMaxExtractor,com.google.guava:guava,Core Utilities,google,2,10,0.2
+uk.co.flax.luwak.termextractor,TestExtractors,testDisjunctionMaxExtractor,junit:junit,Testing Frameworks,"testing,junit",1,10,0.1
+uk.co.flax.luwak.util,SpanExtractor,collect,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",20,20,1.0
+uk.co.flax.luwak.util,SpanRewriter,rewrite,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",55,55,1.0
+uk.co.flax.luwak,TestQueryDecomposer,testFilterAndShouldClause,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,24,0.08
+uk.co.flax.luwak,TestQueryDecomposer,testFilterAndShouldClause,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,24,0.88
+uk.co.flax.luwak,TestQueryDecomposer,testFilterAndShouldClause,junit:junit,Testing Frameworks,"testing,junit",1,24,0.04
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,createWeight,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+uk.co.flax.luwak.presearcher,PresearcherTestBase,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,25,0.96
+uk.co.flax.luwak.presearcher,PresearcherTestBase,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,25,0.04
+uk.co.flax.luwak.util,TestSpanRewriter,testConstantScoreQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,10,0.2
+uk.co.flax.luwak.util,TestSpanRewriter,testConstantScoreQuery,junit:junit,Testing Frameworks,"testing,junit",1,10,0.1
+uk.co.flax.luwak.util,TestSpanRewriter,testConstantScoreQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,10,0.7
+uk.co.flax.luwak.termextractor,QueryTerm,equals,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.util,ForceNoBulkScoringQuery,getWrappedQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,Monitor,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",28,28,1.0
+uk.co.flax.luwak.matchers,ParallelMatcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,allDisjunctionQueriesAreIncluded,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,allDisjunctionQueriesAreIncluded,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,5,0.4
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,allDisjunctionQueriesAreIncluded,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,5,0.4
+uk.co.flax.luwak.benchmark,ValidatorResults,add,com.github.flaxsearch:luwak,"",github,11,29,0.38
+uk.co.flax.luwak.benchmark,ValidatorResults,add,com.google.guava:guava,Core Utilities,google,18,29,0.62
+uk.co.flax.luwak,QueryDecomposer,listOf,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+uk.co.flax.luwak,TestInputDocument,testCannotAddReservedFieldObject,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,7,0.57
+uk.co.flax.luwak,TestInputDocument,testCannotAddReservedFieldObject,junit:junit,Testing Frameworks,"testing,junit",3,7,0.43
+uk.co.flax.luwak,TestQueryDecomposer,testNestedDisjunctionMaxDecomposition,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak,TestQueryDecomposer,testNestedDisjunctionMaxDecomposition,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,8,0.38
+uk.co.flax.luwak,TestQueryDecomposer,testNestedDisjunctionMaxDecomposition,com.google.guava:guava,Core Utilities,google,2,8,0.25
+uk.co.flax.luwak,TestQueryDecomposer,testNestedDisjunctionMaxDecomposition,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,8,0.25
+uk.co.flax.luwak,TestMonitorQuerySerialization,"",org.assertj:assertj-core,Assertion Libraries,"assertion,quality",7,7,1.0
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,rewrite,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+uk.co.flax.luwak,MonitorQueryParser,parse,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.benchmark,Benchmark,validate,com.github.flaxsearch:luwak,"",github,9,9,1.0
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,caseSensitivity,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.termextractor,TestCoreLuceneQueryExtractors,"",com.google.guava:guava,Core Utilities,google,4,4,1.0
+uk.co.flax.luwak,QueryIndex,cacheSize,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,testLengthyTokensAreNotNgrammed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,5,0.8
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,testLengthyTokensAreNotNgrammed,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,testRepeatedSuffixesAreNotEmitted,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,5,0.8
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,testRepeatedSuffixesAreNotEmitted,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,testLongTermsStillMatchWildcards,com.google.guava:guava,Core Utilities,google,2,4,0.5
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,testLongTermsStillMatchWildcards,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,4,0.25
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,testLongTermsStillMatchWildcards,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+uk.co.flax.luwak.queryparsers,FlexibleLuceneQueryParser,parse,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",6,7,0.86
+uk.co.flax.luwak.queryparsers,FlexibleLuceneQueryParser,parse,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,7,0.14
+uk.co.flax.luwak.termextractor,QueryTerm,toString,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustAndOtherMustWithKeywordShouldAndKeywordNot,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,7,0.29
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustAndOtherMustWithKeywordShouldAndKeywordNot,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,7,0.57
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustAndOtherMustWithKeywordShouldAndKeywordNot,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak.termextractor,TestExtractors,testConstantScoreQueryExtractor,junit:junit,Testing Frameworks,"testing,junit",1,22,0.05
+uk.co.flax.luwak.termextractor,TestExtractors,testConstantScoreQueryExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,22,0.95
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testEquality,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,13,0.92
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testEquality,junit:junit,Testing Frameworks,"testing,junit",1,13,0.08
+uk.co.flax.luwak.assertions,HighlightingMatchHitsAssert,withErrorMessage,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,6,1.0
+uk.co.flax.luwak,QueryIndex,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+uk.co.flax.luwak.benchmark,StandardBenchmark,main,com.github.flaxsearch:luwak,"",github,24,24,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testUnorderedNearWithinOrderedNear,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",74,75,0.99
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testUnorderedNearWithinOrderedNear,junit:junit,Testing Frameworks,"testing,junit",1,75,0.01
+uk.co.flax.luwak.termextractor.treebuilder,BooleanQueryTreeBuilder,buildChildTrees,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.termextractor.treebuilder,BooleanQueryTreeBuilder,analyze,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",32,32,1.0
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testTermFrequencyNorms,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,5,0.4
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testTermFrequencyNorms,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testTermFrequencyNorms,com.google.guava:guava,Core Utilities,google,2,5,0.4
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testOrderedNearExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,8,0.88
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testOrderedNearExtractor,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak,TestConcurrentQueryLoader,testErrorHandling,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak,TestConcurrentQueryLoader,testErrorHandling,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,5,0.8
+uk.co.flax.luwak.benchmark,BenchmarkResults,add,com.github.flaxsearch:luwak,"",github,5,9,0.56
+uk.co.flax.luwak.benchmark,BenchmarkResults,add,io.dropwizard.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,io,performance",4,9,0.44
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testTermWeights,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testTermWeights,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+uk.co.flax.luwak,QueryCacheEntry,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+uk.co.flax.luwak.matchers,TestExplainingMatcher,testHashcodeAndEquals,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,21,0.57
+uk.co.flax.luwak.matchers,TestExplainingMatcher,testHashcodeAndEquals,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,21,0.38
+uk.co.flax.luwak.matchers,TestExplainingMatcher,testHashcodeAndEquals,junit:junit,Testing Frameworks,"testing,junit",1,21,0.05
+uk.co.flax.luwak.presearcher,TermFilteredPresearcher,buildQueryDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+uk.co.flax.luwak.presearcher,TermFilteredPresearcher,getQueryBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,21,1.0
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,allDisjunctionClausesOfAConjunctionAreExtracted,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,allDisjunctionClausesOfAConjunctionAreExtracted,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.termextractor,QueryTerm,hashCode,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak,QueryDecomposer,decomposeBoolean,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",71,71,1.0
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,testRepeatedInfixesAreNotEmitted,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,5,0.8
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,testRepeatedInfixesAreNotEmitted,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.assertions,FieldMatchAssert,withHit,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.termextractor.treebuilder,SpanPayloadCheckQueryTreeBuilder,"",org.apache.lucene:lucene-queries,"","lucene,apache,index",3,3,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDisjunctionMaxQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,8,0.88
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testDisjunctionMaxQuery,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak,TestCachePurging,doConcurrentPurgesAndUpdatesTest,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,9,0.89
+uk.co.flax.luwak,TestCachePurging,doConcurrentPurgesAndUpdatesTest,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,9,0.11
+uk.co.flax.luwak.demo,LuwakDemo,addQueries,com.google.guava:guava,Core Utilities,google,3,3,1.0
+uk.co.flax.luwak,TestMonitor,canDeleteById,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak,TestMonitor,canDeleteById,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,8,0.13
+uk.co.flax.luwak,TestMonitor,canDeleteById,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,8,0.75
+uk.co.flax.luwak,TestMonitorErrorHandling,testMonitorErrors,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",9,11,0.82
+uk.co.flax.luwak,TestMonitorErrorHandling,testMonitorErrors,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,11,0.09
+uk.co.flax.luwak,TestMonitorErrorHandling,testMonitorErrors,junit:junit,Testing Frameworks,"testing,junit",1,11,0.09
+uk.co.flax.luwak.benchmark,ValidatorResults,getMissingMatches,com.google.guava:guava,Core Utilities,google,2,2,1.0
+uk.co.flax.luwak.termextractor,DumpQueryTree,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.presearcher,MatchAllPresearcher,buildQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testHigherWeightsArePreferred,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testHigherWeightsArePreferred,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.benchmark,StandardBenchmark,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,25,0.08
+uk.co.flax.luwak.benchmark,StandardBenchmark,"",com.google.guava:guava,Core Utilities,google,4,25,0.16
+uk.co.flax.luwak.benchmark,StandardBenchmark,"",com.github.flaxsearch:luwak,"",github,19,25,0.76
+uk.co.flax.luwak.benchmark,TestBenchmark,stopMonitor,com.github.flaxsearch:luwak,"",github,2,3,0.67
+uk.co.flax.luwak.benchmark,TestBenchmark,stopMonitor,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,multiFieldQueryMatches,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,multiFieldQueryMatches,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.presearcher,PresearcherTestBase,testNegativeQueryHandling,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.presearcher,PresearcherTestBase,testNegativeQueryHandling,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testAnyTokensAreNotPreferred,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestQueryTermComparators,testAnyTokensAreNotPreferred,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+uk.co.flax.luwak.termextractor.treebuilder,BooleanQueryTreeBuilder,buildTree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.presearcher,TestTermPresearcher,testQueryBuilder,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,36,0.08
+uk.co.flax.luwak.presearcher,TestTermPresearcher,testQueryBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",31,36,0.86
+uk.co.flax.luwak.presearcher,TestTermPresearcher,testQueryBuilder,junit:junit,Testing Frameworks,"testing,junit",1,36,0.03
+uk.co.flax.luwak.presearcher,TestTermPresearcher,testQueryBuilder,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,36,0.03
+uk.co.flax.luwak,Monitor,purgeCache,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testFieldMaskingSpanQuery,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testFieldMaskingSpanQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,9,0.89
+uk.co.flax.luwak.matchers,ExplainingMatch,equals,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,QueryIndex,deleteDocuments,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+uk.co.flax.luwak,TestQueryDecomposer,testSimpleDisjunctions,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,5,0.4
+uk.co.flax.luwak,TestQueryDecomposer,testSimpleDisjunctions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,5,0.4
+uk.co.flax.luwak,TestQueryDecomposer,testSimpleDisjunctions,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,disjunctionsWithMatchAllNegativeClausesReturnANYTOKEN,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,disjunctionsWithMatchAllNegativeClausesReturnANYTOKEN,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordShouldAndKeywordNot,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordShouldAndKeywordNot,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",5,8,0.63
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordShouldAndKeywordNot,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,8,0.25
+uk.co.flax.luwak.util,SpanRewriter,rewriteBoolean,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",30,30,1.0
+uk.co.flax.luwak,Monitor,defaultIndexWriter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,20,0.95
+uk.co.flax.luwak,Monitor,defaultIndexWriter,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,20,0.05
+uk.co.flax.luwak.matchers,ExplainingMatcher,resolve,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.termextractor.treebuilder,BooleanQueryTreeBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,14,1.0
+uk.co.flax.luwak,QueryIndex,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",75,75,1.0
+uk.co.flax.luwak,TestQueryDecomposer,testConjunctionsAreNotDecomposed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,5,0.4
+uk.co.flax.luwak,TestQueryDecomposer,testConjunctionsAreNotDecomposed,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,5,0.4
+uk.co.flax.luwak,TestQueryDecomposer,testConjunctionsAreNotDecomposed,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.assertions,MatchesAssert,hasMatchCount,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.termextractor,TestExtractors,testRegexpExtractor,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak.termextractor,TestExtractors,testRegexpExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,7,0.86
+uk.co.flax.luwak,QueryDecomposer,decomposeBoostQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+uk.co.flax.luwak.presearcher,PresearcherComponent,extraToken,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak,TestQueryTermFilter,testFiltersAreRemoved,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,15,0.53
+uk.co.flax.luwak,TestQueryTermFilter,testFiltersAreRemoved,junit:junit,Testing Frameworks,"testing,junit",1,15,0.07
+uk.co.flax.luwak,TestQueryTermFilter,testFiltersAreRemoved,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,15,0.27
+uk.co.flax.luwak,TestQueryTermFilter,testFiltersAreRemoved,com.google.guava:guava,Core Utilities,google,2,15,0.13
+uk.co.flax.luwak.benchmark,TestBenchmark,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.benchmark,TestBenchmark,"",com.github.flaxsearch:luwak,"",github,1,3,0.33
+uk.co.flax.luwak.presearcher,PresearcherTestBase,testNonStringTermHandling,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak.presearcher,PresearcherTestBase,testNonStringTermHandling,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+uk.co.flax.luwak.util,CollectionUtils,convertHash,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+uk.co.flax.luwak,TestMonitor,canRetrieveQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",9,10,0.9
+uk.co.flax.luwak,TestMonitor,canRetrieveQuery,junit:junit,Testing Frameworks,"testing,junit",1,10,0.1
+uk.co.flax.luwak.benchmark,TestBenchmark,testPresearcherBenchmarking,com.github.flaxsearch:luwak,"",github,11,22,0.5
+uk.co.flax.luwak.benchmark,TestBenchmark,testPresearcherBenchmarking,com.google.guava:guava,Core Utilities,google,2,22,0.09
+uk.co.flax.luwak.benchmark,TestBenchmark,testPresearcherBenchmarking,io.dropwizard.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,io,performance",2,22,0.09
+uk.co.flax.luwak.benchmark,TestBenchmark,testPresearcherBenchmarking,junit:junit,Testing Frameworks,"testing,junit",1,22,0.05
+uk.co.flax.luwak.benchmark,TestBenchmark,testPresearcherBenchmarking,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,22,0.18
+uk.co.flax.luwak.benchmark,TestBenchmark,testPresearcherBenchmarking,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,22,0.09
+uk.co.flax.luwak.util,SpanRewriter,rewriteTermQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak.util,TestSpanRewriter,testPhraseQuery,junit:junit,Testing Frameworks,"testing,junit",1,24,0.04
+uk.co.flax.luwak.util,TestSpanRewriter,testPhraseQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,24,0.25
+uk.co.flax.luwak.util,TestSpanRewriter,testPhraseQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,24,0.71
+uk.co.flax.luwak.analysis,TermsEnumTokenStream,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,testTokensAreSuffixed,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,5,0.8
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,testTokensAreSuffixed,junit:junit,Testing Frameworks,"testing,junit",1,5,0.2
+uk.co.flax.luwak.assertions,FieldMatchAssert,"",org.assertj:assertj-core,Assertion Libraries,"assertion,quality",1,1,1.0
+uk.co.flax.luwak,InputDocument,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",8,55,0.15
+uk.co.flax.luwak,InputDocument,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",47,55,0.85
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanOrExtractor,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanOrExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,8,0.88
+uk.co.flax.luwak.assertions,TokenStreamAssert,assertThat,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.assertions,TokenStreamAssert,skip,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,termContexts,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+uk.co.flax.luwak,MonitorQuery,hash,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.matchers,TestExplainingMatcher,testExplainingMatcher,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,6,0.67
+uk.co.flax.luwak.matchers,TestExplainingMatcher,testExplainingMatcher,junit:junit,Testing Frameworks,"testing,junit",1,6,0.17
+uk.co.flax.luwak.matchers,TestExplainingMatcher,testExplainingMatcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,6,0.17
+uk.co.flax.luwak,Monitor,getQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+uk.co.flax.luwak.assertions,MatchesAssert,selectedQueries,com.google.guava:guava,Core Utilities,google,2,4,0.5
+uk.co.flax.luwak.assertions,MatchesAssert,selectedQueries,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,4,0.5
+uk.co.flax.luwak.matchers,CollectingMatcher,doMatchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak.matchers,ExplainingMatch,getExplanation,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.testutils,TestCollectionUtils,testPartitions,com.google.guava:guava,Core Utilities,google,6,16,0.38
+uk.co.flax.luwak.testutils,TestCollectionUtils,testPartitions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",9,16,0.56
+uk.co.flax.luwak.testutils,TestCollectionUtils,testPartitions,junit:junit,Testing Frameworks,"testing,junit",1,16,0.06
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,testPresearcherComponent,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,9,0.56
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,testPresearcherComponent,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,9,0.11
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,testPresearcherComponent,com.google.guava:guava,Core Utilities,google,2,9,0.22
+uk.co.flax.luwak.presearcher,TestWildcardTermPresearcher,testPresearcherComponent,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak,TestCachePurging,"",junit:junit,Testing Frameworks,"testing,junit",4,4,1.0
+uk.co.flax.luwak,TestMonitor,setUp,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+uk.co.flax.luwak,TestMonitor,setUp,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak.queryparsers,FlexibleLuceneQueryParser,"",org.apache.lucene:lucene-queryparser,"","lucene,apache,index",7,15,0.47
+uk.co.flax.luwak.queryparsers,FlexibleLuceneQueryParser,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,15,0.53
+uk.co.flax.luwak.termextractor.weights,TermWeightNorm,norm,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.queryparsers,FlexibleLuceneQueryParser,getParser,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,2,1.0
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testAdvancesCollectDifferentTerms,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,9,0.67
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testAdvancesCollectDifferentTerms,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testAdvancesCollectDifferentTerms,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+uk.co.flax.luwak.assertions,TokenStreamAssert,nextEquals,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",30,51,0.59
+uk.co.flax.luwak.assertions,TokenStreamAssert,nextEquals,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,51,0.41
+uk.co.flax.luwak.benchmark,StandardBenchmark,loadQueries,com.github.flaxsearch:luwak,"",github,5,9,0.56
+uk.co.flax.luwak.benchmark,StandardBenchmark,loadQueries,com.google.guava:guava,Core Utilities,google,4,9,0.44
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,testMatchesAreDisambiguated,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",10,12,0.83
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,testMatchesAreDisambiguated,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,12,0.08
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,testMatchesAreDisambiguated,junit:junit,Testing Frameworks,"testing,junit",1,12,0.08
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",35,35,1.0
+uk.co.flax.luwak,TestSimilarities,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak,TestSimilarities,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,2,0.5
+uk.co.flax.luwak.benchmark,TestBenchmark,vd,com.github.flaxsearch:luwak,"",github,7,10,0.7
+uk.co.flax.luwak.benchmark,TestBenchmark,vd,com.google.guava:guava,Core Utilities,google,2,10,0.2
+uk.co.flax.luwak.benchmark,TestBenchmark,vd,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,10,0.1
+uk.co.flax.luwak.matchers,HighlightingMatcher,doMatchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testUnrewritableQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,10,0.9
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testUnrewritableQuery,junit:junit,Testing Frameworks,"testing,junit",1,10,0.1
+uk.co.flax.luwak.presearcher,PresearcherTestBase,testAnyTokenHandling,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordShould,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,8,0.25
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordShould,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,testMatchAllDocsMustWithKeywordShould,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",5,8,0.63
+uk.co.flax.luwak.util,SpanRewriter,rewriteTermInSetQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",43,43,1.0
+uk.co.flax.luwak.util,TestSpanRewriter,testBoostQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,8,0.63
+uk.co.flax.luwak.util,TestSpanRewriter,testBoostQuery,junit:junit,Testing Frameworks,"testing,junit",1,8,0.13
+uk.co.flax.luwak.util,TestSpanRewriter,testBoostQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,8,0.25
+uk.co.flax.luwak,TestCachePurging,testBackgroundPurges,junit:junit,Testing Frameworks,"testing,junit",1,13,0.08
+uk.co.flax.luwak,TestCachePurging,testBackgroundPurges,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",12,13,0.92
+uk.co.flax.luwak.matchers,CollectingMatcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+uk.co.flax.luwak.matchers,ExplainingMatcher,doMatchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testNestedDisjunctions,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testNestedDisjunctions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,9,0.67
+uk.co.flax.luwak.termextractor,TestQueryAnalyzer,testNestedDisjunctions,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+uk.co.flax.luwak.analysis,SuffixingNGramTokenFilter,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,24,1.0
+uk.co.flax.luwak.presearcher,PresearcherTestBase,testNullFieldHandling,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.util,SpanExtractor,getSpans,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,21,1.0
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponent,adjustPresearcherQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",23,23,1.0
+uk.co.flax.luwak.termextractor,TestExtractors,testTermInSetQueryExtractor,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,6,0.83
+uk.co.flax.luwak.termextractor,TestExtractors,testTermInSetQueryExtractor,junit:junit,Testing Frameworks,"testing,junit",1,6,0.17
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,equals,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.termextractor.treebuilder,TermInSetQueryTreeBuilder,buildTree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+uk.co.flax.luwak.matchers,HighlightingMatcher,findHighlights,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+uk.co.flax.luwak.presearcher,TestPresearcherMatchCollector,testMatchCollectorShowMatches,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,23,0.09
+uk.co.flax.luwak.presearcher,TestPresearcherMatchCollector,testMatchCollectorShowMatches,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",20,23,0.87
+uk.co.flax.luwak.presearcher,TestPresearcherMatchCollector,testMatchCollectorShowMatches,junit:junit,Testing Frameworks,"testing,junit",1,23,0.04
+uk.co.flax.luwak,InputDocument,getDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,TestMonitorQuerySerialization,testQueryWithMetadata,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak,TestMonitorQuerySerialization,testQueryWithMetadata,com.google.guava:guava,Core Utilities,google,2,3,0.67
+uk.co.flax.luwak,TestQueryDecomposer,testSingleValuedConjunctions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,3,0.67
+uk.co.flax.luwak,TestQueryDecomposer,testSingleValuedConjunctions,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor.treebuilder,SpanPayloadCheckQueryTreeBuilder,buildTree,org.apache.lucene:lucene-queries,"","lucene,apache,index",2,3,0.67
+uk.co.flax.luwak.termextractor.treebuilder,SpanPayloadCheckQueryTreeBuilder,buildTree,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,3,0.33
+uk.co.flax.luwak,QueryTermFilter,getTerms,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+uk.co.flax.luwak.termextractor.treebuilder,TreeBuilders,newQueryBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,setUp,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,setUp,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,disjunctionsWithPureNegativeClausesReturnANYTOKEN,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,disjunctionsWithPureNegativeClausesReturnANYTOKEN,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak,TestMonitorErrorHandling,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,2,0.5
+uk.co.flax.luwak,TestMonitorErrorHandling,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak.benchmark,TestBenchmark,testBasicBenchmarking,junit:junit,Testing Frameworks,"testing,junit",1,24,0.04
+uk.co.flax.luwak.benchmark,TestBenchmark,testBasicBenchmarking,io.dropwizard.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,io,performance",1,24,0.04
+uk.co.flax.luwak.benchmark,TestBenchmark,testBasicBenchmarking,com.github.flaxsearch:luwak,"",github,16,24,0.67
+uk.co.flax.luwak.benchmark,TestBenchmark,testBasicBenchmarking,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,24,0.08
+uk.co.flax.luwak.benchmark,TestBenchmark,testBasicBenchmarking,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,24,0.08
+uk.co.flax.luwak.benchmark,TestBenchmark,testBasicBenchmarking,com.google.guava:guava,Core Utilities,google,2,24,0.08
+uk.co.flax.luwak.presearcher,MultipassTermFilteredPresearcher,debug,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,10,0.1
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,10,0.9
+uk.co.flax.luwak.matchers,PartitionMatcher,doMatchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.presearcher,PresearcherTestBase,buildDoc,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,matchIntPointfields,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,matchIntPointfields,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+uk.co.flax.luwak,TestMonitorFlexibleLuceneQueryParser,matchIntPointfields,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+uk.co.flax.luwak.analysis,BytesRefFilteredTokenFilter,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanWithin,junit:junit,Testing Frameworks,"testing,junit",1,22,0.05
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanWithin,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",21,22,0.95
+uk.co.flax.luwak.matchers,HighlightingMatcher,doMatch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,10,1.0
+uk.co.flax.luwak,TestMonitor,singleTermQueryMatchesSingleDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak,TestMonitor,singleTermQueryMatchesSingleDocument,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+uk.co.flax.luwak.assertions,HighlightingMatchAssert,hasMatchCount,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak,Indexable,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak,QueryIndex,scan,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.presearcher,TestMultipassPresearcher,testSimpleBoolean,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,DocumentBatch,getIndexReader,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.assertions,HighlightingMatchAssert,"",org.assertj:assertj-core,Assertion Libraries,"assertion,quality",1,1,1.0
+uk.co.flax.luwak.benchmark,BenchmarkResults,getTimer,io.dropwizard.metrics:metrics-core,Application Metrics,"monitoring,management,metrics,io,performance",2,2,1.0
+uk.co.flax.luwak.demo,LuwakDemo,buildDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,4,0.25
+uk.co.flax.luwak.demo,LuwakDemo,buildDocs,com.google.guava:guava,Core Utilities,google,3,4,0.75
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponent,buildFilterClause,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",38,38,1.0
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testPayloadScoreQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,10,0.7
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testPayloadScoreQuery,junit:junit,Testing Frameworks,"testing,junit",1,10,0.1
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testPayloadScoreQuery,org.apache.lucene:lucene-queries,"","lucene,apache,index",2,10,0.2
+uk.co.flax.luwak,TestMonitorPersistence,testCacheIsRepopulated,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,11,0.27
+uk.co.flax.luwak,TestMonitorPersistence,testCacheIsRepopulated,com.google.guava:guava,Core Utilities,google,4,11,0.36
+uk.co.flax.luwak,TestMonitorPersistence,testCacheIsRepopulated,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,11,0.27
+uk.co.flax.luwak,TestMonitorPersistence,testCacheIsRepopulated,junit:junit,Testing Frameworks,"testing,junit",1,11,0.09
+uk.co.flax.luwak,TestQueryIndex,createUpdate,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",24,24,1.0
+uk.co.flax.luwak,TestCachePurging,testConcurrentPurges,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,TestQueryIndex,testSmoke,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak,TestQueryIndex,testSmoke,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",8,9,0.89
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcardProximityRewrites,junit:junit,Testing Frameworks,"testing,junit",1,13,0.08
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcardProximityRewrites,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,13,0.92
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,conjunctionsOutweighDisjunctions,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+uk.co.flax.luwak.termextractor,TestBooleanTermExtractor,conjunctionsOutweighDisjunctions,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+uk.co.flax.luwak.util,ForceNoBulkScoringQuery,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+uk.co.flax.luwak.analysis,SuffixingNGramTokenFilter,incrementToken,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",40,40,1.0
+uk.co.flax.luwak.matchers,ScoringMatcher,doMatch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+uk.co.flax.luwak,QueryIndex,numRamDocs,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.matchers,HighlightingMatcher,fallback,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak,CandidateMatcher,matchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,TestSlowLog,testSlowLog,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,7,0.86
+uk.co.flax.luwak,TestSlowLog,testSlowLog,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak.presearcher,MatchAllPresearcher,indexQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+uk.co.flax.luwak.presearcher,TestMultipassPresearcher,testComplexBoolean,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak,CandidateMatcher,doMatchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testQueryErrors,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,4,0.75
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testQueryErrors,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+uk.co.flax.luwak.termextractor.querytree,TermNode,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.util,ForceNoBulkScoringQuery,equals,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,TestQueryDecomposer,testDisjunctionMaxDecomposition,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,12,0.17
+uk.co.flax.luwak,TestQueryDecomposer,testDisjunctionMaxDecomposition,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,12,0.58
+uk.co.flax.luwak,TestQueryDecomposer,testDisjunctionMaxDecomposition,junit:junit,Testing Frameworks,"testing,junit",1,12,0.08
+uk.co.flax.luwak,TestQueryDecomposer,testDisjunctionMaxDecomposition,com.google.guava:guava,Core Utilities,google,2,12,0.17
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,testAllMatchesAreCollected,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,testAllMatchesAreCollected,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,4,0.5
+uk.co.flax.luwak.matchers,ConcurrentMatcherTestBase,testAllMatchesAreCollected,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,4,0.25
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testMinShouldMatchQuery,junit:junit,Testing Frameworks,"testing,junit",1,44,0.02
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testMinShouldMatchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",43,44,0.98
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponent,filterDocumentTokens,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,4,0.25
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponent,filterDocumentTokens,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,4,0.75
+uk.co.flax.luwak.util,ForceNoBulkScoringQuery,toString,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak,Presearcher,buildQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.presearcher,PresearcherTestBase,testMatchAllQueryHandling,junit:junit,Testing Frameworks,"testing,junit",1,1,1.0
+uk.co.flax.luwak.presearcher,PresearcherTestBase,setUp,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak.presearcher,PresearcherTestBase,setUp,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+uk.co.flax.luwak,DocumentBatch,getSearcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,9,1.0
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,main,com.google.guava:guava,Core Utilities,google,3,17,0.18
+uk.co.flax.luwak.analysis,TestSuffixingNGramTokenizer,main,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",14,17,0.82
+uk.co.flax.luwak.assertions,TokenStreamAssert,isExhausted,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,7,0.57
+uk.co.flax.luwak.assertions,TokenStreamAssert,isExhausted,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,7,0.43
+uk.co.flax.luwak.matchers,SimpleMatcher,doMatch,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.presearcher,TermFilteredPresearcher,buildQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",49,49,1.0
+uk.co.flax.luwak,TestMonitor,canClearTheMonitor,junit:junit,Testing Frameworks,"testing,junit",1,7,0.14
+uk.co.flax.luwak,TestMonitor,canClearTheMonitor,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",6,7,0.86
+uk.co.flax.luwak.benchmark,PresearcherMatcher,"",com.github.flaxsearch:luwak,"",github,8,8,1.0
+uk.co.flax.luwak.matchers,TestSimpleMatcher,testSimpleMatcher,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,4,0.25
+uk.co.flax.luwak.matchers,TestSimpleMatcher,testSimpleMatcher,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+uk.co.flax.luwak.matchers,TestSimpleMatcher,testSimpleMatcher,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",2,4,0.5
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanPayloadCheckQuery,org.apache.lucene:lucene-queries,"","lucene,apache,index",1,9,0.11
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanPayloadCheckQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,9,0.78
+uk.co.flax.luwak.termextractor,TestSpanExtractors,testSpanPayloadCheckQuery,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.util,ForceNoBulkScoringQuery,rewrite,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",11,11,1.0
+uk.co.flax.luwak.util,RewriteException,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak.presearcher,TestMultipassPresearcher,testQueryBuilder,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",52,57,0.91
+uk.co.flax.luwak.presearcher,TestMultipassPresearcher,testQueryBuilder,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,57,0.02
+uk.co.flax.luwak.presearcher,TestMultipassPresearcher,testQueryBuilder,junit:junit,Testing Frameworks,"testing,junit",1,57,0.02
+uk.co.flax.luwak.presearcher,TestMultipassPresearcher,testQueryBuilder,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,57,0.05
+uk.co.flax.luwak.util,ForceNoBulkScoringQuery,hashCode,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.analysis,TestTermsEnumTokenFilter,testPosIncAttributeOverflow,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,14,0.93
+uk.co.flax.luwak.analysis,TestTermsEnumTokenFilter,testPosIncAttributeOverflow,junit:junit,Testing Frameworks,"testing,junit",1,14,0.07
+uk.co.flax.luwak.benchmark,StandardBenchmark,loadDocuments,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,18,0.06
+uk.co.flax.luwak.benchmark,StandardBenchmark,loadDocuments,com.github.flaxsearch:luwak,"",github,9,18,0.5
+uk.co.flax.luwak.benchmark,StandardBenchmark,loadDocuments,com.google.guava:guava,Core Utilities,google,8,18,0.44
+uk.co.flax.luwak,QueryTermFilter,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+uk.co.flax.luwak.presearcher,PresearcherComponent,adjustPresearcherQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,4,1.0
+uk.co.flax.luwak.util,ForceNoBulkScoringQuery,createWeight,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",25,25,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,buildDoc,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testBatchesWithDissimilarFieldValuesThrowExceptions,junit:junit,Testing Frameworks,"testing,junit",1,9,0.11
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testBatchesWithDissimilarFieldValuesThrowExceptions,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,9,0.44
+uk.co.flax.luwak.presearcher,FieldFilterPresearcherComponentTestBase,testBatchesWithDissimilarFieldValuesThrowExceptions,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",4,9,0.44
+uk.co.flax.luwak,TestMonitor,updatesOverwriteOldQueries,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+uk.co.flax.luwak,TestMonitor,updatesOverwriteOldQueries,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak.assertions,HighlightingMatchAssert,matchesQuery,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",1,1,1.0
+uk.co.flax.luwak.util,SpanOffsetReportingQuery,getField,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.benchmark,PresearcherMatcher,doMatchQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,6,0.17
+uk.co.flax.luwak.benchmark,PresearcherMatcher,doMatchQuery,com.github.flaxsearch:luwak,"",github,5,6,0.83
+uk.co.flax.luwak.assertions,MatchesAssert,hasQueriesRunCount,org.assertj:assertj-core,Assertion Libraries,"assertion,quality",3,3,1.0
+uk.co.flax.luwak.termextractor.treebuilder,TermInSetQueryTreeBuilder,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+uk.co.flax.luwak.benchmark,TestBenchmark,startMonitor,com.github.flaxsearch:luwak,"",github,17,18,0.94
+uk.co.flax.luwak.benchmark,TestBenchmark,startMonitor,junit:junit,Testing Frameworks,"testing,junit",1,18,0.06
+uk.co.flax.luwak.benchmark,ValidatorDocument,"",com.github.flaxsearch:luwak,"",github,5,5,1.0
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,"",org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,2,0.5
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcardBooleanRewrites,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",34,35,0.97
+uk.co.flax.luwak.matchers,TestHighlightingMatcher,testWildcardBooleanRewrites,junit:junit,Testing Frameworks,"testing,junit",1,35,0.03

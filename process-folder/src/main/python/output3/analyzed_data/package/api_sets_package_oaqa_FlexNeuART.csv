@@ -1,0 +1,16 @@
+packageName,apis
+ciir.umass.edu,[junit:junit]
+edu.cmu.lti.oaqa.nmslib,[org.apache.thrift:libthrift]
+ciir.umass.edu.features,[org.apache.commons:commons-math3]
+edu.cmu.lti.oaqa.flexneuart.utils,"[com.google.code.gson:gson,com.googlecode.matrix-toolkits-java:mtj,commons-cli:commons-cli,commons-io:commons-io,junit:junit,org.apache.ant:ant,org.htmlparser:htmlparser,org.mongodb:bson,org.slf4j:slf4j-api]"
+edu.cmu.lti.oaqa.flexneuart.apps,"[args4j:args4j,com.googlecode.matrix-toolkits-java:mtj,commons-cli:commons-cli,org.apache.commons:commons-math3,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.slf4j:slf4j-api]"
+edu.cmu.lti.oaqa.flexneuart.giza,"[junit:junit,net.openhft:koloboke-api-jdk6-7,org.slf4j:slf4j-api]"
+edu.cmu.lti.oaqa.flexneuart.cand_providers,"[com.googlecode.matrix-toolkits-java:mtj,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.apache.lucene:lucene-queryparser,org.apache.thrift:libthrift,org.slf4j:slf4j-api]"
+edu.cmu.lti.oaqa.flexneuart.fwdindx,"[commons-io:commons-io,junit:junit,org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core,org.apache.lucene:lucene-queryparser,org.mapdb:mapdb,org.slf4j:slf4j-api]"
+edu.cmu.lti.oaqa.flexneuart.simil_func,"[com.googlecode.matrix-toolkits-java:mtj,net.openhft:koloboke-api-jdk6-7]"
+edu.cmu.lti.oaqa.flexneuart.resources,"[com.google.code.gson:gson,com.googlecode.matrix-toolkits-java:mtj,commons-io:commons-io,junit:junit,org.slf4j:slf4j-api]"
+edu.cmu.lti.oaqa.flexneuart.simil,"[junit:junit,org.slf4j:slf4j-api]"
+edu.cmu.lti.oaqa.flexneuart.letor.external,[org.apache.thrift:libthrift]
+edu.cmu.lti.oaqa.flexneuart,[org.slf4j:slf4j-api]
+edu.cmu.lti.oaqa.flexneuart.letor,"[com.googlecode.matrix-toolkits-java:mtj,net.openhft:koloboke-api-jdk6-7,org.apache.thrift:libthrift,org.slf4j:slf4j-api]"
+ciir.umass.edu.eval,[junit:junit]

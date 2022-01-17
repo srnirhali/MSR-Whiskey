@@ -1,0 +1,433 @@
+packageName,className,methodName,api,mcrCategories,mcrTags,count,countAll,proportion
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,handleResponse,log4j:log4j,Logging Frameworks,logging,14,53,0.26
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,handleResponse,org.json:json,JSON Libraries,json,17,53,0.32
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,handleResponse,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",6,53,0.11
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,handleResponse,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,53,0.17
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,handleResponse,org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",7,53,0.13
+com.github.rnewson.couchdb.lucene,QueryPlan,planFuzzyQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocument,asJson,org.json:json,JSON Libraries,json,2,2,1.0
+com.github.rnewson.couchdb.lucene.couchdb,UpdateSequenceTest,bigcouch3Sequence,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance8,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,15,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance8,junit:junit,Testing Frameworks,"testing,junit",6,15,0.4
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance8,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",3,15,0.2
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance8,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,15,0.07
+com.github.rnewson.couchdb.lucene.util,Utils,text,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+com.github.rnewson.couchdb.lucene,LuceneServlet,cleanup,org.json:json,JSON Libraries,json,6,14,0.43
+com.github.rnewson.couchdb.lucene,LuceneServlet,cleanup,log4j:log4j,Logging Frameworks,logging,4,14,0.29
+com.github.rnewson.couchdb.lucene,LuceneServlet,cleanup,commons-io:commons-io,I/O Utilities,io,4,14,0.29
+com.github.rnewson.couchdb.lucene.couchdb,ViewTest,index,junit:junit,Testing Frameworks,"testing,junit",1,6,0.17
+com.github.rnewson.couchdb.lucene.couchdb,ViewTest,index,org.json:json,JSON Libraries,json,5,6,0.83
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,assertRange,junit:junit,Testing Frameworks,"testing,junit",2,5,0.4
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,assertRange,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,5,0.6
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,info,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",30,67,0.45
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,info,org.json:json,JSON Libraries,json,37,67,0.55
+com.github.rnewson.couchdb.lucene.couchdb,Database,toDocuments,org.json:json,JSON Libraries,json,6,6,1.0
+com.github.rnewson.couchdb.lucene,LuceneServlet,doPostInternal,org.json:json,JSON Libraries,json,1,1,1.0
+com.github.rnewson.couchdb.lucene.couchdb,Couch,getAllDatabases,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,4,0.25
+com.github.rnewson.couchdb.lucene.couchdb,Couch,getAllDatabases,org.json:json,JSON Libraries,json,3,4,0.75
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocument,getId,org.json:json,JSON Libraries,json,3,3,1.0
+com.github.rnewson.couchdb.lucene.rhino,JSLog,debug,log4j:log4j,Logging Frameworks,logging,2,2,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance5,org.json:json,JSON Libraries,json,3,9,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance5,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance5,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,9,0.11
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance5,junit:junit,Testing Frameworks,"testing,junit",3,9,0.33
+com.github.rnewson.couchdb.lucene.couchdb,HttpUtils,post,org.json:json,JSON Libraries,json,3,13,0.23
+com.github.rnewson.couchdb.lucene.couchdb,HttpUtils,post,org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",2,13,0.15
+com.github.rnewson.couchdb.lucene.couchdb,HttpUtils,post,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",8,13,0.62
+com.github.rnewson.couchdb.lucene.couchdb,Database,getOrCreateUuid,org.json:json,JSON Libraries,json,1,1,1.0
+com.github.rnewson.couchdb.lucene,TypedField,toRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,2,0.5
+com.github.rnewson.couchdb.lucene,TypedField,toRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testJSONStringify,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,10,0.1
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testJSONStringify,junit:junit,Testing Frameworks,"testing,junit",5,10,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testJSONStringify,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,10,0.4
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testParseInt,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,11,0.09
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testParseInt,junit:junit,Testing Frameworks,"testing,junit",5,11,0.45
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testParseInt,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,11,0.45
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,longRangeQuery,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,longRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,longRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,TypedField,toTermQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+com.github.rnewson.couchdb.lucene,TypedField,toTermQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,2,0.5
+com.github.rnewson.couchdb.lucene.util,Utils,directorySize,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,"",log4j:log4j,Logging Frameworks,logging,3,4,0.75
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,"",org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,4,0.25
+com.github.rnewson.couchdb.lucene,Main,main,commons-configuration:commons-configuration,Configuration Libraries,config,2,30,0.07
+com.github.rnewson.couchdb.lucene,Main,main,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",17,30,0.57
+com.github.rnewson.couchdb.lucene,Main,main,log4j:log4j,Logging Frameworks,logging,2,30,0.07
+com.github.rnewson.couchdb.lucene,Main,main,org.eclipse.jetty:jetty-servlet,"","server,eclipse,servlet,webserver,jetty",9,30,0.3
+com.github.rnewson.couchdb.lucene,Config,getClient,commons-configuration:commons-configuration,Configuration Libraries,config,1,2,0.5
+com.github.rnewson.couchdb.lucene,Config,getClient,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,2,0.5
+com.github.rnewson.couchdb.lucene.couchdb,DatabaseInfo,"",org.json:json,JSON Libraries,json,4,4,1.0
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocument,deletedDocument,org.json:json,JSON Libraries,json,8,8,1.0
+com.github.rnewson.couchdb.lucene.couchdb,Database,getAllDesignDocuments,org.json:json,JSON Libraries,json,4,5,0.8
+com.github.rnewson.couchdb.lucene.couchdb,Database,getAllDesignDocuments,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,5,0.2
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocumentTest,noViews,org.json:json,JSON Libraries,json,1,4,0.25
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocumentTest,noViews,junit:junit,Testing Frameworks,"testing,junit",3,4,0.75
+com.github.rnewson.couchdb.lucene.couchdb,Couch,"",org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",4,4,1.0
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithEscapedSpaces,junit:junit,Testing Frameworks,"testing,junit",3,7,0.43
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithEscapedSpaces,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,7,0.14
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithEscapedSpaces,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,7,0.43
+com.github.rnewson.couchdb.lucene,LuceneServlet,"",log4j:log4j,Logging Frameworks,logging,3,14,0.21
+com.github.rnewson.couchdb.lucene,LuceneServlet,"",commons-configuration:commons-configuration,Configuration Libraries,config,6,14,0.43
+com.github.rnewson.couchdb.lucene,LuceneServlet,"",org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",5,14,0.36
+com.github.rnewson.couchdb.lucene,LuceneServlet,doGetInternal,org.json:json,JSON Libraries,json,1,1,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance6,junit:junit,Testing Frameworks,"testing,junit",2,8,0.25
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance6,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,8,0.25
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance6,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",1,8,0.13
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance6,org.json:json,JSON Libraries,json,3,8,0.38
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,search,org.json:json,JSON Libraries,json,118,229,0.52
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,search,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",95,229,0.41
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,search,org.apache.lucene:lucene-highlighter,"","lucene,apache,index",6,229,0.03
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,search,commons-configuration:commons-configuration,Configuration Libraries,config,2,229,0.01
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,search,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",8,229,0.03
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,commitAll,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,7,0.71
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,commitAll,log4j:log4j,Logging Frameworks,logging,2,7,0.29
+com.github.rnewson.couchdb.lucene.couchdb,DatabaseInfo,getName,org.json:json,JSON Libraries,json,3,3,1.0
+com.github.rnewson.couchdb.lucene.couchdb,Database,handleAttachment,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",7,7,1.0
+com.github.rnewson.couchdb.lucene.couchdb,HttpUtils,execute,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",5,5,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testUndefinedReturn,junit:junit,Testing Frameworks,"testing,junit",3,6,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testUndefinedReturn,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,6,0.17
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testUndefinedReturn,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+com.github.rnewson.couchdb.lucene,PathPartsTest,testCommandPath,junit:junit,Testing Frameworks,"testing,junit",11,11,1.0
+com.github.rnewson.couchdb.lucene.rhino,JSLog,warn,log4j:log4j,Logging Frameworks,logging,2,2,1.0
+com.github.rnewson.couchdb.lucene,LuceneServlet,handleWelcomeReq,org.json:json,JSON Libraries,json,8,8,1.0
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocumentTest,asJson,org.json:json,JSON Libraries,json,4,7,0.57
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocumentTest,asJson,junit:junit,Testing Frameworks,"testing,junit",3,7,0.43
+com.github.rnewson.couchdb.lucene.couchdb,HttpUtils,delete,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",4,4,1.0
+com.github.rnewson.couchdb.lucene,JSONErrorHandler,"",org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",1,1,1.0
+com.github.rnewson.couchdb.lucene.util,StatusCodeResponseHandler,"",org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,1,1.0
+com.github.rnewson.couchdb.lucene,CustomQueryParser,"",org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,3,0.33
+com.github.rnewson.couchdb.lucene,CustomQueryParser,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,close,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",4,6,0.67
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,close,log4j:log4j,Logging Frameworks,logging,2,6,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance7,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,15,0.07
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance7,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",3,15,0.2
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance7,junit:junit,Testing Frameworks,"testing,junit",6,15,0.4
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance7,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,15,0.33
+com.github.rnewson.couchdb.lucene,QueryPlan,planBoostQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,5,1.0
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,newWriter,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,16,0.75
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,newWriter,commons-configuration:commons-configuration,Configuration Libraries,config,4,16,0.25
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,getUpdateSequence,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",16,16,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testBadCode,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",2,3,0.67
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testBadCode,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+com.github.rnewson.couchdb.lucene.couchdb,ViewSettings,getStore,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,2,1.0
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocument,getView,org.json:json,JSON Libraries,json,7,7,1.0
+com.github.rnewson.couchdb.lucene.couchdb,View,getAnalyzer,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,3,0.33
+com.github.rnewson.couchdb.lucene.couchdb,View,getAnalyzer,org.json:json,JSON Libraries,json,2,3,0.67
+com.github.rnewson.couchdb.lucene.couchdb,Database,getChangesRequest,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",2,2,1.0
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,jsConstructor,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",5,5,1.0
+com.github.rnewson.couchdb.lucene,QueryPlan,toPlan,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",34,34,1.0
+com.github.rnewson.couchdb.lucene.util,ServletUtils,sendJsonError,org.json:json,JSON Libraries,json,12,12,1.0
+com.github.rnewson.couchdb.lucene.util,UtilsTest,testSplitOnCommasWithEmbeddedCommas,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.github.rnewson.couchdb.lucene,TypedField,toSortField,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.github.rnewson.couchdb.lucene.couchdb,Database,saveDocument,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,1,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testStandard,junit:junit,Testing Frameworks,"testing,junit",3,4,0.75
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testStandard,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,ConfigTest,testGetConfiguration,junit:junit,Testing Frameworks,"testing,junit",3,10,0.3
+com.github.rnewson.couchdb.lucene,ConfigTest,testGetConfiguration,commons-configuration:commons-configuration,Configuration Libraries,config,7,10,0.7
+com.github.rnewson.couchdb.lucene.util,Utils,getLogger,log4j:log4j,Logging Frameworks,logging,3,3,1.0
+com.github.rnewson.couchdb.lucene,CustomQueryParser,toJSON,org.json:json,JSON Libraries,json,16,33,0.48
+com.github.rnewson.couchdb.lucene,CustomQueryParser,toJSON,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,33,0.52
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateObject,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,16,0.06
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateObject,junit:junit,Testing Frameworks,"testing,junit",7,16,0.44
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateObject,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,16,0.5
+com.github.rnewson.couchdb.lucene.couchdb,Database,"",org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",4,4,1.0
+com.github.rnewson.couchdb.lucene.couchdb,Database,toDesignDocuments,org.json:json,JSON Libraries,json,5,5,1.0
+com.github.rnewson.couchdb.lucene,ConfigTest,testGetDir,junit:junit,Testing Frameworks,"testing,junit",6,8,0.75
+com.github.rnewson.couchdb.lucene,ConfigTest,testGetDir,commons-configuration:commons-configuration,Configuration Libraries,config,2,8,0.25
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",43,80,0.54
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,"",org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",2,80,0.03
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,"",org.json:json,JSON Libraries,json,7,80,0.09
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,"",org.apache.lucene:lucene-queryparser,"","lucene,apache,index",10,80,0.13
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,"",org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",6,80,0.08
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,"",commons-configuration:commons-configuration,Configuration Libraries,config,8,80,0.1
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,"",log4j:log4j,Logging Frameworks,logging,4,80,0.05
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,addField,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,4,0.25
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,addField,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,addField,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,setup,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",3,4,0.75
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,setup,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene,HttpClientFactory,"",commons-configuration:commons-configuration,Configuration Libraries,config,1,61,0.02
+com.github.rnewson.couchdb.lucene,HttpClientFactory,"",org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",43,61,0.7
+com.github.rnewson.couchdb.lucene,HttpClientFactory,"",org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",17,61,0.28
+com.github.rnewson.couchdb.lucene,TikaTest,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.github.rnewson.couchdb.lucene,QueryPlan,planPrefixQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+com.github.rnewson.couchdb.lucene.couchdb,ViewSettings,"",org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",7,22,0.32
+com.github.rnewson.couchdb.lucene.couchdb,ViewSettings,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,22,0.18
+com.github.rnewson.couchdb.lucene.couchdb,ViewSettings,"",org.json:json,JSON Libraries,json,11,22,0.5
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,admin,log4j:log4j,Logging Frameworks,logging,4,9,0.44
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,admin,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,9,0.44
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,admin,org.json:json,JSON Libraries,json,1,9,0.11
+com.github.rnewson.couchdb.lucene.couchdb,View,getDefaultSettings,org.json:json,JSON Libraries,json,5,5,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNoReturnValue,junit:junit,Testing Frameworks,"testing,junit",3,6,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNoReturnValue,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNoReturnValue,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,6,0.17
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullReturn,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,6,0.17
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullReturn,junit:junit,Testing Frameworks,"testing,junit",3,6,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullReturn,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+com.github.rnewson.couchdb.lucene,TikaTest,testXML,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+com.github.rnewson.couchdb.lucene,TikaTest,testXML,junit:junit,Testing Frameworks,"testing,junit",2,6,0.33
+com.github.rnewson.couchdb.lucene,TikaTest,testXML,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",2,6,0.33
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullValue,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,11,0.09
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullValue,junit:junit,Testing Frameworks,"testing,junit",6,11,0.55
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullValue,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,11,0.36
+com.github.rnewson.couchdb.lucene,TypedField,"",org.apache.lucene:lucene-queryparser,"","lucene,apache,index",3,3,1.0
+com.github.rnewson.couchdb.lucene,LuceneServlet,getCouch,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,8,0.13
+com.github.rnewson.couchdb.lucene,LuceneServlet,getCouch,commons-configuration:commons-configuration,Configuration Libraries,config,7,8,0.88
+com.github.rnewson.couchdb.lucene,ConfigTest,testGetClient,commons-configuration:commons-configuration,Configuration Libraries,config,2,7,0.29
+com.github.rnewson.couchdb.lucene,ConfigTest,testGetClient,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",2,7,0.29
+com.github.rnewson.couchdb.lucene,ConfigTest,testGetClient,junit:junit,Testing Frameworks,"testing,junit",3,7,0.43
+com.github.rnewson.couchdb.lucene,HttpClientFactory,setIni,commons-configuration:commons-configuration,Configuration Libraries,config,3,3,1.0
+com.github.rnewson.couchdb.lucene.couchdb,UpdateSequence,"",commons-codec:commons-codec,Base64 Libraries,"codec,base64,encoding",2,41,0.05
+com.github.rnewson.couchdb.lucene.couchdb,UpdateSequence,"",org.erlang.otp:jinterface,Erlang Integration,"erlang,interface",39,41,0.95
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,teardown,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",2,3,0.67
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,teardown,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,getState,org.json:json,JSON Libraries,json,1,1,1.0
+com.github.rnewson.couchdb.lucene,TikaTest,testPDF,junit:junit,Testing Frameworks,"testing,junit",2,6,0.33
+com.github.rnewson.couchdb.lucene,TikaTest,testPDF,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",2,6,0.33
+com.github.rnewson.couchdb.lucene,TikaTest,testPDF,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocument,isDeleted,org.json:json,JSON Libraries,json,2,2,1.0
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,setup,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,setup,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+com.github.rnewson.couchdb.lucene,Tika,addAttribute,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,21,0.29
+com.github.rnewson.couchdb.lucene,Tika,addAttribute,org.apache.tika:tika-core,"",apache,15,21,0.71
+com.github.rnewson.couchdb.lucene,Tika,addDublinCoreAttributes,org.apache.tika:tika-core,"",apache,49,66,0.74
+com.github.rnewson.couchdb.lucene,Tika,addDublinCoreAttributes,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",17,66,0.26
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocument,"",org.json:json,JSON Libraries,json,7,7,1.0
+com.github.rnewson.couchdb.lucene.rhino,JSLog,trace,log4j:log4j,Logging Frameworks,logging,2,2,1.0
+com.github.rnewson.couchdb.lucene.couchdb,DatabaseInfo,getUpdateSequence,org.json:json,JSON Libraries,json,3,3,1.0
+com.github.rnewson.couchdb.lucene.couchdb,View,getFunction,org.json:json,JSON Libraries,json,3,3,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testSingleDocumentReturn,junit:junit,Testing Frameworks,"testing,junit",5,10,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testSingleDocumentReturn,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,10,0.1
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testSingleDocumentReturn,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,10,0.4
+com.github.rnewson.couchdb.lucene,JSONErrorHandler,handle,org.eclipse.jetty:jetty-server,Web Servers,"server,eclipse,webserver,web,jetty",10,12,0.83
+com.github.rnewson.couchdb.lucene,JSONErrorHandler,handle,org.json:json,JSON Libraries,json,2,12,0.17
+com.github.rnewson.couchdb.lucene,Tika,"",org.apache.tika:tika-core,"",apache,4,7,0.57
+com.github.rnewson.couchdb.lucene,Tika,"",log4j:log4j,Logging Frameworks,logging,3,7,0.43
+com.github.rnewson.couchdb.lucene.rhino,JSLog,info,log4j:log4j,Logging Frameworks,logging,2,2,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance2,org.json:json,JSON Libraries,json,3,9,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance2,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance2,junit:junit,Testing Frameworks,"testing,junit",3,9,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance2,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,9,0.11
+com.github.rnewson.couchdb.lucene.couchdb,ViewSettings,get,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",6,6,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,9,0.11
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance,junit:junit,Testing Frameworks,"testing,junit",3,9,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance,org.json:json,JSON Libraries,json,3,9,0.33
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForLoopOverObject,junit:junit,Testing Frameworks,"testing,junit",9,18,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForLoopOverObject,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,18,0.06
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForLoopOverObject,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,18,0.44
+com.github.rnewson.couchdb.lucene,TikaTest,testWord,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",3,10,0.3
+com.github.rnewson.couchdb.lucene,TikaTest,testWord,junit:junit,Testing Frameworks,"testing,junit",3,10,0.3
+com.github.rnewson.couchdb.lucene,TikaTest,testWord,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,10,0.4
+com.github.rnewson.couchdb.lucene.couchdb,Database,rows,org.json:json,JSON Libraries,json,14,14,1.0
+com.github.rnewson.couchdb.lucene.couchdb,View,"",org.json:json,JSON Libraries,json,7,7,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testQuoteRemoval,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,10,0.4
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testQuoteRemoval,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,10,0.1
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testQuoteRemoval,junit:junit,Testing Frameworks,"testing,junit",5,10,0.5
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,toDocument,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,9,0.11
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,toDocument,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,9,0.89
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateObject2,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,16,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateObject2,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,16,0.06
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateObject2,junit:junit,Testing Frameworks,"testing,junit",7,16,0.44
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,jsFunction_attachment,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",6,6,1.0
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeZoneRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeZoneRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeZoneRangeQuery,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocumentTest,notValidDocument,org.json:json,JSON Libraries,json,1,2,0.5
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocumentTest,notValidDocument,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testEmailAddresses,junit:junit,Testing Frameworks,"testing,junit",5,5,1.0
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,"",org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",2,2,1.0
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,getCommitInterval,commons-configuration:commons-configuration,Configuration Libraries,config,2,2,1.0
+com.github.rnewson.couchdb.lucene,Config,"",commons-configuration:commons-configuration,Configuration Libraries,config,7,10,0.7
+com.github.rnewson.couchdb.lucene,Config,"",log4j:log4j,Logging Frameworks,logging,3,10,0.3
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithNonAscii,junit:junit,Testing Frameworks,"testing,junit",3,7,0.43
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithNonAscii,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,7,0.43
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithNonAscii,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,7,0.14
+com.github.rnewson.couchdb.lucene.couchdb,View,compileFunction,org.json:json,JSON Libraries,json,1,7,0.14
+com.github.rnewson.couchdb.lucene.couchdb,View,compileFunction,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",6,7,0.86
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,time,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,1,1.0
+com.github.rnewson.couchdb.lucene,Config,getConfiguration,commons-configuration:commons-configuration,Configuration Libraries,config,2,2,1.0
+com.github.rnewson.couchdb.lucene.couchdb,HttpUtils,get,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",3,3,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testConditionalOnNulls,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,6,0.17
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testConditionalOnNulls,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testConditionalOnNulls,junit:junit,Testing Frameworks,"testing,junit",3,6,0.5
+com.github.rnewson.couchdb.lucene.couchdb,Database,create,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,1,1.0
+com.github.rnewson.couchdb.lucene.couchdb,Database,getUuid,org.json:json,JSON Libraries,json,2,7,0.29
+com.github.rnewson.couchdb.lucene.couchdb,Database,getUuid,org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",1,7,0.14
+com.github.rnewson.couchdb.lucene.couchdb,Database,getUuid,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",4,7,0.57
+com.github.rnewson.couchdb.lucene.util,StatusCodeResponseHandler,handleResponse,org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",4,5,0.8
+com.github.rnewson.couchdb.lucene.util,StatusCodeResponseHandler,handleResponse,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,5,0.2
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateRangeQuery,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithDashes,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,7,0.43
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithDashes,junit:junit,Testing Frameworks,"testing,junit",3,7,0.43
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,fieldNameWithDashes,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,7,0.14
+com.github.rnewson.couchdb.lucene,DocumentConverter,convertArray,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",9,17,0.53
+com.github.rnewson.couchdb.lucene,DocumentConverter,convertArray,org.json:json,JSON Libraries,json,8,17,0.47
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testFrench,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testFrench,junit:junit,Testing Frameworks,"testing,junit",3,4,0.75
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,addAttachment,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",4,17,0.24
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,addAttachment,org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",11,17,0.65
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,addAttachment,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,17,0.12
+com.github.rnewson.couchdb.lucene.util,ErrorPreservingResponseHandler,handleResponse,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",2,17,0.12
+com.github.rnewson.couchdb.lucene.util,ErrorPreservingResponseHandler,handleResponse,org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",15,17,0.88
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocumentTest,views,org.json:json,JSON Libraries,json,17,22,0.77
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocumentTest,views,junit:junit,Testing Frameworks,"testing,junit",5,22,0.23
+com.github.rnewson.couchdb.lucene.couchdb,Database,getLastSequence,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,6,0.17
+com.github.rnewson.couchdb.lucene.couchdb,Database,getLastSequence,org.json:json,JSON Libraries,json,5,6,0.83
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocument,getAllViews,org.json:json,JSON Libraries,json,4,4,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverter,convertObject,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",9,17,0.53
+com.github.rnewson.couchdb.lucene,DocumentConverter,convertObject,org.json:json,JSON Libraries,json,8,17,0.47
+com.github.rnewson.couchdb.lucene,LuceneServlet,doGet,org.json:json,JSON Libraries,json,1,1,1.0
+com.github.rnewson.couchdb.lucene,QueryPlan,planTermRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,7,1.0
+com.github.rnewson.couchdb.lucene,QueryPlan,planBooleanQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",8,8,1.0
+com.github.rnewson.couchdb.lucene,TikaTest,parse,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,1,1.0
+com.github.rnewson.couchdb.lucene.util,Utils,token,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",6,6,1.0
+com.github.rnewson.couchdb.lucene,PathPartsTest,testCleanupPath,junit:junit,Testing Frameworks,"testing,junit",7,7,1.0
+com.github.rnewson.couchdb.lucene,TikaTest,setup,junit:junit,Testing Frameworks,"testing,junit",1,3,0.33
+com.github.rnewson.couchdb.lucene,TikaTest,setup,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,3,0.67
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,checkInstance,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",6,6,1.0
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocument,"",org.json:json,JSON Libraries,json,10,10,1.0
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeRangeQuery,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene,QueryPlan,planTermQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+com.github.rnewson.couchdb.lucene.couchdb,HttpUtils,put,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",9,11,0.82
+com.github.rnewson.couchdb.lucene.couchdb,HttpUtils,put,org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",2,11,0.18
+com.github.rnewson.couchdb.lucene.util,ErrorPreservingResponseHandler,"",org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,1,1.0
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,init,log4j:log4j,Logging Frameworks,logging,4,22,0.18
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,init,org.json:json,JSON Libraries,json,1,22,0.05
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,init,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",9,22,0.41
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,init,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",8,22,0.36
+com.github.rnewson.couchdb.lucene.rhino,RhinoDocument,jsFunction_add,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",16,16,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testLongValue,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,11,0.45
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testLongValue,junit:junit,Testing Frameworks,"testing,junit",5,11,0.45
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testLongValue,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,11,0.09
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testMultipleDocumentReturn,junit:junit,Testing Frameworks,"testing,junit",5,10,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testMultipleDocumentReturn,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,10,0.4
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testMultipleDocumentReturn,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,10,0.1
+com.github.rnewson.couchdb.lucene,HttpClientFactory,getInstance,commons-configuration:commons-configuration,Configuration Libraries,config,5,62,0.08
+com.github.rnewson.couchdb.lucene,HttpClientFactory,getInstance,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",37,62,0.6
+com.github.rnewson.couchdb.lucene,HttpClientFactory,getInstance,org.apache.httpcomponents:httpcore,HTTP Clients,"apache,client,http",20,62,0.32
+com.github.rnewson.couchdb.lucene,LuceneServlet,getIndexer,org.json:json,JSON Libraries,json,2,4,0.5
+com.github.rnewson.couchdb.lucene,LuceneServlet,getIndexer,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,4,0.25
+com.github.rnewson.couchdb.lucene,LuceneServlet,getIndexer,commons-configuration:commons-configuration,Configuration Libraries,config,1,4,0.25
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,getSearchTimeout,commons-configuration:commons-configuration,Configuration Libraries,config,2,2,1.0
+com.github.rnewson.couchdb.lucene.couchdb,Couch,getDatabase,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,1,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testPerField,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,15,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testPerField,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",3,15,0.2
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testPerField,junit:junit,Testing Frameworks,"testing,junit",6,15,0.4
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testPerField,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,15,0.07
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForEverything,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",3,15,0.2
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForEverything,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,15,0.07
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForEverything,junit:junit,Testing Frameworks,"testing,junit",4,15,0.27
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForEverything,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",7,15,0.47
+com.github.rnewson.couchdb.lucene.couchdb,Database,delete,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,1,1.0
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocumentTest,notDesignDocument,org.json:json,JSON Libraries,json,1,2,0.5
+com.github.rnewson.couchdb.lucene.couchdb,DesignDocumentTest,notDesignDocument,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDefaultValue,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,10,0.4
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDefaultValue,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,10,0.1
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDefaultValue,junit:junit,Testing Frameworks,"testing,junit",5,10,0.5
+com.github.rnewson.couchdb.lucene,Tika,parse,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,19,0.21
+com.github.rnewson.couchdb.lucene,Tika,parse,org.apache.tika:tika-core,"",apache,11,19,0.58
+com.github.rnewson.couchdb.lucene,Tika,parse,log4j:log4j,Logging Frameworks,logging,4,19,0.21
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,doc,org.json:json,JSON Libraries,json,2,2,1.0
+com.github.rnewson.couchdb.lucene.couchdb,View,getDigest,org.json:json,JSON Libraries,json,6,6,1.0
+com.github.rnewson.couchdb.lucene,Config,getDir,log4j:log4j,Logging Frameworks,logging,2,4,0.5
+com.github.rnewson.couchdb.lucene,Config,getDir,commons-configuration:commons-configuration,Configuration Libraries,config,2,4,0.5
+com.github.rnewson.couchdb.lucene.couchdb,Database,getDocument,org.json:json,JSON Libraries,json,2,3,0.67
+com.github.rnewson.couchdb.lucene.couchdb,Database,getDocument,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,3,0.33
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,floatRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,floatRangeQuery,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,floatRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,QueryPlan,planWildcardQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,3,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateString,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",5,11,0.45
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateString,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,11,0.09
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testDateString,junit:junit,Testing Frameworks,"testing,junit",5,11,0.45
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance3,org.json:json,JSON Libraries,json,3,9,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance3,org.apache.lucene:lucene-analyzers-smartcn,"","lucene,analyzer,apache,index",1,9,0.11
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance3,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance3,junit:junit,Testing Frameworks,"testing,junit",3,9,0.33
+com.github.rnewson.couchdb.lucene.couchdb,Couch,getInfo,org.json:json,JSON Libraries,json,3,4,0.75
+com.github.rnewson.couchdb.lucene.couchdb,Couch,getInfo,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,4,0.25
+com.github.rnewson.couchdb.lucene,PathPartsTest,testSearchPath,junit:junit,Testing Frameworks,"testing,junit",12,12,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,analyze,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",13,13,1.0
+com.github.rnewson.couchdb.lucene,CustomQueryParser,getRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,2,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParser,getRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,2,0.5
+com.github.rnewson.couchdb.lucene.couchdb,Database,getDocuments,org.json:json,JSON Libraries,json,12,13,0.92
+com.github.rnewson.couchdb.lucene.couchdb,Database,getDocuments,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,13,0.08
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testNGramInstance,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,5,0.4
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testNGramInstance,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",1,5,0.2
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testNGramInstance,junit:junit,Testing Frameworks,"testing,junit",2,5,0.4
+com.github.rnewson.couchdb.lucene.couchdb,ViewTest,noIndex,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+com.github.rnewson.couchdb.lucene.couchdb,ViewTest,noIndex,org.json:json,JSON Libraries,json,1,2,0.5
+com.github.rnewson.couchdb.lucene.rhino,JSLog,"",log4j:log4j,Logging Frameworks,logging,3,6,0.5
+com.github.rnewson.couchdb.lucene.rhino,JSLog,"",org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",3,6,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeTimeZoneRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeTimeZoneRangeQuery,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,dateTimeTimeZoneRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene.couchdb,Database,getInfo,org.json:json,JSON Libraries,json,2,3,0.67
+com.github.rnewson.couchdb.lucene.couchdb,Database,getInfo,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,3,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testNGramTokens,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.github.rnewson.couchdb.lucene,CustomQueryParser,getFieldQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",2,3,0.67
+com.github.rnewson.couchdb.lucene,CustomQueryParser,getFieldQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,3,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance4,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,9,0.22
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance4,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,9,0.11
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance4,junit:junit,Testing Frameworks,"testing,junit",3,9,0.33
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testClassInstance4,org.json:json,JSON Libraries,json,3,9,0.33
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocumentTest,validDocument,junit:junit,Testing Frameworks,"testing,junit",3,4,0.75
+com.github.rnewson.couchdb.lucene.couchdb,CouchDocumentTest,validDocument,org.json:json,JSON Libraries,json,1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParser,toSort,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",19,20,0.95
+com.github.rnewson.couchdb.lucene,CustomQueryParser,toSort,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,20,0.05
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,doubleRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,doubleRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,doubleRangeQuery,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene,DocumentConverter,"",log4j:log4j,Logging Frameworks,logging,5,30,0.17
+com.github.rnewson.couchdb.lucene,DocumentConverter,"",org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",23,30,0.77
+com.github.rnewson.couchdb.lucene,DocumentConverter,"",org.json:json,JSON Libraries,json,1,30,0.03
+com.github.rnewson.couchdb.lucene,DocumentConverter,"",org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",1,30,0.03
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testAdd,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,10,0.1
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testAdd,junit:junit,Testing Frameworks,"testing,junit",5,10,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testAdd,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",4,10,0.4
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testNGramMinMax,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.github.rnewson.couchdb.lucene,JsonTest,testEscapedChars,junit:junit,Testing Frameworks,"testing,junit",1,2,0.5
+com.github.rnewson.couchdb.lucene,JsonTest,testEscapedChars,org.json:json,JSON Libraries,json,1,2,0.5
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testPerFieldDefault,org.hamcrest:hamcrest-all,Testing Frameworks,"matching,testing",1,9,0.11
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testPerFieldDefault,junit:junit,Testing Frameworks,"testing,junit",4,9,0.44
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testPerFieldDefault,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,9,0.11
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testPerFieldDefault,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",3,9,0.33
+com.github.rnewson.couchdb.lucene.couchdb,UpdateSequenceTest,couchdbSequence,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverter,convert,log4j:log4j,Logging Frameworks,logging,2,40,0.05
+com.github.rnewson.couchdb.lucene,DocumentConverter,convert,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",10,40,0.25
+com.github.rnewson.couchdb.lucene,DocumentConverter,convert,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",20,40,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverter,convert,org.json:json,JSON Libraries,json,7,40,0.18
+com.github.rnewson.couchdb.lucene,DocumentConverter,convert,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,40,0.03
+com.github.rnewson.couchdb.lucene.rhino,JSLog,error,log4j:log4j,Logging Frameworks,logging,2,2,1.0
+com.github.rnewson.couchdb.lucene.util,ServletUtils,sendJson,org.json:json,JSON Libraries,json,3,3,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullAddsAreIgnored,junit:junit,Testing Frameworks,"testing,junit",3,6,0.5
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullAddsAreIgnored,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,6,0.17
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testNullAddsAreIgnored,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,6,0.33
+com.github.rnewson.couchdb.lucene.util,UtilsTest,testSplitOnCommas,junit:junit,Testing Frameworks,"testing,junit",2,2,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,view,org.json:json,JSON Libraries,json,6,6,1.0
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testRuntimeException,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,10,0.1
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testRuntimeException,junit:junit,Testing Frameworks,"testing,junit",3,10,0.3
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testRuntimeException,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,10,0.2
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testRuntimeException,log4j:log4j,Logging Frameworks,logging,4,10,0.4
+com.github.rnewson.couchdb.lucene.couchdb,Database,getDesignDocument,org.json:json,JSON Libraries,json,2,3,0.67
+com.github.rnewson.couchdb.lucene.couchdb,Database,getDesignDocument,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",1,3,0.33
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,integerRangeQuery,org.apache.lucene:lucene-queryparser,"","lucene,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,integerRangeQuery,junit:junit,Testing Frameworks,"testing,junit",1,4,0.25
+com.github.rnewson.couchdb.lucene,CustomQueryParserTest,integerRangeQuery,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",2,4,0.5
+com.github.rnewson.couchdb.lucene,LuceneServlet,doPost,org.json:json,JSON Libraries,json,1,1,1.0
+com.github.rnewson.couchdb.lucene,Main,"",log4j:log4j,Logging Frameworks,logging,3,3,1.0
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testWhitespace,org.apache.lucene:lucene-analyzers-common,"","lucene,analyzer,apache,index",1,4,0.25
+com.github.rnewson.couchdb.lucene.util,AnalyzersTest,testWhitespace,junit:junit,Testing Frameworks,"testing,junit",3,4,0.75
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForLoopOverArray,org.apache.lucene:lucene-core,Full-Text Indexing Libraries,"lucene,indexing,apache,full-text,index",12,26,0.46
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForLoopOverArray,org.mozilla:rhino,JVM Languages,"scripting,javascript,jvm,language",1,26,0.04
+com.github.rnewson.couchdb.lucene,DocumentConverterTest,testForLoopOverArray,junit:junit,Testing Frameworks,"testing,junit",13,26,0.5
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,run,org.apache.httpcomponents:httpclient,HTTP Clients,"apache,client,http",4,12,0.33
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,run,log4j:log4j,Logging Frameworks,logging,6,12,0.5
+com.github.rnewson.couchdb.lucene,DatabaseIndexer,run,commons-configuration:commons-configuration,Configuration Libraries,config,2,12,0.17
+com.github.rnewson.couchdb.lucene.couchdb,UpdateSequenceTest,bigcouch4Sequence,junit:junit,Testing Frameworks,"testing,junit",3,3,1.0

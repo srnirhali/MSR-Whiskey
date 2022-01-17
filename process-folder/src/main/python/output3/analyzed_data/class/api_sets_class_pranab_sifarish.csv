@@ -1,0 +1,12 @@
+packageName,className,apis
+org.sifarish.etl,StructuredTextAnalyzer,"[org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-core]"
+org.sifarish.realtime,DitheringBolt,[com.google.guava:guava]
+org.sifarish.common,TextAnalyzer,"[org.apache.lucene:lucene-analyzers-common,org.apache.lucene:lucene-analyzers-morfologik,org.apache.lucene:lucene-core]"
+org.sifarish.common,ItemDynamicAttributeSimilarity,[org.apache.commons:commons-lang3]
+org.sifarish.etl,CountryStandardFormat,[org.apache.commons:commons-lang3]
+org.sifarish.etl,TextFieldTokenNormalizer,[org.apache.commons:commons-lang3]
+org.sifarish.feature,RecordDistanceFinder,[org.apache.commons:commons-lang3]
+org.sifarish.etl,UnitedStatesStandardFormat,[org.apache.commons:commons-lang3]
+org.sifarish.realtime,UserItemRatings,[com.google.guava:guava]
+org.sifarish.social,PearsonCorrelator,[org.apache.commons:commons-lang3]
+org.sifarish.feature,SameTypeSimilarity,[org.apache.commons:commons-lang3]
