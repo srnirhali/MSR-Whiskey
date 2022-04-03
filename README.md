@@ -20,10 +20,10 @@ CSV file with delimeter ',,,' which stores the information of unresolved type is
 # Finding of Research Project:
  
 ### Process delta: 
-We changed the filter criteria values to 150 stars 150 commits and 2 contributors.
+We collected 25 git repository data by appling filter criteria values to 150 stars 150 commits and 2 contributors.
 
 ###  Output delta:
-unresolved_type.csv collected nearly 80000 of such isuess which
+Unresolved_type.csv collected nearly 80000 of such isuess which java symbol solver failed to resolve.
 
 
 # Implementation of Replication: 
@@ -38,5 +38,3 @@ We were able to produce csv files which contain Java repositories name and eligi
 # Notes
 You need to create a personal access token in your GitHub account and then replace the `USERNAME_AND_TOKEN` in `RepositoriesPicker.java` with your username and token.
 
-# Issues
-The maven project required lots of time (5-6 days) to execute code due to limitation of hardware as well as network speed.
