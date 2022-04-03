@@ -1,4 +1,4 @@
-# Reasearch Question
+# Research Question
 How to better Quantify the threat of JavaSymbolSolver in [Gorjatschev21]?
 
 # Team Name: Whiskey
@@ -17,7 +17,7 @@ Collecting the dependencies from github repositories using github APIs with filt
 ### Output data:
 CSV file with delimeter ',,,' which stores the information of unresolved type issues in Java symbol solver.
  
-# Finding of Replication:
+# Finding of Research Project:
  
 ### Process delta: 
 We changed the filter criteria values to 150 stars 150 commits and 2 contributors.
