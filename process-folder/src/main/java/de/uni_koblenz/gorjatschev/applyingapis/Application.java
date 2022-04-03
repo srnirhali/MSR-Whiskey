@@ -47,7 +47,7 @@ public class Application {
                 long startTime = System.currentTimeMillis();
                 // Collect all Java GitHub repositories that use Maven and meet the limit
                 // conditions
-                if (COLLECT_REPOSITORIES) {
+   /*             if (COLLECT_REPOSITORIES) {
                         RepositoriesPicker.collectRepositories(STARS_LIMIT, CONTRIBUTOR_LIMIT, COMMITS_LIMIT);
                 }
                 // Collect the dependencies of the collected repositories such that they
@@ -64,7 +64,7 @@ public class Application {
                 // declared dependencies and the dependencies limit and files limit
                 if (SELECT_REPOSITORIES) {
                         RepositoriesPicker.selectRepositories(DEPENDENCIES, DEPENDENCIES_LIMIT, FILES_LIMIT);
-                }
+                }*/
                 // Parse the selected repositories
                 if (PARSE_REPOSITORIES) {
                         Utils.readCSVFile(Utils.getSelectedRepositoriesFile(DEPENDENCIES))

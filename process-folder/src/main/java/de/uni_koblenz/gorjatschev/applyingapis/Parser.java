@@ -133,6 +133,7 @@ public class Parser {
                 Utils.getUnixPath(srcRoot.getRoot().subpath(4, srcRoot.getRoot().getNameCount())), Utils.FILE_PATH,
                 subpath));
         log.info("----Parsing the file \"" + Utils.getUnixPath(absolutePath) + "\".");
+        Utils.setClassPath(Utils.getUnixPath(absolutePath));
         Optional<PackageDeclaration> packageDecl = cu.getPackageDeclaration();
         String packageName = packageDecl.isPresent() ? packageDecl.get().getNameAsString() : "null";
         cu.getChildNodes().stream().filter(childOfCU -> childOfCU instanceof ClassOrInterfaceDeclaration)

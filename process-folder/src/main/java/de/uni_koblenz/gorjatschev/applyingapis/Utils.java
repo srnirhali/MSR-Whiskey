@@ -8,6 +8,7 @@ import java.io.Reader;
 import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -20,6 +21,8 @@ import org.apache.commons.csv.CSVRecord;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.github.javaparser.ast.Node;
 
 /**
  * This class contains reusable logic regarding maps, CSV files, and CSV file
@@ -42,7 +45,8 @@ public class Utils {
     public static final String O_DEPENDENCIES_WITH_TAGS_FILE = "output/dependencies_with_mcrTags.csv";
     // Contains the names and mcrTags of the filtered collected repositories
     public static final String O_REPOSITORIES_WITH_TAGS_FILE = "output/repositories_with_mcrTags.csv";
-
+    public static final String O_UNRESOLVED_CLASSES = "output/unresolved_types.csv";
+    private static final File csv = new File("output/unresolved_types.csv");
     // Directory for the downloaded repositories
     public static final String T_GIT_FILES_DIR = "temp/git/";
     // Directory for the downloaded dependencies
@@ -82,7 +86,7 @@ public class Utils {
     public static final String SRC_ROOT = "srcRoot";
     public static final String REPOSITORY_NAME = "repositoryName";
     public static final String DEPENDENCIES = "dependencies";
-
+    public static String class_path="";
     /**
      * Gets the logger of this application.
      * 
@@ -188,6 +192,22 @@ public class Utils {
             }
         }
     }
+    
+    public static void setClassPath(String str) {
+    	class_path= str;
+    }
+    public static void writeCSVFile(String fileName, Node node, int attempt) throws IOException {
+        if (!Files.exists(Path.of(fileName))) {
+        	Files.createDirectories(Path.of(fileName).getParent());
+        	Writer writer = new FileWriter(csv,true);
+            writer.write("Path,,,Name,,,Message,,,line,,,attempt\n");
+            writer.close();
+        }
+        Writer writer = new FileWriter(csv,true);
+        writer.write("\'"+class_path+"\',,,\'"+node.getClass().getSimpleName()+"\',,,\'"+node.toString().replace("\n", "\t")+"\',,,\'"+node.getBegin().get().line+"\',,,\'"+attempt+"\'\n");
+        writer.close();
+     }
+    
 
     /**
      * Deletes the directory/file {@code file} recursively.
@@ -245,6 +265,7 @@ public class Utils {
      * @param dependencies
      * @return The path of the selected repositories file as a string
      */
+    
     public static String getSelectedRepositoriesFile(List<String> dependencies) {
         List<String> dependenciesList = new ArrayList<>();
         dependencies.forEach(dependency -> dependenciesList.add(dependency.replace(":", "_")));
