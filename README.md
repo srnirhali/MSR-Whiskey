@@ -8,20 +8,22 @@ This is a reproduction project of the master thesis "Applying API Categories to 
 # Baseline Study: 
 
 ### Aspect of the reproduction project
-In the “Collection and Selection of Repositories” part of the thesis, they have mentioned that they would use “100 stars, 100 commits and two contributors” to filter out the obscure projects from the GitHub API. We would like to change these conditions by either increasing or decreasing the values and we would like to analyze the dependencies on the changed conditions.
+Collecting the dependencies from github repositories using github APIs with filteration values 150 stars 150 commits and 2 contributors. We would collect the information of unresolved type issues from repositories to study the java symbole solver and to find why it fails to resolve the types. By doing we get information  path, Type, Message, line number so we can easily find where the java symbol solver failed resolved type.    
+
 
 ### Input data:
-Collecting the dependencies from github repositories using github APIs with filteration values 150 stars 150 commits and 2 contributors.  
+Collecting the dependencies from github repositories using github APIs with filteration values 150 stars 150 commits and 2 contributors. 
 
 ### Output data:
-CSV files containing dependencies of repositories inside output folder.
+CSV file with delimeter ',,,' which stores the information of unresolved type issues in Java symbol solver.
  
 # Finding of Replication:
  
 ### Process delta: 
 We changed the filter criteria values to 150 stars 150 commits and 2 contributors.
 
-###  Output delta: 
+###  Output delta:
+unresolved_type.csv collected nearly 80000 of such isuess which
 Repositories collected was 4250  and total dependencies observed were 45973.
 
 # Implementation of Replication: 
